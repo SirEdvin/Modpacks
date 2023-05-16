@@ -1,0 +1,13 @@
+name = "Peripheralium"
+filename = "peripheralium-fabric-1.19.4-0.5.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vV2a9qrZ/versions/Hs7MOmTc/peripheralium-fabric-1.19.4-0.5.2.jar"
+hash-format = "sha1"
+hash = "2b6977ed9d46318a8811a33b3ff56cc6494f0a95"
+
+[update]
+[update.modrinth]
+mod-id = "vV2a9qrZ"
+version = "Hs7MOmTc"

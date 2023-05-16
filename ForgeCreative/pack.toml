@@ -1,0 +1,13 @@
+name = "Forge Creative"
+author = "SirEdvin"
+version = "0.1.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d76eb305b35072cf9f99837a77719827476cc3704ac846e029970478f612b06e"
+
+[versions]
+forge = "45.0.57"
+minecraft = "1.19.4"

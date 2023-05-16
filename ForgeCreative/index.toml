@@ -1,0 +1,51 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "75656c955e2aab220d2e9f30b7b9b9e5cb3831e92cc3a1a99b8367b970096c2d"
+metafile = true
+
+[[files]]
+file = "mods/cucumber.pw.toml"
+hash = "a4e2ee8ee7e076262383c40a2f71e6650761dcd77127e6b5b90efa017ed6a1ae"
+metafile = true
+
+[[files]]
+file = "mods/deep-resonance.pw.toml"
+hash = "15fc07a0b41637837417941e4c7539951d04ec0e30b62ef706d5c3c667a4d118"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "0d7862c32802e5947e7f96f27f04fefc37ac99aec90462a2154c80671aedec0b"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "2b5d3ec359378a723d247fd7ce36bc0f3848b1628e9e5e6da3b4b1b56829add4"
+metafile = true
+
+[[files]]
+file = "mods/mcjtylib.pw.toml"
+hash = "5bc1d93fae1fbbc528f7c8be9b133e2f692746bf4a5f350694a645b6a52cb0c3"
+metafile = true
+
+[[files]]
+file = "mods/mystical-agriculture.pw.toml"
+hash = "face4782eec1065e4f15f75bfce25a2d4f67f4c11e57dde6213a3891a4e43145"
+metafile = true
+
+[[files]]
+file = "mods/peripheralium.pw.toml"
+hash = "56cfa0ad2c6b3ae0b529f59cfbd25ad4f29025bbcaee9f88ac2343f0200e087e"
+metafile = true
+
+[[files]]
+file = "mods/rftools-base.pw.toml"
+hash = "70c40f08f678344cc21bff81b229bfad88edb7d4e8853658a77a80c7bfa88eb3"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "01a00769fc566d723fc2762f88dacb0272914bc0234df1fe7348848403ff3f7d"
+metafile = true

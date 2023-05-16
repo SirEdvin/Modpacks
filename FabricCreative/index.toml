@@ -1,0 +1,56 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "35376c39a7cb3dba90ba6263b0f5d94fe3cc5112650dd204d157ab4baf19152a"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "7384ef578e115daa3b1abbd9c593075239eba067d74d8d7817dee17a7d95cc61"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "156942df991662545265aae10fafa4b64bc1ba1226670be03916e58894671089"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "fc1323ed77ac0b485d55f12edde21a1a9cde29b90f85e353fab11b034b7ab9d8"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "7be1e122e9ef8f1b7f2df9ffccf02cf83a52d0a53ae5ba7d07ea7bd3cc149101"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "678ecc9241860f54aa51acc300dcec18d96322bb593a2db6574e7de952d6038f"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "2c41b15468094950a9f2219fd53899ef7281dd56508324fde86cfe74f0be68fe"
+metafile = true
+
+[[files]]
+file = "mods/peripheralium.pw.toml"
+hash = "125c38f7f2e3d4072974779546c544e8c6f084e3e8571aa4238f616ce09fb05a"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "1a288ba9c3f6a2fd9798b1db215b0c24a8d20e50bb8b006972d6e682197fee27"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "63611d9e03f63c4f90d6fea2667e4f3bcfb6c5bda05481ae4462f58243d1137c"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "9935dccbfe0e0c0b45254e748be6dfb7f5ca7fc00e9e99c3a29c64e10081c384"
+metafile = true
