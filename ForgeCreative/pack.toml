@@ -1,12 +1,12 @@
 name = "Forge Creative"
 author = "SirEdvin"
-version = "0.1.1"
+version = "0.1.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c5224a7e08e95b702b6f80119ad84346a14f9e305bffaea00c29810e560e1a89"
+hash = "83c393dcd89136ab6b73dfbd5d288b7108d18bb63eededcff1789b16a4b4e365"
 
 [versions]
 forge = "45.0.57"

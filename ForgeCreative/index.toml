@@ -46,6 +46,11 @@ hash = "70c40f08f678344cc21bff81b229bfad88edb7d4e8853658a77a80c7bfa88eb3"
 metafile = true
 
 [[files]]
+file = "mods/rftools-power.pw.toml"
+hash = "adff25a336a03aa9e7a30924898e3f68ab4d9f6b444ce9892ffd978ac4f7a3d9"
+metafile = true
+
+[[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
 hash = "01a00769fc566d723fc2762f88dacb0272914bc0234df1fe7348848403ff3f7d"
 metafile = true
