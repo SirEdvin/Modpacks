@@ -3,11 +3,11 @@ filename = "peripheralworks-forge-1.19.4-0.4.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/v3qtYrLx/peripheralworks-forge-1.19.4-0.4.1.jar"
+url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/TGKrdRPs/peripheralworks-forge-1.19.4-0.4.1.jar"
 hash-format = "sha1"
-hash = "1ca9fe47b105741af0e56dcb879a46c423725e78"
+hash = "aa4db8091b0e7f8b9c7b51766c4b7af68ff5a16f"
 
 [update]
 [update.modrinth]
 mod-id = "Sf7QBsRP"
-version = "v3qtYrLx"
+version = "TGKrdRPs"
