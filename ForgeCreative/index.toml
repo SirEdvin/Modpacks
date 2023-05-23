@@ -11,8 +11,23 @@ hash = "a4e2ee8ee7e076262383c40a2f71e6650761dcd77127e6b5b90efa017ed6a1ae"
 metafile = true
 
 [[files]]
+file = "mods/cyclops-core.pw.toml"
+hash = "199b899e7c3b05a4a44e0fa2f7871b9882dd0e13247d3d730d9007026ce2e700"
+metafile = true
+
+[[files]]
 file = "mods/deep-resonance.pw.toml"
 hash = "15fc07a0b41637837417941e4c7539951d04ec0e30b62ef706d5c3c667a4d118"
+metafile = true
+
+[[files]]
+file = "mods/evilcraft.pw.toml"
+hash = "a03347d7530cc4d954601469743f512e6a1051870efc628ecec19071444db979"
+metafile = true
+
+[[files]]
+file = "mods/forbidden-arcanus.pw.toml"
+hash = "b37c83d280d928dd9d51482fa2a6801bfa2c1a0461c8b152e66e843c03c82cc6"
 metafile = true
 
 [[files]]
@@ -37,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "4468413c5343863fc1540efb88abf161d59d559cda1e9b105448c19294b8a469"
+hash = "f673409934a6b404d6df53b8bf9798543cb49e62192d9c0ee1d536c861db7d18"
 metafile = true
 
 [[files]]
@@ -51,6 +66,16 @@ hash = "adff25a336a03aa9e7a30924898e3f68ab4d9f6b444ce9892ffd978ac4f7a3d9"
 metafile = true
 
 [[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "7d2ac53ca721d07194e6670876feaa5586d2e4a15121f448b9381b9dfadfcd42"
+metafile = true
+
+[[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "01a00769fc566d723fc2762f88dacb0272914bc0234df1fe7348848403ff3f7d"
+hash = "6038195ede061a41a7252eea1afcec49138a4abb75cee7b2e03430f193a6eb5b"
+metafile = true
+
+[[files]]
+file = "mods/valhelsia-core.pw.toml"
+hash = "28fd8c751a214e783ab77129adfd08591ee79cf75ae17e1b69428be384f02f7c"
 metafile = true
