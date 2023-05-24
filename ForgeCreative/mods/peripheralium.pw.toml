@@ -1,13 +1,13 @@
 name = "Peripheralium"
-filename = "peripheralium-forge-1.19.4-0.5.3.jar"
+filename = "peripheralium-forge-1.19.4-0.5.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/vV2a9qrZ/versions/ACgFnjIa/peripheralium-forge-1.19.4-0.5.3.jar"
+url = "https://cdn.modrinth.com/data/vV2a9qrZ/versions/lvC8Uy8x/peripheralium-forge-1.19.4-0.5.4.jar"
 hash-format = "sha1"
-hash = "ac4999e83b95bb0eaeeca6532437fa67fc43285d"
+hash = "897f9bf9db3e0f5a018f8d2eb336557afbe8bcc6"
 
 [update]
 [update.modrinth]
 mod-id = "vV2a9qrZ"
-version = "ACgFnjIa"
+version = "lvC8Uy8x"
