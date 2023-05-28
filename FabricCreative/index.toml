@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "fc1323ed77ac0b485d55f12edde21a1a9cde29b90f85e353fab11b034b7ab9d8"
+hash = "a026bd0b14096ae3a26a324c01155bf7c496b9549ed18d69a3f671ede2e3dc55"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "64f64349f0df9316accf1f696690761c8af07bcda62932b9ca391f28c6d6fe7f"
+hash = "329178255ae4d1dda633e960a7d42e3e7d266436d561edeca6171e8cc27b641d"
 metafile = true
 
 [[files]]
@@ -51,6 +51,11 @@ hash = "63611d9e03f63c4f90d6fea2667e4f3bcfb6c5bda05481ae4462f58243d1137c"
 metafile = true
 
 [[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "2e01af089c2fa22d55640d60146b43fcc1f2ae6758d5ef97e552e1071cf4fd9d"
+metafile = true
+
+[[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "9935dccbfe0e0c0b45254e748be6dfb7f5ca7fc00e9e99c3a29c64e10081c384"
+hash = "067f38c34619298a737ee1b1d1131b3cb0d69cf64101fdb039d982c262167cc6"
 metafile = true
