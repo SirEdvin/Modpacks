@@ -1,13 +1,7 @@
-name = "Turtlematic"
-filename = "turtlematic-forge-1.19.4-0.6.2.jar"
-side = "both"
+name = "turtlematic"
+filename = "turtlematic-forge-1.19.4-0.6.3-1.jar"
 
 [download]
-url = "https://cdn.modrinth.com/data/UogK5QqE/versions/uO7NalTH/turtlematic-forge-1.19.4-0.6.2.jar"
+url = "https://mvn.siredvin.site/snapshots/site/siredvin/turtlematic-forge-1.19.4/0.6.3-1/turtlematic-forge-1.19.4-0.6.3-1.jar"
 hash-format = "sha1"
-hash = "3c059ab5ea0f79d92799e111af41525a8471bb02"
-
-[update]
-[update.modrinth]
-mod-id = "UogK5QqE"
-version = "uO7NalTH"
+hash = "ea794c6975267f75175719832f5a283f69f05131"
