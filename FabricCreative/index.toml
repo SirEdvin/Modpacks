@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/advanced-networking.pw.toml"
+hash = "c0e3c7a67f4d91de4e6d64559a57984a485f690751dafbe18d0c2c39aa462053"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "35376c39a7cb3dba90ba6263b0f5d94fe3cc5112650dd204d157ab4baf19152a"
 metafile = true
@@ -37,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "2bccbceeb34111e65b9442e1aa85b26a116d99311a4bf2a0c63282b6f9adacda"
+hash = "f8a85a01659573e0d5282e7339b4af39bbafb0f689e652b7daa039dfc26716a7"
 metafile = true
 
 [[files]]
@@ -52,10 +57,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "42686fe7de05681f17527b0fd1d55431d6db83d0a41b797f34737a155fd405ec"
+hash = "2bfd23af75696edd3aafda252e38cee6b4f2f92a7bd8a6f018792bf286f28f8a"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "067f38c34619298a737ee1b1d1131b3cb0d69cf64101fdb039d982c262167cc6"
+hash = "51b12eccf46cbf5a889c4cab03ebcc507b9b0dd2670176482164882c28be90b5"
 metafile = true

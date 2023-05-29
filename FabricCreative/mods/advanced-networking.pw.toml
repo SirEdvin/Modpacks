@@ -1,0 +1,13 @@
+name = "Advanced Networking"
+filename = "advanced-networking-1.0.3+mc.1.19.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IF0Y4xFw/versions/Pi9E9Hhd/advanced-networking-1.0.3%2Bmc.1.19.4.jar"
+hash-format = "sha1"
+hash = "5a2c64b2c58c0648cc61736fb3c2a537899e3f5e"
+
+[update]
+[update.modrinth]
+mod-id = "IF0Y4xFw"
+version = "Pi9E9Hhd"
