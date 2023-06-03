@@ -1,7 +1,7 @@
 name = "turtlematic"
-filename = "turtlematic-fabric-1.19.4-0.6.3-1.jar"
+filename = "turtlematic-fabric-1.19.4-0.6.3-3.jar"
 
 [download]
-url = "https://mvn.siredvin.site/snapshots/site/siredvin/turtlematic-fabric-1.19.4/0.6.3-1/turtlematic-fabric-1.19.4-0.6.3-1.jar"
+url = "https://mvn.siredvin.site/snapshots/site/siredvin/turtlematic-fabric-1.19.4/0.6.3-3/turtlematic-fabric-1.19.4-0.6.3-3.jar"
 hash-format = "sha1"
-hash = "1dbcc3e1a381c472b92bce3792d46ad773f5054a"
+hash = "a61a4f6469b6129a6750702b7721c307951d90b5"

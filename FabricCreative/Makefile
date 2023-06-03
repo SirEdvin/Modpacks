@@ -1,6 +1,6 @@
-peripheraliumVersion = 0.5.6-5
-turtlematicVersion = 0.6.3-1
-peripheralWorksVersion = 0.4.2-1
+peripheraliumVersion = 0.5.6-11
+turtlematicVersion = 0.6.3-3
+peripheralWorksVersion = 0.4.2-2
 
 
 peripheralium:
