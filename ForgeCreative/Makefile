@@ -1,6 +1,6 @@
-peripheraliumVersion = 0.5.6-11
-turtlematicVersion = 0.6.3-4
-peripheralWorksVersion = 0.4.2-2
+peripheraliumVersion = 0.5.6
+turtlematicVersion = 0.6.3
+peripheralWorksVersion = 0.4.2
 
 peripheralium:
 	packwiz url add peripheralium https://mvn.siredvin.site/snapshots/site/siredvin/peripheralium-forge-1.19.4/$(peripheraliumVersion)/peripheralium-forge-1.19.4-$(peripheraliumVersion).jar
@@ -12,3 +12,8 @@ upw:
 	packwiz url add unlimitedperipheralworks https://mvn.siredvin.site/snapshots/site/siredvin/peripheralworks-forge-1.19.4/$(peripheralWorksVersion)/peripheralworks-forge-1.19.4-$(peripheralWorksVersion).jar
 
 all: peripheralium turtlematic upw
+
+modrinth:
+	packwiz modrinth add peripheralium
+	packwiz modrinth add unlimitedperipheralworks
+	packwiz modrinth add turtlematic
