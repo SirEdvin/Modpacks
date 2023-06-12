@@ -1,13 +1,13 @@
 name = "Turtlematic"
-filename = "turtlematic-forge-1.19.4-0.6.3.jar"
+filename = "turtlematic-forge-1.19.4-0.6.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/UogK5QqE/versions/QiLlh6nO/turtlematic-forge-1.19.4-0.6.3.jar"
+url = "https://cdn.modrinth.com/data/UogK5QqE/versions/h0kEtpbd/turtlematic-forge-1.19.4-0.6.4.jar"
 hash-format = "sha1"
-hash = "022a4212483cfd7dd3a53cc4bf42ee4476408408"
+hash = "f87fb83068e9b127c285683b7232043473f22147"
 
 [update]
 [update.modrinth]
 mod-id = "UogK5QqE"
-version = "QiLlh6nO"
+version = "h0kEtpbd"
