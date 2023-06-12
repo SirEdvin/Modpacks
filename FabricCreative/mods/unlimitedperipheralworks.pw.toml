@@ -3,11 +3,11 @@ filename = "peripheralworks-fabric-1.19.4-0.4.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/OscrjIpi/peripheralworks-fabric-1.19.4-0.4.3.jar"
+url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/9nruKEhO/peripheralworks-fabric-1.19.4-0.4.3.jar"
 hash-format = "sha1"
-hash = "1917bc0511df0baa0fe7e42034293d1149d98e5b"
+hash = "a52d1a18fb15470bcc5af8d562ad899ee435de10"
 
 [update]
 [update.modrinth]
 mod-id = "Sf7QBsRP"
-version = "OscrjIpi"
+version = "9nruKEhO"

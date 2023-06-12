@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "068714bf5ff65ed381cadf83ae7803f7ea4dca5a42dac7a0ceb90e651c6b9840"
+hash = "a828658d32ce01c697f2b6cffed6a8c2a111011789518e8872fa09cbecfdbd6e"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "488b5711eab5420612bac588f57cb9ca94caf1409c29aafdb9b051b7908c8771"
+hash = "a9a3cd6b133bc00bedd6c5aff04103f51506bfe75136e97214478b7578047a16"
 metafile = true
 
 [[files]]
