@@ -2,17 +2,17 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "75656c955e2aab220d2e9f30b7b9b9e5cb3831e92cc3a1a99b8367b970096c2d"
+hash = "7a3647fe46e32a4075f8b18a32c4ca47156dea8feb1a5e1dca4eb481d0d8374b"
 metafile = true
 
 [[files]]
 file = "mods/cucumber.pw.toml"
-hash = "a4e2ee8ee7e076262383c40a2f71e6650761dcd77127e6b5b90efa017ed6a1ae"
+hash = "6899586f7f94691acaf6082f7ae9f5db363437f571ca120106ee260f24e0b884"
 metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "199b899e7c3b05a4a44e0fa2f7871b9882dd0e13247d3d730d9007026ce2e700"
+hash = "d300655b929295d31e81ac76328a0e786c7967b171986ffdd114e1a0bc83d135"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/evilcraft.pw.toml"
-hash = "a03347d7530cc4d954601469743f512e6a1051870efc628ecec19071444db979"
+hash = "708287fab98a711183afe93736381d5ab2379dea67285667f7f0de2baee733f7"
 metafile = true
 
 [[files]]
@@ -32,12 +32,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "0d7862c32802e5947e7f96f27f04fefc37ac99aec90462a2154c80671aedec0b"
+hash = "16525a0637e6041639ae22791133462877c3b0e2d6bb0acac0efbde30b932ee2"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "2b5d3ec359378a723d247fd7ce36bc0f3848b1628e9e5e6da3b4b1b56829add4"
+hash = "6e1b3ddf51aafcd04ae4c51fde6cda895ea5f5ba876d69e117dd71d95c3f9689"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/mystical-agriculture.pw.toml"
-hash = "face4782eec1065e4f15f75bfce25a2d4f67f4c11e57dde6213a3891a4e43145"
+hash = "8910d0b310163e342d8880c62080eb715f359caf4680d87dc0a3ea1bd63c792b"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "eb3e64ae82e0b1766efec14f6917cdea2c7a5fcc5c0c4d77c3c91bfe50d582e9"
+hash = "488b5711eab5420612bac588f57cb9ca94caf1409c29aafdb9b051b7908c8771"
 metafile = true
 
 [[files]]
