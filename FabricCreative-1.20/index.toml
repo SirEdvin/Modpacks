@@ -1,0 +1,61 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "f238e1f28f18e58f737116b13dab9716ca38b2dd84242e802d60419cc71ed737"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "8a201eb9728ba43871832e3d7a094d90b952fa7437d5950b624be8e82e818375"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "b9cc3ddd40c728549f8de8db2b211a534303018bf8c18d22871ad17f62c47118"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "ace3e916242bdfbc9177b8572dd57567b5a1afc6773466d21f464522b3a60981"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "b2b0ad206637c53e64311185758dd34cb1871890e9b70e843eee5c4d085426be"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "b35f3338d78834501de24bd6bd2387dbb7e3bddc8215e8f58fdefbc6026ce2a6"
+metafile = true
+
+[[files]]
+file = "mods/peripheralium.pw.toml"
+hash = "1c19e3cf39fe3d9bb929cc0c864f957077d1156ecf5069cf5c5235df9c0c1dcd"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "be84563e2c530c6960ceedec8a6ec6a1272fcb6de2740d7e6bcf096e347ea38f"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "01da4b90218b74938e3284edded8d4ad6a00464cd932695bb53f2059814d1a22"
+metafile = true
+
+[[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "4bd8a9af6a614059330cf24802bff9d1ee752a636fce6e628f310ac56ad4ffae"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "ff1e64e7ce03de46b918efb2e669da9065b89472ab5e9a205d3b4bc246d59231"
+metafile = true

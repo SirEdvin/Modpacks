@@ -1,0 +1,61 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "c5925d417cedf1f513cd7708fa0efe34ad9b8d1e175b25d9df8a857f7f3f56e0"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "f106efa4f0255827f932d58eca40ab73acfa8e6c55195dd720ec75b95b664ca6"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "ddb0fe40955898129d5787260e9d7efa128f3815a9043b230d40f447fba734d4"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "936a47c773e57ef78a4d5fdf4f92c60f0ad03033c447bfc63dc2b345c09a3757"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "6e1b3ddf51aafcd04ae4c51fde6cda895ea5f5ba876d69e117dd71d95c3f9689"
+metafile = true
+
+[[files]]
+file = "mods/modonomicon.pw.toml"
+hash = "ac0ab4136fbe53f7e30c94508e142c6ddfe30621eea7d2afd0f8f5434f3f3a1b"
+metafile = true
+
+[[files]]
+file = "mods/occultism.pw.toml"
+hash = "e63044f5ad5a08cb35840b3c311413893a0453bad80970222c329713c0aef068"
+metafile = true
+
+[[files]]
+file = "mods/peripheralium.pw.toml"
+hash = "07dfd23978a3725a9bbf25db90e9987c10318e8335196c88711b5330d13a714a"
+metafile = true
+
+[[files]]
+file = "mods/smartbrainlib.pw.toml"
+hash = "484c4bff6d0228c49ea066ab0a430d039d61e073c1df3c68a59d3a8a9e8567d8"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "c05d6f4726287f176f38fd6feede9a683280158737b946294da83281a0f390da"
+metafile = true
+
+[[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "44bb90924af6788ea2532d41bf6a78e09338ae989cdcce0e3c120b5406e3d054"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "f3b90db71e9fc8db48e091322e14993b02a2cf65ebdd2500a3f46bb3b678388d"
+metafile = true

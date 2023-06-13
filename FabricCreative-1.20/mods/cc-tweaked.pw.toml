@@ -1,0 +1,13 @@
+name = "CC: Tweaked"
+filename = "cc-tweaked-1.20-fabric-1.105.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gu7yAYhd/versions/Uq4DlqWv/cc-tweaked-1.20-fabric-1.105.0.jar"
+hash-format = "sha1"
+hash = "cc966d9ffea4b01750ccb5cbde8ee4112cb168b4"
+
+[update]
+[update.modrinth]
+mod-id = "gu7yAYhd"
+version = "Uq4DlqWv"

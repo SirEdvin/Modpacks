@@ -1,0 +1,16 @@
+name = "Forge Creative 1 . 20"
+author = "SirEdvin"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ce8fa827d870fcfccaee93fddbbd582a1461e903f7cef4021609584bfd635962"
+
+[versions]
+forge = "47.0.1"
+minecraft = "1.20.1"
+
+[options]
+acceptable-game-versions = ["1.20"]
