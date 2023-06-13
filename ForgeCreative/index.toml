@@ -1,8 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "a85ce04917fdd9070f9b4e96e730378edd5046520a74907c758564adaf391dd3"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "7a3647fe46e32a4075f8b18a32c4ca47156dea8feb1a5e1dca4eb481d0d8374b"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "6e42400b402de67b902c11f9eb99f6f01844109bedf7c21035096a78a7e413ae"
 metafile = true
 
 [[files]]
@@ -53,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/peripheralium.pw.toml"
 hash = "a828658d32ce01c697f2b6cffed6a8c2a111011789518e8872fa09cbecfdbd6e"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
+hash = "d5f84af4cf41a595a30537c5c3d2b280366d065c40ed69d7f30ba4cef1b8b8a1"
 metafile = true
 
 [[files]]
