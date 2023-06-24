@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Makefile"
+hash = "91b7a854ec50ff606035a93b3756a67b5adc68c7fe25ccd64e02c994ab23fcdc"
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "b0f9bb6eb61724b0a81fab0d6a2a71086cfd5eddea7dc8594958c31a1d1e284b"
 metafile = true
