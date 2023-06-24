@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "ecd5fd037877636ad54675be66949797e445e02fdb842314e4b3e6a4b216b0c2"
+hash = "788506b59862603e37c5627961a5f4525777df790c270efe3a698fd96c5b7499"
 metafile = true
 
 [[files]]
@@ -56,10 +56,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "d80db08786dcbe4c7aa39c79eeffe014a9753e25a257f93c735d4e94bebc11a8"
+hash = "590e18a0267f3d647f795b4acdb1e02c73e274469baf9a83dae0adbaf04110dc"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "e6f22d74136a0c90462c5935a602409b57da45fb7bb42305ec3f4c0547a74c6d"
+hash = "c726bc897ddace949856f85e36b9a890aae16750fee2789f190254c294c2160f"
 metafile = true
