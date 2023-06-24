@@ -46,8 +46,18 @@ hash = "f88f427e7fe15c15a77a99859a3190f7b9b7a37d06a68bd6bb2145a0e4fab00e"
 metafile = true
 
 [[files]]
+file = "mods/reborncore.pw.toml"
+hash = "0f5b7a635549a453d000e036ef0197da86ed6f363f35faf584940dad8d2a828d"
+metafile = true
+
+[[files]]
 file = "mods/rei.pw.toml"
 hash = "be84563e2c530c6960ceedec8a6ec6a1272fcb6de2740d7e6bcf096e347ea38f"
+metafile = true
+
+[[files]]
+file = "mods/techreborn.pw.toml"
+hash = "3c0bf5631d50764bbf825cd74b1293f80377434c4cd670432f4ba685c958a598"
 metafile = true
 
 [[files]]
