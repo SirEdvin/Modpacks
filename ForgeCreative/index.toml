@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "c5925d417cedf1f513cd7708fa0efe34ad9b8d1e175b25d9df8a857f7f3f56e0"
+hash = "4fa73d572cf8c6a721aa756349bd54549554f6504abadea343732e414685b927"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "ab63329b274dde9b675a2858eba69711a41ab32ecc4d13a0b46046c93db80773"
+hash = "b6c255193508e4bcf23b7f5fc04dd927dd4c72b75246d09f7d7899e3aaddd35b"
 metafile = true
 
 [[files]]
