@@ -1,13 +1,16 @@
-name = "Fabric Creative"
+name = "Fabric Creative 1 . 20"
 author = "SirEdvin"
-version = "0.1.1"
+version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "efba0c7af831469eacca5ab9d7c8c467c66a32d9d829f1ed7bb9bf1e15daee29"
+hash = "9979f08e9b753cf0302b6461168d869dc01b83b8c6b88a76713854d0f15fb91d"
 
 [versions]
 fabric = "0.14.21"
-minecraft = "1.19.4"
+minecraft = "1.20.1"
+
+[options]
+acceptable-game-versions = ["1.20"]
