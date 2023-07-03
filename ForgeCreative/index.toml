@@ -1,12 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "Makefile"
-hash = "91b7a854ec50ff606035a93b3756a67b5adc68c7fe25ccd64e02c994ab23fcdc"
-
-[[files]]
 file = "mods/ae2.pw.toml"
-hash = "b0f9bb6eb61724b0a81fab0d6a2a71086cfd5eddea7dc8594958c31a1d1e284b"
+hash = "a81df23ba58d6991a66dcac6e6100ff94ac24b7c426e6b54aa63ab5291ed75c2"
 metafile = true
 
 [[files]]
@@ -31,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "de641b2e9f7f21708fa2cac25fe52666f28c2d34205754b972fb6a03d118dac8"
+hash = "b4bdb09b65ecd804bb220aaf2f7f506db4b1e75d5d8de68ab75fc92e52f457be"
 metafile = true
 
 [[files]]
@@ -51,15 +47,15 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
-hash = "de4deda2063d3cc064ce36dea773546c053c261181c56ea7cebe586cf0b9b811"
+hash = "c10b6000f8ab6026e1ba408b7452426af7dda9ca2ed63c17e53d543f6cfe3cca"
 metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "590e18a0267f3d647f795b4acdb1e02c73e274469baf9a83dae0adbaf04110dc"
+hash = "c5886fcb2f9db8b0683078c4ea73d124b3cc4448df428fe77a14298ca626e237"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "c726bc897ddace949856f85e36b9a890aae16750fee2789f190254c294c2160f"
+hash = "d7d310a70fbcf17d45af38cb2b729ea86c3edd74d692df77de03df6570a85a78"
 metafile = true
