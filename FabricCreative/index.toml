@@ -36,11 +36,6 @@ hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "aee21420e44d71d2806bd980e80ac2ea88b821a7e5c5302a8dca761ec62807ab"
-metafile = true
-
-[[files]]
 file = "mods/peripheralium.pw.toml"
 hash = "e5367a59b74c283c58c5c2bc962d3b1fec97b0a6ad261b498c1cb22fd56837fa"
 metafile = true
