@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "f238e1f28f18e58f737116b13dab9716ca38b2dd84242e802d60419cc71ed737"
+hash = "df19c411fd67e340ed687f781863a6d7fb9f1de666449df75ffe82136e45f9dc"
 metafile = true
 
 [[files]]
@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "b9cc3ddd40c728549f8de8db2b211a534303018bf8c18d22871ad17f62c47118"
+hash = "b6348f94ec939f563285dc96683e61da8fc17ab2f2897be2751fa24789513691"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "e5367a59b74c283c58c5c2bc962d3b1fec97b0a6ad261b498c1cb22fd56837fa"
+hash = "5d8185e9511c6975fa589b157ab355d641a91394feb5f2d7c1aac0500591440d"
 metafile = true
 
 [[files]]
@@ -72,10 +72,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "c31ea7d79683a64bfd9074f8a70a308a70b445f3a585d40b19f2b09a840f1614"
+hash = "4659675ecfe80389d500f04ddce0fbce0eda651e6f5b56e4d3a3dbc0eea044e7"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "892ebf2c64e6944ee1f285432f59b2292301ddb4a23300f2533557b6435e41a0"
+hash = "d2a164356fb37745ee8cb1d37270f6e6d505a34fe191ed9841aa0a43b485b49b"
 metafile = true
