@@ -1,7 +1,7 @@
 name = "turtlematic"
-filename = "turtlematic-fabric-1.20.1-1.1.0-pre.1.jar"
+filename = "turtlematic-fabric-1.20.1-1.1.0-pre.2.jar"
 
 [download]
-url = "https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-1.1.0-pre.1/turtlematic-fabric-1.20.1-1.1.0-pre.1.jar"
+url = "https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-1.1.0-pre.2/turtlematic-fabric-1.20.1-1.1.0-pre.2.jar"
 hash-format = "sha1"
-hash = "7dd7210bb7f49795717626db135479f7ed5b8b9c"
+hash = "60cb86db18ab646908ec9e8b63802c673fcedaae"

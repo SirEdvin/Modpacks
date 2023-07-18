@@ -1,5 +1,5 @@
-peripheraliumVersion = 0.6.5-pre.1
-turtlematicVersion = 1.1.0-pre.1
+peripheraliumVersion = 0.6.5-pre.2
+turtlematicVersion = 1.1.0-pre.2
 peripheralWorksVersion = 1.1.0-pre.1
 
 
