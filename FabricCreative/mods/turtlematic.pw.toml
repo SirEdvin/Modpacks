@@ -1,13 +1,7 @@
-name = "Turtlematic"
-filename = "turtlematic-fabric-1.20.1-1.0.0.jar"
-side = "both"
+name = "turtlematic"
+filename = "turtlematic-fabric-1.20.1-1.1.0-pre.1.jar"
 
 [download]
-url = "https://cdn.modrinth.com/data/UogK5QqE/versions/w39b1mmV/turtlematic-fabric-1.20.1-1.0.0.jar"
+url = "https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-1.1.0-pre.1/turtlematic-fabric-1.20.1-1.1.0-pre.1.jar"
 hash-format = "sha1"
-hash = "916f2edb2e05607add056e961f9c6e3810a19837"
-
-[update]
-[update.modrinth]
-mod-id = "UogK5QqE"
-version = "w39b1mmV"
+hash = "7dd7210bb7f49795717626db135479f7ed5b8b9c"

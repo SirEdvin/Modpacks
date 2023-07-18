@@ -1,15 +1,16 @@
-peripheraliumVersion = 0.6.4-15
-turtlematicVersion = 1.0.0-1
-peripheralWorksVersion = 1.0.0-2
+peripheraliumVersion = 0.6.5-pre.1
+turtlematicVersion = 1.1.0-pre.1
+peripheralWorksVersion = 1.1.0-pre.1
+
 
 peripheralium:
-	packwiz url add peripheralium https://mvn.siredvin.site/snapshots/site/siredvin/peripheralium-forge-1.20.1/$(peripheraliumVersion)/peripheralium-forge-1.20.1-$(peripheraliumVersion).jar
+	packwiz url add peripheralium https://github.com/SirEdvin/Peripheralium/releases/download/v1.20.1-${peripheraliumVersion}/peripheralium-forge-1.20.1-${peripheraliumVersion}.jar
 
 turtlematic:
-	packwiz url add turtlematic https://mvn.siredvin.site/snapshots/site/siredvin/turtlematic-forge-1.20.1/$(turtlematicVersion)/turtlematic-forge-1.20.1-$(turtlematicVersion).jar
-	
+	packwiz url add turtlematic https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-${turtlematicVersion}/turtlematic-forge-1.20.1-${turtlematicVersion}.jar
+
 upw:
-	packwiz url add unlimitedperipheralworks https://mvn.siredvin.site/snapshots/site/siredvin/peripheralworks-forge-1.20.1/$(peripheralWorksVersion)/peripheralworks-forge-1.20.1-$(peripheralWorksVersion).jar
+	packwiz url add unlimitedperipheralworks https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-${peripheralWorksVersion}/peripheralworks-forge-1.20.1-${peripheralWorksVersion}.jar
 
 all: peripheralium turtlematic upw
 

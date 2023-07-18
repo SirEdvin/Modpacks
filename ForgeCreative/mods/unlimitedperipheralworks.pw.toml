@@ -1,13 +1,7 @@
-name = "UnlimitedPeripheralWorks"
-filename = "peripheralworks-forge-1.20.1-1.0.0.jar"
-side = "both"
+name = "unlimitedperipheralworks"
+filename = "peripheralworks-forge-1.20.1-1.1.0-pre.1.jar"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/sS3SujXu/peripheralworks-forge-1.20.1-1.0.0.jar"
+url = "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-1.1.0-pre.1/peripheralworks-forge-1.20.1-1.1.0-pre.1.jar"
 hash-format = "sha1"
-hash = "76b493fed3ac2d8e1ff770a3ac75312feb18c059"
-
-[update]
-[update.modrinth]
-mod-id = "Sf7QBsRP"
-version = "sS3SujXu"
+hash = "697df6ff3745da72e86b6c8f0b43c459ee40d432"
