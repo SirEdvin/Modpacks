@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "4bf6f1bff0bae0c66c64b1edc6c39536266790a76a53b4b933b42750437a44ce"
+hash = "691f3f30a792a57cdfa08ac9852c614bb3e45c2b9190ff1223d24bb749b66ddb"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "4f7e923c4cd90d8fc7671dc9edf627e8809e7ddfedb92a72662cc6a88702b58e"
+hash = "7e8cf9e93808dfc010e5e0d9fab00e56ff3ef5df1189fa1e314e4676cb79c52f"
 metafile = true
 
 [[files]]
