@@ -21,6 +21,11 @@ hash = "1471dc5ccb9fe829f014a5061c40e59c6f18dd67bfb240e7b4d6f4d6a3a4aa1b"
 metafile = true
 
 [[files]]
+file = "mods/digitalitems.pw.toml"
+hash = "aaab022941a3297059a424c77fc5884ead6575e5c6a90a6c4f6b450de74a479c"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "8e7d5084ee9e4ebbe405561ae830a87bf4aaba90296ce80cc86191e4e4decd6e"
 metafile = true
@@ -42,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "c7c0796d7112dfda7adfb0ecfaae66ba1e979df6855ac03b15dcfd3166a2cf25"
+hash = "7839ce0f157a4719d9a3e561b91e45e59ab64ddb381f6a0be994cc440775b11d"
 metafile = true
 
 [[files]]

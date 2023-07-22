@@ -26,6 +26,11 @@ hash = "2392cd9c8f144f581654c43b1ad395d62ff963e62b8c13300ef4ee6d4e9186cc"
 metafile = true
 
 [[files]]
+file = "mods/digitalitems.pw.toml"
+hash = "4bf6f1bff0bae0c66c64b1edc6c39536266790a76a53b4b933b42750437a44ce"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "2205239199b4a1e74afcdba1151807d2e4487ce2cf116cee9f62d25f1659a3f5"
 metafile = true
@@ -42,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "85b3a9872732d6890c4019b46716049e58f05bd8d711147241f8fa9797eddc14"
+hash = "4f7e923c4cd90d8fc7671dc9edf627e8809e7ddfedb92a72662cc6a88702b58e"
 metafile = true
 
 [[files]]

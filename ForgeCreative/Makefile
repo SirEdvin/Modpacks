@@ -1,6 +1,7 @@
-peripheraliumVersion = 0.6.5
+peripheraliumVersion = 0.6.6-pre.3
 turtlematicVersion = 1.1.1
 peripheralWorksVersion = 1.1.0
+digitalItemsVersion = 0.3.0-pre.1
 
 
 peripheralium:
@@ -11,8 +12,10 @@ turtlematic:
 
 upw:
 	packwiz url add unlimitedperipheralworks https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-${peripheralWorksVersion}/peripheralworks-forge-1.20.1-${peripheralWorksVersion}.jar
+digitems:
+	packwiz url add digitalitems https://github.com/SirEdvin/DigitalItems/releases/download/v1.20.1-${digitalItemsVersion}/digitalitems-forge-1.20.1-${digitalItemsVersion}.jar
 
-all: peripheralium turtlematic upw
+all: peripheralium turtlematic upw digitems
 
 modrinth:
 	packwiz modrinth add peripheralium
