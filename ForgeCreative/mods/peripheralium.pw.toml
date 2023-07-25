@@ -1,7 +1,7 @@
 name = "peripheralium"
-filename = "peripheralium-forge-1.20.1-0.6.6.jar"
+filename = "peripheralium-forge-1.20.1-0.6.7-pre.5.jar"
 
 [download]
-url = "https://github.com/SirEdvin/Peripheralium/releases/download/v1.20.1-0.6.6/peripheralium-forge-1.20.1-0.6.6.jar"
+url = "https://github.com/SirEdvin/Peripheralium/releases/download/v1.20.1-0.6.7-pre.5/peripheralium-forge-1.20.1-0.6.7-pre.5.jar"
 hash-format = "sha1"
-hash = "64da89745ad9cf2d5a448fb50a30a58b08249418"
+hash = "404d1aa014f79bafb1efbc60fe025135f6ee6f0f"
