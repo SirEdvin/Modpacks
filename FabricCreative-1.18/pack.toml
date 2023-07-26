@@ -1,0 +1,13 @@
+name = "FabCreative18"
+author = "SirEdvin"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "add93761e7892cd0c8df9a9c8f8c2990612922a1ff3fce8d04bf52f7c9d7ffcc"
+
+[versions]
+fabric = "0.14.21"
+minecraft = "1.18.2"

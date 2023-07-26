@@ -1,0 +1,31 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/cc-restitched.pw.toml"
+hash = "9278183949339092056837d262aeb4dec44f788d1e126609ca2704b9f2251f63"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "ff4a66502e802341a84fbb8eceed65156b14436769b1f7e27a68b22fb59c1dae"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "d3caf0b1837490d2b0169fa8e0ff485158c70200c23dbdefead7912d47e5fc70"
+metafile = true
+
+[[files]]
+file = "mods/peripheralium.pw.toml"
+hash = "2ccedca74aa6bb3b2347e6292eb21a4139bb7d50a80ad93b4314169a3d12be5e"
+metafile = true
+
+[[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "2f0ac40bd7a9a0ccfbfff11b1e54bf7126c1bdc4bcfb72624e353e1c236310d1"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "0b8facdfefa85f48ac10d09d9ecda50155b41cacdab74391347589de3f9ab364"
+metafile = true

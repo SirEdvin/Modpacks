@@ -1,0 +1,13 @@
+name = "Turtlematic"
+filename = "turtlematic-0.5.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UogK5QqE/versions/kkcAJxxV/turtlematic-0.5.4.jar"
+hash-format = "sha1"
+hash = "0304c0e8bf4c9abb7b0428c6295a8fe3ead1d36c"
+
+[update]
+[update.modrinth]
+mod-id = "UogK5QqE"
+version = "kkcAJxxV"
