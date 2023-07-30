@@ -16,11 +16,6 @@ hash = "f106efa4f0255827f932d58eca40ab73acfa8e6c55195dd720ec75b95b664ca6"
 metafile = true
 
 [[files]]
-file = "mods/digital-items-3.pw.toml"
-hash = "1471dc5ccb9fe829f014a5061c40e59c6f18dd67bfb240e7b4d6f4d6a3a4aa1b"
-metafile = true
-
-[[files]]
 file = "mods/digitalitems.pw.toml"
 hash = "f539a921708ed71c335c337f24a1625b92ebd94ecd01cb31e911f11376be84d4"
 metafile = true
