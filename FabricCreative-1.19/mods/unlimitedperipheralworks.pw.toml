@@ -1,13 +1,13 @@
 name = "UnlimitedPeripheralWorks"
-filename = "peripheralworks-0.2.9.jar"
+filename = "peripheralworks-0.2.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/HnSb69GB/peripheralworks-0.2.9.jar"
+url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/OWaKcpXQ/peripheralworks-0.2.10.jar"
 hash-format = "sha1"
-hash = "8508628d80582489097affb2abe3f8034a30441a"
+hash = "c6278b6391f71777ff431c3a7b598fe4dc831b89"
 
 [update]
 [update.modrinth]
 mod-id = "Sf7QBsRP"
-version = "HnSb69GB"
+version = "OWaKcpXQ"

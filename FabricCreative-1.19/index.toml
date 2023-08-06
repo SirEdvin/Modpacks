@@ -6,6 +6,11 @@ hash = "6e8faa4779dca8bafd4cc91cad8f7fe425f6d3d08511463466c6c13b8ffa55dd"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "d1dc8ac9ea0e5aed978c464ff34e460924dfc44d518eece4abbbfb9a5d49abf8"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "7873ca5fa00f1d5bcc11ba839aed4866e660017f8caee9337c7dffc8682d5653"
 metafile = true
@@ -21,6 +26,11 @@ hash = "3a68d8f694877589b9d29bd7b44b590a123007f28142d0deed1ba34c9b90b51c"
 metafile = true
 
 [[files]]
+file = "mods/modern-industrialization.pw.toml"
+hash = "09aae0a58af9c1d1b9aa467263163427b3fe1b20ee7141c2a446205e34adc727"
+metafile = true
+
+[[files]]
 file = "mods/peripheralium.pw.toml"
 hash = "ea3ba6d06a88da29ff2061b686d57f77a08bf87e88d41c48320ff3e6fa1e69a1"
 metafile = true
@@ -32,5 +42,5 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "31becf469aea9f05cfe98345041f3e714e42d4dc672f8c6e37f8ab02ca06a8c0"
+hash = "2b1754210181cfec8875bd0406b602113482c447c786619748dedb2aff3aefb5"
 metafile = true
