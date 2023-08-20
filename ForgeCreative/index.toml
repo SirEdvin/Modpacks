@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "a24186b90dc6de724152d3f0ec7e936e629092683f7a715605a63c5621eb2b08"
+hash = "d6df7699f0e6ec242c7fae0d366750473de24df15f947f19a8d1c7f63f46ed74"
 metafile = true
 
 [[files]]
