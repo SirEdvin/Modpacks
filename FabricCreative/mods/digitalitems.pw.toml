@@ -3,5 +3,5 @@ filename = "digitalitems-fabric-1.20.1-0.3.0.jar"
 
 [download]
 url = "https://github.com/SirEdvin/DigitalItems/releases/download/v1.20.1-0.3.0/digitalitems-fabric-1.20.1-0.3.0.jar"
-hash-format = "sha1"
-hash = "233e1dbad03a770d7e9f9cd238e93de10b998657"
+hash-format = "sha256"
+hash = "217e06f30f5809135284a89f8824d50fc0289fc3eb75072b60f16a010c743b4d"

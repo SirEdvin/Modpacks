@@ -1,6 +1,6 @@
-peripheraliumVersion = 0.6.11
-turtlematicVersion = 1.2.3
-peripheralWorksVersion = 1.3.4
+peripheraliumVersion = 0.6.12
+turtlematicVersion = 1.2.4
+peripheralWorksVersion = 1.4.0
 digitalItemsVersion = 0.3.0
 
 
