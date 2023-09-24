@@ -1,7 +1,7 @@
 name = "peripheralium"
-filename = "peripheralium-fabric-1.20.1-0.6.12.jar"
+filename = "peripheralium-fabric-1.20.1-0.6.13.jar"
 
 [download]
-url = "https://github.com/SirEdvin/Peripheralium/releases/download/v1.20.1-0.6.12/peripheralium-fabric-1.20.1-0.6.12.jar"
+url = "https://github.com/SirEdvin/Peripheralium/releases/download/v1.20.1-0.6.13/peripheralium-fabric-1.20.1-0.6.13.jar"
 hash-format = "sha256"
-hash = "824442f7e48f6340d1a22091c3c76b06ec75bd812cc43bdcea8a9c8bc36af5a0"
+hash = "c06ad0fcb06f7686a8fb4c27dcbca432d2b3600b1f89f2d5ce7d00547a19495b"

@@ -16,6 +16,11 @@ hash = "42837a80469f8bd1771d1cf5189129bc32672d21ccc61aca090ec82c241f3724"
 metafile = true
 
 [[files]]
+file = "mods/datafortress.pw.toml"
+hash = "2184a9c3ce76501c63768f0fd24681e8aba24b3b6242f2fb80ad9e19a7497183"
+metafile = true
+
+[[files]]
 file = "mods/digitalitems.pw.toml"
 hash = "8b66c3fb884023e616f4018037e66b26f4de060f29cd9041afaeadc4cc34c863"
 metafile = true
@@ -42,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "1e19af64d2ed74611d584232defc0cd4c8abf0bc594b7699b0a8540618125d29"
+hash = "49dcc32cd9ccc8d3398e743f276d3e6d36edea12c52d2b20be8211fb3a91a739"
 metafile = true
 
 [[files]]

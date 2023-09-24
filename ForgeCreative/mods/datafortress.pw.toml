@@ -1,0 +1,7 @@
+name = "datafortress"
+filename = "datafortress-forge-1.20.1-0.1.0-pre.1.jar"
+
+[download]
+url = "https://github.com/SirEdvin/DataFortress/releases/download/v1.20.1-0.1.0-pre.1/datafortress-forge-1.20.1-0.1.0-pre.1.jar"
+hash-format = "sha256"
+hash = "780f81cd5aab7eb5672fdca2c6b97eb4216b11aeb3a8524d3b2e7cf7defad6ae"
