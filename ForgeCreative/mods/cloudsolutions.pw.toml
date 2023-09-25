@@ -1,0 +1,7 @@
+name = "cloudsolutions"
+filename = "cloudsolutions-forge-1.20.1-0.1.0-pre.2.jar"
+
+[download]
+url = "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.20.1-0.1.0-pre.2/cloudsolutions-forge-1.20.1-0.1.0-pre.2.jar"
+hash-format = "sha256"
+hash = "c11d55a0f13a55a9a5ad610ed88ac3b3306904eedfc65c07557b04b419ed9228"

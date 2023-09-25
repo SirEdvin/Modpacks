@@ -21,8 +21,8 @@ hash = "b6348f94ec939f563285dc96683e61da8fc17ab2f2897be2751fa24789513691"
 metafile = true
 
 [[files]]
-file = "mods/datafortress.pw.toml"
-hash = "5d29c09ce38c6e473c9efc89077c2afc11a80b407a372e2159d829c02c42e9d0"
+file = "mods/cloudsolutions.pw.toml"
+hash = "68739700ecd139b8c2625cae2bda88dd37d67c76c928f71e7d4dab945fd38a0d"
 metafile = true
 
 [[files]]

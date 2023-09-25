@@ -11,13 +11,13 @@ hash = "0215844c234e89ca0c17b3f977ff8ee97e7fc92fdfc774212bba45aa01e69c5a"
 metafile = true
 
 [[files]]
-file = "mods/curios.pw.toml"
-hash = "42837a80469f8bd1771d1cf5189129bc32672d21ccc61aca090ec82c241f3724"
+file = "mods/cloudsolutions.pw.toml"
+hash = "60e5dae8678646250443151276d2a10c078956f52daad386f96dc437fffcb4c9"
 metafile = true
 
 [[files]]
-file = "mods/datafortress.pw.toml"
-hash = "2184a9c3ce76501c63768f0fd24681e8aba24b3b6242f2fb80ad9e19a7497183"
+file = "mods/curios.pw.toml"
+hash = "42837a80469f8bd1771d1cf5189129bc32672d21ccc61aca090ec82c241f3724"
 metafile = true
 
 [[files]]
