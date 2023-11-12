@@ -12,12 +12,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "7873ca5fa00f1d5bcc11ba839aed4866e660017f8caee9337c7dffc8682d5653"
+hash = "17311c8148c846b880718d5368efdc7eb31e54ee4c0ab0f6e3fe466ea8af3a3d"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "ff4a66502e802341a84fbb8eceed65156b14436769b1f7e27a68b22fb59c1dae"
+hash = "c20c449b77e7e40bf6b5308d63223b634eb6a857bf3b22d31e9c41f6e03d399b"
 metafile = true
 
 [[files]]
@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
-hash = "09aae0a58af9c1d1b9aa467263163427b3fe1b20ee7141c2a446205e34adc727"
+hash = "d09c8d848d202e37d33ee85df3bee70565830a70394f8e1468c164428519634c"
 metafile = true
 
 [[files]]
