@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Makefile"
+hash = "341b2fd08db91821e5e3d4f9a417cade6f07eac065a83d1f252c56d1aa267cc4"
+
+[[files]]
 file = "mods/cc-restitched.pw.toml"
 hash = "6e8faa4779dca8bafd4cc91cad8f7fe425f6d3d08511463466c6c13b8ffa55dd"
 metafile = true
