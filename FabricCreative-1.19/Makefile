@@ -1,5 +1,5 @@
 peripheraliumVersion = 0.4.23
-peripheralWorksVersion = 0.2.11
+peripheralWorksVersion = 0.2.12
 
 
 peripheralium:
