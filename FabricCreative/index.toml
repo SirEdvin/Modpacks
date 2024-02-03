@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "56d57a869101dfd6784c044fd4fd694c9a527581079baf44d9dfbe8382b39a29"
+hash = "de82b1dbf0023f4aae1db1fa69eda866a30f0afa57e16832d1ba8c504804d3a6"
 metafile = true
 
 [[files]]
@@ -12,12 +12,12 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "4f2fc718ba43146d6c909d2d25da09e7d3d7fccbcc6225b488ff5f533d5149c2"
+hash = "a79a9d6a5fe9c86a51e1235932dfe6251a1e9936a4bc36dda8bb7ebd377cb059"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "df83086d160981e8d4e29defe7253d6b2f3339d33dcc2c72e8359bea2f134960"
+hash = "403c99e6b3c7f03bfc1ef8f0a23c79d9929eb42658be02bd0911c36b0174cf5b"
 metafile = true
 
 [[files]]
@@ -32,12 +32,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "551dfeadc5b1f1cd6cafa68455b3404b1f4bf253b37af5d0e2393fcc4866c4cc"
+hash = "f65351f79286f2471e3f1954a92940649a7b106667eae8d314ce04c649e043b3"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "c20c449b77e7e40bf6b5308d63223b634eb6a857bf3b22d31e9c41f6e03d399b"
+hash = "bd278a821fa158a7ffedb511c84e5bc0887192ceae21f9038b30357edd64a9e9"
 metafile = true
 
 [[files]]
@@ -47,17 +47,17 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
-hash = "191cfb66d9508a2ff925e9e0ff6974aa6afef8e45fa3b8d94d6f557db115413b"
+hash = "ec07558f3cf5e87ee81df78e2ba7640a98e5787f26c02f1fe3ddbd15878f45c3"
 metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "e7815096b2e1367a24e90fe0d9807559b2caf1f6066670468ba6a4437cc05e54"
+hash = "097ea541592ef9fb1d4e2a5c7dad49c7ca50f028a27417d7552f5236644f4fe0"
 metafile = true
 
 [[files]]
 file = "mods/plethora-peripherals.pw.toml"
-hash = "9ce0423cc1dfc0dcbbb6872ba87dfc7a9e3d0744dcf404401d0100d8a6b74091"
+hash = "a29c8f273dfa3929fe2c51cc474f95357f6aa9eb0cdb715cee637e3a577904d9"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
-hash = "ae9f8aab8ab115688b981f290bc59db0de3b982e0a828b2ece38c41130b46a08"
+hash = "23d596d1d2e39ae3b05415790663819401fc62d745d6a817e88d9c36d07bce53"
 metafile = true
 
 [[files]]
@@ -87,10 +87,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "8f0c1fe04abc572407abb2f0f6973aa658813bb812a34b84c535e6fede1dcc0e"
+hash = "7454dcd1ffa6d2b6dcb2a2a2def3cc8585b2e5b1999951762099898acc53bb19"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "5de6c99d08e93b26f3466fdbda29bc86946f8d29516d0be828ad70f729ec8cad"
+hash = "323413368d0909c5631bef23647a56182328b8c7c3cb0805c5681b1a36024a3a"
 metafile = true
