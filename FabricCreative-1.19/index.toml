@@ -11,17 +11,17 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "d1dc8ac9ea0e5aed978c464ff34e460924dfc44d518eece4abbbfb9a5d49abf8"
+hash = "e1b84efda222d3d22b8b683980ef1d089ca015e0d8671cd18f2892f70d4b03e5"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "17311c8148c846b880718d5368efdc7eb31e54ee4c0ab0f6e3fe466ea8af3a3d"
+hash = "5197e9172dd9a9b06303b85a837e7a044b71c005b3d0003aa19041a253daf541"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "b77d49d5c1b11ffbd9d3f34b407d8065117e804b4776ac5754e066fac9fe7526"
+hash = "d74850aaf1ed5a53805d523aa2b624f58c43813446be0b6c066a599c80d704e6"
 metafile = true
 
 [[files]]
@@ -31,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
-hash = "d09c8d848d202e37d33ee85df3bee70565830a70394f8e1468c164428519634c"
+hash = "68d0545bf74a4eb2a96a79b6f2aec7448d8e33c062be328dfddc76909b8b40b6"
 metafile = true
 
 [[files]]
@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "bb74c1d0b3d281ececdd10bd03bb811bdb44314379b0a0164f66006316706dda"
+hash = "42cb88fbc9f017d4b571a140061e559fb0100e1b3d0540621e784148c20ae9d1"
 metafile = true
 
 [[files]]
