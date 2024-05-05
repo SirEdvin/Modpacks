@@ -1,6 +1,6 @@
 peripheraliumVersion = 0.6.15
 cloudsolutionsVersion = 0.1.0
-turtlematicVersion = 1.2.6
+turtlematicVersion = 1.3.0
 peripheralWorksVersion = 1.4.3
 digitalItemsVersion = 0.3.0
 
