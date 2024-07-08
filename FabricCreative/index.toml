@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "292119314ab90d8d2b4cf52cbcb9eb19a6866d545df6a7418166929c5749a370"
+hash = "ed2b7581d8af213b3fdff197bad3808190d0004279de07688641a8250a2c3a9f"
 metafile = true
 
 [[files]]
