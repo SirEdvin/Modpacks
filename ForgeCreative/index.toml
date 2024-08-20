@@ -2,12 +2,12 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "6947fb69588c468b5d469a583d83310e29d9d35a5d1adde4cc0df41d85a38de3"
+hash = "723eb1e1a42eb2fe8461d2b0ef73d8f5a37b723924a534fc054879e959aa28c7"
 metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "59dcbc3a47f407858e52dbd02948e258ccc38ced0a78451bab9fbb6eb0b3e9be"
+hash = "6bda60bbc4bbf9b615db6ae54cba617af10d2bd4fd5ae32a3ee72137a592999e"
 metafile = true
 
 [[files]]
@@ -37,17 +37,17 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "3fe94d877b9118d597d1acb8b2a09097c55ea764181e20e657b7d58bc0726ec0"
+hash = "e02a0a0b61025d0b228968aa75fa360d2e59bfe44d5c7899ee3e5d5a6ce0c443"
 metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "576d6ad9b1f75ae114204b0a0671f7790aa477077ab917da5225308d59b708fc"
+hash = "e4658071497dcf9deb259c3215f28773402ae8d136696dd0be3201496c4aa705"
 metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "1778a46142671a8083b794b57b8bfb50200e58750c1941385cb2eaf646f3c0ab"
+hash = "9fc457d1845d5954bd1ef017ee4f1c5ca15d5ed9703a0724c098f07a1173d10d"
 metafile = true
 
 [[files]]
@@ -57,15 +57,15 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
-hash = "689dcd3229b2cbfb183100350ecfc34afaa4ae3e0913a7cf3c4bd128dd8c792f"
+hash = "ad3b53a03146fac5e46803a06836c38ae13bc36eb4fb86b848202152fb76d171"
 metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "a3387e8292e1323c77bcb9650119dc6fad64b048ab38df488a6f112b141004a2"
+hash = "19c9d8ec95a1d51107aa90e53fb1b67dadfc7ab4edcd1bb3ba53244afe8ab555"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "e601817b739e73ddf0cd3046418001e9cc0ad1fabe34708bc93d1649fc3ccb53"
+hash = "ff8b86a1d71e313ad89dc1b02e70e6051a158ee275ef4252cb077763728b7859"
 metafile = true

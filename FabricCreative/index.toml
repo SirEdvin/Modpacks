@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "f5c55df1a98402e2341b8db7b00d64a80f1019194d149876997cf67b372a694a"
+hash = "30f6a07aacfc0b9a5038a3e5261f231e81af3b6388cf473c87f978f4e2fb9347"
 metafile = true
 
 [[files]]
@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "b79cc58d8f59edf82a64eac716b84f11911b2bc63c40529575dbaf67f4896efb"
+hash = "4bb621237a31c54f51c37d9a0660d176336a89888a931b294ee95d9c1a90856a"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "14e87ff6253d2bd02697e46b4a9b5060465d72b71663def5236f829e30bac6d6"
+hash = "a909422ca28880c8aa967a66ca3b89fba223a9cfc662d98592c234d22361cf33"
 metafile = true
 
 [[files]]
@@ -47,12 +47,12 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
-hash = "212f9397692e057f2819ae2a1193a0e8b90901abd7c6302a681bc5d5b29f6860"
+hash = "5799cd71cf1a52e3582afb7d74dce3f5a618653346102153b15df870ab0cb123"
 metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "ed2b7581d8af213b3fdff197bad3808190d0004279de07688641a8250a2c3a9f"
+hash = "2c285f7e349bf563500e33508f9dff317689f5fd25621a9d987468a28197dc40"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
-hash = "3a918ed8f788c9fdc80655da76c9499aaf60a468f5960bbf6e744ddf10231754"
+hash = "6a1aaa71cfe78617a08aa23b052b7d914c9f6de7a117f1dbc09dcdd759f8bf31"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
-hash = "ce3e958a06f4c421098fc7b7f2202198c9d6e5db19da105f9fa43736e84e40a9"
+hash = "67290d6986ff23778b37e49da990b693f2e2574ac69370f854b02f11245a05b6"
 metafile = true
 
 [[files]]
@@ -87,10 +87,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "c46382535960901dfa2dfaa9f14d9b350707e2b00aad40f8bca871cc985db542"
+hash = "c095fa33191929c38d6b6cfa39f71cceea99b5b3a385d7b0f0015a5f0ef1cbd3"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "2515352d32517c525a7323e6dc5428939e30f224b4f39f2df88e4b5aaa6f433a"
+hash = "fabeb6ca5308d262fe0c911ce8e5d72527489d3388e1ea7f7d4bcf3d9a6796db"
 metafile = true
