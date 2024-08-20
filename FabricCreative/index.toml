@@ -26,13 +26,18 @@ hash = "e35c918411c0390ae30b0625c4f0f101ccb89b364b3599c337b5e4f1cca060f0"
 metafile = true
 
 [[files]]
+file = "mods/create-fabric.pw.toml"
+hash = "26394151533372bce2229f31c8df7f65e2deb751cc823f317cd30682381acc8f"
+metafile = true
+
+[[files]]
 file = "mods/digitalitems.pw.toml"
 hash = "49660ca6652ac28a710551ccd485e50a95056ae12b046fb66040d881b3fa1ae1"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "8de441dd57379d434805fb87722233fa39e346a9152828e7ff49b0ed9b2bd518"
+hash = "86698b1faa9bf449eab492509239372302311092104be467108d7e05127e91f1"
 metafile = true
 
 [[files]]
