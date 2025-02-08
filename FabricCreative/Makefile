@@ -1,7 +1,7 @@
 peripheraliumVersion = 0.7.0
 cloudsolutionsVersion = 0.1.0
 turtlematicVersion = 1.3.1
-peripheralWorksVersion = 1.4.4
+peripheralWorksVersion = 1.4.5
 digitalItemsVersion = 0.3.0
 
 
@@ -17,6 +17,9 @@ digitems:
 	packwiz url add digitalitems https://github.com/SirEdvin/DigitalItems/releases/download/v1.20.1-${digitalItemsVersion}/digitalitems-fabric-1.20.1-${digitalItemsVersion}.jar
 cloudsolutions:
 	packwiz url add cloudsolutions https://github.com/SirEdvin/CloudSolutions/releases/download/v1.20.1-${cloudsolutionsVersion}/cloudsolutions-fabric-1.20.1-${cloudsolutionsVersion}.jar
+
+update:
+	packwiz update --all
 
 all: peripheralium turtlematic upw digitems cloudsolutions
 
