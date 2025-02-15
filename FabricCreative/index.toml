@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "c1079c786922de32eb7603ae24653090beccae44286f96790bf7729fd5f33764"
+hash = "6d88550943d5e768ad47d3aa77d90eb5f93a4cbbd54fa4f3ac5bec4d6a5779e7"
 metafile = true
 
 [[files]]
@@ -97,5 +97,13 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "02807a7b250c4865614750d3ac9ed9572ee34892bb5451fe506e8c3ba757c289"
+hash = "3c955df9bfa32cb7b36999f734d0d420bb530d0b314e06a2541bc3130e244bcf"
 metafile = true
+
+[[files]]
+file = "unsup.ini"
+hash = "d73fe0223ebceb5a8da76d7bfc0ee8f256bbef10396f74c4f20ccef89f952216"
+
+[[files]]
+file = "unsup.jar"
+hash = "ddd9a8b3e7943eaa4460df635f2294b81f348ef119dda94017f53eb69ad93bc5"
