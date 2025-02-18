@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Makefile"
-hash = "341b2fd08db91821e5e3d4f9a417cade6f07eac065a83d1f252c56d1aa267cc4"
+hash = "23c57e6f1e7dc0f61eff6fe7388ea2c91e558eb2318cda1ebbb728c330d958e3"
 
 [[files]]
 file = "mods/cc-restitched.pw.toml"
@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "e1b84efda222d3d22b8b683980ef1d089ca015e0d8671cd18f2892f70d4b03e5"
+hash = "68d9c6e0943edf3cdb03a487c9791beaccc75f70cf2e942175f119303caa73a7"
 metafile = true
 
 [[files]]
@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "d74850aaf1ed5a53805d523aa2b624f58c43813446be0b6c066a599c80d704e6"
+hash = "bb9a29a48b27e7abc0799d4393240ae2cdcf7d64341c9a63347769173f8bda2e"
 metafile = true
 
 [[files]]
@@ -31,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
-hash = "68d0545bf74a4eb2a96a79b6f2aec7448d8e33c062be328dfddc76909b8b40b6"
+hash = "33ff1617f542d90908da5a486002eee7748f8a081d05b4c00254d70abf986df7"
 metafile = true
 
 [[files]]
@@ -48,3 +48,7 @@ metafile = true
 file = "mods/unlimitedperipheralworks.pw.toml"
 hash = "4224fac9f9f6acffa94792bf61fb730a883a57de883c09c59d9501a794e566c3"
 metafile = true
+
+[[files]]
+file = "unsup.ini"
+hash = "ace7ccd56498f87e5c841cfd458bdde56dc5eaa807786d6191de6fdb44d8fce6"
