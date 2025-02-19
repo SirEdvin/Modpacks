@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "590f12b94d94e9d17485c125ec272381945851dfc03ae8bd3c64dc58d41bba38"
+hash = "457f82eb5d7b278e706d1c544ffb4186b6e8d45ff69f6af03d92e9c2758b8a94"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "31ffb058f33e7e2386406271deb131ae0f955a495072c43561068014e8f15b46"
+hash = "fe03ff925a227f90b4a4bba5d1c36ba5e733d4ca182f45baed795a0e1a7d7ac2"
 metafile = true
 
 [[files]]

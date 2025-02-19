@@ -99,7 +99,3 @@ metafile = true
 file = "mods/unlimitedperipheralworks.pw.toml"
 hash = "3c955df9bfa32cb7b36999f734d0d420bb530d0b314e06a2541bc3130e244bcf"
 metafile = true
-
-[[files]]
-file = "unsup.ini"
-hash = "3bf213cd447852816da58f44cc0c6dab5b855c7251e46cb509be73134690a0fa"
