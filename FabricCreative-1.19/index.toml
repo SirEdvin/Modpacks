@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "Makefile"
-hash = "23c57e6f1e7dc0f61eff6fe7388ea2c91e558eb2318cda1ebbb728c330d958e3"
-
-[[files]]
 file = "mods/cc-restitched.pw.toml"
 hash = "6e8faa4779dca8bafd4cc91cad8f7fe425f6d3d08511463466c6c13b8ffa55dd"
 metafile = true
@@ -48,7 +44,3 @@ metafile = true
 file = "mods/unlimitedperipheralworks.pw.toml"
 hash = "4224fac9f9f6acffa94792bf61fb730a883a57de883c09c59d9501a794e566c3"
 metafile = true
-
-[[files]]
-file = "unsup.ini"
-hash = "ace7ccd56498f87e5c841cfd458bdde56dc5eaa807786d6191de6fdb44d8fce6"
