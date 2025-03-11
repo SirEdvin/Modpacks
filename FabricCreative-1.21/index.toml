@@ -1,0 +1,15 @@
+hash-format = "sha256"
+
+[[files]]
+file = "Makefile"
+hash = "076eaa2cd8837c5ec6d46f300ec30d2fa57830e05799389a2a920da5eff5f96a"
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "fe95430d433104d44c741c22d8f4d0db4678756311acacccddec49e3a39a4091"
+metafile = true
+
+[[files]]
+file = "mods/smarthome-appliances.pw.toml"
+hash = "f688161babd147878935ac45bc05e3630024fa53575a74b481032bdfdee6b9a7"
+metafile = true

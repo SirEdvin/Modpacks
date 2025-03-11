@@ -1,0 +1,13 @@
+name = "Fabric Creative 1 . 21"
+author = "SirEdvin"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "57745c14db10081938b4790cb17216f9cc4530b60e9accd89d6ecdfbb6d5e6c0"
+
+[versions]
+fabric = "0.16.10"
+minecraft = "1.21.1"

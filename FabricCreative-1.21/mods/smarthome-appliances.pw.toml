@@ -1,0 +1,7 @@
+name = "smarthome_appliances"
+filename = "smarthome_appliances-fabric-1.21.1-0.1.0.jar"
+
+[download]
+url = "https://github.com/SirEdvin/SmartHome-Appliances/releases/download/v1.21.1-0.1.0/smarthome_appliances-fabric-1.21.1-0.1.0.jar"
+hash-format = "sha256"
+hash = "de8b16b0123325ea6894bdb5c5ed8de25c334ba4c73289cf1659513d8963a8fb"
