@@ -31,5 +31,5 @@ metafile = true
 
 [[files]]
 file = "mods/smarthome-appliances.pw.toml"
-hash = "f688161babd147878935ac45bc05e3630024fa53575a74b481032bdfdee6b9a7"
+hash = "8eb024e61a74d23a4130671f3215bc3f0d78c46f6b86b55365f8d99fc1c828a9"
 metafile = true

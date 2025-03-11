@@ -1,5 +1,4 @@
-smartHomeAppliancesVersion = 0.1.0
-
+smartHomeAppliancesVersion = 0.1.1
 
 # peripheralium:
 # 	packwiz url add peripheralium https://github.com/SirEdvin/Peripheralium/releases/download/v1.20.1-${peripheraliumVersion}/peripheralium-fabric-1.20.1-${peripheraliumVersion}.jar
