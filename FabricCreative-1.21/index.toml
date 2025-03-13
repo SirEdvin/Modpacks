@@ -10,6 +10,11 @@ hash = "1102440dd2533ba3a154419bb95ff1f81b858201eb0c44d2a2eea486c74e565a"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "46dbb4e9b06d0dff4bdcb4cbc562b7b2dfc642530fc31c2d377c3f78a77a5d96"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
@@ -25,6 +30,11 @@ hash = "bb9a29a48b27e7abc0799d4393240ae2cdcf7d64341c9a63347769173f8bda2e"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "f9d89c62265e675839395d925f4162e3e93fda837ed50fbe3832f4ae9c58bebb"
+metafile = true
+
+[[files]]
 file = "mods/rei.pw.toml"
 hash = "0a5ac09659d6565197829af0d2b6e8caa0f0aa5dac123e75c5846bf10914b9ed"
 metafile = true
@@ -32,4 +42,9 @@ metafile = true
 [[files]]
 file = "mods/smarthome-appliances.pw.toml"
 hash = "8eb024e61a74d23a4130671f3215bc3f0d78c46f6b86b55365f8d99fc1c828a9"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "c66db34f8e3505c0b89f8aa3b3002ffbc09c8e456d96f9a3e5ba79392db5e691"
 metafile = true
