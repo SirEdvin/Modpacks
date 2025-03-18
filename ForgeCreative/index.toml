@@ -7,32 +7,32 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "457f82eb5d7b278e706d1c544ffb4186b6e8d45ff69f6af03d92e9c2758b8a94"
+hash = "c1dc583e440716e24fd8478792f730538a576e8338fcbe31f5ac9ef835fc743d"
 metafile = true
 
 [[files]]
 file = "mods/cloudsolutions.pw.toml"
-hash = "a54e07e7147b53fc7fdab545cbe61e016aca23cb9f0d9b2859f274318da70ea0"
+hash = "2c8b05a8b560b3b3f3010b6c84fc1c27aaa8e81cacb90e1ff8b60cf452382927"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "1eceb4e4ab86c793f992ce9444e92f46dae76c3f744d8e19feb1143fb6c01939"
+hash = "74486cd0b25b3c6bef4cdca60187d0f79109b8cf9b067be978887b28c315222e"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "e070f775c1f909298453169788642d63c8058af7df55a51dc877bcc2675725b2"
+hash = "42a7ffa2efa0ccf9260b887714b5da8e17cc7a9a59d02aaa8061bd5bf0ab0612"
 metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "8b66c3fb884023e616f4018037e66b26f4de060f29cd9041afaeadc4cc34c863"
+hash = "5977a88bea5f773848e26bbbbf71382fe1e087f6fe5b381817a364e15f26b336"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "8bd098bd9535460709877edd2aad1a23cccac7d7a48e7bb34c2dc78f01c3ce78"
+hash = "0b24312ff5783cbb9c2707e16eb791ed12adb765259dd154cd09a00cc3fc38e2"
 metafile = true
 
 [[files]]
@@ -47,12 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "4692e624aacbe060cc7cbb18aecc4c6881ad74ea0e389a349cfeeff215837562"
-metafile = true
-
-[[files]]
-file = "mods/peripheralium.pw.toml"
-hash = "9fc457d1845d5954bd1ef017ee4f1c5ca15d5ed9703a0724c098f07a1173d10d"
+hash = "b944b36f0312027ec955a70270b814928e661f828f0ec8b3e38e72a56c36ecd3"
 metafile = true
 
 [[files]]
@@ -67,10 +62,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "19c9d8ec95a1d51107aa90e53fb1b67dadfc7ab4edcd1bb3ba53244afe8ab555"
+hash = "552d8084441abad86c1e516793e2fa626d417954fc9148e336263cb7e13fed6d"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "15bf51c7e85e42e73c0a951b5c94f7fd31d06550b3711ad1bcccce140163a996"
+hash = "34b96df449b95b54ad50aad057b37d3bc832787cab3f544780dc7e1f820bc9da"
 metafile = true

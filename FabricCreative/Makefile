@@ -1,8 +1,7 @@
-peripheraliumVersion = 0.7.0
-cloudsolutionsVersion = 0.1.0
-turtlematicVersion = 1.3.1
-peripheralWorksVersion = 1.4.5
-digitalItemsVersion = 0.3.0
+cloudsolutionsVersion = 0.1.2
+turtlematicVersion = 1.4.0
+peripheralWorksVersion = 1.5.0
+digitalItemsVersion = 0.4.0
 
 
 peripheralium:
@@ -21,7 +20,7 @@ cloudsolutions:
 update:
 	packwiz update --all
 
-all: peripheralium turtlematic upw digitems cloudsolutions
+all: turtlematic upw digitems cloudsolutions
 
 modrinth:
 	packwiz modrinth add peripheralium
