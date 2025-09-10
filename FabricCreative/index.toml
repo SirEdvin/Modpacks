@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "6d88550943d5e768ad47d3aa77d90eb5f93a4cbbd54fa4f3ac5bec4d6a5779e7"
+hash = "72b23c18039d65a955bfa111b87af4c0cbce8893e539d644e5a4449f3e473ec9"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloudsolutions.pw.toml"
-hash = "e35c918411c0390ae30b0625c4f0f101ccb89b364b3599c337b5e4f1cca060f0"
+hash = "039d1b135d2b38d90f5a3b621cc10e091f3f0ac73b7c26f07a8d24366f8a95d5"
 metafile = true
 
 [[files]]
@@ -32,12 +32,12 @@ metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "49660ca6652ac28a710551ccd485e50a95056ae12b046fb66040d881b3fa1ae1"
+hash = "ae6b5e6647df67bc77f8677f5d6de20a1e347052ea83f4034bb858d2ea4fbf4b"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "c7763ceed9929d3364030c01a4602628ebf46a028d55e7dd06f5aeb6280d36a3"
+hash = "c10109cdaa93bb556aa99268af1dce6ca784cd21f4b97800aaad908e761e7b15"
 metafile = true
 
 [[files]]
@@ -53,11 +53,6 @@ metafile = true
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
 hash = "5799cd71cf1a52e3582afb7d74dce3f5a618653346102153b15df870ab0cb123"
-metafile = true
-
-[[files]]
-file = "mods/peripheralium.pw.toml"
-hash = "2c285f7e349bf563500e33508f9dff317689f5fd25621a9d987468a28197dc40"
 metafile = true
 
 [[files]]
@@ -92,10 +87,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "c095fa33191929c38d6b6cfa39f71cceea99b5b3a385d7b0f0015a5f0ef1cbd3"
+hash = "60764bea739efe5298801abe3f24c65605e3c6677aa0337564579936ca2c4e43"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "3c955df9bfa32cb7b36999f734d0d420bb530d0b314e06a2541bc3130e244bcf"
+hash = "65ef2a8d53ff25cbcbca40e2670e48df5c82ed3ca3d699cadeaebbb1e4889afc"
 metafile = true
