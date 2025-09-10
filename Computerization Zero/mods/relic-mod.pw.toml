@@ -1,6 +1,6 @@
 name = "Relic Mod"
 filename = "relicmod-1.0.0-forge-1.20.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/dZ2YZ65X/versions/JRh6WOsD/relicmod-1.0.0-forge-1.20.1.jar"
