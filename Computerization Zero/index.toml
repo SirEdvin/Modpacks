@@ -171,6 +171,11 @@ hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
 metafile = true
 
 [[files]]
+file = "mods/cloud-solutions.pw.toml"
+hash = "aa59a61ed7520cc6c35618ec28a2f5cb866a87f9b9b5556646f996178ed550f6"
+metafile = true
+
+[[files]]
 file = "mods/cognition.pw.toml"
 hash = "af989b75603e55f3a4f0db6976086cf2afa5b95d3ea661caa58228870a4a0354"
 metafile = true
