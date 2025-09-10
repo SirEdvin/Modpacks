@@ -1,0 +1,13 @@
+name = "Biomantic Delight"
+filename = "bio_delight-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BpfiXMaS/versions/8QU0FZix/bio_delight-1.0.1.jar"
+hash-format = "sha512"
+hash = "1f37b502634ebd36190629303334bfd29678ac4f1a3e03ec0c2b993d3c9096d25cdde78caa94ce8f483114d80b7dd1152bb1664e81ec5b0dbb336365db74361b"
+
+[update]
+[update.modrinth]
+mod-id = "BpfiXMaS"
+version = "8QU0FZix"

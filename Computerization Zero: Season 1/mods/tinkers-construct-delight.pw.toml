@@ -1,0 +1,13 @@
+name = "Tinkers Construct Delight"
+filename = "tinkersdelight-1.2.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YdsAOij6/versions/YQOOE3Mj/tinkersdelight-1.2.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "b0d064661de7a350a26973d7fca837a5c3031602bca36d85d9fdc0ee67929f5154bf20de06d7f640df34ab2632b81899234a45af00a4102186470c0b38c0ba02"
+
+[update]
+[update.modrinth]
+mod-id = "YdsAOij6"
+version = "YQOOE3Mj"

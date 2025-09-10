@@ -1,0 +1,13 @@
+name = "Relic Mod"
+filename = "relicmod-1.0.0-forge-1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/dZ2YZ65X/versions/JRh6WOsD/relicmod-1.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "0a2ee59696476d37095a45d334ad16da694f63d729558e1e2d1d408c7658cab1da79c03f6134a72c24b89727f5fce6babb6e3894d63feebc085c5954e30a5e1d"
+
+[update]
+[update.modrinth]
+mod-id = "dZ2YZ65X"
+version = "JRh6WOsD"

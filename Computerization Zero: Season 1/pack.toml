@@ -1,0 +1,13 @@
+name = "Computerization Zero : Season 1"
+author = "SirEdvin"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "28f387efb913b937eece1e5ed42d115bc460d2188fe8d6ef6d608eaa87a9ad05"
+
+[versions]
+forge = "47.4.8"
+minecraft = "1.20.1"

@@ -1,0 +1,13 @@
+name = "Artan'sProjectCoreMod"
+filename = "Artan'sProjectCoreMOD-forge-mc1.20.1-4.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MYFUxXx8/versions/HLsP2d1x/Artan%27sProjectCoreMOD-forge-mc1.20.1-4.0.1.jar"
+hash-format = "sha512"
+hash = "8fe4a55114a91aa7ac9d3726130cbc7c034a2d38989a7cda92108859beb154e104b4038c33293cefa5d4652ce218608bfa244d8c7beccd269829699428275269"
+
+[update]
+[update.modrinth]
+mod-id = "MYFUxXx8"
+version = "HLsP2d1x"

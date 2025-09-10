@@ -1,0 +1,13 @@
+name = "DeepMobLearningReloaded"
+filename = "DeepMobLearningReloadedMod-forge-mc1.20.1-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dqFpfeSJ/versions/TVq0PLsB/DeepMobLearningReloadedMod-forge-mc1.20.1-3.0.1.jar"
+hash-format = "sha512"
+hash = "709b223814ce03ff0863037f820249f37d554fd637a1e77571e558df474295469a7869a402c086a0e8d65a3b2d30e74d7cdc3f5c335b834ce232fbe348f180e4"
+
+[update]
+[update.modrinth]
+mod-id = "dqFpfeSJ"
+version = "TVq0PLsB"

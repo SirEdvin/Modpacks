@@ -1,0 +1,13 @@
+name = "Create: Occult Engineering"
+filename = "occultengineering-1.20.1-0.8.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FHMHF9Qr/versions/kv2VRVMA/occultengineering-1.20.1-0.8.1.jar"
+hash-format = "sha512"
+hash = "d96689f4a8e202e08c2e608247038b212e67bad0ce144d067b788221d0b7c7fae1b60ac16c54520e3ab4ddc4cecca39a31ff82d2ac564a1b0c82c0c8f02b065c"
+
+[update]
+[update.modrinth]
+mod-id = "FHMHF9Qr"
+version = "kv2VRVMA"

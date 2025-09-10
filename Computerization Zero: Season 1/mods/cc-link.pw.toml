@@ -1,0 +1,13 @@
+name = "CC: Link"
+filename = "cclink-5.0.0-beta1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oifOaq1t/versions/klrpUKWx/cclink-5.0.0-beta1-1.20.1.jar"
+hash-format = "sha512"
+hash = "868d6e033fcbe979fd950a8ff7aecb11a88cf79d5474fa12709f9971d10361c8f556fa5aa3e0ed5581fb974ea14ae7c7697d556c124b142499b735da8ecf3004"
+
+[update]
+[update.modrinth]
+mod-id = "oifOaq1t"
+version = "klrpUKWx"
