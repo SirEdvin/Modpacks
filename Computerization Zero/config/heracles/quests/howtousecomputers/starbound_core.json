@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "netherite_cores"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          194,
+          -344
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "turtlematic:starbound_enchanting_automata_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Starbound core"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

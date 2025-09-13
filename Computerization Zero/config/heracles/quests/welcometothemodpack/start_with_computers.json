@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "how_to_play_this_modpack"
+  ],
+  "tasks": {
+    "promise": {
+      "title": "I will check it out",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Computerization is about computers, after all"
+    },
+    "description": [
+      "This modpack features a whole questline dedicated solely to CC:T and it addons. Give it a try."
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -570,
+          -217
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:computer_command",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Start with computers"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

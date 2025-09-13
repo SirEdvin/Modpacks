@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "starting_punch"
+  ],
+  "tasks": {
+    "table": {
+      "type": "heracles:item",
+      "item": "minecraft:crafting_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "pickaxe": {
+      "title": "Wooden tools are useless now",
+      "item": {
+        "id": "minecraft:stone_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "axe": {
+      "item": {
+        "id": "minecraft:stone_axe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Next on the list of every journey is crafting table..."
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -528,
+          -101
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Table of the start"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

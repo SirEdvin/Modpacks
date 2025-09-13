@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "how_to_play_this_modpack"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Yep, titles are here too"
+    },
+    "description": [
+      "This modpack features titles as a way to showcase your achievements to others. Quite useful in modpack packed with challanges, don't you think? ",
+      "",
+      "<text>Some titles are obtained from achivements and loot from mobs, you can find a full list of those <link href=\"https://github.com/Aurilux/Titles/wiki/Titles-Included-With-the-Mod\"><underline><blue>here</blue></underline></link></text>",
+      "",
+      "Every quest that has a pentagonal icon will reward you with title."
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -650,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "titles:title_scroll_uncommon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wait, titles?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

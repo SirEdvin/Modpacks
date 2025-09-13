@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "gathering_souls"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Automata core is quite weak by itself..."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          111,
+          -277
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "turtlematic:husbandry_automata_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced cores"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

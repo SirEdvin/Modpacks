@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "lets_start_from_basics"
+  ],
+  "tasks": {
+    "cogwheel": {
+      "type": "heracles:item",
+      "item": "create:cogwheel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "This is a computercraft modpack, why is Create here?"
+    },
+    "description": [
+      "For many of you it may be a secret, but if modpack maker creates modpack without /6/Create/6/, they can be put into prison for several days. I don't want to prison. So obviously /6/Create/6/ in this pack."
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -316,
+          -375
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creating confusion"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

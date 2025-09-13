@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "other_cool_mods"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "There is more to them that meets the eye"
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -422,
+          -278
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "peripherals:ender_bag",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "More Peripherals"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

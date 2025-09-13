@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "unlimitedperipheralworks"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Not only to minecarts, to any entity, actually"
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -222,
+          -142
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "peripheralworks:entity_link",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Remote access to ... minecarts?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

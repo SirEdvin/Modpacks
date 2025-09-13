@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "advanced_cores"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "More powerful cores that can capture villagers..."
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          195,
+          -279
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "turtlematic:forged_automata_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite cores"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "ready_to_go": {
+      "title": "Having basic CC:T knowledge",
+      "icon": {
+        "item": {
+          "id": "computercraft:computer_advanced",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "some_exp_for_knowledge": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "title": "Some XP, not so useful",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Always starting from basics..."
+    },
+    "description": [
+      "It is important to be somewhat familiar with CC:Tweaked at this stage of the modpack, since you need to use it a lot.",
+      "",
+      "<text>First of all, there is a nice documentation for this mod <link href=\"https://tweaked.cc/\"><blue><underline>just right here</underline></blue></link>. Nothing much to say, actually. Read \"Getting Started\" carefully, watch some tutorial, join computer mods discord and have fun!</text>",
+      "",
+      "Also, you need to learn Lua. Not much, actually, if you just planning to use this mod as minecraft mod and now developing your own operating system for it. ",
+      "",
+      "<text>If you are familiar with any programming language, Lua is quite easy to learn, just visit <link href=\"https://learnxinyminutes.com/lua/\"><blue><underline>this site.</underline></blue></link></text>",
+      "",
+      "If you not familiar with programming, then you should prepare for quite a journey and join computer mods discord. Adventure awaits."
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -305,
+          -306
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:treasure_disk",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Small CC:Tweaked tutorial"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

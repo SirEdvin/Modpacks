@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "small_cctweaked_tutorial"
+  ],
+  "tasks": {
+    "some_modems": {
+      "type": "heracles:item",
+      "item": "computercraft:wired_modem",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    },
+    "some_cables": {
+      "type": "heracles:item",
+      "item": "computercraft:cable",
+      "amount": 12,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "some_exp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "You can build simple network with just one computer, but why limit yourself?"
+    },
+    "description": [
+      "In CC:Tweaked wired modem is usually one of your most important friends. It connects, it sends, it receives but most important - it counts.",
+      "",
+      "<item id=\"computercraft:wired_modem_full\" scale=\"3.0\" />",
+      "",
+      "You can connect peripherals to computer directly, but sadly computer only has six sides and it is not enough. So modems are important.",
+      "",
+      "",
+      "<hint title=\"Peripheral ID counting\" icon=\"minecraft:torch\">",
+      "<p>Modems store ID of the peripheral that they are providing inside them. So if you break your modem, peripheral ID will change when you place modem back. Also two modems connected to same peripheral will give him different IDs.</p></hint>",
+      "",
+      "One of the most important things to understand about modem is this picture. Modem networks are connected only by cables, so computer itself doesn't connect network. And you can't send item from a green area to red area.",
+      "",
+      "<img src=\"kubejs:textures/wired_modem.png\" width=\"600\" height=\"300\" />",
+      "",
+      "Now, let's build some network."
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -241,
+          -305
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:wired_modem_full",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modems and cables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

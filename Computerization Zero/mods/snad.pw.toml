@@ -1,0 +1,13 @@
+name = "Snad"
+filename = "Snad-20.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z2LdIAgk/versions/cQ8XrGP5/Snad-20.1.0.jar"
+hash-format = "sha512"
+hash = "f3661cf7bd0bc943e6522949603dd48b5ecf284b4140fd03115dc202ea0e30b1462afc158686510eeb9115a308250650558cbc47802bb4d19eaacc16367290cb"
+
+[update]
+[update.modrinth]
+mod-id = "z2LdIAgk"
+version = "cQ8XrGP5"

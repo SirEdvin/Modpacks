@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "unlimitedperipheralworks"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -254,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "peripheralworks:item_pedestal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pedestals"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

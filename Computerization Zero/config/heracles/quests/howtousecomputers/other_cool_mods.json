@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "lets_start_from_basics"
+  ],
+  "tasks": {
+    "check": {
+      "title": "Accept the side quest",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "There is even more mods"
+    },
+    "description": [
+      "A lot of mods that I wasn't able to put into main progression. Consider this a side quest."
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -332,
+          -232
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:disk",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Other cool mods"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

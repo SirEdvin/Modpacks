@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "other_cool_mods"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Ever wanted to store items in the cloud?"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -395,
+          -174
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "digitalitems:digitizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Digital Items"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

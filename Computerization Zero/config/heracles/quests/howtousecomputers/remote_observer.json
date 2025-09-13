@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "sensing_everything"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -302,
+          -57
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "peripheralworks:remote_observer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Remote observer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

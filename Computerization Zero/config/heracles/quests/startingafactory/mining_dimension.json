@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "table_of_the_start"
+  ],
+  "tasks": {
+    "go_to_mining": {
+      "icon": {
+        "item": {
+          "id": "mining_dimension:teleporter",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "mining_dimension:mining",
+      "title": "Give into mining",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "miner_title": {
+      "title": "Interdimensional miner title",
+      "icon": {
+        "item": {
+          "id": "experienceobelisk:cognitive_pickaxe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "command": "titles add @s kubejs:interdimensional_miner",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Of course there is one"
+    },
+    "description": [
+      "Advanced mining dimension mod feature ... mining dimension. ",
+      "",
+      "Nothing to do here, it just mining dimension with a lot of ores from overworld."
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -528,
+          -171
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mining_dimension:teleporter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
+    "title": {
+      "translate": "Mining dimension"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

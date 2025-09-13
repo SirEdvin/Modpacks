@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Just check the box :-)": {
+      "title": "I read the quest description",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "Cute hopper": {
+      "title": "Beautiful and totally useful item",
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "I believe proper introduction to modpack mechanics is required."
+    },
+    "description": [
+      "So, you decided to play this modpack! ",
+      "",
+      "This modpack is quite cool, you know. I hope you will enjoy it.",
+      "",
+      "Why does it called Computerization Zero? You see, there is a very simple reason for this. But instead of explaining this to you, I would rather just show. I believe in visual learning, after all."
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -727,
+          -329
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:oak_sapling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": {
+      "translate": "Welcome to the modpack!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

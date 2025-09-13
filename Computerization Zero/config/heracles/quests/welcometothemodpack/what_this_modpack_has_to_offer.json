@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "how_to_play_this_modpack"
+  ],
+  "tasks": {
+    "list_checker": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 2,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A lot and by a lot I actually mean A LOT"
+    },
+    "description": [
+      "This modpack is about a lot of mods. Actually, a lot. ",
+      "",
+      "From technical mods you have:",
+      "- Create",
+      "- Biomancy 2",
+      "- Embers",
+      "- Forestry (it is still alive, yes)",
+      "- Industrial Foregoing",
+      "- Powah (I don't know if this counts, actually)",
+      "- Thermal Expansions",
+      "",
+      "From magic mods side:",
+      "- Ars Nouveau with addons",
+      "- Mana and Artifice ",
+      "- Occultism",
+      "- Theurgy",
+      "- ElementalCraft",
+      "- Hex Casting",
+      "- Malum",
+      "",
+      "And this is only list of mods with clear theme, there a a lot more, like peripheral mods, dimensional mods, building mods. A lot of stuff. Try to follow quests, they will lead you to some extend."
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -573,
+          -147
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "advancedperipherals:computer_tool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "What this modpack has to offer?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

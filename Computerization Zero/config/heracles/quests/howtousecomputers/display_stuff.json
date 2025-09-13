@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "lets_start_from_basics"
+  ],
+  "tasks": {
+    "monitors": {
+      "type": "heracles:item",
+      "item": "#computercraft:monitor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "monitors": {
+      "title": "Always craft advanced!",
+      "item": {
+        "id": "computercraft:monitor_advanced",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "You can draw graphs with it, why are you still here?"
+    },
+    "description": [
+      "Monitors are cool. They can incredibly basic API, but people always manage to do some crazy stuff with them. ",
+      "",
+      "You should try for yourself."
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -177,
+          -375
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:monitor_advanced",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Display stuff"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

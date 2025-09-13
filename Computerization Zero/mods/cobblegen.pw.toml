@@ -1,0 +1,13 @@
+name = "CobbleGen"
+filename = "cobblegen-5.4.6+1.20.1b1222-BETA-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qRogT5Gy/versions/McnoszgV/cobblegen-5.4.6%2B1.20.1b1222-BETA-forge.jar"
+hash-format = "sha512"
+hash = "52ddb18a5618867f9c0d73118ae390ea8243d75151be20fe40a190312ee8ec8719716609dbd562a4584207c4062c653264721e572740e2885247292747b90ddc"
+
+[update]
+[update.modrinth]
+mod-id = "qRogT5Gy"
+version = "McnoszgV"

@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "lets_start_from_basics"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "And it ticks, make noises and get be held in off-hand!"
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -145,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:pocket_computer_advanced",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "It fits into your pocket!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

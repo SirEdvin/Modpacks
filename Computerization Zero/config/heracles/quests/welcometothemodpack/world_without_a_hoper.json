@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "understanding_the_basics"
+  ],
+  "tasks": {
+    "get_first_computer": {
+      "type": "heracles:item",
+      "item": "#computercraft:computer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Get your first computer"
+    }
+  },
+  "rewards": {
+    "more_computers": {
+      "title": "More computers, that's it",
+      "icon": {
+        "item": {
+          "id": "computercraft:computer_advanced",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "computercraft:computer_advanced",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Now you starting to understand, don't you?"
+    },
+    "description": [
+      "Yep, hoppers are banned. In fact, most of items related to item or fluid transfering, block placing or block breaking are either banned from placing or just don't have a recipe in this modpack. ",
+      "",
+      "/4/**Why**/4/, you may ask, while screaming into the screen? ",
+      "",
+      "Because computers are the ultimate form of transportation and you don't need anything else. ",
+      "",
+      "Just like this. "
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -726,
+          -216
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "artifacts:bunny_hoppers",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "World without a hopper"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

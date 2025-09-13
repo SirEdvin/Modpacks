@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "table_of_the_start"
+  ],
+  "tasks": {
+    "iron": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_iron",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "iron": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Iron is essensial in factories..."
+    },
+    "description": [
+      "You can't start factory without iron, don't you?"
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -439,
+          -101
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:raw_iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron as always"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

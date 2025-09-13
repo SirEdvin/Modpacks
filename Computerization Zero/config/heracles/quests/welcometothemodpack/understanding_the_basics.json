@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "welcome_to_the_modpack"
+  ],
+  "tasks": {
+    "failed_to_place_hopper": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "value": "290b43b6-e0d1-47d2-b812-06d1fe81",
+      "description": "Try to place hopper",
+      "title": "Try to place hopper",
+      "type": "heracles:dummy"
+    }
+  },
+  "rewards": {
+    "some_xp_from_hopper": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Learning from example is the best kind of learning."
+    },
+    "description": [
+      "Did you get hopper from previous quest? Perfect, now just try to place it. ",
+      "",
+      "Come on, give it a chance, hoppers are cool items."
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -727,
+          -274
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Understanding the basics"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

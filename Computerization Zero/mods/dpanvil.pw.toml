@@ -1,0 +1,13 @@
+name = "DataPack Anvil"
+filename = "dpanvil-1.20.1-5.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7zu3jG0v/versions/cpV4qNpA/dpanvil-1.20.1-5.0.1.jar"
+hash-format = "sha512"
+hash = "bb8ef210750e80fdc7c08279613a9afa444b06df9387e003bdc3385031757877279c19d2c61a5a7d3201c9467c10cadfc4f65bdf3c24a782ca3d1665acddd2ac"
+
+[update]
+[update.modrinth]
+mod-id = "7zu3jG0v"
+version = "cpV4qNpA"

@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "turtlematic"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Isn't it supposed to be a computer mod?"
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          46,
+          -269
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "turtlematic:soul_scrapper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gathering souls"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "turtlematic"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          41,
+          -159
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "turtlematic:turtle_chatter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Little display statuses"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

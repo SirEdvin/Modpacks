@@ -1,0 +1,13 @@
+name = "Titles"
+filename = "Titles-1.20.1-3.8.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n7KlPYS8/versions/s49DJVR6/Titles-1.20.1-3.8.3.jar"
+hash-format = "sha512"
+hash = "d136f9014307b50c5530b92bcb00ee99f28027017fa9580980ace286f7095327f2452bdd03d981452aa64c9f33ffe092d7da7d921e9c86aec46d8efdaaffcb41"
+
+[update]
+[update.modrinth]
+mod-id = "n7KlPYS8"
+version = "s49DJVR6"

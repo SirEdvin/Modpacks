@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "play_with_reality"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "We have 3D printer at home..."
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -324,
+          -104
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "peripheralworks:statue_workbench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Statue workbench"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

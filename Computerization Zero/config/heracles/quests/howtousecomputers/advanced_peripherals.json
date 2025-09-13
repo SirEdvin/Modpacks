@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "lets_start_from_basics"
+  ],
+  "tasks": {
+    "get_ap_casing": {
+      "type": "heracles:item",
+      "item": "advancedperipherals:peripheral_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Everything start from casing"
+    }
+  },
+  "rewards": {
+    "get_ap_player_card": {
+      "title": "Just don't give it to the strang",
+      "item": {
+        "id": "advancedperipherals:memory_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "I bet you heard about this one"
+    },
+    "description": [
+      "<img src=\"kubejs:textures/advanced_peripherals.png\" width=\"650\" height=\"200\"/>",
+      "",
+      "There is not much to introduce, actually.",
+      "",
+      "The usual star of any modpack that has CC:T - /9/Advanced Peripherals/9/",
+      "",
+      "I believe anyone how played forge modpack at least once used one of this peripherals.",
+      "",
+      "<text>Here is link to the <link href=\"https://docs.advanced-peripherals.de/latest/\"><blue><underline>documentation</underline></blue></link>, where you can find most of information about this mod you need.</text>"
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -241,
+          -381
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "advancedperipherals:chat_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Peripherals"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

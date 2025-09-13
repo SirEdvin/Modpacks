@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "unlimitedperipheralworks"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -286,
+          -184
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "peripheralworks:reality_forger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Play with reality"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

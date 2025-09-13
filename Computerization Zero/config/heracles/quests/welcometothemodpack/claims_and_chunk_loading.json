@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "how_to_play_this_modpack"
+  ],
+  "tasks": {
+    "claim_work": {
+      "title": "Claim your home for you!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 2,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "No FTB in this pack, sadly"
+    },
+    "description": [
+      "<text>Claims and parties are provided by mod <link href=\"https://modrinth.com/mod/open-parties-and-claims\"><underline><blue>Open Parties and Claims</blue></underline></link>. Quite cool mod, actually.</text>",
+      "",
+      "But you don't need commands to claim (or forceload) anything, just use <link href=\"https://modrinth.com/mod/xaeros-world-map\"><underline><blue>Xaero's World Map</blue></underline></link> mod, which is also in this pack to do this."
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -573,
+          -278
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:filled_map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Maps, claims and chunk loading"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

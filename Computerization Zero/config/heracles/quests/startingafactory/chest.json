@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "table_of_the_start"
+  ],
+  "tasks": {
+    "chest": {
+      "type": "heracles:item",
+      "item": "minecraft:chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "sophisticated_chest": {
+      "title": "Barrel are just better chests",
+      "item": {
+        "id": "sophisticatedstorage:iron_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Everyone need at least one"
+    },
+    "description": [
+      "You need to store item for your factory somewhere, don't you think? ",
+      "",
+      "Craft a chest"
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -526,
+          -26
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

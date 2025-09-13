@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "they_do_their_best"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "You can build your own android. Isn't that's cool?"
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -38,
+          -346
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cc_androids:android_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "CC:Androids"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

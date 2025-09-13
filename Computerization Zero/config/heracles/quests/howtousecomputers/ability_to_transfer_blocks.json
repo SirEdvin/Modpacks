@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "advanced_cores"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "End automata core can capture blocks!"
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          105,
+          -334
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "turtlematic:end_automata_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ability to transfer blocks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

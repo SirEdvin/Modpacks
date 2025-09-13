@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "it_fits_into_your_pocket"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "I am yet to figure out this one..."
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -96,
+          -193
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cclink:link_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "CC:Link"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "world_without_a_hoper"
+  ],
+  "tasks": {
+    "acceptance": {
+      "title": "Accept your fate",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    },
+    "award_a_title": {
+      "icon": {
+        "item": {
+          "id": "ars_nouveau:alchemists_crown",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "titles add @s kubejs:computer_enthusiast",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "TLDR: RTFM!"
+    },
+    "description": [
+      "This modpack will try to intensifies you to use CC:T as much as possible, as well as it's addons. Like, really hard.",
+      "",
+      "A lot of stuff would be blocked, not accesable or gated behind some complex quests. I hope you enjoy automation and programming!",
+      "",
+      "<item id=\"computercraft:computer_advanced\" scale=\"3.0\" />"
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -652,
+          -217
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialforegoing:gold_gear",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
+    "title": {
+      "translate": "How to play this modpack?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

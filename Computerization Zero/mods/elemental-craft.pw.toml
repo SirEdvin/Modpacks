@@ -1,0 +1,13 @@
+name = "Elemental Craft"
+filename = "elementalcraft-1.20.1-6.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/o51LXm0t/versions/Xb5TdOqu/elementalcraft-1.20.1-6.0.1.jar"
+hash-format = "sha512"
+hash = "e64f92e6cad8d22df44628b851794ce6ec3d02186e7f7559701fd19022fd5f53f46e82e388d09cc47ac5501788da5207880e0e54242677b834c2c3b339adb8bc"
+
+[update]
+[update.modrinth]
+mod-id = "o51LXm0t"
+version = "Xb5TdOqu"

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "turtlematic"
+  ],
+  "tasks": {
+    "mimic": {
+      "type": "heracles:item",
+      "item": "turtlematic:mimic_gadget",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Ever wanted a turtle to look like a bed?.."
+    },
+    "description": [
+      "Mimic upgrade allows turtle to take apperance of any block in the game. And in most cases it works just fine, however there are exceptions. But possibilities are nearly endless, since you can also apply arbirtary transformation to the blocks.",
+      "",
+      "<text>I once made <link href=\"https://www.youtube.com/watch?v=jKorxnsEulU\"><underline><blue>this</blue></underline></link> cursed video with them</text>"
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -6,
+          -190
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "turtlematic:mimic_gadget",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Appearance should be deceptive"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

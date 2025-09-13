@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "lets_start_from_basics"
+  ],
+  "tasks": {
+    "get_a_turtle": {
+      "type": "heracles:item",
+      "item": "#computercraft:turtle",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "another_turtle": {
+      "title": "Turtles shouldn't be alone",
+      "icon": {
+        "item": {
+          "id": "computercraft:turtle_advanced",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "computercraft:turtle_advanced",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Little moving computers, what can be best?"
+    },
+    "description": [
+      "CC:T turtes are quite useful.",
+      "",
+      "They can inspect blocks, they can place blocks, they can break blocks. ",
+      "",
+      "And in this pack they can do so much more!"
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -105,
+          -305
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:turtle_normal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "They do their best"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

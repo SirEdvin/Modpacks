@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "lets_start_from_basics"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Not some unlimited as someone would want to..."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -241,
+          -235
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "peripheralworks:peripheral_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "UnlimitedPeripheralWorks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

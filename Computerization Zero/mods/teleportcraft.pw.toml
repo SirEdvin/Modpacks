@@ -1,0 +1,13 @@
+name = "TeleportCraft"
+filename = "teleportcraft-1.1.2-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7n166lIE/versions/lhtCc89c/teleportcraft-1.1.2-1.20.1.jar"
+hash-format = "sha512"
+hash = "90e1c91819c2eaf9be2bc131d1b4a88236d00c99e2b9074584e85c984719293ff20e4a5a8797f832aba0b945d5c4b7b2410035e4f335d4f0b2173e3c229551d9"
+
+[update]
+[update.modrinth]
+mod-id = "7n166lIE"
+version = "lhtCc89c"

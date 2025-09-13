@@ -1,0 +1,13 @@
+name = "Key Binding Patch"
+filename = "[MC-1.20] Key Binding Patch v1.3.3.5 - 2025-4-1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iWiOURsj/versions/Uer8G3Ue/%5BMC-1.20%5D%20Key%20Binding%20Patch%20v1.3.3.5%20-%202025-4-1.jar"
+hash-format = "sha512"
+hash = "2ed98b160d4886831b50ec89e6c1ce2dcae25ead43ff794f65fb414e84d6a5682ea62394a69ad68c264ad6a178e53fc21bfe6dc189184a914a77bda38e2a1b6e"
+
+[update]
+[update.modrinth]
+mod-id = "iWiOURsj"
+version = "Uer8G3Ue"

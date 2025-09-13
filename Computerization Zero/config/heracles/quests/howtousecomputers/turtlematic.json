@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "they_do_their_best"
+  ],
+  "tasks": {
+    "get_automata_core": {
+      "type": "heracles:item",
+      "item": "turtlematic:automata_core",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "soul_scythe": {
+      "item": {
+        "id": "turtlematic:soul_scrapper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Have you ever felt that turtles lack something?"
+    },
+    "description": [
+      "Turtlematic is kinda amazing mod that allows turtles to do much more then be a basic builders.",
+      " ",
+      "/6/Using tools?/6/ /5/Enchating?/5/ /a/Brewing?/a/ /e/Shooting items into air?/e/ /a/Trading?/a/ Everything here and so much more. ",
+      "",
+      "<text>Here is <link href=\"https://docs.siredvin.site/Turtlematic/\"><blue><underline>link</underline></blue></link> to the documentation.</text>"
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -42,
+          -269
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "turtlematic:automata_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Turtlematic"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

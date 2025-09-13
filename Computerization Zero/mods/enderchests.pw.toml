@@ -1,0 +1,13 @@
+name = "EnderChests"
+filename = "enderchests-forge-1.20.1-1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gxSiDoVF/versions/qN5rqO9J/enderchests-forge-1.20.1-1.4.jar"
+hash-format = "sha512"
+hash = "1bdd8f0e1cb77e0b5b1d02bd9d4d7c4aa42399f51231a0c314f0d3656f5598dd42a9025873240f2fe0fc5091a04b779074fb0698b9fb0c64242d4b72befacc60"
+
+[update]
+[update.modrinth]
+mod-id = "gxSiDoVF"
+version = "qN5rqO9J"

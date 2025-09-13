@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "display_stuff"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "I don't know much about Tom, but their screens are HUGE."
+    },
+    "description": [],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -120,
+          -440
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "toms_peripherals:monitor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tom's Peripherals"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

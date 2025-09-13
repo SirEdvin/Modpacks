@@ -1,0 +1,13 @@
+name = "Supplementaries"
+filename = "supplementaries-1.20-3.1.38.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fFEIiSDQ/versions/vKSIoh22/supplementaries-1.20-3.1.38.jar"
+hash-format = "sha512"
+hash = "5fce9d9fb2fd6f8ca60d0c0c4d74095ac444c2f11ada706ec7c621e6ea15e4d98a5c6ee3fc2c19270cac625e70dc16cc0a6debdf706a061ad747c81bd1e6c6a4"
+
+[update]
+[update.modrinth]
+mod-id = "fFEIiSDQ"
+version = "vKSIoh22"

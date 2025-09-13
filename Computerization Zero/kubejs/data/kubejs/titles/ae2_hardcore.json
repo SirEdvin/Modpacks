@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "isPrefix": "true",
+  "rarity": "rare",
+  "defaultDisplay": "Barrelmancer"
+}

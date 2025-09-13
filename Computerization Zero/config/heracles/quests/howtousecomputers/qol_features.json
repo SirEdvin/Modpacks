@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "turtlematic"
+  ],
+  "tasks": {
+    "piston": {
+      "type": "heracles:item",
+      "item": "minecraft:piston",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "bow": {
+      "type": "heracles:item",
+      "item": "minecraft:bow",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "lava_bucket": {
+      "type": "heracles:item",
+      "item": "minecraft:lava_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Turtlematic adds some useful new peripherals for basic minecraft items!",
+      "",
+      "- Bow: Turtle can shoot arrows and items now. If you select angle just right, you can shoot items directly into chests, turtles and even players!",
+      "- Lava bucket: Allows turtle to void any items from its inventory. I bet you tired dealing with trash",
+      "- Piston and sticky pistion: Turlte can push blocks now! ",
+      "",
+      "I suggest you to give a try. Especially a bow turtle."
+    ],
+    "groups": {
+      "How to use computers": {
+        "position": [
+          -49,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bow",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "QoL features"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
