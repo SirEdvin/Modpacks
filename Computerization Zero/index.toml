@@ -30,7 +30,7 @@ hash = "525c79fa0d69fd8ca6d7878b639be7e9f7dbe9beab4e5eaa7438bfeba5e6a2ec"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "2f2c6265b9c758ea2e45e085ccfb496bd18316bdb3bb54e63da01e421b8c2744"
+hash = "8f9479f01e45a526090397695a9525b36a3893c5639acc8d22a129615774f466"
 
 [[files]]
 file = "config/heracles/groups.txt"
@@ -972,6 +972,11 @@ hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "9a5e498a9c596fb0bfbab74173aa854257466e8c538d15c1966ce268b3267575"
+metafile = true
+
+[[files]]
 file = "mods/liteminer.pw.toml"
 hash = "39f91dea9237f984086858dd80bb0d7d27702176c0e89f341e5b9e1d1edaae84"
 metafile = true
@@ -1147,6 +1152,11 @@ hash = "f79cb80b6ea599fe4ca9404465277ff7edf25118976170c28827590febfcee7a"
 metafile = true
 
 [[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "4dd7038889da90e145f9d074bec64a61aaae12dc57c875aa7ad99b8b2e07979b"
+metafile = true
+
+[[files]]
 file = "mods/quark.pw.toml"
 hash = "8df897c0f7831e919aa528c3c1e5239f39439c123d99761230ab2357132bad98"
 metafile = true
@@ -1229,6 +1239,11 @@ metafile = true
 [[files]]
 file = "mods/skills.pw.toml"
 hash = "f1f339a1fa490e13f8a1913562cdb80139f574eff86688c45c4725679093d613"
+metafile = true
+
+[[files]]
+file = "mods/sleep.pw.toml"
+hash = "86ab8bb190e6a7d7fdb03388bc20472ca6233749895a42e48f4a4425477c887c"
 metafile = true
 
 [[files]]
