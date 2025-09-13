@@ -1,0 +1,7 @@
+
+[statsd]
+	#Enables statsd bridge
+	enableStatsDBridge = false
+	#Enables KV storage
+	enableKVStorage = true
+

@@ -1,6 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Advancedperipherals/general.toml"
+hash = "6b3115248f87c339c5ae934d586f48df30f039b0254b4c5f187f7fb17e3901dc"
+
+[[files]]
+file = "config/Advancedperipherals/metaphysics.toml"
+hash = "83f084ba957cb0aba4a8e0cdd9eb6b17eef5fb632fc30e036c295402098ec6d0"
+
+[[files]]
+file = "config/Advancedperipherals/peripherals.toml"
+hash = "7c87d523e08d0d7ee0b3c480c25d906e0bc674bde5fb739678eab75ae45ee6ca"
+
+[[files]]
+file = "config/Advancedperipherals/world.toml"
+hash = "64417fb1e25e707e7fca99d923016c900b91ef958a092b42e7145933893e7d15"
+
+[[files]]
+file = "config/cloudsolutions.toml"
+hash = "8be2daea75f9ea24d40ff15eba23bc3fd38d32f0140e5ee9c389ff445c0a28f7"
+
+[[files]]
 file = "config/cobblegen-meta.json5"
 hash = "f108130582fc5ef2a4392c11f25c31573a046aa768eab90ba38c429adc4a871f"
 
@@ -375,6 +395,11 @@ metafile = true
 [[files]]
 file = "mods/almost-unify-everything.pw.toml"
 hash = "15b1028501e0d85a856ddcd6fce8922f49239c128c4f702bca646d52bf080b75"
+metafile = true
+
+[[files]]
+file = "mods/amber.pw.toml"
+hash = "aa91c87a12a4b60a2bb7e4cbf70a43b702c3aa6ee584b944f021f36e95c57d3d"
 metafile = true
 
 [[files]]
@@ -947,6 +972,11 @@ hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
 
 [[files]]
+file = "mods/liteminer.pw.toml"
+hash = "39f91dea9237f984086858dd80bb0d7d27702176c0e89f341e5b9e1d1edaae84"
+metafile = true
+
+[[files]]
 file = "mods/lodestonelib.pw.toml"
 hash = "dfb4b7c9a2085a665e87ebc3d60045e3173bb602e7b3de94e29d37168083345d"
 metafile = true
@@ -1389,11 +1419,6 @@ metafile = true
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
 hash = "d15c780c1edbc238144e55db2a83e5d20c43d0f37d2c106c8dc152fde1032fc1"
-metafile = true
-
-[[files]]
-file = "mods/viner.pw.toml"
-hash = "f0053da00b76b5126a16b84c8a4dc78ead6e559dd44c8e67634e4dedcbe7d72f"
 metafile = true
 
 [[files]]
