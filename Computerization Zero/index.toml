@@ -165,8 +165,16 @@ file = "config/heracles/quests/howtousecomputers/unlimitedperipheralworks.json"
 hash = "fe6a81e6026ea3e0f8b857276753264b4a0e6c22f6948da162da1b536be0ab23"
 
 [[files]]
+file = "config/heracles/quests/startingafactory/chest.json"
+hash = "97d001fdfb37626281ce44c6085abc1753a60022ab2a8fd327403de0f25b7415"
+
+[[files]]
 file = "config/heracles/quests/startingafactory/creating_starting_ground.json"
-hash = "39eac3a47f5e03bc29f206a8783f912d04cf3d21e1c4479063ecc4733a9b2dce"
+hash = "77bddcdb19e27b4212d8ba5e069878783310b08aa7c17714060cba6554fb6dcd"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/digital_storage.json"
+hash = "04224a19aa4f6cb788cb7f81041184f87009d7ae5f83efdefeb4dc7a94d86dfc"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/iron_as_always.json"
@@ -175,6 +183,10 @@ hash = "f93f3b04489be0d8a4bbe286c8c69279102c2fdd67d27a29e6bca861c8456f8d"
 [[files]]
 file = "config/heracles/quests/startingafactory/mining_dimension.json"
 hash = "1d14ab06a0a7e33ca5656becca1ed8294bbe975590b7256f6146d5fdbcf05350"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/sophisticating_things.json"
+hash = "2a9d0f478ffdc47acecf2a3cd5d89dda057f7f7de941dfff16a15b80b4f52fd6"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/starting_punch.json"
@@ -186,7 +198,7 @@ hash = "071b8f1e9fd56730df522e51a47d54c3e1ac3dd87a00be5957b23fd63263188c"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/claims_and_chunk_loading.json"
-hash = "d002899b1dca62f27b56b072c19ad85643ad254b96d68c463785351ba2a51ce4"
+hash = "c9d8a4aadec9e36ad59044a5d67fe4fb189ca6e06bc55c29607b5f30268c1104"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/how_to_play_this_modpack.json"
@@ -194,7 +206,7 @@ hash = "8673b964169afb5f258cf33f237a266ebe9c377001e0859f60d0bd8bcef0806c"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/start_with_computers.json"
-hash = "176dfae69f771c9932be1b188518db14e45a090691dc967f9dc3d63e176c6bbf"
+hash = "85693b359c60f7fd606c5fe12ae370ad4a7fe71caefc968d0ee326452d02b8be"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/understanding_the_basics.json"
@@ -202,7 +214,7 @@ hash = "d12988e6998fc8d1900f8f44482c3a31db2a7bcb4384700be5f04c36f3dd29eb"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/wait_titles.json"
-hash = "9e54d041f3308a9de03b92fa221e7d61afa6e90757d5e2ad92956c26304e51ac"
+hash = "e6a3d1b3c96cbcf90c136376d171967aa28d8a9f4fc7ff7a86ff30a599a7302b"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/welcome_to_the_modpack.json"
@@ -210,7 +222,7 @@ hash = "a38a46772c4e1bed9f2ff4c72dc078dd1ca30c3024822b3b0f79b530fd45b6cb"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/what_this_modpack_has_to_offer.json"
-hash = "75662c3ba1a7460618b7ea6b394c0c4e25f325cfb61fb5ad41e8365681fa2a1f"
+hash = "ef052a909c479a6e372961707b0dabdbb82bc6618e61a40ae363af360577d77f"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/world_without_a_hoper.json"
@@ -253,6 +265,18 @@ file = "kubejs/data/forestry/worldgen/configured_feature/ore_tin.json"
 hash = "8b5227d0129cdc90238fe47c5f76957016f14034daddbef0f8e4e1dc9929bb40"
 
 [[files]]
+file = "kubejs/data/kubejs/titles/ae2_casual.json"
+hash = "e195825f62011705133a4b52baef7298e47ca8f97a4cd3e5ee9e93121138e5e4"
+
+[[files]]
+file = "kubejs/data/kubejs/titles/ae2_hardcore.json"
+hash = "9909f7093830be51787b030f7075123a1792f8bcc276f3782c6453b315569834"
+
+[[files]]
+file = "kubejs/data/kubejs/titles/ae2_semi_casual.json"
+hash = "c32311afb30e46a621f0a1c69bd96b45d573b5825895863742e64c6bf35166d7"
+
+[[files]]
 file = "kubejs/data/kubejs/titles/computer_enthusiast.json"
 hash = "4855cdffaee278e877564315e09dc7b20d8df1992e99cff75a77860580322bd1"
 
@@ -277,12 +301,16 @@ file = "kubejs/data/occultism/worldgen/configured_feature/ore_silver_deepslate.j
 hash = "8b5227d0129cdc90238fe47c5f76957016f14034daddbef0f8e4e1dc9929bb40"
 
 [[files]]
+file = "kubejs/server_scripts/ae2_restrictions.js"
+hash = "42444b34b143e688f18916b33ba3aa6e8ece0ef8376e0a31d969af4c7ad0d467"
+
+[[files]]
 file = "kubejs/server_scripts/ore_veins.js"
 hash = "0471612131eae4dbf3c4bb86de4a3939ab607ec6c335b5210b9221c0c4f907ce"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
-hash = "f8786cdfa9f8fc5eab7e969379636ac83c71f1f906eecd249571b026fa8d3be7"
+hash = "63a81182d124674e5710b7f88d802356de599560b6d89df8c8232448ffacff04"
 
 [[files]]
 file = "mods/actually-subtractions.pw.toml"
