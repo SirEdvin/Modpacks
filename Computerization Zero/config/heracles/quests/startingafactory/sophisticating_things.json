@@ -37,13 +37,15 @@
     "description": [
       "Sophisticated storage is awesome mod. It not only adds chests and barrels with more capacity, it also adds storage controller that can link them into one single big storage.",
       "",
-      "It doesn't provide some UI for it, but we here not for it, don't we?"
+      "It doesn't provide some UI for it, but we here not for it, don't we?",
+      "",
+      "<hint title=\"For those who love UIs\" icon=\"minecraft:torch\"><p>If you want something like crafting UI for your big sophisticated storage network, you can try explore interaction between storage controller (or storage link) and one of the famious TConstruct stations</p></hint>"
     ],
     "groups": {
       "Starting a factory": {
         "position": [
-          -599,
-          36
+          -607,
+          -30
         ]
       }
     },

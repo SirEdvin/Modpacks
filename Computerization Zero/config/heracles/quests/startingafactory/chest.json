@@ -5,7 +5,7 @@
   "tasks": {
     "chest": {
       "type": "heracles:item",
-      "item": "minecraft:chest",
+      "item": "#forge:chests",
       "amount": 1,
       "collection": "AUTOMATIC"
     }

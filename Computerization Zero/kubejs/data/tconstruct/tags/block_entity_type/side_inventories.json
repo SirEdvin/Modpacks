@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values":[
+        "sophisticatedstorage:barrel",
+        "sophisticatedstorage:chest",
+        "sophisticatedstorage:controller",
+        "sophisticatedstorage:storage_link",
+        "sophisticatedstorage:storage_io"
+    ]
+}
