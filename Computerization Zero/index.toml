@@ -484,7 +484,7 @@ metafile = true
 
 [[files]]
 file = "mods/attributes.pw.toml"
-hash = "f5d265ad34588a9b5d9bbba6e5f1ff02c723d7e41da8dc56124c783d90962c39"
+hash = "6e33dc281da7827014fa6fa927097d9604240929ba8b6b80c6427242c91b91eb"
 metafile = true
 
 [[files]]
@@ -550,6 +550,11 @@ metafile = true
 [[files]]
 file = "mods/cc-androids.pw.toml"
 hash = "9cad81dcc829d75e7b874c5f261d388cc84a8f57c2de74fd1443f59256873d51"
+metafile = true
+
+[[files]]
+file = "mods/cc-ar.pw.toml"
+hash = "900a7f07655ea1933f2726ca44fde05ac6074ea4d7888f97c333004611993d25"
 metafile = true
 
 [[files]]
@@ -634,7 +639,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "7aab78b36712acd6f90c18f0f96c52c5deffc0c897bbf2a5a2bc7cc489004bb6"
+hash = "0b69f772db857977d0e70bad04d4a8112f0963074ca07258efb44d2d3e5f4578"
 metafile = true
 
 [[files]]
@@ -1263,12 +1268,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "dfb1350beb1676da0b93b4b6e6ee2ba01de56050ce3b4812f5fa3882cb790396"
+hash = "102e0f456280b9c80c404711fcd96927aa6781a588ab5161ec1fc60282bcd083"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "054b947c49cc982de87949d7e7cfbf7aeb94705f2517543ea64222abab279b32"
+hash = "a8064bed7c4fe5f3fe47df0f01c17ec3fe626b5444abd2ee2c1c6813916ca69c"
 metafile = true
 
 [[files]]
@@ -1428,7 +1433,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "d15c780c1edbc238144e55db2a83e5d20c43d0f37d2c106c8dc152fde1032fc1"
+hash = "117cbf5a905a5d5511d67e9f3987f136a2bbeb42700f5c1874ee3d4840095dc3"
 metafile = true
 
 [[files]]
