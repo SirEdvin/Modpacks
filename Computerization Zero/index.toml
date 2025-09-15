@@ -193,10 +193,6 @@ file = "config/heracles/quests/startingafactory/creating_starting_ground.json"
 hash = "77bddcdb19e27b4212d8ba5e069878783310b08aa7c17714060cba6554fb6dcd"
 
 [[files]]
-file = "config/heracles/quests/startingafactory/digital_storage.json"
-hash = "04224a19aa4f6cb788cb7f81041184f87009d7ae5f83efdefeb4dc7a94d86dfc"
-
-[[files]]
 file = "config/heracles/quests/startingafactory/iron_as_always.json"
 hash = "f93f3b04489be0d8a4bbe286c8c69279102c2fdd67d27a29e6bca861c8456f8d"
 
@@ -285,18 +281,6 @@ file = "kubejs/data/forestry/worldgen/configured_feature/ore_tin.json"
 hash = "8b5227d0129cdc90238fe47c5f76957016f14034daddbef0f8e4e1dc9929bb40"
 
 [[files]]
-file = "kubejs/data/kubejs/titles/ae2_casual.json"
-hash = "e195825f62011705133a4b52baef7298e47ca8f97a4cd3e5ee9e93121138e5e4"
-
-[[files]]
-file = "kubejs/data/kubejs/titles/ae2_hardcore.json"
-hash = "9909f7093830be51787b030f7075123a1792f8bcc276f3782c6453b315569834"
-
-[[files]]
-file = "kubejs/data/kubejs/titles/ae2_semi_casual.json"
-hash = "c32311afb30e46a621f0a1c69bd96b45d573b5825895863742e64c6bf35166d7"
-
-[[files]]
 file = "kubejs/data/kubejs/titles/computer_enthusiast.json"
 hash = "4855cdffaee278e877564315e09dc7b20d8df1992e99cff75a77860580322bd1"
 
@@ -323,10 +307,6 @@ hash = "8b5227d0129cdc90238fe47c5f76957016f14034daddbef0f8e4e1dc9929bb40"
 [[files]]
 file = "kubejs/data/tconstruct/tags/block_entity_type/side_inventories.json"
 hash = "a81e5d476a8c88c6aff76e66b6fa8a8de9bf1e88f2fbf8b25f48459c91de633b"
-
-[[files]]
-file = "kubejs/server_scripts/ae2_restrictions.js"
-hash = "42444b34b143e688f18916b33ba3aa6e8ece0ef8376e0a31d969af4c7ad0d467"
 
 [[files]]
 file = "kubejs/server_scripts/ore_veins.js"
@@ -548,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-link.pw.toml"
-hash = "15487ca0341648d36e189234185431d2d6fecc62ce3f6b0605192db608467039"
+hash = "93cb1178b451382b31c7756f2e403eddbc878d83a0c9bfa30747665a926496cc"
 metafile = true
 
 [[files]]
@@ -1097,7 +1077,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "f05de3133495dfd4ce7f3fdd266bf1ef8ce83ce587a7ccb0612a832a17d8541d"
+hash = "6fa7d233bc819dc51de52bb16cbe3f84e013b760bb0456a100bf5ea190b40735"
 metafile = true
 
 [[files]]
@@ -1222,7 +1202,7 @@ metafile = true
 
 [[files]]
 file = "mods/skills.pw.toml"
-hash = "f1f339a1fa490e13f8a1913562cdb80139f574eff86688c45c4725679093d613"
+hash = "ea4819ccabf521a136e96bcf1d24be93609e4e8e2d037ba10f72726cc2d66fea"
 metafile = true
 
 [[files]]
@@ -1247,7 +1227,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "102e0f456280b9c80c404711fcd96927aa6781a588ab5161ec1fc60282bcd083"
+hash = "462c5147b96a9026575656494e3e576c5ee5359043dde896700ba16f5ff3a88a"
 metafile = true
 
 [[files]]
@@ -1262,12 +1242,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-in-motion.pw.toml"
-hash = "6fb4160356c7f28eec1037f4ae29c8f681e4d77818828c1cf24667d2970e9329"
+hash = "c37ee0f4e111fceabf7cd0b00ab56c32de3e5c893aab27fc7b5e6b020a05c901"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "29d91fa89cbd2f608c3a55bd344999514e5b3cb10bf94c6fffb8b467979c5bcb"
+hash = "49077ff9f6f15b75de35138e1150f161660aa4b2e02ae472a03caf9ac2663b2b"
 metafile = true
 
 [[files]]
