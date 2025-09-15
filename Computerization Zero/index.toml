@@ -397,11 +397,6 @@ hash = "793693a85f3c87d4e899ee0c58deabc53690bf5a70f17343f28fd5063ce8a1e1"
 metafile = true
 
 [[files]]
-file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "1957188054efa433e3d314b0386e290bdb2354ff38e4982d102724ff0e2a74c4"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
 metafile = true
@@ -1131,11 +1126,6 @@ hash = "d9851e731541feb76c81b4afedc661ae0c3c7b7eddcb2ba0d21298ae641c7ee4"
 metafile = true
 
 [[files]]
-file = "mods/rechiseled-ae2.pw.toml"
-hash = "38342c1b01004c7c280a2827471710d18c45a85008034d362a53a4ec5b913c68"
-metafile = true
-
-[[files]]
 file = "mods/rechiseled-chipped.pw.toml"
 hash = "7dcd9a76d74b57f0fba9444a4320dd3105fad49ec46fc4b9ad4c0f3d250abcca"
 metafile = true
@@ -1178,11 +1168,6 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "5b92406160d9ea8a61ddf111caaecb7f6283678e2c40b08b72dce3eeaf20dc96"
-metafile = true
-
-[[files]]
-file = "mods/schematic-energistics.pw.toml"
-hash = "7089c0371f91638a8bcd08521151c4e21fcda639164376c80175cdcf500592b0"
 metafile = true
 
 [[files]]
