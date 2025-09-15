@@ -186,7 +186,7 @@ hash = "fe6a81e6026ea3e0f8b857276753264b4a0e6c22f6948da162da1b536be0ab23"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/chest.json"
-hash = "97d001fdfb37626281ce44c6085abc1753a60022ab2a8fd327403de0f25b7415"
+hash = "d25a8ad10fceb59e43daa51ecca34e3e4f7316b5f2776234f5957fd5dfd8c776"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/creating_starting_ground.json"
@@ -206,7 +206,7 @@ hash = "1d14ab06a0a7e33ca5656becca1ed8294bbe975590b7256f6146d5fdbcf05350"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/sophisticating_things.json"
-hash = "2a9d0f478ffdc47acecf2a3cd5d89dda057f7f7de941dfff16a15b80b4f52fd6"
+hash = "1eb80634f9ec056769537f840bb177822ee6e5f6593e872f4c49884718590658"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/starting_punch.json"
@@ -319,6 +319,10 @@ hash = "8b5227d0129cdc90238fe47c5f76957016f14034daddbef0f8e4e1dc9929bb40"
 [[files]]
 file = "kubejs/data/occultism/worldgen/configured_feature/ore_silver_deepslate.json"
 hash = "8b5227d0129cdc90238fe47c5f76957016f14034daddbef0f8e4e1dc9929bb40"
+
+[[files]]
+file = "kubejs/data/tconstruct/tags/block_entity_type/side_inventories.json"
+hash = "a81e5d476a8c88c6aff76e66b6fa8a8de9bf1e88f2fbf8b25f48459c91de633b"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_restrictions.js"
