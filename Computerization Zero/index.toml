@@ -786,11 +786,6 @@ hash = "de63df967225278681e18afe0e323110322ec02006746980fbe77dbd974b20b3"
 metafile = true
 
 [[files]]
-file = "mods/forestry-community-edition.pw.toml"
-hash = "bfcbd0746348f3f5d3a25a92803b410bb4ad9be5d11092b750a20531a646de97"
-metafile = true
-
-[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "41e24ed037adefe00c62d1935f428cc71cb733a04e8012223d66004e52f5ef9d"
 metafile = true
@@ -1377,7 +1372,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "3b8f6d9d3c99ad3449c58a4a68c80fce0b56ae53c0e02fa040cd6e054da4bd11"
+hash = "1086498ccf562226e219bdf58e767db225d3bdda943d342753320014a85101e4"
 metafile = true
 
 [[files]]
