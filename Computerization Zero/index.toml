@@ -502,11 +502,6 @@ hash = "02062a6b61e230e7debaf1c03d5e1e7203e427588fceb9f3d6ef8cad8062397e"
 metafile = true
 
 [[files]]
-file = "mods/building-gizmos.pw.toml"
-hash = "20997b4b6ff4c9660506103ac0f1d4920ad9062eada5349ac1ce807f33e86563"
-metafile = true
-
-[[files]]
 file = "mods/building-wands.pw.toml"
 hash = "e5ebcdd6314ddad2309c7db52a0b70f4472bf8b118c2cefe64f64193ef57af83"
 metafile = true
