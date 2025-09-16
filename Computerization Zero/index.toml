@@ -1117,7 +1117,7 @@ metafile = true
 
 [[files]]
 file = "mods/rar-compat.pw.toml"
-hash = "d9851e731541feb76c81b4afedc661ae0c3c7b7eddcb2ba0d21298ae641c7ee4"
+hash = "274b5f1f474e52e3d6235c882a0386c9b3515a6729cab40fcfcf580d283819b4"
 metafile = true
 
 [[files]]
@@ -1372,7 +1372,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "1086498ccf562226e219bdf58e767db225d3bdda943d342753320014a85101e4"
+hash = "110722f1d880e9bf706f5c43cf21f923d41e7054f246527d0979ac5fde18413e"
 metafile = true
 
 [[files]]

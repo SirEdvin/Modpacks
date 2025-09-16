@@ -1,13 +1,13 @@
 name = "UnlimitedPeripheralWorks"
-filename = "peripheralworks-forge-1.20.1-1.5.3.jar"
+filename = "peripheralworks-forge-1.20.1-1.5.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/ZV4kyku8/peripheralworks-forge-1.20.1-1.5.3.jar"
+url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/myIlcCYs/peripheralworks-forge-1.20.1-1.5.4.jar"
 hash-format = "sha512"
-hash = "020863a2eba921903d6b01382e137538b6bd66377a0ad6bbb4be3caf2ba4df1a8a3e47b0dc873fcc7bd01389f55450ca2bc258afcdf12130f5bdbdebbddbda0b"
+hash = "e57a004e9d43a247a8ff4aec160455b038059e8c9692395a914d5b201df422e0723ecb7e371cc7b77d0f797efa5d212a284940a10bb7ad6b9f84830deb2c4389"
 
 [update]
 [update.modrinth]
 mod-id = "Sf7QBsRP"
-version = "ZV4kyku8"
+version = "myIlcCYs"
