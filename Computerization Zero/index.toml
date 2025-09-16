@@ -1127,7 +1127,7 @@ metafile = true
 
 [[files]]
 file = "mods/rar-compat.pw.toml"
-hash = "274b5f1f474e52e3d6235c882a0386c9b3515a6729cab40fcfcf580d283819b4"
+hash = "d9851e731541feb76c81b4afedc661ae0c3c7b7eddcb2ba0d21298ae641c7ee4"
 metafile = true
 
 [[files]]
