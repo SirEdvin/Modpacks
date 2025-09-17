@@ -5,6 +5,7 @@ const genericMetals = [
   { id: "thermal:raw_silver", name: "Silver vein", chance: 0.2 },
   { id: "thermal:raw_nickel", name: "Nickel vein", chance: 0.2 },
   { id: "malum:raw_soulstone", name: "Soulstone vein", chance: 0.5 },
+  { id: "bigreactors:raw_yellorium", name: "Yellorium vein", chance: 0.3 },
 ];
 
 const baseMaterials = [
@@ -18,6 +19,7 @@ const baseMaterials = [
   { id: "create:raw_zinc", chance: 0.5 },
   { id: "computercraft:computer_advanced", chance: 0.005 },
   { id: "minecraft:glowstone_dust", chance: 0.3 },
+  { id: "minecraft:quartz", chance: 0.3 },
   { id: "minecraft:quartz", chance: 0.3 },
 ];
 

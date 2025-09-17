@@ -294,7 +294,7 @@ hash = "c38af253704fbcc2e4733810c3f9981b4b723c682bdcdbf50f1489faade197c9"
 
 [[files]]
 file = "kubejs/data/mining_dimension/worldgen/biome/mining.json"
-hash = "c9d48f2d4411c8e9768d2a84af96ff553478654d57b35903fd69bf1a2ecab74f"
+hash = "bf962560c9e528250b25d54d55b4d8663574ce5187ce735b9407321bbcc0855b"
 
 [[files]]
 file = "kubejs/data/occultism/worldgen/configured_feature/ore_silver.json"
@@ -310,11 +310,11 @@ hash = "a81e5d476a8c88c6aff76e66b6fa8a8de9bf1e88f2fbf8b25f48459c91de633b"
 
 [[files]]
 file = "kubejs/server_scripts/ore_veins.js"
-hash = "0471612131eae4dbf3c4bb86de4a3939ab607ec6c335b5210b9221c0c4f907ce"
+hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
-hash = "63a81182d124674e5710b7f88d802356de599560b6d89df8c8232448ffacff04"
+hash = "47373cb64f65e0c0284f260b0efb5b86dde6f79ba7217d8b1507acfa2fde2ccc"
 
 [[files]]
 file = "mods/actually-subtractions.pw.toml"
@@ -659,6 +659,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
+metafile = true
+
+[[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "7c1ac01f8026fac8630fa7762a4325bfda54578d7904890904308b921d33ebd8"
 metafile = true
 
 [[files]]

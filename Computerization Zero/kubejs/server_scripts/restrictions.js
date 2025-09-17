@@ -4,7 +4,8 @@
 
 const bannedFromPlacing = [
     "minecraft:hopper",
-    "pneumaticcraft:omnidirectional_hopper"
+    "pneumaticcraft:omnidirectional_hopper",
+    "embers:fluid_pipe"
 ]
 
 const hopperPlaceTriggerData = "comzero_tried_to_place_hopper"
@@ -39,6 +40,18 @@ ServerEvents.recipes(event => {
   event.remove({ output: "actuallyadditions:laser_relay_item_advanced"})
   event.remove({ output: "actuallyadditions:laser_relay_fluids"})
   event.remove({ output: "actuallyadditions:laser_relay_fluids_advanced"})
+  event.remove({ output: "enderio:fluid_conduit"})
+  event.remove({ output: "enderio:pressurized_fluid_conduit"})
+  event.remove({ output: "enderio:ender_fluid_conduit"})
+  event.remove({ output: "enderio:item_conduit"})
+  event.remove({ output: "enderio:impulsive_hopper"})
+  event.remove({ output: "embers:item_pipe"})
+  event.remove({ output: "embers:item_extractor"})
+  event.remove({ output: "embers:item_transfer"})
+  event.remove({ output: "embers:item_vacuum"})
+  event.remove({ output: "embers:item_dropper"})
+  event.remove({ output: "embers:fluid_transfer"})
+  event.remove({ output: "embers:fluid_extractor"})
   // Blocks with no meaning now
   event.remove({ output: "actuallyadditions:item_interface"})
   event.remove({ output: "actuallyadditions:hopping_item_interface"})
@@ -58,26 +71,6 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'advancedperipherals:chunk_controller' })
   event.remove({ output: 'turtlematic:chunk_vial' })
   event.remove({ output: 'pneumaticcraft:chunkloader_upgrade' })
-  // AE2 items i don't want to allow
-  event.remove({ output: "ae2:cable_interface" })  // replace it with something overexpesive later
-  event.remove({ output: "expatternprovider:ex_interface_part" })
-  event.remove({ output: "expatternprovider:ex_interface" })
-  event.remove({ output: "expatternprovider:interface_upgrade" })
-  event.remove({ output: "expatternprovider:oversize_interface_part" })
-  event.remove({ output: "expatternprovider:oversize_interface" })
-  event.remove({ output: "megacells:mega_interface" })
-  event.remove({ output: "megacells:cable_mega_interface" })
-  event.remove({ output: "ae2:annihilation_plate" })
-  event.remove({ output: "ae2:formation_plate" })
-  event.remove({ output: "expatternprovider:active_formation_plate" })
-  event.remove({ output: "expatternprovider:ex_import_bus_part"})
-  event.remove({ output: "expatternprovider:ex_export_bus_part"})
-  event.remove({ output: "expatternprovider:tag_export_bus"})
-  event.remove({ output: "expatternprovider:mod_export_bus"})
-  event.remove({ output: "expatternprovider:precise_export_bus"})
-  event.remove({ output: "expatternprovider:threshold_export_bus"})
-  event.remove({ output: "advanced_ae:import_export_bus_part"})
-  event.remove({ output: "advanced_ae:stock_export_bus_part"})
   // Items that I consider slighly OP for this modpack
   event.remove({ output: "peripherals:spawner_card"})
   // Add some interchange between chunk loaders
