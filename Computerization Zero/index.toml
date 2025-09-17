@@ -746,6 +746,11 @@ hash = "ab8a8cc82a310000a19367f7331b1b6b2819d7c052ba168dc61ac6522fbf8ac1"
 metafile = true
 
 [[files]]
+file = "mods/enderio.pw.toml"
+hash = "84e37ac3a18c4262fe5eaef6c49e2d118147ed486b79b9ba9d7a0620bb3d94c5"
+metafile = true
+
+[[files]]
 file = "mods/endertanks.pw.toml"
 hash = "0a3fea794927375bfdd389b029bfa2b5dc80139753bf5a73383510659da9eef4"
 metafile = true
@@ -773,6 +778,11 @@ metafile = true
 [[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "3136d2fa3cd097330976de6517806fb9a306b60a9c2f9f3845d1289cad11b8c4"
+metafile = true
+
+[[files]]
+file = "mods/extreme-reactors.pw.toml"
+hash = "8528e7ab67d1d3121cd08ec609e251992f16edebd5b919321f877f551497f9cb"
 metafile = true
 
 [[files]]
@@ -1161,6 +1171,11 @@ hash = "071431afe4ae064387606fac09482058c41c0d3875b23140205597e4eea55d35"
 metafile = true
 
 [[files]]
+file = "mods/replication.pw.toml"
+hash = "993b49eba1fbb4821d023654904d200fac8e5f0b7f28b3d551fb202c2ab3c558"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "b85e8417e797be3fdae046c487eeda8f54cdc88f3f20e462e0e229f8dd734214"
 metafile = true
@@ -1398,6 +1413,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "7e7b7624e041a1364971057d1c47f2b74730e191f142b73aa50223f95978dd96"
+metafile = true
+
+[[files]]
+file = "mods/zerocore.pw.toml"
+hash = "b7a292c2f1505290e694c1083417984286d34cff09497cd00f78aadfbacff89f"
 metafile = true
 
 [[files]]
