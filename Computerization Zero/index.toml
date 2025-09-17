@@ -1171,11 +1171,6 @@ hash = "071431afe4ae064387606fac09482058c41c0d3875b23140205597e4eea55d35"
 metafile = true
 
 [[files]]
-file = "mods/replication.pw.toml"
-hash = "993b49eba1fbb4821d023654904d200fac8e5f0b7f28b3d551fb202c2ab3c558"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "b85e8417e797be3fdae046c487eeda8f54cdc88f3f20e462e0e229f8dd734214"
 metafile = true
