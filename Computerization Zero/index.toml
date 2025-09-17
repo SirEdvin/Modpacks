@@ -294,7 +294,7 @@ hash = "c38af253704fbcc2e4733810c3f9981b4b723c682bdcdbf50f1489faade197c9"
 
 [[files]]
 file = "kubejs/data/mining_dimension/worldgen/biome/mining.json"
-hash = "bf962560c9e528250b25d54d55b4d8663574ce5187ce735b9407321bbcc0855b"
+hash = "28f8ba47c9921f6108e82d75a17f43df23c68cf53de52b75f9927ca1f29265ff"
 
 [[files]]
 file = "kubejs/data/occultism/worldgen/configured_feature/ore_silver.json"
