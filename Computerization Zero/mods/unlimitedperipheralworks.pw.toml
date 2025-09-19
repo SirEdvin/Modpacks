@@ -3,11 +3,11 @@ filename = "peripheralworks-forge-1.20.1-1.5.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/L9Ojj7iA/peripheralworks-forge-1.20.1-1.5.5.jar"
+url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/TTF4ZtMl/peripheralworks-forge-1.20.1-1.5.5.jar"
 hash-format = "sha512"
-hash = "dd204e4875dce896d3df660670f1c76f9ef5dc40e7756fd6a5862c58d2e68bdb17a815f7d9d42ec323c23b52eef7591658cf8041c91ce99ad2cc4bc8d2a509a6"
+hash = "904d007e9c4d66656dbc17a0886c6aea6c853389e4a0740292dd1becd40e1f6ed39773811516d28d6cc9dcd403fcb58d94235c9e511ca7b584fa1b485ee08bbb"
 
 [update]
 [update.modrinth]
 mod-id = "Sf7QBsRP"
-version = "L9Ojj7iA"
+version = "TTF4ZtMl"
