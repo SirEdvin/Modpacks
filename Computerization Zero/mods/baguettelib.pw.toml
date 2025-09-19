@@ -1,0 +1,13 @@
+name = "BaguetteLib"
+filename = "baguettelib-1.20.1-Forge-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/OfKzpbRU/versions/XAo01z2k/baguettelib-1.20.1-Forge-1.1.0.jar"
+hash-format = "sha512"
+hash = "7e417c8ccea06b0c0a692355b534d579f16efa1b02caa3f86bf1dc7b5851a7bcaa1148651450c49134f88e7fb109f0590a42a58ee7efd787497337c2b4a1b43d"
+
+[update]
+[update.modrinth]
+mod-id = "OfKzpbRU"
+version = "XAo01z2k"

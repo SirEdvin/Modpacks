@@ -457,6 +457,11 @@ hash = "0083555f3f8a180241b81287a0998f028c7377751c86f2755e734b3b29f9fd3b"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "b3e10dcf4f9b10193779fb62198f9d83ca2f26f1a1de681621610705ab8a48a6"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "4611b33b8d0e571170bdd629e285771c1134060925712595546182b2f3a6787d"
 metafile = true
@@ -574,6 +579,16 @@ metafile = true
 [[files]]
 file = "mods/cognition.pw.toml"
 hash = "af989b75603e55f3a4f0db6976086cf2afa5b95d3ea661caa58228870a4a0354"
+metafile = true
+
+[[files]]
+file = "mods/compact-machines.pw.toml"
+hash = "d811d8a03eb5599c316bed7c06632f7431f268aa4bc68cae81dba7fd9e951a88"
+metafile = true
+
+[[files]]
+file = "mods/compressedcreativity.pw.toml"
+hash = "d24b5867d8e0709118d2dab1507369498d1337dff7f56f2370e53fe03fa3db7f"
 metafile = true
 
 [[files]]
@@ -702,6 +717,11 @@ hash = "6aa65af78545c55f346e2f00fa234c7baacd8c1ceadfc40c84e117f845bd3c17"
 metafile = true
 
 [[files]]
+file = "mods/dimensional-dungeons.pw.toml"
+hash = "5e64f030cc500f12429c9f931a795221aa1f00fedde37a0b63685dcc65e54136"
+metafile = true
+
+[[files]]
 file = "mods/dpanvil.pw.toml"
 hash = "1c61237fc845f477a34cc5291234bd33a3e24777166139095a1cbc99431bc0fa"
 metafile = true
@@ -826,6 +846,11 @@ hash = "af1270987203e41ee2ac5a293bda1f4c49d6d2d40408431d92d61a5fc3eca82b"
 metafile = true
 
 [[files]]
+file = "mods/gateways-to-eternity.pw.toml"
+hash = "595fe8acbe4778aaed1314ad56e54e200205e15be496bffd56fa36b2ef132c04"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "a3d9047f4cca960840f572b1a0ff3ef2cd881e0a1b5a6783ac0ce333097b99c9"
 metafile = true
@@ -838,6 +863,11 @@ metafile = true
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
 hash = "12e6cb4e6f2a5c0342a7f61ece1f118d637e53e34b6691d53b36fed317022dfd"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-x-curios-api-compat.pw.toml"
+hash = "f29b802fac8e85e5b6b4bc52338495ee5a3cb40aea8798296bbf00befcbb613a"
 metafile = true
 
 [[files]]

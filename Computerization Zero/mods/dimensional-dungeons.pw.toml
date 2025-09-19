@@ -1,0 +1,13 @@
+name = "Dimensional Dungeons"
+filename = "dimdungeons-194-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q8XlZjYF/versions/Hn1QKGHI/dimdungeons-194-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "3e6f00f3584c86b7a46199558cde4c5f1dda63aa620edf964bd7e20efef62c62f68b284f33501801a78ef408170d8dac558f7e290d89ebda00861918b286d532"
+
+[update]
+[update.modrinth]
+mod-id = "Q8XlZjYF"
+version = "Hn1QKGHI"
