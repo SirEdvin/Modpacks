@@ -1,13 +1,13 @@
 name = "Cognition"
-filename = "Cognition-v2.4.7.1-1.20.1.jar"
+filename = "Cognition-v2.4.8-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9GdSY2FZ/versions/pWrRti3A/Cognition-v2.4.7.1-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/9GdSY2FZ/versions/52yITCqv/Cognition-v2.4.8-1.20.1.jar"
 hash-format = "sha512"
-hash = "48416221664cc0b4233ccaba1ed5e0099e96e06962a9d477621ce477e00426d6332787f5dccca78ff01827c043a1744f1506da4d5c1e8f4a587f5f74a9ed9b95"
+hash = "49e59cb57bffb7177eef56a148a7bb566e1162212cb83899d83ee8ff6ec3432d2c8bf4d2186ff2f0bf012b1bb4feefd4e5334cd539e20fb192412cd98cd4e4cf"
 
 [update]
 [update.modrinth]
 mod-id = "9GdSY2FZ"
-version = "pWrRti3A"
+version = "52yITCqv"

@@ -578,7 +578,7 @@ metafile = true
 
 [[files]]
 file = "mods/cognition.pw.toml"
-hash = "af989b75603e55f3a4f0db6976086cf2afa5b95d3ea661caa58228870a4a0354"
+hash = "b48477922acd9764b9642e23f51023a6576162262c5bd06926be44c258240375"
 metafile = true
 
 [[files]]
@@ -922,7 +922,7 @@ metafile = true
 
 [[files]]
 file = "mods/ioticblocks.pw.toml"
-hash = "fcc06536bbba1f535850aa6c53f53f36d8c7ee4f281998c8ce3e4f8a0e658400"
+hash = "ca296d00df4026173538d1507b86e089a1f2ab0cc555b90b3fb0cec794bb12d3"
 metafile = true
 
 [[files]]
@@ -1427,7 +1427,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "110722f1d880e9bf706f5c43cf21f923d41e7054f246527d0979ac5fde18413e"
+hash = "c7eba3a9b85d18285f841fcc09183a907198155714ee85d5ebe1d0ffcf6623f8"
 metafile = true
 
 [[files]]
