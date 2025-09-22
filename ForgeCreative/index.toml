@@ -36,6 +36,11 @@ hash = "a73ec11104bababe339b793beb89f283687d86b668ecd9ae20487e4164037dcc"
 metafile = true
 
 [[files]]
+file = "mods/guideme.pw.toml"
+hash = "8c635c96e2449280329a0d3daaa279886a7e667aaabf122d344d47f72b065546"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "82ffc26ad624cdd846cbbeb99ed40ef44229ec7006a7ae7e8caa8df6409c20db"
 metafile = true
