@@ -2,37 +2,37 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "d1bfaa8ca8831f1c43a971ab29672df863c3afb530abf278ebad4a8b9faf0499"
+hash = "bf4133b4ac7b08983c98dcfb4cbfe4cc2b10698efb935d19378fd6a27490dd22"
 metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "c1dc583e440716e24fd8478792f730538a576e8338fcbe31f5ac9ef835fc743d"
+hash = "33fbfba45630792a9223d4e20c9300bc9fef142c68781fc648c32b62313f3e16"
 metafile = true
 
 [[files]]
 file = "mods/cloudsolutions.pw.toml"
-hash = "2c8b05a8b560b3b3f3010b6c84fc1c27aaa8e81cacb90e1ff8b60cf452382927"
+hash = "ac6b83e32a9083f0108c4bbb64a7c9ab63bb867b8f5f1114b6a21222ee2ab282"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "74486cd0b25b3c6bef4cdca60187d0f79109b8cf9b067be978887b28c315222e"
+hash = "97f7c75ac9bf6ee2a4f15c0f1e3e4cd161f3d2e33f32ebf623811ac90b3c2a83"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "42a7ffa2efa0ccf9260b887714b5da8e17cc7a9a59d02aaa8061bd5bf0ab0612"
+hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "5977a88bea5f773848e26bbbbf71382fe1e087f6fe5b381817a364e15f26b336"
+hash = "f93badce301dbf7f5508aafc7a0f555743859ead6a7c35c8d8740d3972e29780"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0b24312ff5783cbb9c2707e16eb791ed12adb765259dd154cd09a00cc3fc38e2"
+hash = "a73ec11104bababe339b793beb89f283687d86b668ecd9ae20487e4164037dcc"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "b944b36f0312027ec955a70270b814928e661f828f0ec8b3e38e72a56c36ecd3"
+hash = "9be77e7f777afbaa77f954093f4e95cd6a0e823fd80a2989ba12f2c90ef253cd"
 metafile = true
 
 [[files]]
@@ -57,15 +57,15 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
-hash = "805bfb01c8db493d4b3a6d5efc5952756a6cb8e9251b64d6001be1a727b6b3d7"
+hash = "131c818cca79586fdca0535062a63581e7c438efd108be4403ab8faea92e6368"
 metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "552d8084441abad86c1e516793e2fa626d417954fc9148e336263cb7e13fed6d"
+hash = "8b7d1a9f6a44a1737524a1ee9ce2088a8fb9bc30c8c83f6cd7476fc7126c5fc0"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "34b96df449b95b54ad50aad057b37d3bc832787cab3f544780dc7e1f820bc9da"
+hash = "5924a942ae819332420e48267a0236b3ad150696e7b70bc2ae215fb42957f7f0"
 metafile = true
