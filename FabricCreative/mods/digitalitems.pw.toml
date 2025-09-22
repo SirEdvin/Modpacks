@@ -1,7 +1,7 @@
 name = "digitalitems"
-filename = "digitalitems-fabric-1.20.1-0.4.0.jar"
+filename = "digitalitems-fabric-1.20.1-0.5.0.jar"
 
 [download]
-url = "https://github.com/SirEdvin/DigitalItems/releases/download/v1.20.1-0.4.0/digitalitems-fabric-1.20.1-0.4.0.jar"
+url = "https://github.com/SirEdvin/DigitalItems/releases/download/v1.20.1-0.5.0/digitalitems-fabric-1.20.1-0.5.0.jar"
 hash-format = "sha256"
-hash = "c1b73994af4ba8ec3bd8d8bfcd76fd85f267f249ea1fc1c0148b1cfdf7fde267"
+hash = "1fa9f7d3e2d9a1539f3aacdce9dc7d0caa9a6a009b31d029757280c994718ff7"
