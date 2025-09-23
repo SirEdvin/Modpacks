@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "2be54a9f7f5c68f361ad596d370cbc9a3e7533c4a73fe09b0f129c1e58742fa8"
+hash = "a218ee36443cd7c898a9d1161a06df032c75e3df53fc17d411e4b27e47bf80c0"
 metafile = true
 
 [[files]]
@@ -92,5 +92,5 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "49802da57ce6998fba96a666898c87dce39fe700a7eea2f799fd24eaa92a5d99"
+hash = "35457490a4276b68c99de6694856872da3b434a56fdced708705744ac06dcf77"
 metafile = true
