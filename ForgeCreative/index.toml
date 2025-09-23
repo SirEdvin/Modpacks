@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "bd32d5af9927ba8c3b4f99197c581d4dac499b4d85cf894c11cc62db071b90f3"
+hash = "192edc333d862b23b76363548463516f0ff13f33896ac7116b96ab0a9659697c"
 metafile = true
 
 [[files]]
