@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "sophisticating_things",
+    "functional_storage"
+  ],
+  "tasks": {
+    "some_small_connectors": {
+      "type": "heracles:item",
+      "item": "toms_storage:ts.inventory_cable_connector",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    },
+    "controller": {
+      "type": "heracles:item",
+      "item": "toms_storage:ts.inventory_connector",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "toms_storage:ts.inventory_connector",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "some_cables": {
+      "type": "heracles:item",
+      "item": "toms_storage:ts.inventory_cable",
+      "amount": 12,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    },
+    "wireless_help": {
+      "item": {
+        "id": "toms_storage:ts.wireless_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "At least some storage mod is required in this pack, don't you think?"
+    },
+    "description": [
+      "Managing all those sophisticated chests and barrels can be an issue. And in addition there is also functional storage! ",
+      "Thanksfully, we have Tom's Simple storage to help us with this issue. ",
+      "",
+      "Just connect sophsticated chest and functional storage controllers with inventory cables and you good to go!",
+      "",
+      "Just like AE2 but without all this nice auto-crafting"
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -676,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "toms_storage:ts.storage_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tom's coming for help"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

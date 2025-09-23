@@ -1,0 +1,96 @@
+{
+  "dependencies": [
+    "iron_as_always"
+  ],
+  "tasks": {
+    "sulfur": {
+      "type": "heracles:item",
+      "item": "theurgy:liquefaction_cauldron",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "x1": {
+      "type": "heracles:item",
+      "item": "theurgy:distiller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "accumulator": {
+      "type": "heracles:item",
+      "item": "theurgy:sal_ammoniac_accumulator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "x3": {
+      "type": "heracles:item",
+      "item": "theurgy:calcination_oven",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "tank": {
+      "type": "heracles:item",
+      "item": "theurgy:sal_ammoniac_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "blazers": {
+      "type": "heracles:item",
+      "item": "theurgy:pyromantic_brazier",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    },
+    "mercury": {
+      "item": {
+        "id": "theurgy:mercury_shard",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Early game ore triplication? Isn't it cool!"
+    },
+    "description": [
+      "This modpack features /5/Theurgy/5/ - mod about alchemy and transformation.",
+      "",
+      "Mod by itself isn't complex, but it provides a lot of useful tools, one of them is early game ore triplication!",
+      "",
+      "Just grab some iron, a lot of copper and some sal ammoniac and build all machines and you ready to triplicate rare ores. If you have questions, just craft a book \"The Hermetica\" under Modonomimon mod ID and it will explain everything to you."
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -439,
+          -26
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "theurgy:the_hermetica_icon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ore triplication"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

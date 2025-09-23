@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "mining_dimension"
+  ],
+  "tasks": {
+    "dimension": {
+      "from": "minecraft:overworld",
+      "to": "aether:the_aether",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Always wanted to see what happens above..."
+    },
+    "description": [
+      "Aether is quite an old mod that introduces the opposite of the Nether—beautiful sky islands that provide deceptive comfort. One should prove they are worthy to be there. "
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -602,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "aether:valkyrie_cape",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Visit Aether"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

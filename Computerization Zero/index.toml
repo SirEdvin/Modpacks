@@ -185,6 +185,10 @@ file = "config/heracles/quests/howtousecomputers/unlimitedperipheralworks.json"
 hash = "fe6a81e6026ea3e0f8b857276753264b4a0e6c22f6948da162da1b536be0ab23"
 
 [[files]]
+file = "config/heracles/quests/startingafactory/big_storage_controller.json"
+hash = "c6eefb31674ac4f1c43608bfd3c6f01068bdef2b416e1f9bd557e2d05f62f399"
+
+[[files]]
 file = "config/heracles/quests/startingafactory/chest.json"
 hash = "d25a8ad10fceb59e43daa51ecca34e3e4f7316b5f2776234f5957fd5dfd8c776"
 
@@ -193,16 +197,32 @@ file = "config/heracles/quests/startingafactory/creating_starting_ground.json"
 hash = "77bddcdb19e27b4212d8ba5e069878783310b08aa7c17714060cba6554fb6dcd"
 
 [[files]]
+file = "config/heracles/quests/startingafactory/digital_storage.json.orig"
+hash = "382c725d2bbcd6499a0bdae899a254effb2d24469ea51a13bdf2b7b89d4c8a5f"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/easy_villagers.json"
+hash = "de747bb94d70bf07df94f758cbd4b7e9871db03b7dc14d5ac32714fb0a7d4561"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/functional_storage.json"
+hash = "4e343b91fef4f581f3f26b535784a29a23e1bfc67bc70af6c34b281f10321d4d"
+
+[[files]]
 file = "config/heracles/quests/startingafactory/iron_as_always.json"
 hash = "f93f3b04489be0d8a4bbe286c8c69279102c2fdd67d27a29e6bca861c8456f8d"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/mining_dimension.json"
-hash = "1d14ab06a0a7e33ca5656becca1ed8294bbe975590b7256f6146d5fdbcf05350"
+hash = "300940be721fc127ac66944f655ee69646e223b9e5d6306fc3e8d22d2947b64d"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/ore_triplication.json"
+hash = "9daf314a673dc35cd8f1f5dee481f1742aa23843f3b1da7801ceed7b5f9b5f73"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/sophisticating_things.json"
-hash = "1eb80634f9ec056769537f840bb177822ee6e5f6593e872f4c49884718590658"
+hash = "8572b7c160c9069d4fcfd54c80f045f5c0ed5809ec6e5327ecf22f1f33f30ff4"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/starting_punch.json"
@@ -211,6 +231,10 @@ hash = "e2e2d2f59f36717bb196ab5706d395545032bca83196f93b0afecc3b8153b110"
 [[files]]
 file = "config/heracles/quests/startingafactory/table_of_the_start.json"
 hash = "071b8f1e9fd56730df522e51a47d54c3e1ac3dd87a00be5957b23fd63263188c"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/visit_aether.json"
+hash = "d11eae756b42b0c35e29edda78126608004917efc88bce72f598c307ef4a3e18"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/claims_and_chunk_loading.json"
@@ -242,11 +266,15 @@ hash = "ef052a909c479a6e372961707b0dabdbb82bc6618e61a40ae363af360577d77f"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/world_without_a_hoper.json"
-hash = "6b7dbaaad5a7860031167a51dc73e8173dc4e0e4c5432369fb1f5e4576d11a93"
+hash = "2777342548f9275c98396e889a50d66302e699d12d5a089a955ca32dab474c7c"
 
 [[files]]
 file = "config/heracles/tutorial.html"
 hash = "3ee4fc4dea2619980a842af8e3b992a25d5aa0e3405c693d4d5def280928fa03"
+
+[[files]]
+file = "config/peripheralworks.toml"
+hash = "5f29aabfb259c579e453ffe656bd0b19682984ddfd63a8771e0375e1e209834c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/advanced_peripherals.png"
@@ -314,7 +342,7 @@ hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
-hash = "47373cb64f65e0c0284f260b0efb5b86dde6f79ba7217d8b1507acfa2fde2ccc"
+hash = "d6b860d75fa270980f3715ce66e8fb061517077ce6281ec6bf86f7099773f672"
 
 [[files]]
 file = "mods/actually-subtractions.pw.toml"
@@ -614,6 +642,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
 metafile = true
 
 [[files]]
@@ -1197,7 +1230,7 @@ metafile = true
 
 [[files]]
 file = "mods/rar-compat.pw.toml"
-hash = "bf6585d061141ea9f95f908a0fbc473719c88dd115ff429bb231ba4ecfc6301b"
+hash = "d9851e731541feb76c81b4afedc661ae0c3c7b7eddcb2ba0d21298ae641c7ee4"
 metafile = true
 
 [[files]]

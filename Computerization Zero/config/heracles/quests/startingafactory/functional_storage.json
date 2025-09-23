@@ -5,13 +5,13 @@
   "tasks": {
     "controller": {
       "type": "heracles:item",
-      "item": "sophisticatedstorage:controller",
+      "item": "functionalstorage:storage_controller",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "storage": {
+    "some_drawers": {
       "type": "heracles:item",
-      "item": "#sophisticatedstorage:all_storage",
+      "item": "#functionalstorage:drawer",
       "amount": 6,
       "collection": "AUTOMATIC"
     }
@@ -19,44 +19,35 @@
   "rewards": {
     "xp": {
       "xptype": "LEVEL",
-      "amount": 3,
+      "amount": 2,
       "type": "heracles:xp"
-    },
-    "links": {
-      "item": {
-        "id": "sophisticatedstorage:storage_link",
-        "count": 3
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Regular chest is good, but more chests are better"
+      "translate": "Storage that just function..."
     },
     "description": [
-      "Sophisticated storage is awesome mod. It not only adds chests and barrels with more capacity, it also adds storage controller that can link them into one single big storage.",
-      "",
-      "It doesn't provide some UI for it, but we here not for it, don't we?"
+      "Functional storage is awesome mod that provides a lot of tools to store large amount of same item. And since we building a factory here, we need this!"
     ],
     "groups": {
       "Starting a factory": {
         "position": [
-          -618,
-          -16
+          -593,
+          30
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "sophisticatedstorage:controller",
+        "id": "functionalstorage:storage_controller",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sophisticating things"
+      "translate": "Functional storage"
     }
   },
   "settings": {

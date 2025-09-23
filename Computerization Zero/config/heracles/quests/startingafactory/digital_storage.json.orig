@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "chest"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Bane of any modpack player"
+    },
+    "description": [
+      "This pack has AE2 and CC:T, pretty sick compination, don't you think? ",
+      "",
+      "But this comes with a twist. Technically, there is nothing stops you from completely ignoring AE2 and just use computers for managing storage and autocrafting. It is possible, some folks did it before. ",
+      "",
+      "But doing it without everyone know you can pull such trick off would be a waste, wouldn't it? So you can choose a path:",
+      "",
+      "- Just regular AE2 user, nothing fancy",
+      "- Something in-between, still use AE2, but "
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -528,
+          52
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Digital storage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

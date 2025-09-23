@@ -3,17 +3,17 @@
     "understanding_the_basics"
   ],
   "tasks": {
-    "get_first_computer": {
+    "hopper_back": {
       "type": "heracles:item",
-      "item": "#computercraft:computer",
+      "item": "minecraft:hopper",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "Get your first computer"
+      "collection": "MANUAL",
+      "title": "Give me that useless hopper back"
     }
   },
   "rewards": {
     "more_computers": {
-      "title": "More computers, that's it",
+      "title": "Some computers for easy start",
       "icon": {
         "item": {
           "id": "computercraft:computer_advanced",
@@ -23,7 +23,7 @@
       },
       "item": {
         "id": "computercraft:computer_advanced",
-        "count": 3
+        "count": 2
       },
       "type": "heracles:item"
     }
@@ -33,7 +33,7 @@
       "translate": "Now you starting to understand, don't you?"
     },
     "description": [
-      "Yep, hoppers are banned. In fact, most of items related to item or fluid transfering, block placing or block breaking are either banned from placing or just don't have a recipe in this modpack. ",
+      "Yep, hoppers are banned. In fact, most of items related to item, fluid or even energy transfering, block placing or block breaking are either banned from placing or just don't have a recipe in this modpack. ",
       "",
       "/4/**Why**/4/, you may ask, while screaming into the screen? ",
       "",

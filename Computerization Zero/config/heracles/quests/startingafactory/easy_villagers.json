@@ -1,18 +1,18 @@
 {
   "dependencies": [
-    "chest"
+    "iron_as_always"
   ],
   "tasks": {
-    "controller": {
+    "trader": {
       "type": "heracles:item",
-      "item": "sophisticatedstorage:controller",
+      "item": "easy_villagers:trader",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "storage": {
+    "iron_farm": {
       "type": "heracles:item",
-      "item": "#sophisticatedstorage:all_storage",
-      "amount": 6,
+      "item": "easy_villagers:iron_farm",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -22,41 +22,43 @@
       "amount": 3,
       "type": "heracles:xp"
     },
-    "links": {
+    "villagers": {
       "item": {
-        "id": "sophisticatedstorage:storage_link",
-        "count": 3
+        "id": "easy_villagers:villager",
+        "count": 2
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Regular chest is good, but more chests are better"
+      "translate": "Trading and iron never been so easy"
     },
     "description": [
-      "Sophisticated storage is awesome mod. It not only adds chests and barrels with more capacity, it also adds storage controller that can link them into one single big storage.",
+      "Easy villagers and easy piglins are included in this pack!",
       "",
-      "It doesn't provide some UI for it, but we here not for it, don't we?"
+      "You can pickup villagers and piglins into your inventory with help of Shift + RightClick and then place them into boxes, that can be automated.",
+      "",
+      "One of useful feat that easy villagers have that often overlock is incredibly cheap iron farm. Don't sleep on it!"
     ],
     "groups": {
       "Starting a factory": {
         "position": [
-          -618,
-          -16
+          -487,
+          -71
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "sophisticatedstorage:controller",
+        "id": "easy_villagers:iron_farm",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sophisticating things"
+      "translate": "Easy villagers"
     }
   },
   "settings": {

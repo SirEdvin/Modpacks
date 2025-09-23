@@ -8,13 +8,14 @@ const bannedFromPlacing = [
     "embers:fluid_pipe"
 ]
 
-const hopperPlaceTriggerData = "comzero_tried_to_place_hopper"
+const hopperPlaceTriggerData = "comzero_tried_to_place_hopper_v2"
 
 for (let bannedItem of bannedFromPlacing) {
     BlockEvents.placed(bannedItem, event => {
-        if (!event.player.persistentData.getBoolean(hopperPlaceTriggerData)) {
+        let intData = event.player.persistentData.getInt(hopperPlaceTriggerData)
+        if (intData < 6) {
             event.player.tell("Sadly, in this modpacks you can't use hopper! Use computers or something else, that is allowed!")
-            event.player.persistentData.putBoolean(hopperPlaceTriggerData, true);
+            event.player.persistentData.putInt(hopperPlaceTriggerData, intData + 1);
             event.server.runCommandSilent("heracles complete understanding_the_basics " + event.player.username)
         } else {
             event.player.tell("You already know this is not gonna work, stop trying!")
@@ -23,12 +24,17 @@ for (let bannedItem of bannedFromPlacing) {
     })
 }
 
-
 ServerEvents.recipes(event => {
     // Remove recipes for item moving items that can be removed
   event.remove({ output: 'essentials:sorting_hopper' })
   event.remove({ output: 'essentials:speed_hopper' })
   event.remove({ output: 'essentials:hopper_filter' })
+  event.remove({ output: 'essentials:item_shifter' })
+  event.remove({ output: 'essentials:fluid_shifter' })
+  event.remove({ output: 'essentials:basic_item_splitter' })
+  event.remove({ output: 'essentials:basic_fluid_splitter' })
+  event.remove({ output: 'essentials:item_splitter' })
+  event.remove({ output: 'essentials:fluid_splitter' })
   event.remove({ output: 'pneumaticcraft:liquid_hopper' })
   event.remove({ output: 'sophisticatedstorage:hopper_upgrade' })
   event.remove({ output: 'sophisticatedstorage:advanced_hopper_upgrade' })
@@ -52,6 +58,31 @@ ServerEvents.recipes(event => {
   event.remove({ output: "embers:item_dropper"})
   event.remove({ output: "embers:fluid_transfer"})
   event.remove({ output: "embers:fluid_extractor"})
+  event.remove({ output: "create:andesite_funnel"})
+  event.remove({ output: "create:chute"})
+  // Energy transfer, hehe
+  event.remove({ output: "powah:energy_cable_basic"})
+  event.remove({ output: "powah:energy_cable_hardened"})
+  event.remove({ output: "powah:energy_cable_blazing"})
+  event.remove({ output: "powah:energy_cable_niotic"})
+  event.remove({ output: "powah:energy_cable_spirited"})
+  event.remove({ output: "powah:energy_cable_nitro"})
+  event.remove({ output: "powah:energy_hopper_basic"})
+  event.remove({ output: "powah:energy_hopper_hardened"})
+  event.remove({ output: "powah:energy_hopper_blazing"})
+  event.remove({ output: "powah:energy_hopper_niotic"})
+  event.remove({ output: "powah:energy_hopper_spirited"})
+  event.remove({ output: "powah:energy_hopper_nitro"})
+  event.remove({ output: "powah:ender_gate_basic"})
+  event.remove({ output: "powah:ender_gate_hardened"})
+  event.remove({ output: "powah:ender_gate_blazing"})
+  event.remove({ output: "powah:ender_gate_niotic"})
+  event.remove({ output: "powah:ender_gate_spirited"})
+  event.remove({ output: "powah:ender_gate_nitro"})
+  event.remove({ output: "actuallyadditions:laser_relay"})
+  event.remove({ output: "actuallyadditions:laser_relay_advanced"})
+  event.remove({ output: "actuallyadditions:laser_relay_extreme"})
+  event.remove({ output: "enderio:energy_conduit"})
   // Blocks with no meaning now
   event.remove({ output: "actuallyadditions:item_interface"})
   event.remove({ output: "actuallyadditions:hopping_item_interface"})
