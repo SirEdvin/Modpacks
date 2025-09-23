@@ -1,0 +1,13 @@
+name = "Theurgy KubeJS"
+filename = "theurgy_kubejs-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oXj2r26F/versions/LPIkHMSA/theurgy_kubejs-1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "5101d3aeccfe0620aaf331c87088c9bfbe11abef4706a65fce5fce461217fcaf1270449f0f291689b8265cbafaecb4814a2e391da9466d8bcb3df7fa43a74a66"
+
+[update]
+[update.modrinth]
+mod-id = "oXj2r26F"
+version = "LPIkHMSA"

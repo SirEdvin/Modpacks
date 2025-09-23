@@ -512,6 +512,11 @@ hash = "e5ebcdd6314ddad2309c7db52a0b70f4472bf8b118c2cefe64f64193ef57af83"
 metafile = true
 
 [[files]]
+file = "mods/cable-facades.pw.toml"
+hash = "32a8793c70a1527a8a088b38dc4c32bebfd73bf390040aa9a473951e84480c2d"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
 hash = "8a8ea0af79b88d9c192d208aa5be4bacd934e2b92d4721566e2e796eb9761e10"
 metafile = true
@@ -976,8 +981,23 @@ hash = "715916f67a72805e4c86709e4ed47bd4cf537d64b23117b3b0e31de0e7bfc523"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-enderio.pw.toml"
+hash = "2e0611388ba6554f08545f5e9bc002b81f6339a7597a5b9685606241570a0cd4"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-thermal.pw.toml"
+hash = "5bcc1cb934533ecff4be7b1c44160f47cb5cf6a8fe28cf6baad680a7bdd1e843"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
+metafile = true
+
+[[files]]
+file = "mods/ldlib.pw.toml"
+hash = "f6af934e67d69e4e63ee1fc405f6c49b2eeb47af6a2401df810f0a23c97f39d0"
 metafile = true
 
 [[files]]
@@ -1063,6 +1083,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
+metafile = true
+
+[[files]]
+file = "mods/multiblocked2.pw.toml"
+hash = "05d05e6103d8b08eab5bc4d2b7336399b4b05dd3fb58cd42c3192d65664c6ccc"
 metafile = true
 
 [[files]]
@@ -1236,6 +1261,11 @@ hash = "0b78a3e7d93a1325cfe21e12e6d3e3e2c2fb005d6c74c7a4b249b1a3da5e93a3"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "f62af5ab636c96e8915bb896ce4092b14b0c3a94a1d89af33853af20b1877f9d"
+metafile = true
+
+[[files]]
 file = "mods/skills.pw.toml"
 hash = "ea4819ccabf521a136e96bcf1d24be93609e4e8e2d037ba10f72726cc2d66fea"
 metafile = true
@@ -1361,6 +1391,11 @@ hash = "eac18d5d726f61bce8471d9113db5ec642db05b9bb0836a06b491ef97245ade2"
 metafile = true
 
 [[files]]
+file = "mods/theurgy-kubejs.pw.toml"
+hash = "6562eb76a51a6b60657f44b0ecd2d2e65ec7fe8b46ac77496475f6bfc9af2b32"
+metafile = true
+
+[[files]]
 file = "mods/theurgy.pw.toml"
 hash = "7e43f89bd5b2eae0ec70c6fccfb4175b42beefb69c409aaf2ef381c5f40be748"
 metafile = true
@@ -1428,6 +1463,11 @@ metafile = true
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
 hash = "bfaa6c120a0b014cf3e2c74b87067881031dd7e173e32b005a1623ac68522d2a"
+metafile = true
+
+[[files]]
+file = "mods/wallets.pw.toml"
+hash = "3ab1a3d33e451c38d3da438d945cb155402c6e5fb6f4ae391b2138c363fadc63"
 metafile = true
 
 [[files]]
