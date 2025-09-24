@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "proof_of_skill_theurgy"
+  ],
+  "tasks": {
+    "blocks": {
+      "type": "heracles:item",
+      "item": "kubejs:aurichalcum_block",
+      "amount": 16,
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "chunk_loader": {
+      "item": {
+        "id": "turtlematic:chunk_vial",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "title": {
+      "title": "Receive title: Divine Theurgist",
+      "icon": {
+        "item": {
+          "id": "theurgy:amethyst_divination_rod",
+          "count": 1,
+          "nbt": {
+            "theurgy:divination.setting.allow_attuning": 0,
+            "theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks",
+            "theurgy:divination.setting.duration": 40,
+            "theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks",
+            "theurgy:divination.setting.tier": "minecraft:stone",
+            "Damage": 0,
+            "theurgy:divination.setting.range": 96,
+            "theurgy:divination.setting.max_damage": 16
+          }
+        },
+        "type": "heracles:item"
+      },
+      "command": "titles add @s kubejs:divine_theurgist",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "You need a lot of it, probably. For factory, of course..."
+    },
+    "description": [
+      "Now time for challenge, finally.",
+      "",
+      "One ignot seems quite simple, don't you think? Now, prepare 16 blocks!",
+      "",
+      "There is another way to craft aurichalcum, by the way, I hope you will find it."
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -439,
+          94
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:aurichalcum_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Proof of mastery: Theurgy"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

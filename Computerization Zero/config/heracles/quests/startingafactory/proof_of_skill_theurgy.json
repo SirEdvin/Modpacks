@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "ore_triplication"
+  ],
+  "tasks": {
+    "ingot": {
+      "type": "heracles:item",
+      "item": "kubejs:ingot_aurichalcum",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    },
+    "title": {
+      "title": "Receive title: Theurgist",
+      "icon": {
+        "item": {
+          "id": "theurgy:the_hermetica_icon",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "titles add @s kubejs:theurgist",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "New magic metal emerges..."
+    },
+    "description": [
+      "Aurichalcum is a pinnacle of alchemy, metal that cannot be find naturally, only produced from combining several other sulfurs",
+      "",
+      "<crafting-recipe id=\"minecraft:kjs/aurichalcum_sulfur\"/>",
+      "",
+      "Then you can just transform it into ingot as usual. "
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -439,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:ingot_aurichalcum",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
+    "title": {
+      "translate": "Proof of skill: Theurgy"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

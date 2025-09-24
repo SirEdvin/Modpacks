@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "isPrefix": "false",
+  "rarity": "rare",
+  "defaultDisplay": "Contender",
+  "flavorText": "Everyone start from something"
+}

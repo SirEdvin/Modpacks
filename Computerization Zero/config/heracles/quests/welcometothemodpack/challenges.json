@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "how_to_play_this_modpack"
+  ],
+  "tasks": {
+    "first_challange": {
+      "type": "heracles:item",
+      "item": "#minecraft:logs",
+      "amount": 128,
+      "collection": "MANUAL",
+      "title": "First challenge of many"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "new_title": {
+      "title": "Receive title: Contender",
+      "icon": {
+        "item": {
+          "id": "minecraft:cyan_banner",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "titles add @s kubejs:contender",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Proof that you are capable to master every mod in this pack. Or at least most of them."
+    },
+    "description": [
+      "Big complicated challanges that would be called - Proof of Mastery would be marked with a diamond quest icon.",
+      "",
+      "This challanges usually would require you to fully progress through the mod and craft some overcomplicated item that was specifically designed to be complicated to craft. And of course you will be need to craft a lot of them, so tedious manual crafting is probably not an option.",
+      "",
+      "It would be wise to not dive into this challanges until you have a some sort of resource generation, because they usually resource intensive.",
+      "",
+      "This challenges is also an only way to get chunk loader for turtles! At least for now...",
+      "",
+      "<hint title=\"Quest mod issues\">",
+      "Once you submit the item, you need to close and open quest UI again to be able to receive rewards</p>",
+      "</hint>"
+    ],
+    "groups": {
+      "Welcome to the modpack": {
+        "position": [
+          -653,
+          -274
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:gray_banner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Challenges"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

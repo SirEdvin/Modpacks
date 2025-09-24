@@ -221,6 +221,14 @@ file = "config/heracles/quests/startingafactory/ore_triplication.json"
 hash = "9daf314a673dc35cd8f1f5dee481f1742aa23843f3b1da7801ceed7b5f9b5f73"
 
 [[files]]
+file = "config/heracles/quests/startingafactory/proof_of_mastery_theurgy.json"
+hash = "ab7341df25eb1dae80a4756a9e84ac53e9ac00504139d1098575ff46036b9b32"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/proof_of_skill_theurgy.json"
+hash = "52772914b5c93c34038b65d3d0a08d65393b2ce984a2f49ee39b75bf06da319b"
+
+[[files]]
 file = "config/heracles/quests/startingafactory/sophisticating_things.json"
 hash = "8572b7c160c9069d4fcfd54c80f045f5c0ed5809ec6e5327ecf22f1f33f30ff4"
 
@@ -237,8 +245,12 @@ file = "config/heracles/quests/startingafactory/visit_aether.json"
 hash = "d11eae756b42b0c35e29edda78126608004917efc88bce72f598c307ef4a3e18"
 
 [[files]]
+file = "config/heracles/quests/welcometothemodpack/challenges.json"
+hash = "677ad90ff11912aae5df7802cc73f624329cd2605cb328b9ccdec8353d9adb68"
+
+[[files]]
 file = "config/heracles/quests/welcometothemodpack/claims_and_chunk_loading.json"
-hash = "c9d8a4aadec9e36ad59044a5d67fe4fb189ca6e06bc55c29607b5f30268c1104"
+hash = "1309b788ca02b6cfd4127cdc769d58c0a2a5cdb37b290a9f7b00b3139a52ebb7"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/how_to_play_this_modpack.json"
@@ -281,6 +293,30 @@ file = "kubejs/assets/kubejs/textures/advanced_peripherals.png"
 hash = "7cc788622e99dec56871165ff81ad530f6f4426e93db714de110e92d55e3e66a"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/aurichalcum_block.png"
+hash = "10b0f092c78255479bd0f503530ac83c1fe0b482a97a6f87680daaba23998b8c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/aurichalcum_block_fancy.png"
+hash = "20f08c76b981bde702b5a0f52a1a755aee20e6c25ab4f82e69cde40514fad134"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ingot_aurichalcum.png"
+hash = "eda84277ef197d9ae99a67d2de19bbe1e4aed9bfe89f25afff6ac760ef78fed8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ingot_aurichalcum_fancy.png"
+hash = "ebde7a71ccb2d58c39a16c7cfc26026144826f03721a5a81dfbfd12fb4f0cc7a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/nugget_aurichalcum.png"
+hash = "91979ccf16f98776d4bb05394a9d3af59a6c61d2c51222b6ed83c8c23022767b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/nugget_aurichalcum_fancy.png"
+hash = "f081776e88330703c7abc6eed87f6253f6afe080b21b3bbc7d28fedd3e02d1ef"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/wired_modem.png"
 hash = "d7b23843411549383cd798706ba6aa6328b518ba2aef51816d5410deb879eafb"
 
@@ -313,8 +349,20 @@ file = "kubejs/data/kubejs/titles/computer_enthusiast.json"
 hash = "4855cdffaee278e877564315e09dc7b20d8df1992e99cff75a77860580322bd1"
 
 [[files]]
+file = "kubejs/data/kubejs/titles/contender.json"
+hash = "3ed4992db0e5bb73327b0105ff28b2f9c0e0725dd461ea631af3bf22797406a7"
+
+[[files]]
+file = "kubejs/data/kubejs/titles/divine_theurgist.json"
+hash = "c5a817c44e003daafa1b67c60c3faa7e6d635fae6ad09dacd40e6248297e94bf"
+
+[[files]]
 file = "kubejs/data/kubejs/titles/interdimensional_miner.json"
 hash = "9facba7576149b031e30118c8d2fc214a8de9f93f06ef5af53f73d8e6f1d2178"
+
+[[files]]
+file = "kubejs/data/kubejs/titles/theurgist.json"
+hash = "93466c3a3d8238614144604407a9291bc97c9b788e6818c990f5657b44c99069"
 
 [[files]]
 file = "kubejs/data/mining_dimension/tags/biomes/mining.json"
@@ -337,12 +385,20 @@ file = "kubejs/data/tconstruct/tags/block_entity_type/side_inventories.json"
 hash = "a81e5d476a8c88c6aff76e66b6fa8a8de9bf1e88f2fbf8b25f48459c91de633b"
 
 [[files]]
+file = "kubejs/server_scripts/metals.js"
+hash = "3d6b13e10895dda18c0a0d2b1d7e91c7d4d6371110e0404b78478fa6856b2b88"
+
+[[files]]
 file = "kubejs/server_scripts/ore_veins.js"
 hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
 hash = "d6b860d75fa270980f3715ce66e8fb061517077ce6281ec6bf86f7099773f672"
+
+[[files]]
+file = "kubejs/startup_scripts/aurichalcum.js"
+hash = "38072ec3edec7e2064aaca45b32a0ae8303af3a980be3793587ecf913f0f192a"
 
 [[files]]
 file = "mods/actually-subtractions.pw.toml"
