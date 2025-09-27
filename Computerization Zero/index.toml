@@ -385,6 +385,10 @@ file = "kubejs/data/tconstruct/tags/block_entity_type/side_inventories.json"
 hash = "a81e5d476a8c88c6aff76e66b6fa8a8de9bf1e88f2fbf8b25f48459c91de633b"
 
 [[files]]
+file = "kubejs/server_scripts/fixes.js"
+hash = "5706c7c71b175b27ed333a1386c6e1fe3a41438870e8d7492a897d61c9ed19ea"
+
+[[files]]
 file = "kubejs/server_scripts/metals.js"
 hash = "3d6b13e10895dda18c0a0d2b1d7e91c7d4d6371110e0404b78478fa6856b2b88"
 
@@ -394,7 +398,7 @@ hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
-hash = "d6b860d75fa270980f3715ce66e8fb061517077ce6281ec6bf86f7099773f672"
+hash = "dd2e64f89a8101b52e03a762840ba5c2c2f06c4a5a996c0438fa10af1d5eef2d"
 
 [[files]]
 file = "kubejs/startup_scripts/aurichalcum.js"
@@ -542,7 +546,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "b3e10dcf4f9b10193779fb62198f9d83ca2f26f1a1de681621610705ab8a48a6"
+hash = "d90c3eb6da9c567e39f4ad829eb71fa3244956e6debb7b4eca70d85f5f4dab0a"
 metafile = true
 
 [[files]]
@@ -980,6 +984,11 @@ hash = "59a167a2e05a518d25d1e6f1b4789bad66a47e7fa2909817c5ec433c7aa46661"
 metafile = true
 
 [[files]]
+file = "mods/hextweaks.pw.toml"
+hash = "3920e14488c4d2c89fbb32354cba5eb0feb457ef38815af9f2c22acef4f143bd"
+metafile = true
+
+[[files]]
 file = "mods/hypertube.pw.toml"
 hash = "e45b6900634184734d8cba3b529d8647ef3237ec878eb6f918d650ea0351d751"
 metafile = true
@@ -1036,7 +1045,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "40118245708e1298fb63e0b15297a1ffe0cfc0a481cbca023f00936b6fec8958"
+hash = "6d8ca5f4586ae60fe0771ae32a7cb3230030b92fda58d1761c770c24afaa54b2"
 metafile = true
 
 [[files]]
@@ -1052,11 +1061,6 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
-metafile = true
-
-[[files]]
-file = "mods/key-binding-patch.pw.toml"
-hash = "0ecb4812fff8a53ff775fe23d4c2b7e0a70d86dd1f69d18a45fcbe7d01915a76"
 metafile = true
 
 [[files]]
@@ -1146,7 +1150,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "012eece3b700c00aefe3f6c2622ba44398e93d83ed7b64cbd6920ca2560e3953"
+hash = "02d8f73c4d1f35c4cd877ff6c988e2ea5fe35080e77a7a097b17c00233e62abc"
 metafile = true
 
 [[files]]
@@ -1356,7 +1360,7 @@ metafile = true
 
 [[files]]
 file = "mods/skills.pw.toml"
-hash = "ea4819ccabf521a136e96bcf1d24be93609e4e8e2d037ba10f72726cc2d66fea"
+hash = "472bdf919ba890efead49831980684de8718376c7954039a3c7196524b415be1"
 metafile = true
 
 [[files]]
@@ -1376,32 +1380,32 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "7c977a68e1c06707099b5e194e67f042a336dab4eb509e7cd22c02728e81369a"
+hash = "82a3cd848712756262f5391e827e615a280052dca8887a0f40681e6c7acdb8d3"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "db7bb6218cc816b9ca5c093408c4d2c38a04798e681e6bbb47563274c2b3497a"
+hash = "c4184a664c2d9f0f06d1d46c1f9afca32e1ff4725b5704f1abf8fdbed1df0f61"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "41ad3276af45c54ae3bd272d8fc426f2803b1fff49906b722dac500c8b908a94"
+hash = "77b127ffe5654cc8c70e158e5a466763781669736407ff55b17d96e008a3d9fd"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "455448cbb5d86a9c09f3c6c77785a39f3de03c59a90c622ae39bc3af832dd10c"
+hash = "3e89649166ec4b7e74d499049fc2b4d633abafa57825f56ff8f5fbdd2a2b27b9"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-in-motion.pw.toml"
-hash = "c37ee0f4e111fceabf7cd0b00ab56c32de3e5c893aab27fc7b5e6b020a05c901"
+hash = "0a5f9ea6d328ce68221e7b65e39bf9312c21da5d46e3634f33ac652c49f3e006"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "be2bb6dd10bc8a7bea2f813547f5e7884d6db280c4ce46c095151def6054ef4b"
+hash = "10f77a184299ca1e0901bcaf5efd16320dce9af177e25e6d87dcd7ff7134c611"
 metafile = true
 
 [[files]]
@@ -1541,7 +1545,7 @@ metafile = true
 
 [[files]]
 file = "mods/turtle-charging-station.pw.toml"
-hash = "14170c1c52dedf30ad7bcc37bb70e64d7e17b72d6b78b879330dd54ca202c4e5"
+hash = "108bfe3ba1622d01d727f6cd76a70ea75d65f1b55c9eca258c44f6c85012f374"
 metafile = true
 
 [[files]]

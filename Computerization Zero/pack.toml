@@ -1,12 +1,12 @@
 name = "Computerization Zero"
 author = "SirEdvin"
-version = "0.0.3"
+version = "0.0.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7017f77ad0592aaeb549ed5ee00b790af5f67f77c6a74806dad94ff399178a86"
+hash = "16961e4b6934922901d14b3212905fa7387136d1fcaec393ad2c8717a5071692"
 
 [versions]
 forge = "47.4.8"
