@@ -1550,12 +1550,12 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "a4b1dba9971491175b25454d28422c9f7f59223f327c2416b8dcfcb3072f1a49"
+hash = "bb4b305b6d491da83f93a83bb0327cf5a9b580d05a2d032d8cacfb58a7c7c9a7"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "3f904b3263aaa764a7abf933d1b054965cd26a53e77c3d07d9cf1b2da645f4d3"
+hash = "5973dd61e4c48ba317b385fd736342750d77278e993b723b6c71ed473280854a"
 metafile = true
 
 [[files]]
