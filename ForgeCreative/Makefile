@@ -1,6 +1,6 @@
 cloudsolutionsVersion = 0.2.0
-turtlematicVersion = 1.4.2
-peripheralWorksVersion = 1.5.7
+turtlematicVersion = 1.4.3
+peripheralWorksVersion = 1.5.8
 digitalItemsVersion = 0.5.2
 
 turtlematic:
