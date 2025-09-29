@@ -1,7 +1,7 @@
 name = "cloudsolutions"
-filename = "cloudsolutions-fabric-1.20.1-0.2.0.jar"
+filename = "cloudsolutions-fabric-1.20.1-0.2.1.jar"
 
 [download]
-url = "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.20.1-0.2.0/cloudsolutions-fabric-1.20.1-0.2.0.jar"
+url = "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.20.1-0.2.1/cloudsolutions-fabric-1.20.1-0.2.1.jar"
 hash-format = "sha256"
-hash = "b0a743c28170cfb2fc36f75b7f4db05f2382d70ce8f1675ab6b6cca6d00375f2"
+hash = "0a97d3892bf950e738a0d0aba8b854f229ea4b29c69e96084f12cb31019b2875"

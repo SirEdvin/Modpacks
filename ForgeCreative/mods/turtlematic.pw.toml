@@ -1,7 +1,7 @@
 name = "turtlematic"
-filename = "turtlematic-forge-1.20.1-1.4.3.jar"
+filename = "turtlematic-forge-1.20.1-1.4.4.jar"
 
 [download]
-url = "https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-1.4.3/turtlematic-forge-1.20.1-1.4.3.jar"
+url = "https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-1.4.4/turtlematic-forge-1.20.1-1.4.4.jar"
 hash-format = "sha256"
-hash = "985e108dbabb392b7de4fbd475c804952b96ff6ab7820d0e1f78d874395a16f9"
+hash = "75d3fcf2d667cda7227379089bb0df9bb3b70201a960a455e537e15e9152dfc4"
