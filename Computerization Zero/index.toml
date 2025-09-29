@@ -816,7 +816,7 @@ metafile = true
 
 [[files]]
 file = "mods/digital-items-3.pw.toml"
-hash = "cba1b5336edc46b5148432b202af2037ab9948558f95eb592a2b3c022641b3ef"
+hash = "8f7025f110875211c235d5ca7467da6a93c5c0140601939d8a5d6dbb3eef1824"
 metafile = true
 
 [[files]]
@@ -1555,7 +1555,7 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "bb4b305b6d491da83f93a83bb0327cf5a9b580d05a2d032d8cacfb58a7c7c9a7"
+hash = "43d24ffb11e90f36b2b7e4617db3f448b30b41dd10aadad7f2da93bd16e47fb6"
 metafile = true
 
 [[files]]
