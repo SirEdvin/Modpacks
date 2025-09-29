@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "a73ec11104bababe339b793beb89f283687d86b668ecd9ae20487e4164037dcc"
+hash = "88f142bda6bfa6aff4f4d4e12b8ba7581aa40e3f163039a533f09dd6d634e093"
 metafile = true
 
 [[files]]
@@ -87,5 +87,5 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "07ce4a76234ae339731b67300474fff312f1d5243ff7a4c928d4935d16565674"
+hash = "0a6a66fc312d30f16cd99678356609f1d6a30f90a9c7187db3cd41792379a7f2"
 metafile = true
