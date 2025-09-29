@@ -398,7 +398,7 @@ hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
-hash = "dd2e64f89a8101b52e03a762840ba5c2c2f06c4a5a996c0438fa10af1d5eef2d"
+hash = "0ed759632e0597eb15ccc19f2c0f2041e0575002e0dfeec395b3bca9fa250d6b"
 
 [[files]]
 file = "kubejs/startup_scripts/aurichalcum.js"
@@ -406,7 +406,7 @@ hash = "38072ec3edec7e2064aaca45b32a0ae8303af3a980be3793587ecf913f0f192a"
 
 [[files]]
 file = "mods/actually-subtractions.pw.toml"
-hash = "a793387bed77c173038b2f41ad5076f3c3889dd9b3f72b4bbaab039b16a699a5"
+hash = "eb99b3418eee35bf8f9ebcc5e90224abd7d47eae039e4a578bb7fa975c87576f"
 metafile = true
 
 [[files]]
@@ -640,6 +640,11 @@ hash = "29ff87cf944ddc64351bffbf504c94a57055daf91d4df5b0cd1b8b28d28280bc"
 metafile = true
 
 [[files]]
+file = "mods/ccsecureboot.pw.toml"
+hash = "dc29e081bba63d2c240f5c71021f0980c6e4f93d701ecb260ed34f68035bb30a"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "b0732421ae2999d558a7b70a11fa86a93738ca33f6f3ec343017796df9c47d9c"
 metafile = true
@@ -651,7 +656,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloud-solutions.pw.toml"
-hash = "eee9377484c2517b8fbbe7c45a991adf00066dab95a9c1e6e22b11e7179865d5"
+hash = "df2b2001ee4778bb804a23944b9352959c387792d0c09f23715efc82ac5907ce"
 metafile = true
 
 [[files]]
@@ -1390,7 +1395,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "77b127ffe5654cc8c70e158e5a466763781669736407ff55b17d96e008a3d9fd"
+hash = "fa4096d2c3684e516c2d50c5f88cb4ac6abae8d896a2c8bad4ec42dce9a71504"
 metafile = true
 
 [[files]]
@@ -1400,7 +1405,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-in-motion.pw.toml"
-hash = "0a5f9ea6d328ce68221e7b65e39bf9312c21da5d46e3634f33ac652c49f3e006"
+hash = "c76f49ea3e25053385681b8d997e358197031dafdf23c010179681f101acd270"
 metafile = true
 
 [[files]]
@@ -1555,7 +1560,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "5973dd61e4c48ba317b385fd736342750d77278e993b723b6c71ed473280854a"
+hash = "87fa6e4bd8b678a0db8e6639820cd5270bc179306d112e7398a52d6e03c8f7f5"
 metafile = true
 
 [[files]]

@@ -5,8 +5,7 @@
 const bannedFromPlacing = [
     "minecraft:hopper",
     "pneumaticcraft:omnidirectional_hopper",
-    "embers:fluid_pipe",
-    "create:chute"
+    "embers:fluid_pipe"
 ]
 
 const hopperPlaceTriggerData = "comzero_tried_to_place_hopper_v2"
@@ -60,6 +59,12 @@ ServerEvents.recipes(event => {
   event.remove({ output: "embers:fluid_transfer"})
   event.remove({ output: "embers:fluid_extractor"})
   event.remove({ output: "create:andesite_funnel"})
+  event.remove({ output: "create:chute"})
+  event.remove({ output: "create:smart_chute"})
+  event.remove({ output: "create:portable_storage_interface"})
+  event.remove({ output: "create:portable_fluid_interface"})
+  event.remove({ output: "create:portable_fuel_interface"})
+  event.remove({ output: "create_connected:inventory_access_port"})
   // Energy transfer, hehe
   event.remove({ output: "powah:energy_cable_basic"})
   event.remove({ output: "powah:energy_cable_hardened"})
