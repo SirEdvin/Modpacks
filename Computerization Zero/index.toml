@@ -1560,7 +1560,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "87fa6e4bd8b678a0db8e6639820cd5270bc179306d112e7398a52d6e03c8f7f5"
+hash = "065eac3a67079453a0ec16225804661b09a2b053f32ad61210057aeae5ea6540"
 metafile = true
 
 [[files]]
