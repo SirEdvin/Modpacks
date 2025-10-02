@@ -1,13 +1,13 @@
 name = "Tinkers' Integrations and Tweaks"
-filename = "TCIntegrations-1.20.1-2.0.25.11.jar"
+filename = "TCIntegrations-1.20.1-2.0.25.13.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jNa5P8yc/versions/tRwncaPT/TCIntegrations-1.20.1-2.0.25.11.jar"
+url = "https://cdn.modrinth.com/data/jNa5P8yc/versions/K9exyy2T/TCIntegrations-1.20.1-2.0.25.13.jar"
 hash-format = "sha512"
-hash = "72db9cb8519b5243eeb6b751ea19647f64ca20822df2de6dc7a200fd57de7d3110b10d59d48e5117ce2b604590d7a85375576cef30caf0bd48af7e50c5b9cad9"
+hash = "7dfd33d119f994cdb8a5a79a0161dcf6fa121024e5b8c4d649cd4fe0fcc9d1271e5de92f87ae0cc4c4d636d52f4c60c9f71edf34eb5a6c91d07cdfefc0696d06"
 
 [update]
 [update.modrinth]
 mod-id = "jNa5P8yc"
-version = "tRwncaPT"
+version = "K9exyy2T"

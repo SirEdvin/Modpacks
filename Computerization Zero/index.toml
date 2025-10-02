@@ -406,12 +406,12 @@ hash = "38072ec3edec7e2064aaca45b32a0ae8303af3a980be3793587ecf913f0f192a"
 
 [[files]]
 file = "mods/actually-subtractions.pw.toml"
-hash = "eb99b3418eee35bf8f9ebcc5e90224abd7d47eae039e4a578bb7fa975c87576f"
+hash = "1f7aea920d0a9ea537a8fa1e4765d5cdae356db203e460a2b67f5aac4edf1277"
 metafile = true
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "a59b521037cc051d8029490abdf30e372fc3b066d947438c17989021e147d1ff"
+hash = "c501103bfdf3f827230d2b07e4b87015f302a213dc2ff63106102a7e00f9be4b"
 metafile = true
 
 [[files]]
@@ -466,7 +466,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "c2ec7d87283cca5de5a7ec0d82c3d94fc22d9511ce90bfc286ae51d749c2c6a9"
+hash = "4eb0979fd7cada4b6e3dd3fec8ced79ee0892e2b7ffba6466430387cd520acee"
 metafile = true
 
 [[files]]
@@ -551,7 +551,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "4611b33b8d0e571170bdd629e285771c1134060925712595546182b2f3a6787d"
+hash = "b461b542770bc93609a4ee0a1f4460965ea04d4e408413aefeac492c01159c07"
 metafile = true
 
 [[files]]
@@ -816,7 +816,7 @@ metafile = true
 
 [[files]]
 file = "mods/digital-items-3.pw.toml"
-hash = "8f7025f110875211c235d5ca7467da6a93c5c0140601939d8a5d6dbb3eef1824"
+hash = "f525bd1768c44fd5cb0ae6ff4783f14b475f7e6ffdd068718fc3defc80bb4a5e"
 metafile = true
 
 [[files]]
@@ -1295,7 +1295,7 @@ metafile = true
 
 [[files]]
 file = "mods/rar-compat.pw.toml"
-hash = "d9851e731541feb76c81b4afedc661ae0c3c7b7eddcb2ba0d21298ae641c7ee4"
+hash = "bf6585d061141ea9f95f908a0fbc473719c88dd115ff429bb231ba4ecfc6301b"
 metafile = true
 
 [[files]]
@@ -1390,12 +1390,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "c4184a664c2d9f0f06d1d46c1f9afca32e1ff4725b5704f1abf8fdbed1df0f61"
+hash = "b686a8ce8a4bcc34d597e078012646b735b4f8430d687fd329e315b2af717ff4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "fa4096d2c3684e516c2d50c5f88cb4ac6abae8d896a2c8bad4ec42dce9a71504"
+hash = "0e6816bc190bb6a2f736107e805b98e2b8e1ab059abf81062be2b7485f4bf632"
 metafile = true
 
 [[files]]
@@ -1405,12 +1405,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-in-motion.pw.toml"
-hash = "c76f49ea3e25053385681b8d997e358197031dafdf23c010179681f101acd270"
+hash = "5f41bbc3315a1c40b1201b5d83e15e4159ffb1c26322de9de6bfcba2a0fa2c6c"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "10f77a184299ca1e0901bcaf5efd16320dce9af177e25e6d87dcd7ff7134c611"
+hash = "fefb845499ec7453d6fb94e95a82c24bdc0e27a98d754c1762161262fe56e40d"
 metafile = true
 
 [[files]]
@@ -1435,12 +1435,12 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "f1a97b4c5c890b2153f4b91360279911b8affa8577a2d2a3645d5f6d583d2e39"
+hash = "72b2c23a2e9ca7ca0046bf1518851b4d409b489e8adac33d34651eddfc332604"
 metafile = true
 
 [[files]]
 file = "mods/tcintegrations.pw.toml"
-hash = "89129d12e50ea5ab1ec5553cc43aeed6d92f8a4fb834d96db4f3888ff0fcf80f"
+hash = "34e2161f495412255c75a7e507b925d8ceaa688dc44b49d6fb27d33cba67cfad"
 metafile = true
 
 [[files]]

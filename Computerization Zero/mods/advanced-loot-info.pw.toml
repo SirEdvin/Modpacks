@@ -1,13 +1,13 @@
 name = "Advanced Loot Info"
-filename = "AdvancedLootInfo-forge-1.20.1-1.3.5.jar"
+filename = "AdvancedLootInfo-forge-1.20.1-1.3.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PEPVViac/versions/3njr2feE/AdvancedLootInfo-forge-1.20.1-1.3.5.jar"
+url = "https://cdn.modrinth.com/data/PEPVViac/versions/wZEQLDQf/AdvancedLootInfo-forge-1.20.1-1.3.8.jar"
 hash-format = "sha512"
-hash = "8bd31e88f7231307a13bb5e38f657f7db5fcb8c7b3f49aa4bc021384b02d872c7ee6fd39e09709f3a2ad1a358689ca7b6de3c309f8725ef5e037e58e79f45982"
+hash = "0530f885152680b1550bbfbfdfa54862f77c0bccb63234b356bef065e7f1d8cfb6b67e5239b6a04d6e278dd13c9cf7e5371097035393343cc723002730e7c89c"
 
 [update]
 [update.modrinth]
 mod-id = "PEPVViac"
-version = "3njr2feE"
+version = "wZEQLDQf"
