@@ -830,8 +830,8 @@ hash = "1c61237fc845f477a34cc5291234bd33a3e24777166139095a1cbc99431bc0fa"
 metafile = true
 
 [[files]]
-file = "mods/duckyperiphs-1.20.1-1.3.1-forge.jar"
-hash = "5e1209e5edd5a101dcaf96705cb03876c1405eea941c80c9199ce8c3e480c5e8"
+file = "mods/duckyperiphs-forge-1.20.1-1.3.2.jar"
+hash = "88b793fc4dce8d37508ae85860d675ae33140fbf1bf1273e45bd66563529be9c"
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
