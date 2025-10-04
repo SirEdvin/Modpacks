@@ -656,7 +656,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloud-solutions.pw.toml"
-hash = "df2b2001ee4778bb804a23944b9352959c387792d0c09f23715efc82ac5907ce"
+hash = "ab814740866f15aef960efd2ebb8387699249a4d165815dbcd2fbfb0da83835f"
 metafile = true
 
 [[files]]
@@ -1560,7 +1560,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "587c108e8b070fa2798db4ab3352ea1743be5a65149f3657fb4833f7f77a60e9"
+hash = "bd735aee96e8264c15f8559fc745d836706b5242acc14922148b72048062555d"
 metafile = true
 
 [[files]]
