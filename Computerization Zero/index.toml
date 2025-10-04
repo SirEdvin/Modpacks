@@ -1539,6 +1539,11 @@ hash = "131c818cca79586fdca0535062a63581e7c438efd108be4403ab8faea92e6368"
 metafile = true
 
 [[files]]
+file = "mods/touhou-little-maid.pw.toml"
+hash = "13f4f153958e055c656d8c7410a004f6a10e7372a5e996dde140c25c49e2616b"
+metafile = true
+
+[[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "4a8a42c4c7834873a5f64f0f4e07eb46056329b345a1b835d8ea0aff2390fc0e"
 metafile = true
