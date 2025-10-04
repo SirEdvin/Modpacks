@@ -804,11 +804,6 @@ hash = "eb60f70cc84efa111a51c35311a44ae352b3b9c98ec7ba4e64595ae627e33006"
 metafile = true
 
 [[files]]
-file = "mods/deepmoblearningreloaded.pw.toml"
-hash = "68364e5fe2d279e1f4c8495dbf579584d8680e2a012a9db44e5130a26b0ca694"
-metafile = true
-
-[[files]]
 file = "mods/default-options.pw.toml"
 hash = "3497e48c52866fe536932d77fbb5cb1793d4e268e52873f1ca5c1e961b777814"
 metafile = true
@@ -995,6 +990,11 @@ metafile = true
 [[files]]
 file = "mods/hextweaks.pw.toml"
 hash = "3920e14488c4d2c89fbb32354cba5eb0feb457ef38815af9f2c22acef4f143bd"
+metafile = true
+
+[[files]]
+file = "mods/hostile-neural-networks.pw.toml"
+hash = "d8f52c6109108160c9ca80ae2d1fd03f3b27f4a3196c62ba805928b66482be5b"
 metafile = true
 
 [[files]]
