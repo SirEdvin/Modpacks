@@ -289,6 +289,10 @@ file = "config/peripheralworks.toml"
 hash = "5f29aabfb259c579e453ffe656bd0b19682984ddfd63a8771e0375e1e209834c"
 
 [[files]]
+file = "config/touhou_little_maid-common.toml"
+hash = "8bff0d02e4b5877a6b2d07dab4386fc91331b3e47e04b7f7850d2c3facfa7b90"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/advanced_peripherals.png"
 hash = "7cc788622e99dec56871165ff81ad530f6f4426e93db714de110e92d55e3e66a"
 
