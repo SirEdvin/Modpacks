@@ -1,13 +1,13 @@
 name = "Create: Hypertubes"
-filename = "create_hypertube-0.2.5-FORGE.jar"
+filename = "create_hypertube-0.2.6-FORGE.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ATDdrG1y/versions/oT3tlxGs/create_hypertube-0.2.5-FORGE.jar"
+url = "https://cdn.modrinth.com/data/ATDdrG1y/versions/yAdQmaBl/create_hypertube-0.2.6-FORGE.jar"
 hash-format = "sha512"
-hash = "ffd47f1726bec14456a5a322e104bde942b64ea9a123d8fb3563453a7f762c580aa1732ea0917ad75714cae3fde70e16e9f38fd9952873abf205eab2dfd384ab"
+hash = "09f242017ca09588de986dad57998d29dc957ff317665cd202bce2e23a930469713388f76922a49e607e82a1b5820fb852de14c5b261da2646e1bf5e638d8e82"
 
 [update]
 [update.modrinth]
 mod-id = "ATDdrG1y"
-version = "oT3tlxGs"
+version = "yAdQmaBl"

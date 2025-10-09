@@ -1,13 +1,13 @@
 name = "Relics: Artifacts Compat"
-filename = "rarcompat-1.20.1-0.3.1.jar"
+filename = "rarcompat-1.20.1-0.4.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/GnU07giL/versions/R3yjqHm4/rarcompat-1.20.1-0.3.1.jar"
+url = "https://cdn.modrinth.com/data/GnU07giL/versions/Q6XDOskb/rarcompat-1.20.1-0.4.1.jar"
 hash-format = "sha512"
-hash = "476b013360975a9ac6f97b78ff4f406ff23a9acd1132b958af094a2e349d8d530f1840e78de06749229c66265946d580ae2dae5e98d44d8721aa74610f4cb959"
+hash = "3b17ccf1c75dd3939ecbbf3f96f4e7fac2df91120be6a3889190592714fb000afc013a8a378ac412743700cede52478c878ccde981b412842f854376612ed3a9"
 
 [update]
 [update.modrinth]
 mod-id = "GnU07giL"
-version = "R3yjqHm4"
+version = "Q6XDOskb"
