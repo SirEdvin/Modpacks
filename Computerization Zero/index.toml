@@ -349,6 +349,22 @@ file = "kubejs/data/forestry/worldgen/configured_feature/ore_tin.json"
 hash = "8b5227d0129cdc90238fe47c5f76957016f14034daddbef0f8e4e1dc9929bb40"
 
 [[files]]
+file = "kubejs/data/kubejs/recipes/earth_slime.json"
+hash = "876733f884a78dda4fdf600d5f748f77486d42dee97dfbbfe8cecd9ab78aaa82"
+
+[[files]]
+file = "kubejs/data/kubejs/recipes/ender_slime.json"
+hash = "3b8c757f3240889798fda4c05934748ec3c21ccf6d815aa1cfe8e144450f894a"
+
+[[files]]
+file = "kubejs/data/kubejs/recipes/ichor.json"
+hash = "eb42bdd259e809a207e318dfdf3c54770c47ac309870e6ba3416e2d90adce3c9"
+
+[[files]]
+file = "kubejs/data/kubejs/recipes/sky_slime.json"
+hash = "52393f3fccf9307746213f2cb44576fe68050eb6a340c866180a6f7d7674790b"
+
+[[files]]
 file = "kubejs/data/kubejs/titles/computer_enthusiast.json"
 hash = "4855cdffaee278e877564315e09dc7b20d8df1992e99cff75a77860580322bd1"
 
