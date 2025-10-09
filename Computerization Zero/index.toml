@@ -528,6 +528,11 @@ hash = "51bfe542fb8fc6d691f464e079b78a811f18c268bbf52751a0c33aa1db722948"
 metafile = true
 
 [[files]]
+file = "mods/ars-technica.pw.toml"
+hash = "f74d674d172fb27b93f1738f092a2d6b2d4cecc578656f9357886b8e13fecc35"
+metafile = true
+
+[[files]]
 file = "mods/arsdelight.pw.toml"
 hash = "710e7c2423c8a14f2037f88e955544ad55d54460a1f2e5b884b34d60aa1cb0b1"
 metafile = true
@@ -1129,6 +1134,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "47b9410704efc0f8cb3b34a87d7019a013850775afe464e887b19ecf45eac0d3"
+metafile = true
+
+[[files]]
+file = "mods/maid-mana-source.pw.toml"
+hash = "de0d8eaa7ecd3df53054f8ddca2b156c86ee9bc401a4492789e1f72408f398c2"
 metafile = true
 
 [[files]]
