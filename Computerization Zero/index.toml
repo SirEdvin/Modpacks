@@ -389,6 +389,10 @@ file = "kubejs/data/tconstruct/tags/block_entity_type/side_inventories.json"
 hash = "a81e5d476a8c88c6aff76e66b6fa8a8de9bf1e88f2fbf8b25f48459c91de633b"
 
 [[files]]
+file = "kubejs/data/turtlematic/tags/blocks/husbandry_extra_crops.json"
+hash = "ed0a1c86ec380ee2e4e01a30886f5a5b015f99ea46a9e9310cc4ef01bbb8c0da"
+
+[[files]]
 file = "kubejs/server_scripts/fixes.js"
 hash = "5706c7c71b175b27ed333a1386c6e1fe3a41438870e8d7492a897d61c9ed19ea"
 
@@ -515,7 +519,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "44505ec6c8d7ac5948b3f192cff3db191b07c4d39d501ce3af916006cda3c5a6"
+hash = "705856841852ca6823fb2b16c7e82c15ce251bf995ac6ac725ee5665d3b54dd1"
 metafile = true
 
 [[files]]
