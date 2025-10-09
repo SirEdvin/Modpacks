@@ -1232,6 +1232,11 @@ hash = "b849dfdaaa3e4ad635fb16595bfd6ae03b83de0c02f5b06faafb24cc33926f3f"
 metafile = true
 
 [[files]]
+file = "mods/observable.pw.toml"
+hash = "6a94342cf499f76ae6d809e718ba533376055adfafaf45d0eaccb25ea18e2a9d"
+metafile = true
+
+[[files]]
 file = "mods/occult-engineering.pw.toml"
 hash = "22a29950b61a94c9049658777faa8dc09158abd5e284780a3f505baf7de8f04e"
 metafile = true
