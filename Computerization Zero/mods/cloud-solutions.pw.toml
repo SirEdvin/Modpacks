@@ -1,13 +1,13 @@
 name = "SirEdvin's Cloud Solutions"
-filename = "cloudsolutions-forge-1.20.1-0.2.3.jar"
+filename = "cloudsolutions-forge-1.20.1-0.3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Y3m5o2k4/versions/ma4cRD4S/cloudsolutions-forge-1.20.1-0.2.3.jar"
+url = "https://cdn.modrinth.com/data/Y3m5o2k4/versions/AKaSbnY9/cloudsolutions-forge-1.20.1-0.3.0.jar"
 hash-format = "sha512"
-hash = "e3680ae353920af1a62fc4c05c01e9d34c28c1243665fb709e8762610cd828ead6097baa83d1b2bf827f7edc0880bbd33a28abb96a638cc22e77f2f2d0b48ebd"
+hash = "ccfbcfc6fb599e793329351785fe5c46924633001f021ee2517bffed9a5e49e92adbdc21927b7442145e5bfec2f5892b49eb8960644c7fab717f61a2b8d4102d"
 
 [update]
 [update.modrinth]
 mod-id = "Y3m5o2k4"
-version = "ma4cRD4S"
+version = "AKaSbnY9"

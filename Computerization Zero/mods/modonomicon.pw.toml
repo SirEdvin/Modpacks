@@ -1,13 +1,13 @@
 name = "Modonomicon"
-filename = "modonomicon-1.20.1-forge-1.79.1.jar"
+filename = "modonomicon-1.20.1-forge-1.79.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/692GClaE/versions/gJSTUzMX/modonomicon-1.20.1-forge-1.79.1.jar"
+url = "https://cdn.modrinth.com/data/692GClaE/versions/tcbeH7fY/modonomicon-1.20.1-forge-1.79.2.jar"
 hash-format = "sha512"
-hash = "f8a2e024c33dbc743d56ea23bf792b7c2b481391122e559a80d713c1eceaa6637b605cb3503076814bf91b73c85d365527e28ecba68b5640a2df0c38d66097b7"
+hash = "dadd93a9aebafc999c2578da56b947fc55c68b6e02885fb4425b8094fbcaf69b7a59c04cb61f79a7a189816034cddbcf1b1f4e963809e799658171f2528e7daa"
 
 [update]
 [update.modrinth]
 mod-id = "692GClaE"
-version = "gJSTUzMX"
+version = "tcbeH7fY"
