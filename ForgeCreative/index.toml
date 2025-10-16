@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "bf4133b4ac7b08983c98dcfb4cbfe4cc2b10698efb935d19378fd6a27490dd22"
+hash = "bb3d9e5640c61e9d63cba49980846154de2509761607bfd7fbafd32ba502f910"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloudsolutions.pw.toml"
-hash = "b7c81fd7c7a1b67da40a1920755d06e41544da34d41f33d3c60948598efd2805"
+hash = "6c9baf7b2eb11cfe96608f7fb96741b5188e1f6cab06398ec402ae83e9da4154"
 metafile = true
 
 [[files]]
@@ -57,12 +57,12 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "fe03ff925a227f90b4a4bba5d1c36ba5e733d4ca182f45baed795a0e1a7d7ac2"
+hash = "81da708e6a9add4237562e15bd2be857cfa3908c50951408ab2137ff1c68fbbd"
 metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "9be77e7f777afbaa77f954093f4e95cd6a0e823fd80a2989ba12f2c90ef253cd"
+hash = "881d7a7849f291aff5e3aac0873b03a679df6c66ac096a62019a9ba68bc1f508"
 metafile = true
 
 [[files]]
