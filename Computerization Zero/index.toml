@@ -474,6 +474,11 @@ hash = "9d1b15ffa15606c346ad2ed32c349fceac9863ae13b433c2aee7d026c87d4339"
 metafile = true
 
 [[files]]
+file = "mods/alltheleaks.pw.toml"
+hash = "b26798ffad97e9625a6653dd647240cad46c3f075680180be43a8fc202c1c82b"
+metafile = true
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "e1a222c5ace6d1b4bab067b1245e460179a153f1e7bc8538335056fa8442155c"
 metafile = true
@@ -709,6 +714,11 @@ hash = "b48477922acd9764b9642e23f51023a6576162262c5bd06926be44c258240375"
 metafile = true
 
 [[files]]
+file = "mods/compact-machines.pw.toml"
+hash = "d811d8a03eb5599c316bed7c06632f7431f268aa4bc68cae81dba7fd9e951a88"
+metafile = true
+
+[[files]]
 file = "mods/compressedcreativity.pw.toml"
 hash = "d24b5867d8e0709118d2dab1507369498d1337dff7f56f2370e53fe03fa3db7f"
 metafile = true
@@ -766,6 +776,11 @@ metafile = true
 [[files]]
 file = "mods/create-ore-excavation.pw.toml"
 hash = "dd0b2f978bc582e671f0b374d1a24680d02e44f9c541ce9c87cba0dacdeda507"
+metafile = true
+
+[[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "255864fc7aa8e28619e5ddbf9094623bfcc9d6caa260bc0cd3d32b39d45a532f"
 metafile = true
 
 [[files]]
@@ -1100,6 +1115,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs+cc-tweaked.pw.toml"
 hash = "715916f67a72805e4c86709e4ed47bd4cf537d64b23117b3b0e31de0e7bfc523"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "e9ea701c9fc9bb54d1bd3b6998403a229f896449c0d15b5df23dc46e20ac5092"
 metafile = true
 
 [[files]]
