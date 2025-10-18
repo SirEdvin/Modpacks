@@ -1,7 +1,7 @@
 name = "unlimitedperipheralworks"
-filename = "peripheralworks-fabric-1.20.1-1.6.0.jar"
+filename = "peripheralworks-fabric-1.20.1-1.6.2.jar"
 
 [download]
-url = "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-1.6.0/peripheralworks-fabric-1.20.1-1.6.0.jar"
+url = "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-1.6.2/peripheralworks-fabric-1.20.1-1.6.2.jar"
 hash-format = "sha256"
-hash = "5d29c7c1c9505d48339f9ac0c8e94fa3a97935e5c05f4b13e062644901f36421"
+hash = "7c0e0eee9f0cdd9b4ac0997abc2accb5a11c71c20d9d671074c2797335346822"

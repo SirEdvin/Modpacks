@@ -1,7 +1,7 @@
-cloudsolutionsVersion = 0.3.0
-turtlematicVersion = 1.4.4
-peripheralWorksVersion = 1.6.0
-digitalItemsVersion = 0.5.3
+cloudsolutionsVersion = 0.3.1
+turtlematicVersion = 1.4.5
+peripheralWorksVersion = 1.6.2
+digitalItemsVersion = 0.5.5
 
 turtlematic:
 	packwiz url add turtlematic https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-${turtlematicVersion}/turtlematic-forge-1.20.1-${turtlematicVersion}.jar
