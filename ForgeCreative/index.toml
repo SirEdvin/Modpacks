@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloudsolutions.pw.toml"
-hash = "4ba009d8fd5c0167a56da9083e94c773c159a415addb877691ff4a66e8be7a6a"
+hash = "450dd87ed797f3ab39b1e11b5d3d3cc0acdc9fa19495c1750fdaf5065c1c75a0"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "a35b119ec33b2565e68d02bf4d65109b8ae734ca38f2c816c35635559d3d4a61"
+hash = "2c2bb2563738f09cde8489e55e97f216b304f65c4c502cd663d43dadfc1cdfc3"
 metafile = true
 
 [[files]]
@@ -82,10 +82,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "a63ca24de32a834f96e9962278409811fb937ed844930495a9dca40c0a6ab113"
+hash = "c21dfe2eecef46a0cdce645dba017c0c902afe69b5d813587c2fe1112c62ebde"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "342f867baea22f5621ca3799d8b254817e86d27be1fb0a363823cb0f2af315b3"
+hash = "b2ea59e8520f023ac07cd29ceedb76b88cf4abb5dd3fd330db46afaf98eb1253"
 metafile = true
