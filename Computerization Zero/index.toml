@@ -90,7 +90,7 @@ hash = "a350e54ddf362e8924da5c7a63de8a1955d5684fe678550ca977b44ba894d0d9"
 
 [[files]]
 file = "config/heracles/quests/howtousecomputers/gathering_souls.json"
-hash = "8f0a25d605998be174a0fa5b37cc528451eda5402776f5573273c7c3f894e1f2"
+hash = "3ef6302c015b0d14bcfd005ad2544885f77b7e536aa183db0631d62bb0a4a95c"
 
 [[files]]
 file = "config/heracles/quests/howtousecomputers/it_fits_into_your_pocket.json"
@@ -146,7 +146,7 @@ hash = "287c932ab5cada98e2f52cf4e26ccf714976e8d5c167e84ee459ad36e68f9df6"
 
 [[files]]
 file = "config/heracles/quests/howtousecomputers/remote_access_to__minecarts.json"
-hash = "c15699bb41384cbe38bd4d47f34e9084c1d83650f55e5839ccf3cbb168a5b518"
+hash = "809e2a62eadb8871bcd5c4e07493d3114c02b473dd4fd4d9e8f40d0eac516bd5"
 
 [[files]]
 file = "config/heracles/quests/howtousecomputers/remote_observer.json"
@@ -182,7 +182,11 @@ hash = "18686db7cf55ea8a91235f8a1ff509b5cd88538b2c912b05e06ea7d7a75d04db"
 
 [[files]]
 file = "config/heracles/quests/howtousecomputers/unlimitedperipheralworks.json"
-hash = "fe6a81e6026ea3e0f8b857276753264b4a0e6c22f6948da162da1b536be0ab23"
+hash = "dd742ed87745b44a271af091704c55cd495824b281d1cf7fe2ea7ee303413543"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/better_smeltery.json"
+hash = "47d8b446909b637c88afad0d93f2b21c74f9af07d98c81f3031e48cfc9fa117a"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/big_storage_controller.json"
@@ -193,12 +197,28 @@ file = "config/heracles/quests/startingafactory/chest.json"
 hash = "d25a8ad10fceb59e43daa51ecca34e3e4f7316b5f2776234f5957fd5dfd8c776"
 
 [[files]]
+file = "config/heracles/quests/startingafactory/create_chunk_loader.json"
+hash = "fc0a06ce6fde222522017d01bfeadb009a532ddf6c3acb707e0275a688daeaf4"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/create_curve.json"
+hash = "800ea7947fb9a0f7d524845ef40ecd855f95b7934acdf053a5ed9b179e1e5a3f"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/createbased_ore_generation.json"
+hash = "2cd57c0279a9a8d965fbb6da3817405e555f04272b552958438400f1862437cf"
+
+[[files]]
 file = "config/heracles/quests/startingafactory/creating_starting_ground.json"
-hash = "77bddcdb19e27b4212d8ba5e069878783310b08aa7c17714060cba6554fb6dcd"
+hash = "3e6cf0fb5b38c653eea61d61bdec114c15e31e14e934f360623e272d1059cbb8"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/digital_storage.json.orig"
 hash = "382c725d2bbcd6499a0bdae899a254effb2d24469ea51a13bdf2b7b89d4c8a5f"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/dimensional_dungeons.json"
+hash = "c1c81ca4d68ed0a690153c6bb35b749ae25ea8e61e5710cd74e7c8ad5f0db478"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/easy_villagers.json"
@@ -221,12 +241,32 @@ file = "config/heracles/quests/startingafactory/ore_triplication.json"
 hash = "9daf314a673dc35cd8f1f5dee481f1742aa23843f3b1da7801ceed7b5f9b5f73"
 
 [[files]]
+file = "config/heracles/quests/startingafactory/power_of_computing.json"
+hash = "d9ca06a056807d77c335beca093a975b84967a29f22bb89d56c674702be9378d"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/proof_of_mastery_create.json"
+hash = "e662e3bf0b3dfabf405ba02058507c2e603ceb8fea914960e5568f6c973fd10c"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/proof_of_mastery_tconstruct.json"
+hash = "9f1967ec40bd3cfc86d99858b584a5aa3b8aa7ca643a174c1a3c7eb631035369"
+
+[[files]]
 file = "config/heracles/quests/startingafactory/proof_of_mastery_theurgy.json"
-hash = "ab7341df25eb1dae80a4756a9e84ac53e9ac00504139d1098575ff46036b9b32"
+hash = "c3414112f46499be733728a40edff62df1c43d27ba150e1cfcc6f79f879cee2e"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/proof_of_skill_create.json"
+hash = "e77367429b1ff135fbeeefd160746817ab9863b0be7b6c502148a6ac8bb624b1"
+
+[[files]]
+file = "config/heracles/quests/startingafactory/proof_of_skill_tconstruct.json"
+hash = "b5138e45ef2a2aa554d473ce83234d4df8f799a0ab4f871ce494a78ec31254b6"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/proof_of_skill_theurgy.json"
-hash = "52772914b5c93c34038b65d3d0a08d65393b2ce984a2f49ee39b75bf06da319b"
+hash = "5cfdfec1d18cc8248814ea1cb5f1ff5268f05ec4f6975e290c9f66a419436ed1"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/sophisticating_things.json"
@@ -237,12 +277,16 @@ file = "config/heracles/quests/startingafactory/starting_punch.json"
 hash = "e2e2d2f59f36717bb196ab5706d395545032bca83196f93b0afecc3b8153b110"
 
 [[files]]
+file = "config/heracles/quests/startingafactory/starting_small.json"
+hash = "e7fbba4e416bc652656896d0c0dcc7c75c2ab0264ea89e6e321f8433a8070620"
+
+[[files]]
 file = "config/heracles/quests/startingafactory/table_of_the_start.json"
 hash = "071b8f1e9fd56730df522e51a47d54c3e1ac3dd87a00be5957b23fd63263188c"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/visit_aether.json"
-hash = "d11eae756b42b0c35e29edda78126608004917efc88bce72f598c307ef4a3e18"
+hash = "6f1697053a801c38100d7a85f776a105b46c4208cd4ac05ab9bbbecf7b1c300d"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/challenges.json"
@@ -274,7 +318,7 @@ hash = "a38a46772c4e1bed9f2ff4c72dc078dd1ca30c3024822b3b0f79b530fd45b6cb"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/what_this_modpack_has_to_offer.json"
-hash = "ef052a909c479a6e372961707b0dabdbb82bc6618e61a40ae363af360577d77f"
+hash = "a111e35ef376e86a3a738311391e7fdf2e6516ed5fc28b4cc2a9deebc8adaa9d"
 
 [[files]]
 file = "config/heracles/quests/welcometothemodpack/world_without_a_hoper.json"
@@ -305,12 +349,72 @@ file = "kubejs/assets/kubejs/textures/block/aurichalcum_block_fancy.png"
 hash = "20f08c76b981bde702b5a0f52a1a755aee20e6c25ab4f82e69cde40514fad134"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/compute_machine_tier_1_bottom.png"
+hash = "741d1b2f41ac8f56ef670054c4af722f32ebd8c3e1faf0193dfe9e04193e4d4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/compute_machine_tier_1_front.png"
+hash = "550e45571688cb470482f569c960f3481a23a87da66d7ff5e2428fa12e36835e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/compute_machine_tier_1_front.png.mcmeta"
+hash = "28bd683d64ef03b6ee3e30346d710c668baed13231ece7b1bff151156cab4883"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/compute_machine_tier_1_side.png"
+hash = "56db7a9a077a44d42c29601f7c3d61de869fabcef225921e3421f91b18761660"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/fluid_strange_pale.png"
+hash = "209a7f5406e695db4b85edc60a94ecb3e396ca9143b156c38cf791bf3eafff95"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/fluid_strange_pale.png.mcmeta"
+hash = "d859a74124fbfe6745e73c7bbf5af93ac70a427f40067f5dd60910aa46c10c14"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/overcomplicatium_block.png"
+hash = "8ab6257de171816929d19a217300b93fc5789b52a3facd95d2f41425d191935f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/finished_complicated_bulb_0.png"
+hash = "5fa5fd9813e491fc073903753f5b77044c65d0a25ceba3d8645c59102af04fce"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/finished_complicated_bulb_1.png"
+hash = "1402b50313ba58af0201ed3d86c0de9526a2d6855cb17e34c421bca028ed7d4a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/finished_complicated_bulb_2.png"
+hash = "96d021bb3d2f2526dfdfc51c509a8c5b812d75aed259bb9d55a262242a1fbc7e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/finished_complicated_bulb_3.png"
+hash = "9c2d17cbb9fa29aae92bb445ba1b06df13e024606854980d993fc6444fda67a9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/finished_complicated_bulb_4.png"
+hash = "3fecdae1535c2b51316554863fa9e8a5b77986b99efeaff3442b1aad4de54c9d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/finished_complicated_bulb_5.png"
+hash = "8362141060598107e5fc3e6447433b4419e6051c483b929046b624314219c5a1"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/ingot_aurichalcum.png"
 hash = "eda84277ef197d9ae99a67d2de19bbe1e4aed9bfe89f25afff6ac760ef78fed8"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ingot_aurichalcum_fancy.png"
 hash = "ebde7a71ccb2d58c39a16c7cfc26026144826f03721a5a81dfbfd12fb4f0cc7a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ingot_overcomplicatium.png"
+hash = "731f7a680b21e2389b3c782535fd8b82f1ae68c32310beca28aa7f0ec4aa72c3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/mechanism_base.png"
+hash = "27c38bffff1ec5a7f66abe22cfb910a673f18f58a82afc3545c0b492cabb1b46"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/nugget_aurichalcum.png"
@@ -321,8 +425,72 @@ file = "kubejs/assets/kubejs/textures/item/nugget_aurichalcum_fancy.png"
 hash = "f081776e88330703c7abc6eed87f6253f6afe080b21b3bbc7d28fedd3e02d1ef"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/nugget_overcomplicatium.png"
+hash = "5a1ac2eae3a539edd40d500a8490031df382effa4379da461b9c7ce6674406a0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/overcomplicatium_slug.png"
+hash = "d93c169a4bf801c6cf1b3080395420e48d5b18715845d555953f0313f83f485a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_complicated_bulb_0.png"
+hash = "dee64f9d425f9366d03ca7e214396f6ba9f6e00074d5baa54f6b674c32e8c3fc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_complicated_bulb_1.png"
+hash = "ba3892beb24f1c6c3a7b3c75437e39da89726413e65cdd2bb6646bdd1b89d88e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_complicated_bulb_2.png"
+hash = "a8ff928dcce658b16b6e6825ad55108a8408947aefb9674160d3f0f518ec5862"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_complicated_bulb_3.png"
+hash = "7438f07b8515049bbf5fd76d678ae712be837c4a756881ee306a3189b9202e16"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_complicated_bulb_4.png"
+hash = "bd903598d4ff8f1647fbe38e1e8b6fca5ada5d604a3f5f5c75d8a04f233655df"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_complicated_bulb_5.png"
+hash = "b980ceef6b22cd059f7d0eb5714e624bf5dfd52922527260ead01f878766e00a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/silicon_wafer.png"
+hash = "ff413cefd347ffb55e5ed1eb76f9bd8829bf86e84eac359e7628bc6473d976eb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfinished_raw_complicated_bulb.png"
+hash = "dbfb697170f3c9e369c8557b1088539bce539119edfbdafa379cb4d6cfedb8ec"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/multiblock/first_controller_back.png"
+hash = "fa003e2baf91564888da4af822551fe420149050f1dae2e7138ef605bf0050fe"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/multiblock/first_controller_front.png"
+hash = "1cb64e7e280571347a17cd7d769dfe951c5d7ad2ca68580eee4f67e5639a6f2e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/multiblock/first_controller_front.png.mcmeta"
+hash = "28bd683d64ef03b6ee3e30346d710c668baed13231ece7b1bff151156cab4883"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/multiblock/first_controller_side.png"
+hash = "e8e7e6ff455c81cf92739bfff80cabfe54001a1e532fcd23ab6b0c6b34dda8ff"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/multiblock/first_controller_top.png"
+hash = "27b8e495acbc05be507f2be8c19cebc314316a1cc18ef6259616b262b521d5ff"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/wired_modem.png"
 hash = "d7b23843411549383cd798706ba6aa6328b518ba2aef51816d5410deb879eafb"
+
+[[files]]
+file = "kubejs/client_scripts/lang.js"
+hash = "2f864df7858f051883e9a02a0500548f24caa31eb09919c481fb1a4ebd4a9852"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -365,6 +533,14 @@ file = "kubejs/data/kubejs/recipes/sky_slime.json"
 hash = "52393f3fccf9307746213f2cb44576fe68050eb6a340c866180a6f7d7674790b"
 
 [[files]]
+file = "kubejs/data/kubejs/titles/challenger.json"
+hash = "0ab716ed08defa94ff24c4edd70adde1a73c8cdd1573447ce5404e1dd568c971"
+
+[[files]]
+file = "kubejs/data/kubejs/titles/cogwheel_bender.json"
+hash = "3c67dc301234ef229d398c61c762a4d78256e67d0ff78c32782311e191cf1383"
+
+[[files]]
 file = "kubejs/data/kubejs/titles/computer_enthusiast.json"
 hash = "4855cdffaee278e877564315e09dc7b20d8df1992e99cff75a77860580322bd1"
 
@@ -373,12 +549,24 @@ file = "kubejs/data/kubejs/titles/contender.json"
 hash = "3ed4992db0e5bb73327b0105ff28b2f9c0e0725dd461ea631af3bf22797406a7"
 
 [[files]]
+file = "kubejs/data/kubejs/titles/craftsman.json"
+hash = "2e8d9c38c175564c7b03f1a4bc2f437c258821dc4c2991d6992bde8eb7dbbde3"
+
+[[files]]
 file = "kubejs/data/kubejs/titles/divine_theurgist.json"
 hash = "c5a817c44e003daafa1b67c60c3faa7e6d635fae6ad09dacd40e6248297e94bf"
 
 [[files]]
 file = "kubejs/data/kubejs/titles/interdimensional_miner.json"
 hash = "9facba7576149b031e30118c8d2fc214a8de9f93f06ef5af53f73d8e6f1d2178"
+
+[[files]]
+file = "kubejs/data/kubejs/titles/mechanical_engineer.json"
+hash = "699d2b7bea01976930bed4b5f1b073f149bcbd32b188135488b193f02d4a93c7"
+
+[[files]]
+file = "kubejs/data/kubejs/titles/smelter.json"
+hash = "d43df7eb1065cf59c6218d4f4ce299a9cc1f8db4760c8aaf9214f35ec2cf519b"
 
 [[files]]
 file = "kubejs/data/kubejs/titles/theurgist.json"
@@ -413,20 +601,96 @@ file = "kubejs/server_scripts/fixes.js"
 hash = "5706c7c71b175b27ed333a1386c6e1fe3a41438870e8d7492a897d61c9ed19ea"
 
 [[files]]
+file = "kubejs/server_scripts/machines.js"
+hash = "90f68b8dc45e5bdc8acdba5cbcc4baae39ff16e71b819f9c183a4d9e6432ba05"
+
+[[files]]
 file = "kubejs/server_scripts/metals.js"
-hash = "3d6b13e10895dda18c0a0d2b1d7e91c7d4d6371110e0404b78478fa6856b2b88"
+hash = "83784c9aa1a8817827266d63f419ef8a61444b589ad521b87b848f48e5fb2b5b"
 
 [[files]]
 file = "kubejs/server_scripts/ore_veins.js"
 hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
-file = "kubejs/server_scripts/restrictions.js"
-hash = "0ed759632e0597eb15ccc19f2c0f2041e0575002e0dfeec395b3bca9fa250d6b"
+file = "kubejs/server_scripts/overcomplicated_mechanism.js"
+hash = "aa84ef33caeda5c4ad643ed689433891271665bf809df0dc379ac583ef0d8d2e"
 
 [[files]]
-file = "kubejs/startup_scripts/aurichalcum.js"
-hash = "38072ec3edec7e2064aaca45b32a0ae8303af3a980be3793587ecf913f0f192a"
+file = "kubejs/server_scripts/restrictions.js"
+hash = "a0705d6ef79b05e2a083cbd7b095d10e8a448c63f79b60d5efa19bff14cd30c5"
+
+[[files]]
+file = "kubejs/server_scripts/tier1.js"
+hash = "f22fe9747f0b9872bd628d26954db76b9b94cc102838839b1795d113907164a7"
+
+[[files]]
+file = "kubejs/startup_scripts/machines.js"
+hash = "cedc593e1ca9cda6b08d5b969928913e8e612f26c3c5917419675c04f06ea3ae"
+
+[[files]]
+file = "kubejs/startup_scripts/metals.js"
+hash = "0e8b111c5f469e89e2bad1dcac39a748cc7ae345bd1a22b40d900caf1ff5608a"
+
+[[files]]
+file = "kubejs/startup_scripts/overcomplicated_mechanism.js"
+hash = "c31ffede3918aa24ec13d51540fa769c18c31afcdcc00207acaeeb99f6af10a2"
+
+[[files]]
+file = "kubejs/startup_scripts/tier1.js"
+hash = "6ed46b7bc33f08b8d3e9454911a0180616849377619eb1b5cae2b4968c57e121"
+
+[[files]]
+file = "ldlib/assets/mbd2/geo/first_controller.geo.json"
+hash = "2f162b02e19f77489f845d74f3e1d51f5f1abf4a3d7ee2c27cf08f05caefca74"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/compute_machine_tier_1.json"
+hash = "e320dc89c7be4ea12fdfd7886a49f29d1d4c26073b429b6aa048e10fe4126938"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/first_controller.json"
+hash = "212866f2cb5055940a3cefadda3fffd57aebcb6674ac1b4cc80d253b9b181911"
+
+[[files]]
+file = "ldlib/assets/mbd2/multiblock/compute_machine_tier_1.mb"
+hash = "dc236bcea81ac1047ac2351c90ce73aea3cd5c9381690ae6999bc09068f72c7a"
+
+[[files]]
+file = "ldlib/assets/mbd2/recipe_type/normal_compute.rt"
+hash = "429d4847e4868fe5ec6cd8c0bfea94cd53cf9f7627d1838e31f92b5519b17108"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/first_controller.png"
+hash = "7bef43bf64f42960da97e447861ae73d5427c0e78142f276b15f9fe5e9c9abe5"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/first_controller_front.png"
+hash = "550e45571688cb470482f569c960f3481a23a87da66d7ff5e2428fa12e36835e"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/first_controller_front.png.mcmeta"
+hash = "28bd683d64ef03b6ee3e30346d710c668baed13231ece7b1bff151156cab4883"
+
+[[files]]
+file = "ldlib/assets/resources/textures/first_controller_back.png"
+hash = "fa003e2baf91564888da4af822551fe420149050f1dae2e7138ef605bf0050fe"
+
+[[files]]
+file = "ldlib/assets/resources/textures/first_controller_front.png"
+hash = "1cb64e7e280571347a17cd7d769dfe951c5d7ad2ca68580eee4f67e5639a6f2e"
+
+[[files]]
+file = "ldlib/assets/resources/textures/first_controller_front.png.mcmeta"
+hash = "28bd683d64ef03b6ee3e30346d710c668baed13231ece7b1bff151156cab4883"
+
+[[files]]
+file = "ldlib/assets/resources/textures/first_controller_side.png"
+hash = "e8e7e6ff455c81cf92739bfff80cabfe54001a1e532fcd23ab6b0c6b34dda8ff"
+
+[[files]]
+file = "ldlib/assets/resources/textures/first_controller_top.png"
+hash = "27b8e495acbc05be507f2be8c19cebc314316a1cc18ef6259616b262b521d5ff"
 
 [[files]]
 file = "mods/actually-subtractions.pw.toml"
@@ -771,6 +1035,11 @@ metafile = true
 [[files]]
 file = "mods/create-deco.pw.toml"
 hash = "87be52b8aaa9864eab1ec2df8c862cd01a084989b07c4cdbfaa21c57a9a778a6"
+metafile = true
+
+[[files]]
+file = "mods/create-mechanical-chicken.pw.toml"
+hash = "defa6cc58a8f4c0db7df8505eaea45c071c06eed882afc708a52221eadce2a09"
 metafile = true
 
 [[files]]
