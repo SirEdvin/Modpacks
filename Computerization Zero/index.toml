@@ -690,7 +690,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloud-solutions.pw.toml"
-hash = "0fc159f25405427c8dbe2af597632df4ced7ee2c3fdf36d2b7ac62208015bfe9"
+hash = "8da54a979825cc495f5deaaed137f27280a3471b2f7caf7d23f4c86b1bee2185"
 metafile = true
 
 [[files]]
@@ -845,7 +845,7 @@ metafile = true
 
 [[files]]
 file = "mods/digital-items-3.pw.toml"
-hash = "f525bd1768c44fd5cb0ae6ff4783f14b475f7e6ffdd068718fc3defc80bb4a5e"
+hash = "1eca11bbd99fc8b07555067346d52d27074f104cafe1d273b945d59118254aa0"
 metafile = true
 
 [[files]]
@@ -924,7 +924,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "7232f152b9359ae1560afb53573ce7bafd381f42b029e75a955c93933a810bab"
+hash = "ecdd85eb91c66e843bc6194c85a5a0172e1a9717c9205e07c5d0f160bf5927f9"
 metafile = true
 
 [[files]]
@@ -1204,7 +1204,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "1e3a1a97caff0bce36a008aeb2131dfdccbdf182b4f115d284f2297046a9e379"
+hash = "59ddb20cb1fddab5a1a0349e0452f5100c2bec8c51e746658553f92dc8239512"
 metafile = true
 
 [[files]]
@@ -1414,7 +1414,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "d0bb9d21bf0da0429bf9bf01bf7a5201f8ec9ff0d6b1334fe267ed847aea5c7c"
+hash = "e4b99d45d1cfb55b0ecd2aa78c56958b57460e63b637448017df60b2412e77d9"
 metafile = true
 
 [[files]]
@@ -1444,7 +1444,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "cc44f7d1b8861db4e083e2fc7ffc1dd7c25aa55657c806a456273276b9d37e6b"
+hash = "6523ff47e30a56c902b9f49aadd42d377c5b4b21a634edce7001addbe10040f9"
 metafile = true
 
 [[files]]
@@ -1619,12 +1619,12 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "43d24ffb11e90f36b2b7e4617db3f448b30b41dd10aadad7f2da93bd16e47fb6"
+hash = "243ec788d151d216036408d2ff1101da828176375da0469f2187ab0bd8a8696d"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "bd735aee96e8264c15f8559fc745d836706b5242acc14922148b72048062555d"
+hash = "7aff8ea5021bea551036f04395db38eae0d603f75d2939eacc35002557d4c0b2"
 metafile = true
 
 [[files]]
