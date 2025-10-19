@@ -1,0 +1,5 @@
+ClientEvents.lang('en_us', event => { // 'en_us' is the name of the U.S. English asset file (assets/mod_id/lang/en_us.json)
+  event.add('block.mbd2.compute_multiblock_tier_1', 'Regular computer processor')
+  event.add('block.mbd2.proxy_part_block', 'Multiblock part')
+  event.add('mbd2.compute_normal', 'Regular compute')
+})

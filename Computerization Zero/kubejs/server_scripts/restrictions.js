@@ -107,6 +107,8 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'advancedperipherals:chunk_controller' })
   event.remove({ output: 'turtlematic:chunk_vial' })
   event.remove({ output: 'pneumaticcraft:chunkloader_upgrade' })
+  event.remove({id: "create_power_loader:crafting/empty_brass_chunk_loader"})
+  event.remove({id: "create_power_loader:crafting/empty_andesite_chunk_loader"})
   // Items that I consider slighly OP for this modpack
   event.remove({ output: "peripherals:spawner_card"})
   // Add some interchange between chunk loaders

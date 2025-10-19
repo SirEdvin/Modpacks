@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "isPrefix": "false",
+  "rarity": "rare",
+  "defaultDisplay": "Challenger",
+  "flavorText": "Small step for humanity, gigantic step in automation"
+}

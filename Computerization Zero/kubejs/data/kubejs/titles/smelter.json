@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "isPrefix": "false",
+  "rarity": "uncommon",
+  "defaultDisplay": "Smelter",
+  "flavorText": "Smelting is your thing"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "command",
+  "isPrefix": "false",
+  "rarity": "rare",
+  "defaultDisplay": "Craftsman",
+  "flavorText": "You not only mastered the art of smelting, you complitely own it now."
+}
