@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "proof_of_skill_tconstruct"
+  ],
+  "tasks": {
+    "item": {
+      "type": "heracles:item",
+      "item": "kubejs:overcomplicatium_block",
+      "amount": 16,
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "title": {
+      "title": "Title: Craftsman",
+      "icon": {
+        "item": {
+          "id": "tconstruct:vein_hammer",
+          "count": 1,
+          "nbt": {
+            "tic_broken": 0,
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "command": "titles add @s kubejs:craftsman",
+      "type": "heracles:command"
+    },
+    "loader": {
+      "item": {
+        "id": "turtlematic:chunk_vial",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "One ingot is fine, right? You can do it by hand even.",
+      "",
+      "Good luck doing this with 16 blocks. You truly need to automate it somehow."
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -317,
+          -98
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:overcomplicatium_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Proof of Mastery: TConstruct"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

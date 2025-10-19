@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "ore_triplication"
+    "create_curve"
   ],
   "tasks": {
-    "ingot": {
+    "mechanism": {
       "type": "heracles:item",
-      "item": "kubejs:ingot_aurichalcum",
+      "item": "kubejs:overcomplicated_mechanism",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -13,51 +13,50 @@
   "rewards": {
     "xp": {
       "xptype": "LEVEL",
-      "amount": 3,
+      "amount": 10,
       "type": "heracles:xp"
     },
     "title": {
-      "title": "Receive title: Theurgist",
+      "title": "Title: Mechanical engineer",
       "icon": {
         "item": {
-          "id": "theurgy:the_hermetica_icon",
+          "id": "create:wrench",
           "count": 1
         },
         "type": "heracles:item"
       },
-      "command": "titles add @s kubejs:theurgist",
+      "command": "titles add @s kubejs:mechanical_engineer",
       "type": "heracles:command"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "New magic metal emerges..."
+      "translate": "Overcomplicating things is my favorite"
     },
     "description": [
-      "Aurichalcum is a pinnacle of alchemy, metal that cannot be find naturally, only produced from combining several other sulfurs",
+      "Create is cool mod, right? You know what makes it event cooler? Computers.",
       "",
-      "<crafting-recipe id=\"minecraft:kjs/aurichalcum_sulfur\"/>",
-      "",
-      "Then you can just transform it into ingot as usual. "
+      "For this challenge I want you to craft overcomplicated mechanism. The one issue that you will have with the crafting - is bulbs. ",
+      "You can find craft only for the first one, but actually all bulbs has single recipe and it output random one of six. You can cheaply reprocess them, so it is fine, as long as you configure everything correctly."
     ],
     "groups": {
       "Starting a factory": {
         "position": [
-          -373,
-          -25
+          -375,
+          -200
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "kubejs:ingot_aurichalcum",
+        "id": "kubejs:overcomplicated_mechanism",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "title": {
-      "translate": "Proof of skill: Theurgy"
+      "translate": "Proof of skill: Create"
     }
   },
   "settings": {

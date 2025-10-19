@@ -2,13 +2,36 @@
   "dependencies": [
     "unlimitedperipheralworks"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "link": {
+      "type": "heracles:item",
+      "item": "peripheralworks:entity_link",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "card": {
+      "type": "heracles:item",
+      "item": "peripheralworks:entity_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "translate": "Not only to minecarts, to any entity, actually"
     },
-    "description": [],
+    "description": [
+      "Ever wanted remote access to minecart? Or your favorite horse? Or maybe that nasty Create contraption? Entity link is here to help.",
+      "",
+      "Craft entity card, right click on entity you want to target (in case of Create don't forget to carry wrench in your offhand) and put it into entity link. With a magic of UPW you know can target entity link as inventory or fluid_storage peripheral!"
+    ],
     "groups": {
       "How to use computers": {
         "position": [

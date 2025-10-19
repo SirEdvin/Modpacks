@@ -1,11 +1,17 @@
 {
   "dependencies": [
-    "lets_start_from_basics"
+    "starting_small"
   ],
   "tasks": {
-    "casing": {
+    "foundry": {
       "type": "heracles:item",
-      "item": "peripheralworks:peripheral_casing",
+      "item": "tconstruct:foundry_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "smeltery": {
+      "type": "heracles:item",
+      "item": "tconstruct:smeltery_controller",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -19,29 +25,31 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Not some unlimited as someone would want to..."
+      "translate": "It was first step to greatness"
     },
     "description": [
-      "<text><link href=\"https://upw.madefor.cc\"><blue><underline>UnlimitedPeripheralWorks</underline></blue><link> is quite big CC:T addon that adds a bunch of different useful (and not) peripherals as well as expands how inventory peripherals works in vanilla CC:T. Ever wanted be able to use minecarts as inventory peripherals? You welcome</text>"
+      "Seared melter is nice, but Tinker's Constructs goes with two multiblock that you just need to build to progress further - Ssmeltery (for alloying metals) and Foundry (to process metals better and obtain high-end materials).",
+      "",
+      "You need both to finish this mod and questline for this modpack."
     ],
     "groups": {
-      "How to use computers": {
+      "Starting a factory": {
         "position": [
-          -242,
-          -235
+          -376,
+          -152
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "peripheralworks:peripheral_casing",
+        "id": "tconstruct:smeltery_controller",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "UnlimitedPeripheralWorks"
+      "translate": "Better smeltery"
     }
   },
   "settings": {

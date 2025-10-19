@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "proof_of_skill_create"
+  ],
+  "tasks": {
+    "mechanisms": {
+      "type": "heracles:item",
+      "item": "kubejs:overcomplicated_mechanism",
+      "amount": 64,
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 20,
+      "type": "heracles:xp"
+    },
+    "title": {
+      "title": "Title: Cogwheel Bender",
+      "icon": {
+        "item": {
+          "id": "create:cogwheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "titles add @s kubejs:cogwheel_bender",
+      "type": "heracles:command"
+    },
+    "loader": {
+      "item": {
+        "id": "turtlematic:chunk_vial",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "One mechanism is not enough for this questline"
+    },
+    "description": [
+      "One mechanism is nice, but a stack of it? Much better.",
+      "",
+      "I hope you have a really stable program for their production!"
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -375,
+          -257
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_encased_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Proof of mastery: Create"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

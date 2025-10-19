@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "lets_start_from_basics"
+    "iron_as_always"
   ],
   "tasks": {
-    "casing": {
+    "melter": {
       "type": "heracles:item",
-      "item": "peripheralworks:peripheral_casing",
+      "item": "tconstruct:seared_melter",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -15,33 +15,49 @@
       "xptype": "LEVEL",
       "amount": 2,
       "type": "heracles:xp"
+    },
+    "book": {
+      "icon": {
+        "item": {
+          "id": "tconstruct:puny_smelting",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "tconstruct:puny_smelting",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Not some unlimited as someone would want to..."
+      "translate": "Smeltery from TConstruct? Literally 2012"
     },
     "description": [
-      "<text><link href=\"https://upw.madefor.cc\"><blue><underline>UnlimitedPeripheralWorks</underline></blue><link> is quite big CC:T addon that adds a bunch of different useful (and not) peripherals as well as expands how inventory peripherals works in vanilla CC:T. Ever wanted be able to use minecarts as inventory peripherals? You welcome</text>"
+      "Tinker's Construct is quite well-known mod and probably don't need much of introduction. ",
+      "",
+      "It also extremely cheap way to get slightly more metal from one raw ore. "
     ],
     "groups": {
-      "How to use computers": {
+      "Starting a factory": {
         "position": [
-          -242,
-          -235
+          -375,
+          -100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "peripheralworks:peripheral_casing",
+        "id": "tconstruct:seared_melter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "UnlimitedPeripheralWorks"
+      "translate": "Starting small"
     }
   },
   "settings": {

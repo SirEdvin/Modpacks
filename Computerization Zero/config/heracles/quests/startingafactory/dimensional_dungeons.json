@@ -3,44 +3,46 @@
     "mining_dimension"
   ],
   "tasks": {
-    "dimension": {
+    "sdfsdf": {
       "from": "minecraft:overworld",
-      "to": "aether:the_aether",
+      "to": "minecraft:overworld",
       "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
     "xp": {
       "xptype": "LEVEL",
-      "amount": 3,
+      "amount": 2,
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Always wanted to see what happens above..."
+      "translate": "Endless advantures awaits"
     },
     "description": [
-      "Aether is quite an old mod that introduces the opposite of the Nether—beautiful sky islands that provide deceptive comfort. One should prove they are worthy to be there. "
+      "<text><link href=\"https://modrinth.com/mod/dimensional-dungeons\"><blue>Dimensional Dungeons</blue></link></text> is quite cool dimensional mod that provides small dungeons to conquer. ",
+      "",
+      "Not much more to talk about, you can get book for this mod or watch tutorial on mod page."
     ],
     "groups": {
       "Starting a factory": {
         "position": [
-          -580,
-          -146
+          -579,
+          -213
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "aether:valkyrie_cape",
+        "id": "dimdungeons:item_portal_key",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Visit Aether"
+      "translate": "Dimensional Dungeons"
     }
   },
   "settings": {

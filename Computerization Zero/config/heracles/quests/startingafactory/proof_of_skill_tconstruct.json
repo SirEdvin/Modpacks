@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "ore_triplication"
+    "better_smeltery"
   ],
   "tasks": {
     "ingot": {
       "type": "heracles:item",
-      "item": "kubejs:ingot_aurichalcum",
+      "item": "kubejs:ingot_overcomplicatium",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -13,51 +13,49 @@
   "rewards": {
     "xp": {
       "xptype": "LEVEL",
-      "amount": 3,
+      "amount": 5,
       "type": "heracles:xp"
     },
     "title": {
-      "title": "Receive title: Theurgist",
+      "title": "Title: Smelter",
       "icon": {
         "item": {
-          "id": "theurgy:the_hermetica_icon",
+          "id": "tconstruct:smeltery_controller",
           "count": 1
         },
         "type": "heracles:item"
       },
-      "command": "titles add @s kubejs:theurgist",
+      "command": "titles add @s kubejs:smelter",
       "type": "heracles:command"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "New magic metal emerges..."
+      "text": ""
     },
     "description": [
-      "Aurichalcum is a pinnacle of alchemy, metal that cannot be find naturally, only produced from combining several other sulfurs",
+      "Tinker's Construct is quite simple mod, right? Just melt metals and alloy them. But worry not, I was able to overcomplicate even such simple mod. ",
       "",
-      "<crafting-recipe id=\"minecraft:kjs/aurichalcum_sulfur\"/>",
-      "",
-      "Then you can just transform it into ingot as usual. "
+      "To compliete this challenge you need to craft overcompicatium ingot, but overcomplicatium is not that simple. You can't alloy it from other metals, you can get it only from overcompicatium slug. Good luck."
     ],
     "groups": {
       "Starting a factory": {
         "position": [
-          -373,
-          -25
+          -318,
+          -152
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "kubejs:ingot_aurichalcum",
+        "id": "kubejs:overcomplicatium_slug",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "title": {
-      "translate": "Proof of skill: Theurgy"
+      "translate": "Proof of Skill: TConstruct"
     }
   },
   "settings": {

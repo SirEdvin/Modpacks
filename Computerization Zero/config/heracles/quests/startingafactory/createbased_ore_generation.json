@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "create_curve"
+  ],
+  "tasks": {
+    "staff": {
+      "type": "heracles:item",
+      "item": "createoreexcavation:vein_finder",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Create has everything. Or its addons..v"
+    },
+    "description": [
+      "<text>This pack comes with <link href=\"https://modrinth.com/mod/create-ore-excavation\"><blue><underline>Create: Ore Excavation</underline></blue></link> addon. Basically, you need to craft Ore vein finder and run around, poking it everywhere.</text>",
+      "",
+      "In addition to regular infinite ore veins there is also special vein that can be found everywhere aside from overworld and contains every ore in this pack."
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -490,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createoreexcavation:vein_finder",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create-based ore generation"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "power_of_computing"
+  ],
+  "tasks": {
+    "bucket_of_coffee": {
+      "type": "heracles:item",
+      "item": "kubejs:liquid_coffee_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 20,
+      "type": "heracles:xp"
+    },
+    "title": {
+      "title": "Title: Challenger",
+      "icon": {
+        "item": {
+          "id": "minecraft:gray_banner",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "titles add @s kubejs:challenger",
+      "type": "heracles:command"
+    },
+    "chunk": {
+      "item": {
+        "id": "turtlematic:chunk_vial",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "That transforms coffee into code"
+    },
+    "description": [
+      "Your factory is processing, machine workings, presses pressing, everything is good.",
+      "",
+      "It is time to finally drink a bucket of that sweet coffee."
+    ],
+    "groups": {
+      "Starting a factory": {
+        "position": [
+          -169,
+          -155
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "actuallyadditions:coffee_cup",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Your body is a machine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

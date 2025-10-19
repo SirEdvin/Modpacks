@@ -1,11 +1,13 @@
 {
   "dependencies": [
-    "lets_start_from_basics"
+    "proof_of_skill_create",
+    "proof_of_skill_tconstruct",
+    "proof_of_skill_theurgy"
   ],
   "tasks": {
-    "casing": {
+    "controller": {
       "type": "heracles:item",
-      "item": "peripheralworks:peripheral_casing",
+      "item": "mbd2:compute_multiblock_tier_1",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -13,35 +15,37 @@
   "rewards": {
     "xp": {
       "xptype": "LEVEL",
-      "amount": 2,
+      "amount": 10,
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Not some unlimited as someone would want to..."
+      "translate": "Finally, a modpack thing - multiblock machine"
     },
     "description": [
-      "<text><link href=\"https://upw.madefor.cc\"><blue><underline>UnlimitedPeripheralWorks</underline></blue><link> is quite big CC:T addon that adds a bunch of different useful (and not) peripherals as well as expands how inventory peripherals works in vanilla CC:T. Ever wanted be able to use minecarts as inventory peripherals? You welcome</text>"
+      "Let me proudly annonce first multiblock machine of this modpack - Regular compute processor.",
+      "",
+      "It is not much, but it is honest work. This machine will allow you to produce extremely good coffee, duplicates stones and also craft create chunk loader. Not quite turtle chunk loader, but it is something."
     ],
     "groups": {
-      "How to use computers": {
+      "Starting a factory": {
         "position": [
-          -242,
-          -235
+          -227,
+          -154
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "peripheralworks:peripheral_casing",
+        "id": "mbd2:compute_multiblock_tier_1",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "UnlimitedPeripheralWorks"
+      "translate": "Power of computing"
     }
   },
   "settings": {

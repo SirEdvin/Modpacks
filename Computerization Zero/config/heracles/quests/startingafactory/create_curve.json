@@ -1,47 +1,55 @@
 {
   "dependencies": [
-    "lets_start_from_basics"
+    "creating_starting_ground"
   ],
   "tasks": {
-    "casing": {
+    "mechanism": {
       "type": "heracles:item",
-      "item": "peripheralworks:peripheral_casing",
-      "amount": 1,
+      "item": "create:precision_mechanism",
+      "amount": 5,
+      "collection": "AUTOMATIC"
+    },
+    "plates": {
+      "type": "heracles:item",
+      "item": "create:sturdy_sheet",
+      "amount": 5,
       "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "xp": {
       "xptype": "LEVEL",
-      "amount": 2,
+      "amount": 5,
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Not some unlimited as someone would want to..."
+      "translate": "I don't have all day for this"
     },
     "description": [
-      "<text><link href=\"https://upw.madefor.cc\"><blue><underline>UnlimitedPeripheralWorks</underline></blue><link> is quite big CC:T addon that adds a bunch of different useful (and not) peripherals as well as expands how inventory peripherals works in vanilla CC:T. Ever wanted be able to use minecarts as inventory peripherals? You welcome</text>"
+      "You know Create, I know Create, everyone knows Create.",
+      "",
+      "So there will be no progression quests for this mod here. You know that to do. Spam machines, rotate and build processing lines!"
     ],
     "groups": {
-      "How to use computers": {
+      "Starting a factory": {
         "position": [
-          -242,
-          -235
+          -439,
+          -201
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "peripheralworks:peripheral_casing",
+        "id": "create:precision_mechanism",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "UnlimitedPeripheralWorks"
+      "translate": "Shortest Create questline"
     }
   },
   "settings": {

@@ -33,13 +33,15 @@
       "",
       "But avoiding /6/Create/6/ in this pack would be suboptimal. It has a lot of addons in this pack, incluing ore extraction vein and in general nice to have to start a game.",
       "",
-      "<hint title=\"Item movement\" icon=\"minecraft:torch\" color=\"orange\"><p>Create is one on addons that don't received penalty for moving items, so you can use it for moving item, breaking and placing blocks, etc. Just take a note that using CC:T for this is much more efficient, especially for item transfer.</p></hint>"
+      "<hint title=\"Item movement\" icon=\"minecraft:torch\" color=\"orange\"><p>Create is one on addons that isn't fully blocked from moving items, so you can use it for moving item, breaking and placing blocks, etc. Just take a note that using CC:T for this is much more efficient, especially for item transfer. But you still can use only bronze funnel and tunnel.</p></hint>",
+      "",
+      "<hint title=\"Contraption access\" icon=\"minecraft:torch\" color=\"green\"><p>Since there is no chute, you can't craft item portable interface and extracting items from Create contraptions seems impossible. But worry, not, it is possible! You can use entity link from UnlimitedPeripheralWorks for wireless contraption access. To bind entity card to contraption, just stay close to it, hold wrench in the left hand and use right click while crouching</p></hint>"
     ],
     "groups": {
       "Starting a factory": {
         "position": [
-          -341,
-          -171
+          -439,
+          -152
         ]
       }
     },
