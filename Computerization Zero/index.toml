@@ -1432,11 +1432,6 @@ hash = "47b9410704efc0f8cb3b34a87d7019a013850775afe464e887b19ecf45eac0d3"
 metafile = true
 
 [[files]]
-file = "mods/maid-mana-source.pw.toml"
-hash = "de0d8eaa7ecd3df53054f8ddca2b156c86ee9bc401a4492789e1f72408f398c2"
-metafile = true
-
-[[files]]
 file = "mods/malum.pw.toml"
 hash = "00a16f6cc02ad9f0825138857da26e6bf5c0f65dc5d4d40705b091e29176d3a2"
 metafile = true
