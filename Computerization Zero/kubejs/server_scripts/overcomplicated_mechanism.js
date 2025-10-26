@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
   // Bulbs
   let inner = "kubejs:unfinished_raw_complicated_bulb";
   event.recipes.create
-    .sequenced_assembly([Item.of("create:cartboard_package_12x10", {
+    .sequenced_assembly([Item.of("create:cardboard_package_12x10", {
       "Items": {
         "Size": 9,
         "Items": [
