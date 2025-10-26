@@ -24,12 +24,12 @@ ServerEvents.recipes((event) => {
   // Bulbs
   let inner = "kubejs:unfinished_raw_complicated_bulb";
   let bulbs = [
-    Item.of("kubejs:raw_complicated_bulb_0").withChance(16.6),
-    Item.of("kubejs:raw_complicated_bulb_1").withChance(16.6),
-    Item.of("kubejs:raw_complicated_bulb_2").withChance(16.6),
-    Item.of("kubejs:raw_complicated_bulb_3").withChance(16.6),
-    Item.of("kubejs:raw_complicated_bulb_4").withChance(16.6),
-    Item.of("kubejs:raw_complicated_bulb_5").withChance(16.6),
+    Item.of("kubejs:raw_complicated_bulb_0").withChance(100),
+    Item.of("kubejs:raw_complicated_bulb_1").withChance(100),
+    Item.of("kubejs:raw_complicated_bulb_2").withChance(100),
+    Item.of("kubejs:raw_complicated_bulb_3").withChance(100),
+    Item.of("kubejs:raw_complicated_bulb_4").withChance(100),
+    Item.of("kubejs:raw_complicated_bulb_5").withChance(100),
   ];
   event.recipes.create
     .sequenced_assembly(bulbs, "create:nixie_tube", [
@@ -53,86 +53,7 @@ ServerEvents.recipes((event) => {
       ]),
     ])
     .transitionalItem(inner)
-    .loops(32);
-
-    event.recipes.create.sequenced_assembly(
-        bulbs,
-        "kubejs:raw_complicated_bulb_0",
-        [
-            event.recipes.createFilling(inner, [
-                inner,
-                Fluid.of("minecraft:lava", 250),
-            ]),
-            event.recipes.createCutting(inner, inner),
-            event.recipes.createPressing(inner, inner),
-            event.recipes.createCutting(inner, inner),
-        ],
-    ).transitionalItem(inner).loops(3);
-    event.recipes.create.sequenced_assembly(
-        bulbs,
-        "kubejs:raw_complicated_bulb_1",
-        [
-            event.recipes.createFilling(inner, [
-                inner,
-                Fluid.of("minecraft:lava", 250),
-            ]),
-            event.recipes.createCutting(inner, inner),
-            event.recipes.createCutting(inner, inner),
-            event.recipes.createPressing(inner, inner),
-        ],
-    ).transitionalItem(inner).loops(3);
-    event.recipes.create.sequenced_assembly(
-        bulbs,
-        "kubejs:raw_complicated_bulb_2",
-        [
-            event.recipes.createFilling(inner, [
-                inner,
-                Fluid.of("minecraft:lava", 250),
-            ]),
-            event.recipes.createPressing(inner, inner),
-            event.recipes.createCutting(inner, inner),
-            event.recipes.createCutting(inner, inner),
-        ],
-    ).transitionalItem(inner).loops(3);
-    event.recipes.create.sequenced_assembly(
-        bulbs,
-        "kubejs:raw_complicated_bulb_3",
-        [
-            event.recipes.createFilling(inner, [
-                inner,
-                Fluid.of("minecraft:lava", 250),
-            ]),
-            event.recipes.createPressing(inner, inner),
-            event.recipes.createPressing(inner, inner),
-            event.recipes.createCutting(inner, inner),
-        ],
-    ).transitionalItem(inner).loops(3);
-    event.recipes.create.sequenced_assembly(
-        bulbs,
-        "kubejs:raw_complicated_bulb_4",
-        [
-            event.recipes.createFilling(inner, [
-                inner,
-                Fluid.of("minecraft:lava", 250),
-            ]),
-            event.recipes.createPressing(inner, inner),
-            event.recipes.createCutting(inner, inner),
-            event.recipes.createPressing(inner, inner),
-        ],
-    ).transitionalItem(inner).loops(3);
-    event.recipes.create.sequenced_assembly(
-        bulbs,
-        "kubejs:raw_complicated_bulb_5",
-        [
-            event.recipes.createFilling(inner, [
-                inner,
-                Fluid.of("minecraft:lava", 250),
-            ]),
-            event.recipes.createPressing(inner, inner),
-            event.recipes.createPressing(inner, inner),
-            event.recipes.createCutting(inner, inner),
-        ],
-    ).transitionalItem(inner).loops(3);
+    .loops(8);
 
     for (let i = 0; i< 6; i++) {
         event.recipes.create.mechanical_crafting(`kubejs:finished_complicated_bulb_${i}`, [

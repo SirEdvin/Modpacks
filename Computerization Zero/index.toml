@@ -529,6 +529,10 @@ file = "kubejs/data/kubejs/recipes/ichor.json"
 hash = "eb42bdd259e809a207e318dfdf3c54770c47ac309870e6ba3416e2d90adce3c9"
 
 [[files]]
+file = "kubejs/data/kubejs/recipes/magna_cream.json"
+hash = "b7e1259bd9f10e89ecc9d75fa51063ce04068eff7b6adefbf908fcd8b8a95b25"
+
+[[files]]
 file = "kubejs/data/kubejs/recipes/sky_slime.json"
 hash = "52393f3fccf9307746213f2cb44576fe68050eb6a340c866180a6f7d7674790b"
 
@@ -614,7 +618,7 @@ hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
 file = "kubejs/server_scripts/overcomplicated_mechanism.js"
-hash = "aa84ef33caeda5c4ad643ed689433891271665bf809df0dc379ac583ef0d8d2e"
+hash = "2bb63a86c2963d7cb94195d620a08ce6214dd015dc319aed44b57af3fcc77f30"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
@@ -1013,18 +1017,13 @@ hash = "d42c60a8b8191af3bb9f37b85e7b28ff73cb7bc513dae1b3391ce0a8b26ebad4"
 metafile = true
 
 [[files]]
-file = "mods/create-cc-total-logistics.pw.toml"
-hash = "5acc1723e2a8df0db1abfa954edbe6c9d9baa35172ee77255ff0493526ff0ca8"
-metafile = true
-
-[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "0b69f772db857977d0e70bad04d4a8112f0963074ca07258efb44d2d3e5f4578"
 metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "4852a9af0dd34136c85a20a9729b554bbb8afbf81f8bfdbb52b8a8cae898b1e6"
+hash = "44ebd1cc8c201f4e03196b852026ca19e1bcd04e555872f93c4cb114df92142e"
 metafile = true
 
 [[files]]
@@ -1044,7 +1043,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ore-excavation.pw.toml"
-hash = "dd0b2f978bc582e671f0b374d1a24680d02e44f9c541ce9c87cba0dacdeda507"
+hash = "df547fc51e128ea2cb0af3cbc651cab63feefd5e675444262776dd530d63a1e4"
 metafile = true
 
 [[files]]
@@ -1069,7 +1068,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "97f7c75ac9bf6ee2a4f15c0f1e3e4cd161f3d2e33f32ebf623811ac90b3c2a83"
+hash = "b6e7510c72ef37caaad62e2389a1959e40b71e47e1b2266a88174fa361895613"
 metafile = true
 
 [[files]]
@@ -1114,7 +1113,7 @@ metafile = true
 
 [[files]]
 file = "mods/digital-items-3.pw.toml"
-hash = "1eca11bbd99fc8b07555067346d52d27074f104cafe1d273b945d59118254aa0"
+hash = "42a7d5124374e4211eced235a5739ee5a6c0ca4c8e701b89177872bfbb0a2581"
 metafile = true
 
 [[files]]
@@ -1533,7 +1532,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "209a2e2ccceded392a76f7cfef6e19787328333b2844bc8a7a1154c6d37e25ba"
+hash = "d7edc6bfe15464f89366d7e9c5d89f7d86e40145baaf0397479731bc0e713bd5"
 metafile = true
 
 [[files]]
@@ -1728,7 +1727,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "4892293552b3f61ea0be7f7cfa9d636fb52a8fd84423b9a244bf0e968b4d0ba6"
+hash = "3f1f80089fb9178669e2cb9b630e3398f39a36057b65bfd4b587662b1c396edb"
 metafile = true
 
 [[files]]
@@ -1758,7 +1757,7 @@ metafile = true
 
 [[files]]
 file = "mods/tcintegrations.pw.toml"
-hash = "34e2161f495412255c75a7e507b925d8ceaa688dc44b49d6fb27d33cba67cfad"
+hash = "5a0ae0cc846332bd586d034bcb20dbf051fd8b1f68540d5eb03a470cfde0a901"
 metafile = true
 
 [[files]]
@@ -1888,7 +1887,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "7aff8ea5021bea551036f04395db38eae0d603f75d2939eacc35002557d4c0b2"
+hash = "6316ac74e17da57413a8dddbdc0329bb7dca28ff5becbaff569dd470eabf2b12"
 metafile = true
 
 [[files]]
