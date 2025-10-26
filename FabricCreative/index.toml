@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "788c9b629353b77c56affea7e202ef0eb323373fc1d9e17117e0aa564eaac276"
+hash = "ddb73a24312769d0023e70d764db13e2de3cfe271c1e7e7c6ae9bd4e1201cd20"
 metafile = true
 
 [[files]]
@@ -27,12 +27,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
+hash = "46a162d1fedacdbd79351958eb0c1a68ed55c12bc2cc57eec41829c7a4198303"
 metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "9bd077aeaf78dbe8ef176dfb9b3bd64ec5d050d6924ef19e78200e5c303c7607"
+hash = "8d1be019e4678f52f486520e4504b1b3a2f1400472343a47da6ce0058ed65ee1"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "098d6976a738658ca490cc58e9fab19f06cd1a7b23199b6f1ee108d866333e22"
+hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
 metafile = true
 
 [[files]]
@@ -92,5 +92,5 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "c9831a4f66e655f07dd5a509a9f2a1edfc30cf27b7ba6beb599c50cbe0d8ea26"
+hash = "9dcd59e6fd58c3d50c539dc671d849d16e65ff5b174e68e12d0a8b0f17975af8"
 metafile = true
