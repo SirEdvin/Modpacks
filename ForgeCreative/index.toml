@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "bb3d9e5640c61e9d63cba49980846154de2509761607bfd7fbafd32ba502f910"
+hash = "74bbdad7434bc02ec767c15c0136269f885331601f73fa2365252c24e58c09bd"
 metafile = true
 
 [[files]]
@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "97f7c75ac9bf6ee2a4f15c0f1e3e4cd161f3d2e33f32ebf623811ac90b3c2a83"
+hash = "b6e7510c72ef37caaad62e2389a1959e40b71e47e1b2266a88174fa361895613"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "2c2bb2563738f09cde8489e55e97f216b304f65c4c502cd663d43dadfc1cdfc3"
+hash = "13973f5e3532ca5907a931dc3b50321933a5fb91589b4b80bcff3be21dfe116a"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "8c635c96e2449280329a0d3daaa279886a7e667aaabf122d344d47f72b065546"
+hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "881d7a7849f291aff5e3aac0873b03a679df6c66ac096a62019a9ba68bc1f508"
+hash = "9eec91e101a9fcf1edcafc6bbc4ead2ac1b11019593489dfc5f36ebe5996b4f1"
 metafile = true
 
 [[files]]
@@ -87,5 +87,5 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "b2ea59e8520f023ac07cd29ceedb76b88cf4abb5dd3fd330db46afaf98eb1253"
+hash = "920f8c0e56a316b964a06071b37582db8f55193f41841a1e251e0157da25e87f"
 metafile = true
