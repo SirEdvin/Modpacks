@@ -23,16 +23,20 @@ ServerEvents.recipes((event) => {
   ]);
   // Bulbs
   let inner = "kubejs:unfinished_raw_complicated_bulb";
-  let bulbs = [
-    Item.of("kubejs:raw_complicated_bulb_0").withChance(100),
-    Item.of("kubejs:raw_complicated_bulb_1").withChance(100),
-    Item.of("kubejs:raw_complicated_bulb_2").withChance(100),
-    Item.of("kubejs:raw_complicated_bulb_3").withChance(100),
-    Item.of("kubejs:raw_complicated_bulb_4").withChance(100),
-    Item.of("kubejs:raw_complicated_bulb_5").withChance(100),
-  ];
   event.recipes.create
-    .sequenced_assembly(bulbs, "create:nixie_tube", [
+    .sequenced_assembly([Item.of("create:cartboard_package_12x10", {
+      "Items": {
+        "Size": 9,
+        "Items": [
+          {Slot: 0, Count: 1, id: "kubejs:raw_complicated_bulb_0"},
+          {Slot: 1, Count: 1, id: "kubejs:raw_complicated_bulb_1"},
+          {Slot: 2, Count: 1, id: "kubejs:raw_complicated_bulb_2"},
+          {Slot: 3, Count: 1, id: "kubejs:raw_complicated_bulb_3"},
+          {Slot: 4, Count: 1, id: "kubejs:raw_complicated_bulb_4"},
+          {Slot: 5, Count: 1, id: "kubejs:raw_complicated_bulb_5"},
+        ]
+      }
+    })], "create:nixie_tube", [
       event.recipes.createFilling(inner, [
         inner,
         Fluid.of("minecraft:lava", 250),
@@ -55,7 +59,7 @@ ServerEvents.recipes((event) => {
     .transitionalItem(inner)
     .loops(8);
 
-    for (let i = 0; i< 6; i++) {
+    for (let i = 0; i < 6; i++) {
         event.recipes.create.mechanical_crafting(`kubejs:finished_complicated_bulb_${i}`, [
             "  Q  ",
             "  A  ",

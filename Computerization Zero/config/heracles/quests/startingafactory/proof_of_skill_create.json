@@ -37,7 +37,7 @@
       "Create is cool mod, right? You know what makes it event cooler? Computers.",
       "",
       "For this challenge I want you to craft overcomplicated mechanism. The one issue that you will have with the crafting - is bulbs. ",
-      "You can find craft only for the first one, but actually all bulbs has single recipe and it output random one of six. You can cheaply reprocess them, so it is fine, as long as you configure everything correctly."
+      "You can't craft them normally, so look at create sequence crafting page, you will find a strange recipe that produce package with 6 raw bulbs in it."
     ],
     "groups": {
       "Starting a factory": {

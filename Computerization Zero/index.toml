@@ -258,7 +258,7 @@ hash = "c3414112f46499be733728a40edff62df1c43d27ba150e1cfcc6f79f879cee2e"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/proof_of_skill_create.json"
-hash = "e77367429b1ff135fbeeefd160746817ab9863b0be7b6c502148a6ac8bb624b1"
+hash = "50900b862157345ce028107cbae29d219ca9ea51e6889bf848164a02c3efb275"
 
 [[files]]
 file = "config/heracles/quests/startingafactory/proof_of_skill_tconstruct.json"
@@ -618,7 +618,7 @@ hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
 file = "kubejs/server_scripts/overcomplicated_mechanism.js"
-hash = "2bb63a86c2963d7cb94195d620a08ce6214dd015dc319aed44b57af3fcc77f30"
+hash = "3961a838b19dbb504e5b4565e9666f325e97cc0e55b15b639e5cf352d7cbb442"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
