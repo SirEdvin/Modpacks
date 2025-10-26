@@ -1211,11 +1211,6 @@ hash = "35775a3e5a7305ce1bdd0885a68bb439d7acb8f9868d0b9cd25ca091609fe965"
 metafile = true
 
 [[files]]
-file = "mods/extended-wrenches.pw.toml"
-hash = "418fda3de54e27fa896cb61add38653b49d90933545a92810b5238c257b364fb"
-metafile = true
-
-[[files]]
 file = "mods/extreme-reactors.pw.toml"
 hash = "8528e7ab67d1d3121cd08ec609e251992f16edebd5b919321f877f551497f9cb"
 metafile = true
