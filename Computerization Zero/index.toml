@@ -618,7 +618,7 @@ hash = "7bc249195d1dd07ed07f4f21f83afb4245f9bf1227757cf23d54eb2e8c7630af"
 
 [[files]]
 file = "kubejs/server_scripts/overcomplicated_mechanism.js"
-hash = "3961a838b19dbb504e5b4565e9666f325e97cc0e55b15b639e5cf352d7cbb442"
+hash = "ac22c704dec65020fa0f66bf3870617f0130f177809ef4567c4bcf657325517d"
 
 [[files]]
 file = "kubejs/server_scripts/restrictions.js"
