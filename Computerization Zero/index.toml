@@ -1057,13 +1057,18 @@ hash = "2f6d193a89636e07670a8c79e9a409a985468c9c29b9ea97a3c1ad4e8ed438d1"
 metafile = true
 
 [[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "1e2f20e482537a35dcf6be7814984f2ee75ed37f1f1861424e9c936727445c41"
+metafile = true
+
+[[files]]
 file = "mods/create-structures.pw.toml"
 hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "b6e7510c72ef37caaad62e2389a1959e40b71e47e1b2266a88174fa361895613"
+hash = "97f7c75ac9bf6ee2a4f15c0f1e3e4cd161f3d2e33f32ebf623811ac90b3c2a83"
 metafile = true
 
 [[files]]
@@ -1203,6 +1208,11 @@ metafile = true
 [[files]]
 file = "mods/extended-crafting.pw.toml"
 hash = "35775a3e5a7305ce1bdd0885a68bb439d7acb8f9868d0b9cd25ca091609fe965"
+metafile = true
+
+[[files]]
+file = "mods/extended-wrenches.pw.toml"
+hash = "418fda3de54e27fa896cb61add38653b49d90933545a92810b5238c257b364fb"
 metafile = true
 
 [[files]]
