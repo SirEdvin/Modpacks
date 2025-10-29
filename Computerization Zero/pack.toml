@@ -1,6 +1,6 @@
 name = "Computerization Zero"
 author = "SirEdvin"
-version = "0.0.5"
+version = "0.0.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
