@@ -1,7 +1,7 @@
-cloudsolutionsVersion = 0.3.1
-turtlematicVersion = 1.4.5
-peripheralWorksVersion = 1.6.9
-digitalItemsVersion = 0.5.6
+cloudsolutionsVersion = 0.3.2
+turtlematicVersion = 1.4.6
+peripheralWorksVersion = 1.7.0
+digitalItemsVersion = 0.5.7
 
 peripheralium:
 	packwiz url add peripheralium https://github.com/SirEdvin/Peripheralium/releases/download/v1.20.1-${peripheraliumVersion}/peripheralium-fabric-1.20.1-${peripheraliumVersion}.jar
