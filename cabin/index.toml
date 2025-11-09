@@ -2152,11 +2152,6 @@ file = "mods/cc-tweaked-1.20.1-forge-1.116.1.jar"
 hash = "fffa7eac48606dbc9f8e88ddf6c09ef218f0004b42f165f5476b700788806c9e"
 
 [[files]]
-file = "mods/cc-tweaked.pw.toml"
-hash = "94615e505b64b850d3df7b50c292407a3b2f327ed1989c4e7d2907bb79785cde"
-metafile = true
-
-[[files]]
 file = "mods/cccbridge.pw.toml"
 hash = "29ff87cf944ddc64351bffbf504c94a57055daf91d4df5b0cd1b8b28d28280bc"
 metafile = true
