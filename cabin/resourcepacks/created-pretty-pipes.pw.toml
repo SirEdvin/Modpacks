@@ -1,0 +1,13 @@
+name = "Created Pretty Pipes"
+filename = "Created Pretty Pipes1.0 FIXED.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d5ac607061fa5aedea571ec0c3ae842327dbf7c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4356655
+project-id = 803076

@@ -1,0 +1,13 @@
+name = "CABIN"
+author = "Pansmith"
+version = "2.0.11"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f0c76820b1d596811cd5e5f5e0defb3f1d26d048543ec688259ab47a0136a6df"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"

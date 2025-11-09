@@ -1,0 +1,118 @@
+{
+	"level_seeds": [
+		{
+			"dim": "ad_astra:venus_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:mars",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:glacio_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:mercury_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:venus",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:glacio",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:moon",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:earth_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:mars_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:moon_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:mercury",
+			"seed": 4444170850107069369
+		}
+	],
+	"structure_seeds": [
+		{
+			"dim": "ad_astra:venus_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:mars",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:glacio_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:mercury_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:venus",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:glacio",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:moon",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:earth_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:mars_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:moon_orbit",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": 4444170850107069369
+		},
+		{
+			"dim": "ad_astra:mercury",
+			"seed": 4444170850107069369
+		}
+	]
+}

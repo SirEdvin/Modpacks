@@ -1,0 +1,12 @@
+{
+    "filters": [{
+            "category": "ftbquests:quest"
+        },
+        {
+            "category": "ae2:certus_growth"
+        },
+        {
+            "category": "mbd2:multiblock_info"
+        }
+    ]
+}

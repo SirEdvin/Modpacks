@@ -1,0 +1,38 @@
+# Default config file that will be copied to world's serverconfig/ftbessentials.snbt location
+# Copy values you wish to override in here
+{ 
+	misc: {
+		anvil: {
+			enabled: false
+		}
+		crafting: {
+			enabled: false
+		}
+		enderchest: {
+			enabled: false
+		}
+		smithing: {
+			enabled: false
+		}
+		stonecutter: {
+			enabled: false
+		}
+	}
+	teleportation: {
+		back: {
+			enabled: false
+		}
+		home: {
+			warmup: 5
+		}
+		rtp: {
+			warmup: 5
+		}
+		spawn: {
+			warmup: 5
+		}
+		tpa: {
+			warmup: 5
+		}
+	}
+}

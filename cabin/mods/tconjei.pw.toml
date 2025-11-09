@@ -1,0 +1,13 @@
+name = "TConJEI"
+filename = "tconjei-1.20.1-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ace07009488cb4251e522247d78de438253decac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6841685
+project-id = 974154

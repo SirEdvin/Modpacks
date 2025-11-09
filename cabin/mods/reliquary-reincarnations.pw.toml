@@ -1,0 +1,13 @@
+name = "Reliquary Reincarnations"
+filename = "reliquary-1.20.1-2.0.55.1309.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9d465f7166f2c4e31fc1ae3bc9db96bceb933248"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7117853
+project-id = 241319
