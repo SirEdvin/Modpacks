@@ -1,7 +1,7 @@
 name = "unlimitedperipheralworks"
-filename = "peripheralworks-forge-1.20.1-1.7.2.jar"
+filename = "peripheralworks-forge-1.20.1-1.7.3.jar"
 
 [download]
-url = "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-1.7.2/peripheralworks-forge-1.20.1-1.7.2.jar"
+url = "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-1.7.3/peripheralworks-forge-1.20.1-1.7.3.jar"
 hash-format = "sha256"
-hash = "869f76ec0e97a8c71d93ef32f35bd997a0050637ebf9fb173eca54c258de7551"
+hash = "8a25beed3eb7eee4b6c844038018c7d90a7a63b9870cbfddd7d555b404aa29a1"
