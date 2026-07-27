@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-1.8.0/peripheralworks-fabric-1.20.1-1.8.0.jar"
 hash-format = "sha256"
-hash = "87ca82a3af828b679f719dc6ce628053f37c6094348ce34a39e4d9a79a1fa067"
+hash = "fcee01562ffff8cb3f8283a99cd13a096bdfef26e50a2b0e6e0805a497035a8a"
