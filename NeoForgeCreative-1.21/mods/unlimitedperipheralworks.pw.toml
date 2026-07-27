@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.21.1-1.8.0/peripheralworks-forge-1.21.1-1.8.0.jar"
 hash-format = "sha256"
-hash = "ea728d773d1cd8b45b661a4fe194abb1bd181979d60dc47e682fde026a189675"
+hash = "8e44b891aec83599704a297719cd5184ee506cb994cc379d5032e5fa47d98e54"
