@@ -1,4 +1,4 @@
-name = "Fabric Creative 1.21"
+name = "NeoForge Creative 1.21"
 author = "SirEdvin"
 version = "0.1.1"
 pack-format = "packwiz:1.1.0"
@@ -6,8 +6,8 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "467c2b888672e73b1430eaa045c92afc06521969ae69afccb2c470d672e032ea"
+hash = "df868a122d06bdbd0ec1d6e2354042396d6cc0f5664cad5fc3a3e64e0d403028"
 
 [versions]
-fabric = "0.19.3"
 minecraft = "1.21.1"
+neoforge = "21.1.244"

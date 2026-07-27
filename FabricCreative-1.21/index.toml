@@ -2,16 +2,26 @@ hash-format = "sha256"
 
 [[files]]
 file = "Makefile"
-hash = "076eaa2cd8837c5ec6d46f300ec30d2fa57830e05799389a2a920da5eff5f96a"
+hash = "e5055625b9c105bc5496a43953df9251b2d99a002de4eb66dc14ded1a0ebdd1c"
+
+[[files]]
+file = "mods/additional-lanterns.pw.toml"
+hash = "347903b32b7f59fbad4208eac209d82f4f42962dcfd971e2ddd3dba3f36f5027"
+metafile = true
+
+[[files]]
+file = "mods/alloy-forgery.pw.toml"
+hash = "2adf518c92809d9a8cb8c1bbb8f40f8d631a5702ccbcc4ee617a9365dcf48a4e"
+metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "1102440dd2533ba3a154419bb95ff1f81b858201eb0c44d2a2eea486c74e565a"
+hash = "0fb3808193da9b587367337d12d202d7b006e2522637a6502913d66a84f8626f"
 metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "46dbb4e9b06d0dff4bdcb4cbc562b7b2dfc642530fc31c2d377c3f78a77a5d96"
+hash = "58b61c905959e96a55e271c73090b59542a2e85bfb796c75bdaeedb245905bc0"
 metafile = true
 
 [[files]]
@@ -20,18 +30,48 @@ hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
 
 [[files]]
+file = "mods/cloudsolutions.pw.toml"
+hash = "ebd3d0b102bbeb00e607e70dd3c46b6e61dca34229a4fc6325fe4a2564c4cd60"
+metafile = true
+
+[[files]]
+file = "mods/digitalitems.pw.toml"
+hash = "934baffc966d67f0309ce69f3521527ebaa51a4723123a6d07caaee72fc6eaa3"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "a0a3d38daafb58117aaf29bb0b0520534abb7175e8d98f63cb47a65c75afac79"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "fe95430d433104d44c741c22d8f4d0db4678756311acacccddec49e3a39a4091"
+hash = "509726ae05260d3145f213d0ee630b15f43e7ddbebaeba4c30798f6c70e42458"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "bb9a29a48b27e7abc0799d4393240ae2cdcf7d64341c9a63347769173f8bda2e"
+hash = "2a760e528bf27c3eb4ae7c06200d91ee9c2849295addaa2add05495c7dee9528"
 metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "f9d89c62265e675839395d925f4162e3e93fda837ed50fbe3832f4ae9c58bebb"
+hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "22ca1b774bd7f8e29a672455d8aedc1c4929c79c365cb18116173643cf22e183"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
+metafile = true
+
+[[files]]
+file = "mods/reborncore.pw.toml"
+hash = "e5c1e399e09df87b7126f16ea3097c6f0c5ea47d06a52fc696a68319e18e866f"
 metafile = true
 
 [[files]]
@@ -41,10 +81,30 @@ metafile = true
 
 [[files]]
 file = "mods/smarthome-appliances.pw.toml"
-hash = "8eb024e61a74d23a4130671f3215bc3f0d78c46f6b86b55365f8d99fc1c828a9"
+hash = "f934a5a2adf4de0db35dbcb36f2993c7f15a3e295f4c3a30a94ece0744355162"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "b5b80fb144862325aa9e140d1bf1079bbbea481f305f4baf05341469773e675c"
+metafile = true
+
+[[files]]
+file = "mods/techreborn.pw.toml"
+hash = "9025e5c9f5032ed316208c509e44f7f3e93d3eb5f3a9379a78eda815ff643acc"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "9c7364e62fa7f1ed35d21b882c133e77c48101e285035e2451d3bec431f20569"
+metafile = true
+
+[[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "5fbcf602f270527285f35907311cc022236fdf3e6a6aa375bfe017ccb7306eea"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "c66db34f8e3505c0b89f8aa3b3002ffbc09c8e456d96f9a3e5ba79392db5e691"
+hash = "facd266338b9154e6acd0ff04bcc529b88c0e74e521c81e63ce60d569327f68b"
 metafile = true

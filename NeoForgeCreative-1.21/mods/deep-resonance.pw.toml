@@ -1,0 +1,13 @@
+name = "Deep Resonance"
+filename = "deepresonance-1.21-6.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gzruRGfo/versions/Ovv8ukvh/deepresonance-1.21-6.0.2.jar"
+hash-format = "sha512"
+hash = "9822d26523882f9d98a027418d273133dcf42bdc463d62e6d39d865374a43b9dc2ee21779599fdf28c4278c1c95921d026bebbb7220f2675202e71cc57e249e7"
+
+[update]
+[update.modrinth]
+mod-id = "gzruRGfo"
+version = "Ovv8ukvh"
