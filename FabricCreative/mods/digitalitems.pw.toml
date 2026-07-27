@@ -1,5 +1,6 @@
 name = "digitalitems"
 filename = "digitalitems-fabric-1.20.1-0.5.8.jar"
+side = "both"
 
 [download]
 url = "https://github.com/SirEdvin/DigitalItems/releases/download/v1.20.1-0.5.8/digitalitems-fabric-1.20.1-0.5.8.jar"
