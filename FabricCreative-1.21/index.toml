@@ -101,10 +101,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "5fbcf602f270527285f35907311cc022236fdf3e6a6aa375bfe017ccb7306eea"
+hash = "8167880f376ca82d2d4c7097788475711d741c923cecdce13db08b0e448f68dd"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "9659b64942b3f80cbf17f1724632fbcb709a23f8fca079e8709fb3a91d7b7c9a"
+hash = "c6e6e56ecccb0b7107b307b285f30496d3d7e31e58fc92e8d02a249106c09c70"
 metafile = true

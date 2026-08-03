@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "4cd181924c100d861938395434fd5c5cbb9ffbc3c423f9812e0bb7fcd43e472b"
+hash = "69016da74a8f35891485baab48920e0802ea5fbb31649654d14afa49ba63d500"
 metafile = true
 
 [[files]]
@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "2c6ae5bede4c130fdfd762ee1382dd7415a592d8b81ea8876118aecc2803ad17"
+hash = "1ce103de92ddd87205799e70dbf2331037a88f499ba2f6b0923b5e5f6dc498b1"
 metafile = true
 
 [[files]]
