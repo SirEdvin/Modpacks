@@ -1,0 +1,319 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+TESTING_DIR="$(cd -- "$SCRIPT_DIR/.." && pwd)"
+REPO_DIR="$(cd -- "$TESTING_DIR/.." && pwd)"
+# shellcheck source=../lib/lanes.sh
+source "$TESTING_DIR/lib/lanes.sh"
+
+usage() {
+  cat <<'USAGE'
+Usage: mc-test <command> [lane]
+
+Commands:
+  lanes              List the four available test lanes
+  start <lane>       Start one server and wait until it is healthy
+  provision <lane>   Build/reset the playground and authored-block fixture
+  blocks <lane>      Regenerate/place/verify all authored-mod blocks
+  audit <lane>       Re-run block attachment audit and install CC Lua report
+  status [lane]      Show one lane, or all lane states
+  logs <lane>        Follow the selected server log
+  console <lane>     Open the interactive Minecraft server console
+  command <lane> ... Run one Minecraft command through RCON
+  stop <lane>        Stop the selected stack cleanly
+  reset <lane>       Stop and delete that lane's generated server data
+  smoke <lane>       Start, provision, report diagnostics, then stop
+  smoke-all          Run smoke sequentially across all four lanes
+
+Lanes: fabric-1.20, forge-1.20, fabric-1.21, neoforge-1.21
+USAGE
+}
+
+die() { printf 'error: %s\n' "$*" >&2; exit 1; }
+
+require_lane() {
+  LANE="${1:-}"
+  [[ -n "$LANE" ]] || die "a lane is required"
+  lane_config "$LANE" || die "unknown lane '$LANE'"
+}
+
+env_file() { printf '%s/runtime/%s.env' "$TESTING_DIR" "$LANE"; }
+project_name() { printf 'mc-test-%s' "$LANE" | tr '.' '-'; }
+
+write_env() {
+  mkdir -p "$TESTING_DIR/runtime/$LANE/data" "$TESTING_DIR/runtime/shared-cache"
+  local password="mc-test-${LANE//./-}"
+  {
+    printf 'LANE=%s\n' "$LANE"
+    printf 'PACK_DIR=%s\n' "$PACK_DIR"
+    printf 'MC_TYPE=%s\n' "$MC_TYPE"
+    printf 'MC_VERSION=%s\n' "$MC_VERSION"
+    printf 'MC_PORT=%s\n' "$MC_PORT"
+    printf 'MC_MEMORY=%s\n' "$MC_MEMORY"
+    printf 'JAVA_IMAGE_TAG=%s\n' "$JAVA_IMAGE_TAG"
+    printf 'RCON_PASSWORD=%s\n' "$password"
+    printf 'FORGE_VERSION=%s\n' "$([[ "$MC_TYPE" == FORGE ]] && printf '%s' "$LOADER_VERSION")"
+    printf 'NEOFORGE_VERSION=%s\n' "$([[ "$MC_TYPE" == NEOFORGE ]] && printf '%s' "$LOADER_VERSION")"
+    printf 'FABRIC_LOADER_VERSION=%s\n' "$([[ "$MC_TYPE" == FABRIC ]] && printf '%s' "$LOADER_VERSION")"
+  } >"$(env_file)"
+}
+
+compose() {
+  write_env
+  COMPOSE_PROJECT_NAME="$(project_name)" docker compose \
+    --project-directory "$TESTING_DIR" \
+    --env-file "$(env_file)" \
+    -f "$TESTING_DIR/compose.yaml" "$@"
+}
+
+container_id() { compose ps -q minecraft; }
+
+wait_ready() {
+  local timeout="${MC_TEST_TIMEOUT:-900}" elapsed=0 state id
+  printf 'Waiting up to %ss for %s to become healthy' "$timeout" "$LANE"
+  while (( elapsed < timeout )); do
+    id="$(container_id)"
+    [[ -n "$id" ]] || { printf '\n'; compose logs --no-color minecraft; die "minecraft container exited"; }
+    state="$(docker inspect --format '{{if .State.Health}}{{.State.Health.Status}}{{else}}{{.State.Status}}{{end}}' "$id")"
+    case "$state" in
+      healthy) printf ' ready.\n'; return 0 ;;
+      exited|dead|unhealthy)
+        printf '\n'
+        compose logs --no-color --tail=120 minecraft
+        die "$LANE entered state $state"
+        ;;
+    esac
+    sleep 5
+    elapsed=$((elapsed + 5))
+    printf '.'
+  done
+  printf '\n'
+  compose logs --no-color --tail=120 minecraft
+  die "timed out waiting for $LANE"
+}
+
+rcon() {
+  # Prevent rcon-cli from consuming a caller's loop/file stdin.
+  compose exec -T minecraft rcon-cli "$@" </dev/null
+}
+
+run_mcfunction() {
+  local commands="$1" command
+  [[ -f "$commands" ]] || die "missing $commands"
+  while IFS= read -r command || [[ -n "$command" ]]; do
+    [[ -z "$command" || "$command" == \#* ]] && continue
+    rcon "$command" >/dev/null
+  done <"$commands"
+}
+
+generate_authored_blocks() {
+  local generated="$TESTING_DIR/runtime/$LANE/generated"
+  python3 "$TESTING_DIR/bin/generate-authored-blocks.py" \
+    --lane "$LANE" \
+    --computer-id "$MC_PORT" \
+    --data-dir "$TESTING_DIR/runtime/$LANE/data" \
+    --output-dir "$generated"
+}
+
+audit_authored_blocks() {
+  local generated="$TESTING_DIR/runtime/$LANE/generated"
+  local manifest="$generated/authored-blocks.json"
+  local report="$generated/authored-block-audit.json"
+  local block x y z modem_x modem_y modem_z response modem_data upgrade tag
+  local verified=0 attached=0 total=0 turtle_verified=0 turtle_total=0 pocket_verified=0 pocket_total=0
+  local attached_tsv="$generated/attached-peripherals.tsv"
+  : >"$attached_tsv"
+
+  while IFS=$'\t' read -r block x y z modem_x modem_y modem_z; do
+    total=$((total + 1))
+    response="$(rcon "execute if block $x $y $z $block run seed" || true)"
+    if [[ "$response" != *Seed* ]]; then
+      die "authored block verification failed for $block at $x $y $z: $response"
+    fi
+    verified=$((verified + 1))
+
+    modem_data="$(rcon "data get block $modem_x $modem_y $modem_z" || true)"
+    if [[ "$modem_data" == *PeripheralType* ]]; then
+      attached=$((attached + 1))
+      printf '%s\t%s\t%s\t%s\n' "$block" "$x" "$y" "$z" >>"$attached_tsv"
+    fi
+  done < <(python3 -c 'import json,sys; d=json.load(open(sys.argv[1])); [print(c["block"],c["x"],c["y"],c["z"],c["modem_x"],c["modem_y"],c["modem_z"],sep="\t") for c in d["cells"]]' "$manifest")
+
+  while IFS=$'\t' read -r upgrade x y z; do
+    turtle_total=$((turtle_total + 1))
+    response="$(rcon "data get block $x $y $z" || true)"
+    if [[ "$response" != *'computercraft:turtle_advanced'* || "$response" != *"$upgrade"* || "$response" == *RightUpgrade* ]]; then
+      die "single-upgrade turtle verification failed for $upgrade at $x $y $z: $response"
+    fi
+    turtle_verified=$((turtle_verified + 1))
+  done < <(python3 -c 'import json,sys; d=json.load(open(sys.argv[1])); [print(c["id"],c["x"],c["y"],c["z"],sep="\t") for c in d["turtle_cells"]]' "$manifest")
+
+  while IFS=$'\t' read -r upgrade x y z tag; do
+    pocket_total=$((pocket_total + 1))
+    response="$(rcon "execute if block $x $y $z minecraft:lectern run seed" || true)"
+    [[ "$response" == *Seed* ]] || die "pocket lectern missing for $upgrade at $x $y $z: $response"
+    response="$(rcon "data get entity @e[type=minecraft:item_display,tag=$tag,limit=1]" || true)"
+    if [[ "$response" != *'computercraft:pocket_computer_advanced'* || "$response" != *"$upgrade"* ]]; then
+      die "single-upgrade pocket verification failed for $upgrade on lectern $x $y $z: $response"
+    fi
+    pocket_verified=$((pocket_verified + 1))
+  done < <(python3 -c 'import json,sys; d=json.load(open(sys.argv[1])); [print(c["id"],c["x"],c["y"],c["z"],c["entity_tag"],sep="\t") for c in d["pocket_cells"]]' "$manifest")
+
+  python3 - "$manifest" "$attached_tsv" "$report" "$verified" "$attached" "$turtle_verified" "$pocket_verified" <<'PY'
+import json, sys
+manifest_path, attached_path, report_path, verified, attached, turtle_verified, pocket_verified = sys.argv[1:]
+manifest = json.load(open(manifest_path))
+attached_rows = []
+with open(attached_path) as handle:
+    for line in handle:
+        block, x, y, z = line.rstrip("\n").split("\t")
+        attached_rows.append({"block": block, "x": int(x), "y": int(y), "z": int(z)})
+json.dump({
+    "lane": manifest["lane"],
+    "discovered": manifest["block_count"],
+    "placed_and_verified": int(verified),
+    "wired_peripherals": attached_rows,
+    "wired_peripheral_count": int(attached),
+    "turtle_upgrades_discovered": manifest["turtle_upgrade_count"],
+    "single_upgrade_turtles_verified": int(turtle_verified),
+    "pocket_upgrades_discovered": manifest["pocket_upgrade_count"],
+    "single_upgrade_pockets_on_lecterns_verified": int(pocket_verified),
+}, open(report_path, "w"), indent=2)
+open(report_path, "a").write("\n")
+PY
+  printf 'Verified %d/%d authored blocks (%d wired peripherals), %d/%d single-upgrade turtles, and %d/%d upgraded pockets on lecterns.\n' \
+    "$verified" "$total" "$attached" "$turtle_verified" "$turtle_total" "$pocket_verified" "$pocket_total"
+}
+
+install_lua_audit() {
+  local generated="$TESTING_DIR/runtime/$LANE/generated"
+  local manifest="$generated/authored-blocks.json"
+  local data_dir="$TESTING_DIR/runtime/$LANE/data"
+  local x y z computer_id nbt computer_dir
+  read -r x y z computer_id < <(python3 -c 'import json,sys; d=json.load(open(sys.argv[1]))["control_computer"]; print(d["x"],d["y"],d["z"],d["id"])' "$manifest")
+
+  nbt="$(rcon "data get block $x $y $z" || true)"
+  if [[ "$nbt" != *"ComputerId: $computer_id"* ]]; then
+    die "control computer #$computer_id was not created correctly: $nbt"
+  fi
+
+  computer_dir="$data_dir/playground/computercraft/computer/$computer_id"
+  mkdir -p "$computer_dir"
+  cp "$TESTING_DIR/playground/audit.lua" "$computer_dir/audit.lua"
+  printf 'shell.run("audit")\n' >"$computer_dir/startup.lua"
+  rcon "computercraft shutdown #$computer_id" >/dev/null || true
+  sleep 1
+  rcon "computercraft turn-on #$computer_id" >/dev/null
+  printf 'Installed and started Lua peripheral audit on computer #%s.\n' "$computer_id"
+}
+
+provision_authored_blocks() {
+  generate_authored_blocks
+  run_mcfunction "$TESTING_DIR/runtime/$LANE/generated/authored-blocks.mcfunction"
+  audit_authored_blocks
+  install_lua_audit
+}
+
+provision() {
+  run_mcfunction "$TESTING_DIR/playground/provision.mcfunction"
+
+  local control_data
+  control_data="$(rcon 'data get block 0 65 0' || true)"
+  if [[ "$control_data" != *'computercraft:computer_advanced'* ]]; then
+    printf 'Control fixture verification failed: %s\n' "$control_data" >&2
+    return 1
+  fi
+  provision_authored_blocks
+  printf 'Provisioned and verified peripheral playground for %s.\n' "$LANE"
+}
+
+report() {
+  local report_dir="$TESTING_DIR/reports/$LANE" id
+  mkdir -p "$report_dir"
+  id="$(container_id)"
+  compose logs --no-color minecraft >"$report_dir/server.log"
+  docker stats --no-stream --format '{{json .}}' "$id" >"$report_dir/docker-stats.json"
+  rcon 'list' >"$report_dir/server-list.txt"
+  rcon 'execute in minecraft:overworld run data get block 0 65 0' >"$report_dir/control-computer.txt" || true
+  printf 'Wrote diagnostics to %s\n' "$report_dir"
+}
+
+command="${1:-help}"
+shift || true
+case "$command" in
+  help|-h|--help) usage ;;
+  lanes) all_lanes ;;
+  start)
+    require_lane "${1:-}"
+    compose up -d --pull always
+    wait_ready
+    printf '%s is available on localhost:%s\n' "$LANE" "$MC_PORT"
+    ;;
+  provision)
+    require_lane "${1:-}"
+    provision
+    ;;
+  blocks)
+    require_lane "${1:-}"
+    provision_authored_blocks
+    ;;
+  audit)
+    require_lane "${1:-}"
+    audit_authored_blocks
+    install_lua_audit
+    ;;
+  status)
+    if [[ $# -gt 0 ]]; then
+      require_lane "$1"
+      compose ps
+    else
+      for lane in $(all_lanes); do
+        require_lane "$lane"
+        printf '\n[%s]\n' "$lane"
+        compose ps minecraft || true
+      done
+    fi
+    ;;
+  logs)
+    require_lane "${1:-}"
+    compose logs -f minecraft
+    ;;
+  console)
+    require_lane "${1:-}"
+    compose attach minecraft
+    ;;
+  command)
+    require_lane "${1:-}"
+    shift
+    [[ $# -gt 0 ]] || die "a Minecraft command is required"
+    rcon "$*"
+    ;;
+  stop)
+    require_lane "${1:-}"
+    compose down --timeout 60
+    ;;
+  reset)
+    require_lane "${1:-}"
+    compose down --timeout 60
+    rm -rf -- "$TESTING_DIR/runtime/$LANE"
+    rm -f -- "$(env_file)"
+    printf 'Reset generated data for %s.\n' "$LANE"
+    ;;
+  smoke)
+    require_lane "${1:-}"
+    trap 'compose down --timeout 60 >/dev/null 2>&1 || true' EXIT
+    compose up -d --pull always
+    wait_ready
+    provision
+    report
+    compose down --timeout 60
+    trap - EXIT
+    ;;
+  smoke-all)
+    for lane in $(all_lanes); do
+      "$0" smoke "$lane"
+    done
+    ;;
+  *) usage; die "unknown command '$command'" ;;
+esac
