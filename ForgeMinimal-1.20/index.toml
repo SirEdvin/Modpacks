@@ -1,0 +1,35 @@
+hash-format = "sha256"
+
+[[files]]
+file = "Makefile"
+hash = "88b3677ae94c363d785d57c1dfbe4c3efe485c4f617d4775e190bb98d16e8ecf"
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "ca55f3ceb2ccbf454645c4eb691109220ad14205ca2592caf46223d81f73ced3"
+metafile = true
+
+[[files]]
+file = "mods/cloudsolutions.pw.toml"
+hash = "1a7c7b129ca76bbdbcd042d58fce96161a45e6ca0e2f9b976ff045562beec269"
+metafile = true
+
+[[files]]
+file = "mods/digitalitems.pw.toml"
+hash = "33f56a4e509f902e711178c426fd928a3ba7c0f69a83e39d774a238c03213de5"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "82ffc26ad624cdd846cbbeb99ed40ef44229ec7006a7ae7e8caa8df6409c20db"
+metafile = true
+
+[[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "cf648f2086c4810dfcb9f93a2e1bf64d1e1a35c3af44567438922231b4cfe456"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "c4d796a10c36b24c5a860f660e3ce8c6beb34d8ae2db922bcb2dc727f2033245"
+metafile = true

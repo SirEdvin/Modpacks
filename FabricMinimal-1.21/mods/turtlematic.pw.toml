@@ -1,0 +1,8 @@
+name = "turtlematic"
+filename = "turtlematic-fabric-1.21.1-1.4.10.jar"
+side = "both"
+
+[download]
+url = "https://github.com/SirEdvin/Turtlematic/releases/download/v1.21.1-1.4.10/turtlematic-fabric-1.21.1-1.4.10.jar"
+hash-format = "sha256"
+hash = "8232b3a05928033cd1a91f05a3d43e04f7b5450347c944ba2546bfb8a0cc62c2"

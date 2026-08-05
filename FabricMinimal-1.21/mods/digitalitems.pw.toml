@@ -1,0 +1,8 @@
+name = "digitalitems"
+filename = "digitalitems-fabric-1.21.1-0.5.8.jar"
+side = "both"
+
+[download]
+url = "https://github.com/SirEdvin/DigitalItems/releases/download/v1.21.1-0.5.8/digitalitems-fabric-1.21.1-0.5.8.jar"
+hash-format = "sha256"
+hash = "31df57f3872b0a74389b6ebdd2fce583edf1ec73df527a0930fd8b1979fd2963"

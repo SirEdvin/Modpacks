@@ -1,0 +1,50 @@
+hash-format = "sha256"
+
+[[files]]
+file = "Makefile"
+hash = "3bb87aac915a03c56701d5702d46aae8cac4bd88e0e099afcc42dcc730a71b9e"
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "58b61c905959e96a55e271c73090b59542a2e85bfb796c75bdaeedb245905bc0"
+metafile = true
+
+[[files]]
+file = "mods/cloudsolutions.pw.toml"
+hash = "ebd3d0b102bbeb00e607e70dd3c46b6e61dca34229a4fc6325fe4a2564c4cd60"
+metafile = true
+
+[[files]]
+file = "mods/digitalitems.pw.toml"
+hash = "934baffc966d67f0309ce69f3521527ebaa51a4723123a6d07caaee72fc6eaa3"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "509726ae05260d3145f213d0ee630b15f43e7ddbebaeba4c30798f6c70e42458"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "2a760e528bf27c3eb4ae7c06200d91ee9c2849295addaa2add05495c7dee9528"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
+metafile = true
+
+[[files]]
+file = "mods/smarthome-appliances.pw.toml"
+hash = "f934a5a2adf4de0db35dbcb36f2993c7f15a3e295f4c3a30a94ece0744355162"
+metafile = true
+
+[[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "8167880f376ca82d2d4c7097788475711d741c923cecdce13db08b0e448f68dd"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "c6e6e56ecccb0b7107b307b285f30496d3d7e31e58fc92e8d02a249106c09c70"
+metafile = true
