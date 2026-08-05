@@ -1,0 +1,13 @@
+name = "Forge Minimal 1.20"
+author = "SirEdvin"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1a315783be3e084ed133baec7dce7a0003d6edd3e478ca176ef71ad8ba1660bb"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"

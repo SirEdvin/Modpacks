@@ -12,7 +12,7 @@ usage() {
 Usage: mc-test <command> [lane]
 
 Commands:
-  lanes              List the four available test lanes
+  lanes              List the eight available test lanes
   start <lane>       Start one server and wait until it is healthy
   provision <lane>   Build/reset the playground and authored-block fixture
   blocks <lane>      Regenerate/place/verify all authored-mod blocks
@@ -24,9 +24,11 @@ Commands:
   stop <lane>        Stop the selected stack cleanly
   reset <lane>       Stop and delete that lane's generated server data
   smoke <lane>       Start, provision, report diagnostics, then stop
-  smoke-all          Run smoke sequentially across all four lanes
+  smoke-all          Run smoke sequentially across all eight lanes
 
-Lanes: fabric-1.20, forge-1.20, fabric-1.21, neoforge-1.21
+Lanes: fabric-1.20, forge-1.20, fabric-1.21, neoforge-1.21,
+       minimal-fabric-1.20, minimal-forge-1.20,
+       minimal-fabric-1.21, minimal-neoforge-1.21
 USAGE
 }
 
@@ -96,6 +98,22 @@ wait_ready() {
 rcon() {
   # Prevent rcon-cli from consuming a caller's loop/file stdin.
   compose exec -T minecraft rcon-cli "$@" </dev/null
+}
+
+wait_rcon() {
+  local timeout="${MC_TEST_RCON_TIMEOUT:-60}" elapsed=0
+  printf 'Waiting up to %ss for %s RCON' "$timeout" "$LANE"
+  while (( elapsed < timeout )); do
+    if rcon 'list' >/dev/null 2>&1; then
+      printf ' ready.\n'
+      return 0
+    fi
+    sleep 1
+    elapsed=$((elapsed + 1))
+    printf '.'
+  done
+  printf '\n'
+  die "timed out waiting for $LANE RCON"
 }
 
 run_mcfunction() {
@@ -248,6 +266,7 @@ case "$command" in
     require_lane "${1:-}"
     compose up -d --pull always
     wait_ready
+    wait_rcon
     printf '%s is available on localhost:%s\n' "$LANE" "$MC_PORT"
     ;;
   provision)
@@ -305,6 +324,7 @@ case "$command" in
     trap 'compose down --timeout 60 >/dev/null 2>&1 || true' EXIT
     compose up -d --pull always
     wait_ready
+    wait_rcon
     provision
     report
     compose down --timeout 60

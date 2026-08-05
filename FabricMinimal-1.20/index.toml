@@ -1,0 +1,45 @@
+hash-format = "sha256"
+
+[[files]]
+file = "Makefile"
+hash = "0c2f6905e19ffa6bc8a46fe6c49123650dc5f76605083456f07ff0052dbbafda"
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "69016da74a8f35891485baab48920e0802ea5fbb31649654d14afa49ba63d500"
+metafile = true
+
+[[files]]
+file = "mods/cloudsolutions.pw.toml"
+hash = "0e7849ee27fb2a06577dcc9e525395af72246eb03005dc698a8680a41a539e7e"
+metafile = true
+
+[[files]]
+file = "mods/digitalitems.pw.toml"
+hash = "bd2a780ba60479eb206ec0c36e5c31d82969bbed2f1907e29d9a1b629102f8bf"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "4449401b59481016fa2a66d6e749795129160cb1ab3e7932e15033c6b5815455"
+metafile = true
+
+[[files]]
+file = "mods/turtlematic.pw.toml"
+hash = "1ce103de92ddd87205799e70dbf2331037a88f499ba2f6b0923b5e5f6dc498b1"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "8c5fc884fc6116814765e37a2dd82f407eee7ee00b9afe3f27473d72f83e2f74"
+metafile = true

@@ -1,6 +1,6 @@
 # Manual Minecraft Mod Testing Playground
 
-This directory runs one disposable, low-memory dedicated server at a time for the four Packwiz test packs in this repository. It is intentionally a manual tool: there is no CI workflow and no always-on four-server fleet.
+This directory runs one disposable, low-memory dedicated server at a time for the eight Packwiz test packs in this repository. It is intentionally a manual tool: there is no CI workflow and no always-on server fleet.
 
 ## Lanes
 
@@ -10,6 +10,10 @@ This directory runs one disposable, low-memory dedicated server at a time for th
 | `forge-1.20` | `ForgeCreative` | Forge 47.4.10 / MC 1.20.1 | 17 | 25571 | 2G |
 | `fabric-1.21` | `FabricCreative-1.21` | Fabric 0.19.3 / MC 1.21.1 | 21 | 25572 | 1536M |
 | `neoforge-1.21` | `NeoForgeCreative-1.21` | NeoForge 21.1.244 / MC 1.21.1 | 21 | 25573 | 2G |
+| `minimal-fabric-1.20` | `FabricMinimal-1.20` | Fabric 0.17.2 / MC 1.20.1 | 17 | 25574 | 1536M |
+| `minimal-forge-1.20` | `ForgeMinimal-1.20` | Forge 47.4.10 / MC 1.20.1 | 17 | 25575 | 2G |
+| `minimal-fabric-1.21` | `FabricMinimal-1.21` | Fabric 0.19.3 / MC 1.21.1 | 21 | 25576 | 1536M |
+| `minimal-neoforge-1.21` | `NeoForgeMinimal-1.21` | NeoForge 21.1.244 / MC 1.21.1 | 21 | 25577 | 2G |
 
 The `itzg/minecraft-server` image selects the Java runtime required by the Minecraft version. Packwiz installs server-side files directly from the checked-out pack through an internal HTTP container.
 
@@ -74,7 +78,7 @@ Examples:
 # Start, wait, provision, save diagnostics, and stop
 ./testing/bin/mc-test smoke neoforge-1.21
 
-# Run that smoke cycle sequentially for all four lanes
+# Run that smoke cycle sequentially for all eight lanes
 ./testing/bin/mc-test smoke-all
 ```
 
@@ -192,6 +196,10 @@ Verified fixture totals:
 | `forge-1.20` | 23 | 18 | 49 | 10 |
 | `fabric-1.21` | 27 | 18 | 49 | 10 |
 | `neoforge-1.21` | 23 | 18 | 51 | 16 |
+| `minimal-fabric-1.20` | 23 | 18 | 49 | 10 |
+| `minimal-forge-1.20` | 23 | 18 | 49 | 10 |
+| `minimal-fabric-1.21` | 27 | 18 | 49 | 10 |
+| `minimal-neoforge-1.21` | 23 | 18 | 49 | 10 |
 
 Fabric 1.21 has four additional Smart Home Appliances blocks. They are placed but do not expose CC peripherals. A block is counted as attached only when CC:Tweaked records a real `PeripheralType*` entry in the adjacent modem block entity; the cosmetic modem blockstate alone is not accepted as evidence.
 

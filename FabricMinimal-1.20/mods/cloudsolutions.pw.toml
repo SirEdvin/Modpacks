@@ -1,0 +1,8 @@
+name = "cloudsolutions"
+filename = "cloudsolutions-fabric-1.20.1-0.3.4.jar"
+side = "both"
+
+[download]
+url = "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.20.1-0.3.4/cloudsolutions-fabric-1.20.1-0.3.4.jar"
+hash-format = "sha256"
+hash = "1d2d11e6f4541ad4a63ae99bbe83b496c4b66037db7c097090783734e225120d"

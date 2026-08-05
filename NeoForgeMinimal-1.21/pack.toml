@@ -1,0 +1,13 @@
+name = "NeoForge Minimal 1.21"
+author = "SirEdvin"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ac3631dc0fad599101a305761299a9821107e87608efb2e68418e58452efc6f9"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.244"
