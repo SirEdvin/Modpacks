@@ -61,6 +61,8 @@ mc-test stop <lane>
 mc-test reset <lane>
 mc-test smoke <lane>
 mc-test smoke-all
+mc-test client-smoke <lane>
+mc-test client-smoke-all
 ```
 
 Examples:
@@ -80,9 +82,37 @@ Examples:
 
 # Run that smoke cycle sequentially for all eight lanes
 ./testing/bin/mc-test smoke-all
+
+# Install and launch a matching headless client, then join the filled playground
+./testing/bin/mc-test client-smoke minimal-fabric-1.20
+
+# Run the client world-join smoke sequentially across all eight lanes
+./testing/bin/mc-test client-smoke-all
 ```
 
-`smoke-all` is deliberately sequential to keep RAM consumption low.
+Both matrix commands are deliberately sequential to keep RAM consumption low.
+
+## Client-side smoke test
+
+`client-smoke` performs the same deterministic playground setup before launching a matching physical client:
+
+1. starts the selected server in temporary offline mode;
+2. creates the empty vanilla superflat/void world and provisions all fixtures;
+3. verifies authored blocks, wired peripherals, turtles, and pockets through RCON;
+4. installs the Packwiz pack with `side=client` into an isolated HeadlessMC home;
+5. installs the exact Fabric, Forge, or NeoForge loader declared by the lane;
+6. launches Minecraft headlessly and quick-joins the filled playground;
+7. requires both client advancement synchronization and a server-side join event;
+8. captures client/server logs, stops the client, and shuts the stack down cleanly.
+
+The test intentionally joins the server-created world instead of automating Minecraft's world-creation GUI. This keeps the client view and server fixture byte-for-byte aligned while still exercising physical-client initialization, resource/model loading, networking, registry synchronization, chunk rendering setup, and a real world join. HeadlessMC, Mojang assets, loader libraries, and Packwiz downloads are cached under `testing/runtime/shared-cache`; each lane retains isolated mods, configuration, options, and logs under `testing/runtime/<lane>/client`.
+
+Reports are written to:
+
+```text
+testing/reports/<lane>/client.log
+testing/reports/<lane>/client-server.log
+```
 
 ## Void world
 

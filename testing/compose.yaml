@@ -29,7 +29,7 @@ services:
       MOTD: "Peripheral playground - ${LANE}"
       MODE: "creative"
       DIFFICULTY: "peaceful"
-      ONLINE_MODE: "true"
+      ONLINE_MODE: "${ONLINE_MODE:-true}"
       ALLOW_FLIGHT: "true"
       ENABLE_COMMAND_BLOCK: "true"
       SPAWN_PROTECTION: "0"
@@ -54,3 +54,25 @@ services:
       interval: 10s
       timeout: 5s
       retries: 12
+
+  client:
+    image: "3arthqu4ke/headlessmc:latest"
+    profiles: ["client"]
+    depends_on:
+      packwiz:
+        condition: service_started
+      minecraft:
+        condition: service_healthy
+    command: ["/testing/bin/client-entrypoint.sh"]
+    environment:
+      LANE: "${LANE}"
+      PACK_DIR: "${PACK_DIR}"
+      MC_TYPE: "${MC_TYPE}"
+      MC_VERSION: "${MC_VERSION}"
+      LOADER_VERSION: "${LOADER_VERSION}"
+      JAVA_IMAGE_TAG: "${JAVA_IMAGE_TAG}"
+      CLIENT_MEMORY: "${CLIENT_MEMORY}"
+    volumes:
+      - "./bin:/testing/bin:ro"
+      - "./runtime/${LANE}/client:/root:rw"
+      - "./runtime/shared-cache:/cache:rw"

@@ -25,6 +25,8 @@ Commands:
   reset <lane>       Stop and delete that lane's generated server data
   smoke <lane>       Start, provision, report diagnostics, then stop
   smoke-all          Run smoke sequentially across all eight lanes
+  client-smoke <lane> Start/provision a void server, join it with the client, then stop
+  client-smoke-all   Run client-smoke sequentially across all eight lanes
 
 Lanes: fabric-1.20, forge-1.20, fabric-1.21, neoforge-1.21,
        minimal-fabric-1.20, minimal-forge-1.20,
@@ -54,6 +56,9 @@ write_env() {
     printf 'MC_PORT=%s\n' "$MC_PORT"
     printf 'MC_MEMORY=%s\n' "$MC_MEMORY"
     printf 'JAVA_IMAGE_TAG=%s\n' "$JAVA_IMAGE_TAG"
+    printf 'LOADER_VERSION=%s\n' "$LOADER_VERSION"
+    printf 'CLIENT_MEMORY=%s\n' "${MC_TEST_CLIENT_MEMORY:-2G}"
+    printf 'ONLINE_MODE=%s\n' "${MC_TEST_ONLINE_MODE:-true}"
     printf 'RCON_PASSWORD=%s\n' "$password"
     printf 'FORGE_VERSION=%s\n' "$([[ "$MC_TYPE" == FORGE ]] && printf '%s' "$LOADER_VERSION")"
     printf 'NEOFORGE_VERSION=%s\n' "$([[ "$MC_TYPE" == NEOFORGE ]] && printf '%s' "$LOADER_VERSION")"
@@ -257,6 +262,56 @@ report() {
   printf 'Wrote diagnostics to %s\n' "$report_dir"
 }
 
+client_smoke() {
+  local report_dir="$TESTING_DIR/reports/$LANE" client_log="$TESTING_DIR/reports/$LANE/client.log"
+  local client_id server_id elapsed=0 timeout="${MC_TEST_CLIENT_TIMEOUT:-600}" stability="${MC_TEST_CLIENT_STABILITY_SECONDS:-10}"
+  local live_server_log="$TESTING_DIR/runtime/$LANE/data/logs/latest.log"
+  mkdir -p "$report_dir"
+  export MC_TEST_ONLINE_MODE=false
+  trap '[[ -z "${client_id:-}" ]] || docker rm -f "$client_id" >/dev/null 2>&1 || true; compose --profile client down --timeout 60 >/dev/null 2>&1 || true' EXIT
+  compose up -d --pull always packwiz minecraft
+  wait_ready
+  wait_rcon
+  provision
+  client_id="$(compose --profile client run -d client)"
+  printf 'Waiting up to %ss for %s client to join the playground' "$timeout" "$LANE"
+  while (( elapsed < timeout )); do
+    docker logs "$client_id" >"$client_log" 2>&1 || true
+    compose logs --no-color minecraft >"$report_dir/client-server.log"
+    if grep -Eq 'Loaded [0-9]+ advancements|Recipes synchronized|logged in with entity id' "$client_log" \
+      && grep -Eq 'joined the game|logged in with entity id' "$live_server_log"; then
+      sleep "$stability"
+      if grep -Eq 'Encountered an unexpected exception|Preparing crash report' "$live_server_log"; then
+        tail -120 "$live_server_log" >&2
+        die "$LANE server crashed after the client joined"
+      fi
+      printf ' ready.\n'
+      docker stop --time 30 "$client_id" >/dev/null
+      docker rm "$client_id" >/dev/null
+      client_id=""
+      compose --profile client down --timeout 60
+      trap - EXIT
+      printf 'Client loaded and joined the provisioned void playground for %s.\n' "$LANE"
+      return 0
+    fi
+    if ! docker inspect --format '{{.State.Running}}' "$client_id" 2>/dev/null | grep -q true; then
+      tail -120 "$client_log" >&2
+      die "$LANE client exited before joining the playground"
+    fi
+    server_id="$(container_id)"
+    if [[ -z "$server_id" ]] || ! docker inspect --format '{{.State.Running}}' "$server_id" 2>/dev/null | grep -q true; then
+      tail -120 "$live_server_log" >&2
+      die "$LANE server exited while the client was joining"
+    fi
+    sleep 5
+    elapsed=$((elapsed + 5))
+    printf '.'
+  done
+  printf '\n'
+  tail -120 "$client_log" >&2
+  die "timed out waiting for $LANE client world join"
+}
+
 command="${1:-help}"
 shift || true
 case "$command" in
@@ -333,6 +388,15 @@ case "$command" in
   smoke-all)
     for lane in $(all_lanes); do
       "$0" smoke "$lane"
+    done
+    ;;
+  client-smoke)
+    require_lane "${1:-}"
+    client_smoke
+    ;;
+  client-smoke-all)
+    for lane in $(all_lanes); do
+      "$0" client-smoke "$lane"
     done
     ;;
   *) usage; die "unknown command '$command'" ;;
