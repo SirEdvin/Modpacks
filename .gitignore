@@ -4,3 +4,5 @@
 # Manual Minecraft test-server runtime
 /testing/runtime/
 /testing/reports/
+
+__pycache__

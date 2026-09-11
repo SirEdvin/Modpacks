@@ -7,6 +7,7 @@ import argparse
 import json
 import math
 import re
+import tomllib
 import zipfile
 from pathlib import Path
 from typing import Any
@@ -22,7 +23,12 @@ BLOCKSTATE_RE = re.compile(r"assets/([^/]+)/blockstates/([^/]+)\.json$")
 UPGRADE_RE = re.compile(
     r"data/([^/]+)/computercraft/(turtle_upgrades?|pocket_upgrades?)/([^/]+)\.json$"
 )
-MOD_ID_RE = re.compile(r"modId\s*=\s*[\"']([^\"']+)[\"']")
+# Exact optional integration blocks, verified against UPW AE2 Registration.kt.
+# Unknown/unlisted assets stay in the fixture so unexpected missing blocks fail.
+OPTIONAL_BLOCK_MODS = {
+    "peripheralworks:ae2_pattern_pedestal": {"ae2"},
+    "peripheralworks:me_network_peripheral": {"ae2"},
+}
 
 
 def authored_jars(mods_dir: Path) -> list[Path]:
@@ -42,8 +48,9 @@ def installed_mod_ids(mods_dir: Path) -> set[str]:
                     result.add(json.loads(archive.read("fabric.mod.json"))["id"])
                 for metadata in ("META-INF/mods.toml", "META-INF/neoforge.mods.toml"):
                     if metadata in archive.namelist():
-                        result.update(MOD_ID_RE.findall(archive.read(metadata).decode(errors="replace")))
-        except (OSError, zipfile.BadZipFile, KeyError, json.JSONDecodeError):
+                        document = tomllib.loads(archive.read(metadata).decode())
+                        result.update(mod["modId"] for mod in document.get("mods", []))
+        except (OSError, zipfile.BadZipFile, KeyError, json.JSONDecodeError, tomllib.TOMLDecodeError):
             continue
     return result
 
@@ -68,7 +75,7 @@ def condition_is_active(document: dict[str, Any], mod_ids: set[str]) -> bool:
     return True
 
 
-def discover(mods_dir: Path) -> tuple[list[str], dict[str, list[str]], list[dict[str, str]], list[dict[str, str]]]:
+def discover(mods_dir: Path, *, skipped_blocks: list[dict[str, Any]] | None = None) -> tuple[list[str], dict[str, list[str]], list[dict[str, str]], list[dict[str, str]]]:
     by_jar: dict[str, list[str]] = {}
     blocks: set[str] = set()
     turtle: dict[str, dict[str, str]] = {}
@@ -82,6 +89,16 @@ def discover(mods_dir: Path) -> tuple[list[str], dict[str, list[str]], list[dict
                 block_match = BLOCKSTATE_RE.fullmatch(member)
                 if block_match:
                     block_id = f"{block_match.group(1)}:{block_match.group(2)}"
+                    missing = sorted(OPTIONAL_BLOCK_MODS.get(block_id, set()) - mod_ids)
+                    if missing:
+                        if skipped_blocks is not None:
+                            skipped_blocks.append({
+                                "block": block_id,
+                                "source_jar": jar.name,
+                                "missing_mods": missing,
+                                "reason": "optional integration dependency not installed",
+                            })
+                        continue
                     jar_blocks.add(block_id)
                     blocks.add(block_id)
                     continue
@@ -124,7 +141,8 @@ def generate(lane: str, computer_id: int, data_dir: Path, output_dir: Path) -> N
     if not mods_dir.is_dir():
         raise SystemExit(f"Missing installed mods directory: {mods_dir}. Start the lane first.")
 
-    blocks, by_jar, turtle_upgrades, pocket_upgrades = discover(mods_dir)
+    skipped_blocks: list[dict[str, Any]] = []
+    blocks, by_jar, turtle_upgrades, pocket_upgrades = discover(mods_dir, skipped_blocks=skipped_blocks)
     if not blocks:
         raise SystemExit(f"No authored-mod blocks discovered in {mods_dir}")
     modern = ".21" in lane
@@ -213,6 +231,8 @@ def generate(lane: str, computer_id: int, data_dir: Path, output_dir: Path) -> N
     manifest = {
         "lane": lane,
         "block_count": len(blocks),
+        "skipped_block_count": len(skipped_blocks),
+        "skipped_blocks": sorted(skipped_blocks, key=lambda entry: (entry["block"], entry["source_jar"])),
         "turtle_upgrade_count": len(turtle_upgrades),
         "pocket_upgrade_count": len(pocket_upgrades),
         "control_computer": {**control, "id": computer_id},
@@ -222,6 +242,8 @@ def generate(lane: str, computer_id: int, data_dir: Path, output_dir: Path) -> N
         "pocket_cells": pocket_cells,
     }
     (output_dir / "authored-blocks.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    for skipped in skipped_blocks:
+        print(f"Skipped {skipped['block']}: missing optional mods {', '.join(skipped['missing_mods'])}")
     print(f"Generated {len(blocks)} blocks, {len(turtle_upgrades)} turtles, and {len(pocket_upgrades)} pocket computers for {lane} in {output_dir}")
 
 

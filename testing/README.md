@@ -19,6 +19,7 @@ The `itzg/minecraft-server` image selects the Java runtime required by the Minec
 
 ## Requirements
 
+- Python 3.11+ (fixture generation and local regression tests)
 - Docker with Compose v2
 - Internet access on the first start for the server, loader, libraries, and mods
 - A client installed from the matching Packwiz pack when joining manually
@@ -170,6 +171,10 @@ Every `provision` run dynamically scans the installed server JARs for blockstate
 - Smart Home Appliances, when present
 
 Turtlematic currently contributes turtle upgrades/items but no standalone registered blocks. The generator does not maintain a fragile hard-coded registry list: `testing/bin/generate-authored-blocks.py` reads `assets/<namespace>/blockstates/*.json` from the exact installed JARs.
+
+Known optional block dependencies are declared explicitly in `OPTIONAL_BLOCK_MODS` in the generator. UPW's `ae2_pattern_pedestal` and `me_network_peripheral` require the installed `ae2` mod. Without it, these blocks are excluded with `skipped_blocks` and `skipped_block_count` evidence in `authored-blocks.json`, plus console messages. Other block assets remain candidates and unexpected placement failures still fail the live audit. Forge/NeoForge installed-mod discovery reads `[[mods]]` declarations, not dependency declarations.
+
+Run local regression tests with `python3 -m unittest discover -s testing/tests -v`. Add an explicit, source-verified rule and tests when a new optional block integration is introduced; do not replace this with a blanket unknown-block skip.
 
 The generated fixture is east of the original laboratory. Each block has its own full wired modem on the west side, connected downward to a shared underfloor cable bus. Modems are created with both networking and peripheral sharing enabled. Ordinary blocks remain display fixtures; blocks that expose a CC:Tweaked peripheral are registered on the shared network.
 
