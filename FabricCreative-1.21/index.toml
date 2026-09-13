@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Makefile"
-hash = "cfbd3f77b76d29f0c1d158e6e5358c54edc49775b891d8aed8526f155c96458a"
+hash = "404ba0d3bdf7471b63147ebbc2709d9c04445f0888e237b2ea4383e934d5c02e"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
@@ -106,5 +106,5 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "21c5455ae086f703ff5804cf1bc7473f53506fecc3d11451f431025e10c7343c"
+hash = "c2d0b9204d85f6ddc864bf363e9ff8c913cd02007bb347281ec6831d5dbbeddc"
 metafile = true
