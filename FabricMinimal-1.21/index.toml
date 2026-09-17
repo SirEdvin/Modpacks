@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Makefile"
-hash = "01ea5728697565c21893731de2c387936142cc66b63975d3d1036fbcf585577b"
+hash = "c00344d300992d6c93029d65b8aff7667d65f93c7f1db5d13590ab82fa8dad14"
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
@@ -46,5 +46,5 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "c2d0b9204d85f6ddc864bf363e9ff8c913cd02007bb347281ec6831d5dbbeddc"
+hash = "88aa5dec477b1b6d9e1b99f736d67a6acf7d0423c6ccbda44df0b848758ea52e"
 metafile = true
