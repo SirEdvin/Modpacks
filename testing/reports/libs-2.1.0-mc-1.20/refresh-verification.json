@@ -1,0 +1,30 @@
+[
+  {
+    "pack": "FabricCreative",
+    "refreshes": 2,
+    "unchanged": true,
+    "pack_sha256": "63980dd1fbff89fa71441984ec425afa0a59b162093f4923aacf6936eec62826",
+    "index_sha256": "9c6dc9a2fca850f72ca8ec9c6c740d513ef92a15b80027e1a31907195c467f57"
+  },
+  {
+    "pack": "ForgeCreative",
+    "refreshes": 2,
+    "unchanged": true,
+    "pack_sha256": "c26f3197898f41e564b39cee7916130f79bfe55b5b08609a3d0962277ab56569",
+    "index_sha256": "41013cb1af907678b1c0a535a568aaefa5837b012c6e787da27bf6311c50c3cf"
+  },
+  {
+    "pack": "FabricMinimal-1.20",
+    "refreshes": 2,
+    "unchanged": true,
+    "pack_sha256": "f140a88898994e32e5632b2eefee48a422bc3046cdcb0ec015cac955ed2da24b",
+    "index_sha256": "fcc70a6f47e5d8c45fd9cf7b13b47b5a56b2f13e1c91cca792585a2a875ade62"
+  },
+  {
+    "pack": "ForgeMinimal-1.20",
+    "refreshes": 2,
+    "unchanged": true,
+    "pack_sha256": "df71ddc615472047d5b40827b64dbe317ea463edfb0246a6d0d743abb9283a1c",
+    "index_sha256": "86aa39abc6a4cc4dee9011fdacc37335e601be483a9a8667bec989e5c81c481c"
+  }
+]
