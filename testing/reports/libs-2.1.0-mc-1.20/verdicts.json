@@ -1,0 +1,954 @@
+[
+  {
+    "lane": "fabric-1.20",
+    "verdict": "FAIL",
+    "server_smoke": {
+      "verdict": "PASS",
+      "exit_code": 0,
+      "reasons": [],
+      "seconds": 201.8,
+      "artifacts": [
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "server",
+          "name": "peripheralworks-fabric-1.20.1-1.10.0.jar",
+          "sha256": "1da8c9a8e22a76f19e77c881b7438d28a7f98900c2ef4f7bbc56c02d1752bafa",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "server",
+          "name": "turtlematic-fabric-1.20.1-1.5.0.jar",
+          "sha256": "190f63f552d9e072af542524932aa0008586fcbe0f6c16a648db19dc9c481f9d",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "server",
+          "name": "cloudsolutions-fabric-1.20.1-0.4.0.jar",
+          "sha256": "34862e08301d14fb2e42dc992b9b3b709e6a4a1f4895b068cdc9f329830bf1fd",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "server",
+          "name": "digitalitems-fabric-1.20.1-0.6.0.jar",
+          "sha256": "5d90d9a0d83ad5c1483e7d4a5c26bd9a9cc5e3b59422a899f9727d0d6a35076f",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "server",
+          "name": "cc-tweaked-1.20.1-fabric-1.121.0.jar",
+          "sha256": "74ea3efd7aa5a2f5b0b53832dc5cb480a195d2979d95b150b7b60c0d299ad3c1",
+          "matches_pack": true
+        }
+      ],
+      "path": "fabric-1.20/smoke"
+    },
+    "client_smoke": {
+      "verdict": "PASS",
+      "exit_code": 0,
+      "reasons": [],
+      "seconds": 428.0,
+      "artifacts": [
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "server",
+          "name": "peripheralworks-fabric-1.20.1-1.10.0.jar",
+          "sha256": "1da8c9a8e22a76f19e77c881b7438d28a7f98900c2ef4f7bbc56c02d1752bafa",
+          "matches_pack": true
+        },
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "client",
+          "name": "peripheralworks-fabric-1.20.1-1.10.0.jar",
+          "sha256": "1da8c9a8e22a76f19e77c881b7438d28a7f98900c2ef4f7bbc56c02d1752bafa",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "server",
+          "name": "turtlematic-fabric-1.20.1-1.5.0.jar",
+          "sha256": "190f63f552d9e072af542524932aa0008586fcbe0f6c16a648db19dc9c481f9d",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "client",
+          "name": "turtlematic-fabric-1.20.1-1.5.0.jar",
+          "sha256": "190f63f552d9e072af542524932aa0008586fcbe0f6c16a648db19dc9c481f9d",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "server",
+          "name": "cloudsolutions-fabric-1.20.1-0.4.0.jar",
+          "sha256": "34862e08301d14fb2e42dc992b9b3b709e6a4a1f4895b068cdc9f329830bf1fd",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "client",
+          "name": "cloudsolutions-fabric-1.20.1-0.4.0.jar",
+          "sha256": "34862e08301d14fb2e42dc992b9b3b709e6a4a1f4895b068cdc9f329830bf1fd",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "server",
+          "name": "digitalitems-fabric-1.20.1-0.6.0.jar",
+          "sha256": "5d90d9a0d83ad5c1483e7d4a5c26bd9a9cc5e3b59422a899f9727d0d6a35076f",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "client",
+          "name": "digitalitems-fabric-1.20.1-0.6.0.jar",
+          "sha256": "5d90d9a0d83ad5c1483e7d4a5c26bd9a9cc5e3b59422a899f9727d0d6a35076f",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "server",
+          "name": "cc-tweaked-1.20.1-fabric-1.121.0.jar",
+          "sha256": "74ea3efd7aa5a2f5b0b53832dc5cb480a195d2979d95b150b7b60c0d299ad3c1",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "client",
+          "name": "cc-tweaked-1.20.1-fabric-1.121.0.jar",
+          "sha256": "74ea3efd7aa5a2f5b0b53832dc5cb480a195d2979d95b150b7b60c0d299ad3c1",
+          "matches_pack": true
+        }
+      ],
+      "path": "fabric-1.20/client-smoke"
+    },
+    "upgrade_checks": {
+      "verdict": "FAIL",
+      "before": {
+        "verdict": "PASS",
+        "count": 63,
+        "kinds": {
+          "turtle": 51,
+          "pocket": 12
+        },
+        "failures": [],
+        "path": "fabric-1.20/upgrade-before",
+        "min_generatedAt": 1794537343222
+      },
+      "after": {
+        "verdict": "PASS",
+        "count": 63,
+        "kinds": {
+          "turtle": 51,
+          "pocket": 12
+        },
+        "failures": [],
+        "path": "fabric-1.20/upgrade-after",
+        "min_generatedAt": 1794537544037
+      },
+      "stack_equip": {
+        "verdict": "FAIL",
+        "results": [
+          {
+            "item": "peripheralworks:universal_scanner",
+            "count": 2,
+            "computer_id": 32000,
+            "input_response": "Replaced a slot on Offline with [Universal scanner]",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 universal_scanner must be of size 1.",
+              "generatedAt": 1794537546860,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 1b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: 881803134, InstanceId: [I; 995925374, 2061976850, -1128969241, -439165302], ComputerId: 32000, On: 1b}}",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"peripheralworks:universal_scanner\", Count: 2b}"
+          },
+          {
+            "item": "cloudsolutions:statsd_bridge",
+            "count": 2,
+            "computer_id": 32001,
+            "input_response": "Replaced a slot on Offline with [StatsD bridge]",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 statsd_bridge must be of size 1.",
+              "generatedAt": 1794537547783,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 2b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: 881803134, InstanceId: [I; -816509178, 1695958167, -1622500015, -1143246304], ComputerId: 32001, On: 1b}}",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"cloudsolutions:statsd_bridge\", Count: 2b}"
+          },
+          {
+            "item": "digitalitems:digitizer",
+            "count": 2,
+            "computer_id": 32002,
+            "input_response": "Replaced a slot on Offline with [Digitizer]",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitizer must be of size 1.",
+              "generatedAt": 1794537548740,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 3b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: 881803134, InstanceId: [I; -1310759301, 1249329677, -1945256005, 322304034], ComputerId: 32002, On: 1b}}",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"digitalitems:digitizer\", Count: 2b}"
+          },
+          {
+            "item": "computercraft:wireless_modem_normal",
+            "count": 2,
+            "computer_id": 32003,
+            "input_response": "Replaced a slot on Offline with [Wireless Modem]",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 wireless_modem_normal must be of size 1.",
+              "generatedAt": 1794537549692,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 4b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: 881803134, InstanceId: [I; 676023742, 1659846989, -2056315647, -580396410], ComputerId: 32003, On: 1b}}",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"computercraft:wireless_modem_normal\", Count: 2b}"
+          }
+        ]
+      }
+    },
+    "old_world": null
+  },
+  {
+    "lane": "forge-1.20",
+    "verdict": "FAIL",
+    "server_smoke": {
+      "verdict": "PASS",
+      "exit_code": 0,
+      "reasons": [],
+      "seconds": 188.1,
+      "artifacts": [
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "server",
+          "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+          "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "server",
+          "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+          "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "server",
+          "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+          "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "server",
+          "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+          "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "server",
+          "name": "cc-tweaked-1.20.1-forge-1.121.0.jar",
+          "sha256": "a95ba58640db0198c86f0be99154af92fda17a78975c88aa45ffc430159a6fe9",
+          "matches_pack": true
+        }
+      ],
+      "path": "forge-1.20/smoke"
+    },
+    "client_smoke": {
+      "verdict": "PASS",
+      "exit_code": 0,
+      "reasons": [],
+      "seconds": 305.4,
+      "artifacts": [
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "server",
+          "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+          "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+          "matches_pack": true
+        },
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "client",
+          "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+          "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "server",
+          "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+          "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "client",
+          "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+          "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "server",
+          "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+          "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "client",
+          "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+          "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "server",
+          "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+          "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "client",
+          "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+          "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "server",
+          "name": "cc-tweaked-1.20.1-forge-1.121.0.jar",
+          "sha256": "a95ba58640db0198c86f0be99154af92fda17a78975c88aa45ffc430159a6fe9",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "client",
+          "name": "cc-tweaked-1.20.1-forge-1.121.0.jar",
+          "sha256": "a95ba58640db0198c86f0be99154af92fda17a78975c88aa45ffc430159a6fe9",
+          "matches_pack": true
+        }
+      ],
+      "path": "forge-1.20/client-smoke"
+    },
+    "upgrade_checks": {
+      "verdict": "FAIL",
+      "before": {
+        "verdict": "PASS",
+        "count": 63,
+        "kinds": {
+          "turtle": 51,
+          "pocket": 12
+        },
+        "failures": [],
+        "path": "forge-1.20/upgrade-before",
+        "min_generatedAt": 1794538261899
+      },
+      "after": {
+        "verdict": "PASS",
+        "count": 63,
+        "kinds": {
+          "turtle": 51,
+          "pocket": 12
+        },
+        "failures": [],
+        "path": "forge-1.20/upgrade-after",
+        "min_generatedAt": 1794540406447
+      },
+      "stack_equip": {
+        "verdict": "FAIL",
+        "results": [
+          {
+            "item": "peripheralworks:universal_scanner",
+            "count": 2,
+            "computer_id": 32000,
+            "input_response": "Replaced a slot on Offline with [Universal scanner]\n\u001b[0m",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]\n\u001b[0m",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 universal_scanner must be of size 1.",
+              "generatedAt": 1794540411231,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 1b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: -1461003944, InstanceId: [I; 1451260615, 1863141427, -1457804163, 397150351], ComputerId: 32000, On: 1b}}\n\u001b[0m",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"peripheralworks:universal_scanner\", Count: 2b}\n\u001b[0m"
+          },
+          {
+            "item": "cloudsolutions:statsd_bridge",
+            "count": 2,
+            "computer_id": 32001,
+            "input_response": "Replaced a slot on Offline with [StatsD bridge]\n\u001b[0m",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]\n\u001b[0m",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 statsd_bridge must be of size 1.",
+              "generatedAt": 1794540412156,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 2b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: -1461003944, InstanceId: [I; -1141085141, -508802835, -1187236971, 1629478365], ComputerId: 32001, On: 1b}}\n\u001b[0m",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"cloudsolutions:statsd_bridge\", Count: 2b}\n\u001b[0m"
+          },
+          {
+            "item": "digitalitems:digitizer",
+            "count": 2,
+            "computer_id": 32002,
+            "input_response": "Replaced a slot on Offline with [Digitizer]\n\u001b[0m",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]\n\u001b[0m",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitizer must be of size 1.",
+              "generatedAt": 1794540412954,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 3b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: -1461003944, InstanceId: [I; 2008823783, 1454722618, -1872038505, 690377125], ComputerId: 32002, On: 1b}}\n\u001b[0m",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"digitalitems:digitizer\", Count: 2b}\n\u001b[0m"
+          },
+          {
+            "item": "computercraft:wireless_modem_normal",
+            "count": 2,
+            "computer_id": 32003,
+            "input_response": "Replaced a slot on Offline with [Wireless Modem]\n\u001b[0m",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]\n\u001b[0m",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 wireless_modem_normal must be of size 1.",
+              "generatedAt": 1794540413750,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 4b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: -1461003944, InstanceId: [I; 112525931, -46772456, -1491104069, 1171253932], ComputerId: 32003, On: 1b}}\n\u001b[0m",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"computercraft:wireless_modem_normal\", Count: 2b}\n\u001b[0m"
+          }
+        ]
+      }
+    },
+    "old_world": null
+  },
+  {
+    "lane": "minimal-fabric-1.20",
+    "verdict": "FAIL",
+    "server_smoke": {
+      "verdict": "PASS",
+      "exit_code": 0,
+      "reasons": [],
+      "seconds": 148.3,
+      "artifacts": [
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "server",
+          "name": "peripheralworks-fabric-1.20.1-1.10.0.jar",
+          "sha256": "1da8c9a8e22a76f19e77c881b7438d28a7f98900c2ef4f7bbc56c02d1752bafa",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "server",
+          "name": "turtlematic-fabric-1.20.1-1.5.0.jar",
+          "sha256": "190f63f552d9e072af542524932aa0008586fcbe0f6c16a648db19dc9c481f9d",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "server",
+          "name": "cloudsolutions-fabric-1.20.1-0.4.0.jar",
+          "sha256": "34862e08301d14fb2e42dc992b9b3b709e6a4a1f4895b068cdc9f329830bf1fd",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "server",
+          "name": "digitalitems-fabric-1.20.1-0.6.0.jar",
+          "sha256": "5d90d9a0d83ad5c1483e7d4a5c26bd9a9cc5e3b59422a899f9727d0d6a35076f",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "server",
+          "name": "cc-tweaked-1.20.1-fabric-1.121.0.jar",
+          "sha256": "74ea3efd7aa5a2f5b0b53832dc5cb480a195d2979d95b150b7b60c0d299ad3c1",
+          "matches_pack": true
+        }
+      ],
+      "path": "minimal-fabric-1.20/smoke"
+    },
+    "client_smoke": {
+      "verdict": "PASS",
+      "exit_code": 0,
+      "reasons": [],
+      "seconds": 297.4,
+      "artifacts": [
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "server",
+          "name": "peripheralworks-fabric-1.20.1-1.10.0.jar",
+          "sha256": "1da8c9a8e22a76f19e77c881b7438d28a7f98900c2ef4f7bbc56c02d1752bafa",
+          "matches_pack": true
+        },
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "client",
+          "name": "peripheralworks-fabric-1.20.1-1.10.0.jar",
+          "sha256": "1da8c9a8e22a76f19e77c881b7438d28a7f98900c2ef4f7bbc56c02d1752bafa",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "server",
+          "name": "turtlematic-fabric-1.20.1-1.5.0.jar",
+          "sha256": "190f63f552d9e072af542524932aa0008586fcbe0f6c16a648db19dc9c481f9d",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "client",
+          "name": "turtlematic-fabric-1.20.1-1.5.0.jar",
+          "sha256": "190f63f552d9e072af542524932aa0008586fcbe0f6c16a648db19dc9c481f9d",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "server",
+          "name": "cloudsolutions-fabric-1.20.1-0.4.0.jar",
+          "sha256": "34862e08301d14fb2e42dc992b9b3b709e6a4a1f4895b068cdc9f329830bf1fd",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "client",
+          "name": "cloudsolutions-fabric-1.20.1-0.4.0.jar",
+          "sha256": "34862e08301d14fb2e42dc992b9b3b709e6a4a1f4895b068cdc9f329830bf1fd",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "server",
+          "name": "digitalitems-fabric-1.20.1-0.6.0.jar",
+          "sha256": "5d90d9a0d83ad5c1483e7d4a5c26bd9a9cc5e3b59422a899f9727d0d6a35076f",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "client",
+          "name": "digitalitems-fabric-1.20.1-0.6.0.jar",
+          "sha256": "5d90d9a0d83ad5c1483e7d4a5c26bd9a9cc5e3b59422a899f9727d0d6a35076f",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "server",
+          "name": "cc-tweaked-1.20.1-fabric-1.121.0.jar",
+          "sha256": "74ea3efd7aa5a2f5b0b53832dc5cb480a195d2979d95b150b7b60c0d299ad3c1",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "client",
+          "name": "cc-tweaked-1.20.1-fabric-1.121.0.jar",
+          "sha256": "74ea3efd7aa5a2f5b0b53832dc5cb480a195d2979d95b150b7b60c0d299ad3c1",
+          "matches_pack": true
+        }
+      ],
+      "path": "minimal-fabric-1.20/client-smoke"
+    },
+    "upgrade_checks": {
+      "verdict": "FAIL",
+      "before": {
+        "verdict": "PASS",
+        "count": 59,
+        "kinds": {
+          "turtle": 49,
+          "pocket": 10
+        },
+        "failures": [],
+        "path": "minimal-fabric-1.20/upgrade-before",
+        "min_generatedAt": 1794539166583
+      },
+      "after": {
+        "verdict": "PASS",
+        "count": 59,
+        "kinds": {
+          "turtle": 49,
+          "pocket": 10
+        },
+        "failures": [],
+        "path": "minimal-fabric-1.20/upgrade-after",
+        "min_generatedAt": 1794539341057
+      },
+      "stack_equip": {
+        "verdict": "FAIL",
+        "results": [
+          {
+            "item": "peripheralworks:universal_scanner",
+            "count": 2,
+            "computer_id": 32000,
+            "input_response": "Replaced a slot on Offline with [Universal scanner]",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 universal_scanner must be of size 1.",
+              "generatedAt": 1794539343090,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 1b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: -853867934, InstanceId: [I; -698257538, -597145497, -1088677144, -1666149159], ComputerId: 32000, On: 1b}}",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"peripheralworks:universal_scanner\", Count: 2b}"
+          },
+          {
+            "item": "cloudsolutions:statsd_bridge",
+            "count": 2,
+            "computer_id": 32001,
+            "input_response": "Replaced a slot on Offline with [StatsD bridge]",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 statsd_bridge must be of size 1.",
+              "generatedAt": 1794539343780,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 2b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: -853867934, InstanceId: [I; -492696198, -686601039, -1355472115, -1017988986], ComputerId: 32001, On: 1b}}",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"cloudsolutions:statsd_bridge\", Count: 2b}"
+          },
+          {
+            "item": "digitalitems:digitizer",
+            "count": 2,
+            "computer_id": 32002,
+            "input_response": "Replaced a slot on Offline with [Digitizer]",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitizer must be of size 1.",
+              "generatedAt": 1794539344480,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 3b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: -853867934, InstanceId: [I; 968439428, -1983230219, -1800535583, -1185653508], ComputerId: 32002, On: 1b}}",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"digitalitems:digitizer\", Count: 2b}"
+          },
+          {
+            "item": "computercraft:wireless_modem_normal",
+            "count": 2,
+            "computer_id": 32003,
+            "input_response": "Replaced a slot on Offline with [Wireless Modem]",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 wireless_modem_normal must be of size 1.",
+              "generatedAt": 1794539345281,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 4b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: -853867934, InstanceId: [I; -2147030795, 1251034121, -1876658351, 1653174998], ComputerId: 32003, On: 1b}}",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"computercraft:wireless_modem_normal\", Count: 2b}"
+          }
+        ]
+      }
+    },
+    "old_world": {
+      "verdict": "PASS",
+      "before": {
+        "verdict": "PASS",
+        "count": 59,
+        "kinds": {
+          "turtle": 49,
+          "pocket": 10
+        },
+        "failures": [],
+        "path": "minimal-fabric-1.20/old-world-before",
+        "min_generatedAt": 1794540736950
+      },
+      "after": {
+        "verdict": "PASS",
+        "count": 59,
+        "kinds": {
+          "turtle": 49,
+          "pocket": 10
+        },
+        "failures": [],
+        "path": "minimal-fabric-1.20/old-world-after",
+        "min_generatedAt": 1794540918200
+      }
+    }
+  },
+  {
+    "lane": "minimal-forge-1.20",
+    "verdict": "FAIL",
+    "server_smoke": {
+      "verdict": "PASS",
+      "exit_code": 0,
+      "reasons": [],
+      "seconds": 176.8,
+      "artifacts": [
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "server",
+          "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+          "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "server",
+          "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+          "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "server",
+          "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+          "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "server",
+          "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+          "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "server",
+          "name": "cc-tweaked-1.20.1-forge-1.121.0.jar",
+          "sha256": "a95ba58640db0198c86f0be99154af92fda17a78975c88aa45ffc430159a6fe9",
+          "matches_pack": true
+        }
+      ],
+      "path": "minimal-forge-1.20/smoke"
+    },
+    "client_smoke": {
+      "verdict": "PASS",
+      "exit_code": 0,
+      "reasons": [],
+      "seconds": 258.3,
+      "artifacts": [
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "server",
+          "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+          "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+          "matches_pack": true
+        },
+        {
+          "mod": "unlimitedperipheralworks",
+          "side": "client",
+          "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+          "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "server",
+          "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+          "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+          "matches_pack": true
+        },
+        {
+          "mod": "turtlematic",
+          "side": "client",
+          "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+          "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "server",
+          "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+          "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+          "matches_pack": true
+        },
+        {
+          "mod": "cloudsolutions",
+          "side": "client",
+          "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+          "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "server",
+          "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+          "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+          "matches_pack": true
+        },
+        {
+          "mod": "digitalitems",
+          "side": "client",
+          "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+          "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "server",
+          "name": "cc-tweaked-1.20.1-forge-1.121.0.jar",
+          "sha256": "a95ba58640db0198c86f0be99154af92fda17a78975c88aa45ffc430159a6fe9",
+          "matches_pack": true
+        },
+        {
+          "mod": "cc-tweaked",
+          "side": "client",
+          "name": "cc-tweaked-1.20.1-forge-1.121.0.jar",
+          "sha256": "a95ba58640db0198c86f0be99154af92fda17a78975c88aa45ffc430159a6fe9",
+          "matches_pack": true
+        }
+      ],
+      "path": "minimal-forge-1.20/client-smoke"
+    },
+    "upgrade_checks": {
+      "verdict": "FAIL",
+      "before": {
+        "verdict": "PASS",
+        "count": 59,
+        "kinds": {
+          "turtle": 49,
+          "pocket": 10
+        },
+        "failures": [],
+        "path": "minimal-forge-1.20/upgrade-before",
+        "min_generatedAt": 1794539977944
+      },
+      "after": {
+        "verdict": "PASS",
+        "count": 59,
+        "kinds": {
+          "turtle": 49,
+          "pocket": 10
+        },
+        "failures": [],
+        "path": "minimal-forge-1.20/upgrade-after",
+        "min_generatedAt": 1794540181352
+      },
+      "stack_equip": {
+        "verdict": "FAIL",
+        "results": [
+          {
+            "item": "peripheralworks:universal_scanner",
+            "count": 2,
+            "computer_id": 32000,
+            "input_response": "Replaced a slot on Offline with [Universal scanner]\n\u001b[0m",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]\n\u001b[0m",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 universal_scanner must be of size 1.",
+              "generatedAt": 1794540182608,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 1b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: 2062757191, InstanceId: [I; 914697288, -953202731, -1315279697, 1176704586], ComputerId: 32000, On: 1b}}\n\u001b[0m",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"peripheralworks:universal_scanner\", Count: 2b}\n\u001b[0m"
+          },
+          {
+            "item": "cloudsolutions:statsd_bridge",
+            "count": 2,
+            "computer_id": 32001,
+            "input_response": "Replaced a slot on Offline with [StatsD bridge]\n\u001b[0m",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]\n\u001b[0m",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 statsd_bridge must be of size 1.",
+              "generatedAt": 1794540183295,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 2b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: 2062757191, InstanceId: [I; -284237222, 1791247209, -1969290196, -707458373], ComputerId: 32001, On: 1b}}\n\u001b[0m",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"cloudsolutions:statsd_bridge\", Count: 2b}\n\u001b[0m"
+          },
+          {
+            "item": "digitalitems:digitizer",
+            "count": 2,
+            "computer_id": 32002,
+            "input_response": "Replaced a slot on Offline with [Digitizer]\n\u001b[0m",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]\n\u001b[0m",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitizer must be of size 1.",
+              "generatedAt": 1794540183998,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 3b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: 2062757191, InstanceId: [I; -596610689, 711282307, -1394577941, 236370559], ComputerId: 32002, On: 1b}}\n\u001b[0m",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"digitalitems:digitizer\", Count: 2b}\n\u001b[0m"
+          },
+          {
+            "item": "computercraft:wireless_modem_normal",
+            "count": 2,
+            "computer_id": 32003,
+            "input_response": "Replaced a slot on Offline with [Wireless Modem]\n\u001b[0m",
+            "pocket_response": "Replaced a slot on Offline with [Advanced Pocket Computer]\n\u001b[0m",
+            "lua": {
+              "message": "nil",
+              "present": false,
+              "callOK": false,
+              "result": "/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 wireless_modem_normal must be of size 1.",
+              "generatedAt": 1794540184797,
+              "types": {}
+            },
+            "pocket_nbt": "Offline has the following entity data: {Slot: 4b, id: \"computercraft:pocket_computer_advanced\", Count: 1b, tag: {SessionId: 2062757191, InstanceId: [I; -1171112800, -735360935, -1717701487, 1697808276], ComputerId: 32003, On: 1b}}\n\u001b[0m",
+            "remaining_input": "Offline has the following entity data: {Slot: 0b, id: \"computercraft:wireless_modem_normal\", Count: 2b}\n\u001b[0m"
+          }
+        ]
+      }
+    },
+    "old_world": {
+      "verdict": "PASS",
+      "before": {
+        "verdict": "PASS",
+        "count": 59,
+        "kinds": {
+          "turtle": 49,
+          "pocket": 10
+        },
+        "failures": [],
+        "path": "minimal-forge-1.20/old-world-before",
+        "min_generatedAt": 1794541296479
+      },
+      "after": {
+        "verdict": "PASS",
+        "count": 59,
+        "kinds": {
+          "turtle": 49,
+          "pocket": 10
+        },
+        "failures": [],
+        "path": "minimal-forge-1.20/old-world-after",
+        "min_generatedAt": 1794541505586
+      }
+    }
+  }
+]

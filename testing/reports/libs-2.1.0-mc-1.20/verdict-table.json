@@ -1,0 +1,46 @@
+[
+  {
+    "lane": "fabric-1.20",
+    "overall": "FAIL",
+    "server_smoke": "PASS",
+    "client_smoke": "PASS",
+    "single_item_equip": "PASS",
+    "restart": "PASS",
+    "stacked_pocket_equip": "FAIL",
+    "upgrade_checks": "FAIL",
+    "old_world": "N/A"
+  },
+  {
+    "lane": "forge-1.20",
+    "overall": "FAIL",
+    "server_smoke": "PASS",
+    "client_smoke": "PASS",
+    "single_item_equip": "PASS",
+    "restart": "PASS",
+    "stacked_pocket_equip": "FAIL",
+    "upgrade_checks": "FAIL",
+    "old_world": "N/A"
+  },
+  {
+    "lane": "minimal-fabric-1.20",
+    "overall": "FAIL",
+    "server_smoke": "PASS",
+    "client_smoke": "PASS",
+    "single_item_equip": "PASS",
+    "restart": "PASS",
+    "stacked_pocket_equip": "FAIL",
+    "upgrade_checks": "FAIL",
+    "old_world": "PASS"
+  },
+  {
+    "lane": "minimal-forge-1.20",
+    "overall": "FAIL",
+    "server_smoke": "PASS",
+    "client_smoke": "PASS",
+    "single_item_equip": "PASS",
+    "restart": "PASS",
+    "stacked_pocket_equip": "FAIL",
+    "upgrade_checks": "FAIL",
+    "old_world": "PASS"
+  }
+]

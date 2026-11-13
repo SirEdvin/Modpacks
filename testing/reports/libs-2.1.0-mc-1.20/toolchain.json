@@ -1,0 +1,31 @@
+{
+  "observed_at": "2026-11-13T03:32:56.033731+00:00",
+  "packwiz": {
+    "path": "/home/siredvin/.local/bin/packwiz",
+    "sha256": "603df3a7683cd13110c9be6718ab24e9cba878ec745bfabb27f993171ec9b5b1"
+  },
+  "compose": {
+    "exit": 0,
+    "output": "Docker Compose version v5.7.0"
+  },
+  "java17": {
+    "exit": 0,
+    "output": "openjdk version \"17.0.15\" 2025-04-15\nOpenJDK Runtime Environment Temurin-17.0.15+6 (build 17.0.15+6)\nOpenJDK 64-Bit Server VM Temurin-17.0.15+6 (build 17.0.15+6, mixed mode, sharing)"
+  },
+  "images": [
+    {
+      "tag": "itzg/minecraft-server:java17",
+      "id": "sha256:ad131f26bde3d6c0839fd862fa707ae4e62ea00f52a970f5517a028bcd9bfeb7",
+      "digests": [
+        "itzg/minecraft-server@sha256:ad131f26bde3d6c0839fd862fa707ae4e62ea00f52a970f5517a028bcd9bfeb7"
+      ]
+    },
+    {
+      "tag": "python:3.13-alpine",
+      "id": "sha256:9ef1a599f863231c3d91e941389bfdc4a2d6070557243d54df1a4e57015b960e",
+      "digests": [
+        "python@sha256:9ef1a599f863231c3d91e941389bfdc4a2d6070557243d54df1a4e57015b960e"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "peripheralworks-fabric-1.20.1-1.10.0.jar",
+    "sha256": "1da8c9a8e22a76f19e77c881b7438d28a7f98900c2ef4f7bbc56c02d1752bafa",
+    "release_url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/tag/v1.20.1-1.10.0",
+    "digest_verified": true
+  },
+  {
+    "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+    "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+    "release_url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/tag/v1.20.1-1.10.0",
+    "digest_verified": true
+  },
+  {
+    "name": "turtlematic-fabric-1.20.1-1.5.0.jar",
+    "sha256": "190f63f552d9e072af542524932aa0008586fcbe0f6c16a648db19dc9c481f9d",
+    "release_url": "https://github.com/SirEdvin/Turtlematic/releases/tag/v1.20.1-1.5.0",
+    "digest_verified": true
+  },
+  {
+    "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+    "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+    "release_url": "https://github.com/SirEdvin/Turtlematic/releases/tag/v1.20.1-1.5.0",
+    "digest_verified": true
+  },
+  {
+    "name": "cloudsolutions-fabric-1.20.1-0.4.0.jar",
+    "sha256": "34862e08301d14fb2e42dc992b9b3b709e6a4a1f4895b068cdc9f329830bf1fd",
+    "release_url": "https://github.com/SirEdvin/CloudSolutions/releases/tag/v1.20.1-0.4.0",
+    "digest_verified": true
+  },
+  {
+    "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+    "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+    "release_url": "https://github.com/SirEdvin/CloudSolutions/releases/tag/v1.20.1-0.4.0",
+    "digest_verified": true
+  },
+  {
+    "name": "digitalitems-fabric-1.20.1-0.6.0.jar",
+    "sha256": "5d90d9a0d83ad5c1483e7d4a5c26bd9a9cc5e3b59422a899f9727d0d6a35076f",
+    "release_url": "https://github.com/SirEdvin/DigitalItems/releases/tag/v1.20.1-0.6.0",
+    "digest_verified": true
+  },
+  {
+    "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+    "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+    "release_url": "https://github.com/SirEdvin/DigitalItems/releases/tag/v1.20.1-0.6.0",
+    "digest_verified": true
+  }
+]

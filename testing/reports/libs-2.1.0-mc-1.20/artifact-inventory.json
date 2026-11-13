@@ -1,0 +1,54 @@
+[
+  {
+    "name": "peripheralworks-fabric-1.20.1-1.10.0.jar",
+    "sha256": "1da8c9a8e22a76f19e77c881b7438d28a7f98900c2ef4f7bbc56c02d1752bafa",
+    "url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-1.10.0/peripheralworks-fabric-1.20.1-1.10.0.jar"
+  },
+  {
+    "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+    "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+    "url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.20.1-1.10.0/peripheralworks-forge-1.20.1-1.10.0.jar"
+  },
+  {
+    "name": "turtlematic-fabric-1.20.1-1.5.0.jar",
+    "sha256": "190f63f552d9e072af542524932aa0008586fcbe0f6c16a648db19dc9c481f9d",
+    "url": "https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-1.5.0/turtlematic-fabric-1.20.1-1.5.0.jar"
+  },
+  {
+    "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+    "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+    "url": "https://github.com/SirEdvin/Turtlematic/releases/download/v1.20.1-1.5.0/turtlematic-forge-1.20.1-1.5.0.jar"
+  },
+  {
+    "name": "cloudsolutions-fabric-1.20.1-0.4.0.jar",
+    "sha256": "34862e08301d14fb2e42dc992b9b3b709e6a4a1f4895b068cdc9f329830bf1fd",
+    "url": "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.20.1-0.4.0/cloudsolutions-fabric-1.20.1-0.4.0.jar"
+  },
+  {
+    "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+    "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+    "url": "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.20.1-0.4.0/cloudsolutions-forge-1.20.1-0.4.0.jar"
+  },
+  {
+    "name": "digitalitems-fabric-1.20.1-0.6.0.jar",
+    "sha256": "5d90d9a0d83ad5c1483e7d4a5c26bd9a9cc5e3b59422a899f9727d0d6a35076f",
+    "url": "https://github.com/SirEdvin/DigitalItems/releases/download/v1.20.1-0.6.0/digitalitems-fabric-1.20.1-0.6.0.jar"
+  },
+  {
+    "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+    "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+    "url": "https://github.com/SirEdvin/DigitalItems/releases/download/v1.20.1-0.6.0/digitalitems-forge-1.20.1-0.6.0.jar"
+  },
+  {
+    "name": "cc-tweaked-1.20.1-fabric-1.121.0.jar",
+    "sha256": "74ea3efd7aa5a2f5b0b53832dc5cb480a195d2979d95b150b7b60c0d299ad3c1",
+    "url": "https://cdn.modrinth.com/data/gu7yAYhd/versions/LFj8qZ7a/cc-tweaked-1.20.1-fabric-1.121.0.jar",
+    "modrinth_version": "LFj8qZ7a"
+  },
+  {
+    "name": "cc-tweaked-1.20.1-forge-1.121.0.jar",
+    "sha256": "a95ba58640db0198c86f0be99154af92fda17a78975c88aa45ffc430159a6fe9",
+    "url": "https://cdn.modrinth.com/data/gu7yAYhd/versions/Qm9iIIEY/cc-tweaked-1.20.1-forge-1.121.0.jar",
+    "modrinth_version": "Qm9iIIEY"
+  }
+]
