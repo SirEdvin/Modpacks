@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "69016da74a8f35891485baab48920e0802ea5fbb31649654d14afa49ba63d500"
+hash = "10e862db0a0d208c88e3bdcb670750982280ed417b2546269c26e80768759ac1"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloudsolutions.pw.toml"
-hash = "0e7849ee27fb2a06577dcc9e525395af72246eb03005dc698a8680a41a539e7e"
+hash = "95a7fb5033a680e6f49df026e5e651a95ef71dfef7469f71b1c526a46cdfed06"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "bd2a780ba60479eb206ec0c36e5c31d82969bbed2f1907e29d9a1b629102f8bf"
+hash = "13ef9602a4c9366cbdc1eb9c421ef6d9429f2661fc53356989dbb9c2d469907a"
 metafile = true
 
 [[files]]
@@ -87,10 +87,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "1ce103de92ddd87205799e70dbf2331037a88f499ba2f6b0923b5e5f6dc498b1"
+hash = "90985e6ce11eeaff2615a985754dcb71ad36c9f2bf17b152de4df5c2dda232bb"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "71ce2ee24a41aec03e05bff3fe2395c3d34b6273d257ab0e4a1791af8f3d77b8"
+hash = "0c4ee55447238ae5d6d75ae8c9bce15c56c13d613ceade98354452d828f16579"
 metafile = true
