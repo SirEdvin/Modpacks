@@ -1,0 +1,232 @@
+[
+  {
+    "lane": "fabric-1.21",
+    "phase": "smoke",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "client-smoke",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-before",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-after",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "smoke",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "client-smoke",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-before",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-after",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-before",
+    "blocks": 27,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-after",
+    "blocks": 27,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "smoke",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": [
+      {
+        "block": "peripheralworks:ae2_pattern_pedestal",
+        "source_jar": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      },
+      {
+        "block": "peripheralworks:me_network_peripheral",
+        "source_jar": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "client-smoke",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": [
+      {
+        "block": "peripheralworks:ae2_pattern_pedestal",
+        "source_jar": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      },
+      {
+        "block": "peripheralworks:me_network_peripheral",
+        "source_jar": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-before",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": [
+      {
+        "block": "peripheralworks:ae2_pattern_pedestal",
+        "source_jar": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      },
+      {
+        "block": "peripheralworks:me_network_peripheral",
+        "source_jar": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-after",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": [
+      {
+        "block": "peripheralworks:ae2_pattern_pedestal",
+        "source_jar": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      },
+      {
+        "block": "peripheralworks:me_network_peripheral",
+        "source_jar": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-before",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": [
+      {
+        "block": "peripheralworks:ae2_pattern_pedestal",
+        "source_jar": "peripheralworks-forge-1.21.1-1.9.2.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      },
+      {
+        "block": "peripheralworks:me_network_peripheral",
+        "source_jar": "peripheralworks-forge-1.21.1-1.9.2.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-after",
+    "blocks": 23,
+    "turtles": 49,
+    "pockets": 10,
+    "skipped_blocks": [
+      {
+        "block": "peripheralworks:ae2_pattern_pedestal",
+        "source_jar": "peripheralworks-forge-1.21.1-1.9.2.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      },
+      {
+        "block": "peripheralworks:me_network_peripheral",
+        "source_jar": "peripheralworks-forge-1.21.1-1.9.2.jar",
+        "missing_mods": [
+          "ae2"
+        ],
+        "reason": "optional integration dependency not installed"
+      }
+    ]
+  }
+]

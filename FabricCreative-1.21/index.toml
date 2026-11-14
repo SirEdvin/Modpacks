@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Makefile"
-hash = "d2d7ad38291feab756618bbd613db9cdb5f82665a517af02a764a19040522256"
+hash = "6c871b76bcb2855393556b5954daa332ee2aa6cb8f3e82417dd927522633c9cb"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "58b61c905959e96a55e271c73090b59542a2e85bfb796c75bdaeedb245905bc0"
+hash = "84e22a92dbd2faf4c84cd0adb4097668c6041a08d779a18ee7ec056f67b1047a"
 metafile = true
 
 [[files]]
@@ -31,12 +31,12 @@ metafile = true
 
 [[files]]
 file = "mods/cloudsolutions.pw.toml"
-hash = "ebd3d0b102bbeb00e607e70dd3c46b6e61dca34229a4fc6325fe4a2564c4cd60"
+hash = "891d207faf1c50d4145faee01e7906b6b07f6d6c9e9094f30f3846c80d235286"
 metafile = true
 
 [[files]]
 file = "mods/digitalitems.pw.toml"
-hash = "934baffc966d67f0309ce69f3521527ebaa51a4723123a6d07caaee72fc6eaa3"
+hash = "d033a9c42fcaf21278b9e8b48b65cd67c31cb03fa5f5556d6870d599e8984891"
 metafile = true
 
 [[files]]
@@ -80,11 +80,6 @@ hash = "0a5ac09659d6565197829af0d2b6e8caa0f0aa5dac123e75c5846bf10914b9ed"
 metafile = true
 
 [[files]]
-file = "mods/smarthome-appliances.pw.toml"
-hash = "f934a5a2adf4de0db35dbcb36f2993c7f15a3e295f4c3a30a94ece0744355162"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "b5b80fb144862325aa9e140d1bf1079bbbea481f305f4baf05341469773e675c"
 metafile = true
@@ -101,10 +96,10 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "8167880f376ca82d2d4c7097788475711d741c923cecdce13db08b0e448f68dd"
+hash = "b8fee479dbe59b0d477a90c5fd3b211156637364c7840fe74a4f3647f794bd0b"
 metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "88aa5dec477b1b6d9e1b99f736d67a6acf7d0423c6ccbda44df0b848758ea52e"
+hash = "19f92597ba85064bc07ec68bbe2d8947a15a064a92464cff1a3ef913c7f5737e"
 metafile = true

@@ -1,0 +1,1614 @@
+[
+  {
+    "lane": "fabric-1.21",
+    "phase": "smoke",
+    "path": "fabric-1.21/smoke/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 158,
+        "text": "[04:07:04] [Server thread/INFO]: Done (0.716s)! For help, type \"help\""
+      },
+      {
+        "line": 1028,
+        "text": "[04:07:50] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 1035,
+        "text": "[04:07:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 1036,
+        "text": "[04:07:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 1037,
+        "text": "[04:07:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 1038,
+        "text": "[04:07:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "client-smoke",
+    "path": "fabric-1.21/client-smoke/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 162,
+        "text": "[04:09:19] [Server thread/INFO]: Done (0.763s)! For help, type \"help\""
+      },
+      {
+        "line": 1027,
+        "text": "[04:10:43] [Server thread/INFO]: Offline[/172.18.0.4:59318] logged in with entity id 26 at (7.5, 65.0, 6.5)"
+      },
+      {
+        "line": 1028,
+        "text": "[04:10:43] [Server thread/INFO]: Offline joined the game"
+      },
+      {
+        "line": 1036,
+        "text": "[04:11:44] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 1043,
+        "text": "[04:11:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 1044,
+        "text": "[04:11:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 1045,
+        "text": "[04:11:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 1046,
+        "text": "[04:11:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "client-smoke",
+    "path": "fabric-1.21/client-smoke/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 356,
+        "text": "[04:10:44] [Render thread/INFO]: Loaded 2 advancements"
+      },
+      {
+        "line": 372,
+        "text": "[04:10:45] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@1e56a320"
+      },
+      {
+        "line": 403,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 405,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 407,
+        "text": "[04:10:45] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@5743f4b4"
+      },
+      {
+        "line": 408,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 438,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 440,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 446,
+        "text": "[04:10:45] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@e46e18d"
+      },
+      {
+        "line": 447,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 477,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 479,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 486,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 500,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 519,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 521,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 568,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 582,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 601,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 603,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 650,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 664,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 683,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 685,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 771,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 785,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 804,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 806,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "fabric-1.21/upgrade-before/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 162,
+        "text": "[04:13:14] [Server thread/INFO]: Done (0.719s)! For help, type \"help\""
+      },
+      {
+        "line": 196,
+        "text": "[04:13:56] [Server thread/INFO]: Offline[/172.18.0.4:44816] logged in with entity id 11 at (7.5, 65.0, 6.5)"
+      },
+      {
+        "line": 197,
+        "text": "[04:13:56] [Server thread/INFO]: Offline joined the game"
+      },
+      {
+        "line": 552,
+        "text": "[04:14:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 553,
+        "text": "[04:14:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 554,
+        "text": "[04:14:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 555,
+        "text": "[04:14:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 563,
+        "text": "[04:14:50] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 569,
+        "text": "[04:14:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 570,
+        "text": "[04:14:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 571,
+        "text": "[04:14:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 572,
+        "text": "[04:14:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "fabric-1.21/upgrade-before/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 356,
+        "text": "[04:13:57] [Render thread/INFO]: Loaded 2 advancements"
+      },
+      {
+        "line": 372,
+        "text": "[04:13:58] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@f2e3ca6"
+      },
+      {
+        "line": 403,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 405,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 407,
+        "text": "[04:13:58] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@178d097e"
+      },
+      {
+        "line": 408,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 438,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 440,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 446,
+        "text": "[04:13:58] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@130e297"
+      },
+      {
+        "line": 447,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 477,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 479,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 486,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 500,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 519,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 521,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 568,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 582,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 601,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 603,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 650,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 664,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 683,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 685,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 759,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 773,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 792,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 794,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "fabric-1.21/upgrade-before/lifecycle.log",
+    "evidence": []
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "fabric-1.21/upgrade-after/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 162,
+        "text": "[04:16:19] [Server thread/INFO]: Done (0.772s)! For help, type \"help\""
+      },
+      {
+        "line": 196,
+        "text": "[04:17:03] [Server thread/INFO]: Offline[/172.18.0.4:50928] logged in with entity id 11 at (7.5, 65.0, 6.5)"
+      },
+      {
+        "line": 197,
+        "text": "[04:17:03] [Server thread/INFO]: Offline joined the game"
+      },
+      {
+        "line": 208,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1."
+      },
+      {
+        "line": 241,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1."
+      },
+      {
+        "line": 274,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1."
+      },
+      {
+        "line": 307,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of size 1."
+      },
+      {
+        "line": 574,
+        "text": "[04:17:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 575,
+        "text": "[04:17:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 576,
+        "text": "[04:17:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 577,
+        "text": "[04:17:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 585,
+        "text": "[04:17:57] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 591,
+        "text": "[04:17:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 592,
+        "text": "[04:17:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 593,
+        "text": "[04:17:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 594,
+        "text": "[04:17:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "fabric-1.21/upgrade-after/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 370,
+        "text": "[04:17:04] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@3a34b005"
+      },
+      {
+        "line": 401,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 403,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 405,
+        "text": "[04:17:04] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@1d70dc00"
+      },
+      {
+        "line": 406,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 436,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 438,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 446,
+        "text": "[04:17:04] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@6b99bcf"
+      },
+      {
+        "line": 447,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 477,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 479,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 486,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 500,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 519,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 521,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 568,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 582,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 601,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 603,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 677,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 691,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 710,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 712,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 771,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 785,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries"
+      },
+      {
+        "line": 804,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]"
+      },
+      {
+        "line": 806,
+        "text": "\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "fabric-1.21/upgrade-after/lifecycle.log",
+    "evidence": [
+      {
+        "line": 36,
+        "text": "STACK EQUIP fabric-1.21 [('peripheralworks:universal_scanner', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1.'), ('cloudsolutions:statsd_bridge', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1.'), ('digitalitems:digitizer', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1.'), ('computercraft:wireless_modem_normal', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of size 1.')]"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "smoke",
+    "path": "neoforge-1.21/smoke/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 242,
+        "text": "[14Nov2026 04:20:15.161] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.178s)! For help, type \"help\""
+      },
+      {
+        "line": 253,
+        "text": "[14Nov2026 04:20:15.783] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 269,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 311,
+        "text": "[14Nov2026 04:20:15.785] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception"
+      },
+      {
+        "line": 312,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 353,
+        "text": "[14Nov2026 04:20:15.816] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID ce2510fb-8e8c-4804-99a9-e984ef3c2b10"
+      },
+      {
+        "line": 355,
+        "text": "[14Nov2026 04:20:15.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 362,
+        "text": "[14Nov2026 04:20:16.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 363,
+        "text": "[14Nov2026 04:20:16.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 364,
+        "text": "[14Nov2026 04:20:16.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 365,
+        "text": "[14Nov2026 04:20:16.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved"
+      },
+      {
+        "line": 366,
+        "text": "[14Nov2026 04:20:16.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "client-smoke",
+    "path": "neoforge-1.21/client-smoke/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 234,
+        "text": "[14Nov2026 04:21:53.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.639s)! For help, type \"help\""
+      },
+      {
+        "line": 245,
+        "text": "[14Nov2026 04:21:54.651] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 261,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 303,
+        "text": "[14Nov2026 04:21:54.654] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception"
+      },
+      {
+        "line": 304,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 345,
+        "text": "[14Nov2026 04:21:54.690] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID c9ce157f-d6af-4a9b-8f2a-752ebfa63500"
+      },
+      {
+        "line": 347,
+        "text": "[14Nov2026 04:21:54.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 354,
+        "text": "[14Nov2026 04:21:54.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 355,
+        "text": "[14Nov2026 04:21:54.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 356,
+        "text": "[14Nov2026 04:21:54.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 357,
+        "text": "[14Nov2026 04:21:54.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved"
+      },
+      {
+        "line": 358,
+        "text": "[14Nov2026 04:21:54.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "neoforge-1.21/upgrade-before/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 234,
+        "text": "[14Nov2026 04:23:32.079] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.545s)! For help, type \"help\""
+      },
+      {
+        "line": 245,
+        "text": "[14Nov2026 04:23:32.670] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 261,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 303,
+        "text": "[14Nov2026 04:23:32.671] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception"
+      },
+      {
+        "line": 304,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 345,
+        "text": "[14Nov2026 04:23:32.702] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 7d3490e3-71da-4905-99bf-29544ff69630"
+      },
+      {
+        "line": 347,
+        "text": "[14Nov2026 04:23:32.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 354,
+        "text": "[14Nov2026 04:23:32.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 355,
+        "text": "[14Nov2026 04:23:32.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 356,
+        "text": "[14Nov2026 04:23:32.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 357,
+        "text": "[14Nov2026 04:23:32.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved"
+      },
+      {
+        "line": 358,
+        "text": "[14Nov2026 04:23:32.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "neoforge-1.21/upgrade-before/lifecycle.log",
+    "evidence": [
+      {
+        "line": 282,
+        "text": "\u001b[K\u001b[32m[04:23:32] [Server thread/INFO] [minecraft/DedicatedServer]: Done (0.545s)! For help, type \"help\""
+      },
+      {
+        "line": 304,
+        "text": "\u001b[K\u001b[1;31m[04:23:32] [Server thread/ERROR] [ne.ne.bu.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 320,
+        "text": "minecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 363,
+        "text": "\u001b[K\u001b[1;31m[04:23:32] [Server thread/ERROR] [minecraft/MinecraftServer]: Encountered an unexpected exception"
+      },
+      {
+        "line": 364,
+        "text": "minecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade."
+      },
+      {
+        "line": 406,
+        "text": "\u001b[K\u001b[1;31m[04:23:32] [Server thread/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 7d3490e3-71da-4905-99bf-29544ff69630"
+      },
+      {
+        "line": 410,
+        "text": "\u001b[K\u001b[32m[04:23:32] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server"
+      },
+      {
+        "line": 424,
+        "text": "\u001b[K\u001b[32m[04:23:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 426,
+        "text": "\u001b[K\u001b[32m[04:23:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 428,
+        "text": "\u001b[K\u001b[32m[04:23:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 430,
+        "text": "\u001b[K\u001b[32m[04:23:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved"
+      },
+      {
+        "line": 432,
+        "text": "\u001b[K\u001b[32m[04:23:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "smoke",
+    "path": "minimal-fabric-1.21/smoke/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 137,
+        "text": "[04:25:17] [Server thread/INFO]: Done (0.907s)! For help, type \"help\""
+      },
+      {
+        "line": 1035,
+        "text": "[04:26:02] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 1042,
+        "text": "[04:26:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 1043,
+        "text": "[04:26:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 1044,
+        "text": "[04:26:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 1045,
+        "text": "[04:26:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-fabric-1.21/client-smoke/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 130,
+        "text": "[04:27:29] [Server thread/INFO]: Done (0.772s)! For help, type \"help\""
+      },
+      {
+        "line": 995,
+        "text": "[04:28:57] [Server thread/INFO]: Offline[/172.18.0.4:57474] logged in with entity id 26 at (0.5, 64.0, 3.5)"
+      },
+      {
+        "line": 996,
+        "text": "[04:28:57] [Server thread/INFO]: Offline joined the game"
+      },
+      {
+        "line": 1004,
+        "text": "[04:30:03] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 1011,
+        "text": "[04:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 1012,
+        "text": "[04:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 1013,
+        "text": "[04:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 1014,
+        "text": "[04:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-fabric-1.21/client-smoke/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 270,
+        "text": "[04:28:57] [Render thread/INFO]: Loaded 2 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-fabric-1.21/upgrade-before/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 130,
+        "text": "[04:31:30] [Server thread/INFO]: Done (0.705s)! For help, type \"help\""
+      },
+      {
+        "line": 160,
+        "text": "[04:32:06] [Server thread/INFO]: Offline[/172.18.0.4:52924] logged in with entity id 11 at (0.5, 64.0, 3.5)"
+      },
+      {
+        "line": 161,
+        "text": "[04:32:06] [Server thread/INFO]: Offline joined the game"
+      },
+      {
+        "line": 514,
+        "text": "[04:32:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 515,
+        "text": "[04:32:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 516,
+        "text": "[04:32:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 517,
+        "text": "[04:32:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 527,
+        "text": "[04:32:58] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 533,
+        "text": "[04:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 534,
+        "text": "[04:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 535,
+        "text": "[04:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 536,
+        "text": "[04:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-fabric-1.21/upgrade-before/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 254,
+        "text": "[04:32:06] [Render thread/INFO]: Loaded 2 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-fabric-1.21/upgrade-before/lifecycle.log",
+    "evidence": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-fabric-1.21/upgrade-after/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 130,
+        "text": "[04:34:24] [Server thread/INFO]: Done (0.647s)! For help, type \"help\""
+      },
+      {
+        "line": 162,
+        "text": "[04:35:01] [Server thread/INFO]: Offline[/172.18.0.4:45876] logged in with entity id 11 at (0.5, 64.0, 3.5)"
+      },
+      {
+        "line": 163,
+        "text": "[04:35:01] [Server thread/INFO]: Offline joined the game"
+      },
+      {
+        "line": 174,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1."
+      },
+      {
+        "line": 207,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1."
+      },
+      {
+        "line": 240,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1."
+      },
+      {
+        "line": 273,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of size 1."
+      },
+      {
+        "line": 538,
+        "text": "[04:35:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 539,
+        "text": "[04:35:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 540,
+        "text": "[04:35:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 541,
+        "text": "[04:35:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 551,
+        "text": "[04:35:55] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 557,
+        "text": "[04:35:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 558,
+        "text": "[04:35:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 559,
+        "text": "[04:35:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 560,
+        "text": "[04:35:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-fabric-1.21/upgrade-after/client-logs/latest.log",
+    "evidence": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-fabric-1.21/upgrade-after/lifecycle.log",
+    "evidence": [
+      {
+        "line": 36,
+        "text": "STACK EQUIP minimal-fabric-1.21 [('peripheralworks:universal_scanner', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1.'), ('cloudsolutions:statsd_bridge', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1.'), ('digitalitems:digitizer', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1.'), ('computercraft:wireless_modem_normal', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of size"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-fabric-1.21/old-world-before/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 128,
+        "text": "[04:39:51] [Server thread/INFO]: Done (0.593s)! For help, type \"help\""
+      },
+      {
+        "line": 160,
+        "text": "[04:40:30] [Server thread/INFO]: Offline[/172.18.0.4:39966] logged in with entity id 11 at (3.5, 65.0, 7.5)"
+      },
+      {
+        "line": 161,
+        "text": "[04:40:30] [Server thread/INFO]: Offline joined the game"
+      },
+      {
+        "line": 532,
+        "text": "[04:40:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 533,
+        "text": "[04:40:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 534,
+        "text": "[04:40:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 535,
+        "text": "[04:40:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 543,
+        "text": "[04:41:23] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 549,
+        "text": "[04:41:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 550,
+        "text": "[04:41:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 551,
+        "text": "[04:41:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 552,
+        "text": "[04:41:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-fabric-1.21/old-world-before/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 253,
+        "text": "[04:40:31] [Render thread/INFO]: Loaded 2 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-fabric-1.21/old-world-before/lifecycle.log",
+    "evidence": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-fabric-1.21/old-world-after/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 133,
+        "text": "[04:42:53] [Server thread/INFO]: Done (0.776s)! For help, type \"help\""
+      },
+      {
+        "line": 165,
+        "text": "[04:43:34] [Server thread/INFO]: Offline[/172.18.0.4:40730] logged in with entity id 11 at (3.5, 65.0, 7.5)"
+      },
+      {
+        "line": 166,
+        "text": "[04:43:34] [Server thread/INFO]: Offline joined the game"
+      },
+      {
+        "line": 177,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1."
+      },
+      {
+        "line": 210,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1."
+      },
+      {
+        "line": 243,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1."
+      },
+      {
+        "line": 276,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of size 1."
+      },
+      {
+        "line": 399,
+        "text": "[04:43:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 400,
+        "text": "[04:43:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 401,
+        "text": "[04:43:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 402,
+        "text": "[04:43:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 412,
+        "text": "[04:44:17] [Server thread/INFO]: Stopping server"
+      },
+      {
+        "line": 418,
+        "text": "[04:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 419,
+        "text": "[04:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 420,
+        "text": "[04:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 421,
+        "text": "[04:44:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-fabric-1.21/old-world-after/client-logs/latest.log",
+    "evidence": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-fabric-1.21/old-world-after/lifecycle.log",
+    "evidence": [
+      {
+        "line": 36,
+        "text": "STACK EQUIP minimal-fabric-1.21 [('peripheralworks:universal_scanner', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1.'), ('cloudsolutions:statsd_bridge', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1.'), ('digitalitems:digitizer', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1.'), ('computercraft:wireless_modem_normal', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of size"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "smoke",
+    "path": "minimal-neoforge-1.21/smoke/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 102,
+        "text": "[14Nov2026 04:46:17.252] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.041s)! For help, type \"help\""
+      },
+      {
+        "line": 1004,
+        "text": "[14Nov2026 04:47:06.779] [Server thread/INFO] [turtlematic/]: Stopping server"
+      },
+      {
+        "line": 1005,
+        "text": "[14Nov2026 04:47:06.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 1012,
+        "text": "[14Nov2026 04:47:07.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 1013,
+        "text": "[14Nov2026 04:47:07.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 1014,
+        "text": "[14Nov2026 04:47:07.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 1015,
+        "text": "[14Nov2026 04:47:07.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-neoforge-1.21/client-smoke/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 97,
+        "text": "[14Nov2026 04:48:35.069] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.775s)! For help, type \"help\""
+      },
+      {
+        "line": 966,
+        "text": "[14Nov2026 04:50:19.610] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Offline[/172.18.0.4:59640] logged in with entity id 26 at (-6.5, 65.0, 2.5)"
+      },
+      {
+        "line": 967,
+        "text": "[14Nov2026 04:50:19.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game"
+      },
+      {
+        "line": 977,
+        "text": "[14Nov2026 04:51:24.029] [Server thread/INFO] [turtlematic/]: Stopping server"
+      },
+      {
+        "line": 978,
+        "text": "[14Nov2026 04:51:24.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 985,
+        "text": "[14Nov2026 04:51:24.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 986,
+        "text": "[14Nov2026 04:51:24.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 987,
+        "text": "[14Nov2026 04:51:24.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 988,
+        "text": "[14Nov2026 04:51:24.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-neoforge-1.21/client-smoke/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 293,
+        "text": "[14Nov2026 04:50:20.170] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-neoforge-1.21/upgrade-before/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 97,
+        "text": "[14Nov2026 04:52:52.550] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.756s)! For help, type \"help\""
+      },
+      {
+        "line": 142,
+        "text": "[14Nov2026 04:53:44.452] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Offline[/172.18.0.4:49156] logged in with entity id 11 at (-6.5, 65.0, 2.5)"
+      },
+      {
+        "line": 143,
+        "text": "[14Nov2026 04:53:44.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game"
+      },
+      {
+        "line": 498,
+        "text": "[14Nov2026 04:54:05.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 499,
+        "text": "[14Nov2026 04:54:05.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 500,
+        "text": "[14Nov2026 04:54:05.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 501,
+        "text": "[14Nov2026 04:54:05.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 509,
+        "text": "[14Nov2026 04:54:36.500] [Server thread/INFO] [turtlematic/]: Stopping server"
+      },
+      {
+        "line": 510,
+        "text": "[14Nov2026 04:54:36.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 516,
+        "text": "[14Nov2026 04:54:36.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 517,
+        "text": "[14Nov2026 04:54:36.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 518,
+        "text": "[14Nov2026 04:54:36.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 519,
+        "text": "[14Nov2026 04:54:36.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-neoforge-1.21/upgrade-before/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 284,
+        "text": "[14Nov2026 04:53:45.082] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-neoforge-1.21/upgrade-before/lifecycle.log",
+    "evidence": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-neoforge-1.21/upgrade-after/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 97,
+        "text": "[14Nov2026 04:56:04.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.757s)! For help, type \"help\""
+      },
+      {
+        "line": 140,
+        "text": "[14Nov2026 04:56:55.776] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Offline[/172.18.0.4:50862] logged in with entity id 11 at (-6.5, 65.0, 2.5)"
+      },
+      {
+        "line": 142,
+        "text": "[14Nov2026 04:56:55.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game"
+      },
+      {
+        "line": 152,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1."
+      },
+      {
+        "line": 187,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1."
+      },
+      {
+        "line": 222,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1."
+      },
+      {
+        "line": 257,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of size 1."
+      },
+      {
+        "line": 526,
+        "text": "[14Nov2026 04:57:17.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 527,
+        "text": "[14Nov2026 04:57:17.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 528,
+        "text": "[14Nov2026 04:57:17.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 529,
+        "text": "[14Nov2026 04:57:17.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 537,
+        "text": "[14Nov2026 04:57:48.015] [Server thread/INFO] [turtlematic/]: Stopping server"
+      },
+      {
+        "line": 538,
+        "text": "[14Nov2026 04:57:48.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 544,
+        "text": "[14Nov2026 04:57:48.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 545,
+        "text": "[14Nov2026 04:57:48.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 546,
+        "text": "[14Nov2026 04:57:48.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 547,
+        "text": "[14Nov2026 04:57:48.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-neoforge-1.21/upgrade-after/client-logs/latest.log",
+    "evidence": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-neoforge-1.21/upgrade-after/lifecycle.log",
+    "evidence": [
+      {
+        "line": 36,
+        "text": "STACK EQUIP minimal-neoforge-1.21 [('peripheralworks:universal_scanner', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1.'), ('cloudsolutions:statsd_bridge', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1.'), ('digitalitems:digitizer', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1.'), ('computercraft:wireless_modem_normal', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of si"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-neoforge-1.21/old-world-before/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 97,
+        "text": "[14Nov2026 05:02:06.218] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.662s)! For help, type \"help\""
+      },
+      {
+        "line": 144,
+        "text": "[14Nov2026 05:03:02.931] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Offline[/172.18.0.4:33452] logged in with entity id 11 at (8.5, 65.0, 4.5)"
+      },
+      {
+        "line": 145,
+        "text": "[14Nov2026 05:03:02.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game"
+      },
+      {
+        "line": 500,
+        "text": "[14Nov2026 05:03:24.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 501,
+        "text": "[14Nov2026 05:03:24.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 502,
+        "text": "[14Nov2026 05:03:24.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 503,
+        "text": "[14Nov2026 05:03:24.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 511,
+        "text": "[14Nov2026 05:03:55.357] [Server thread/INFO] [turtlematic/]: Stopping server"
+      },
+      {
+        "line": 512,
+        "text": "[14Nov2026 05:03:55.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 518,
+        "text": "[14Nov2026 05:03:55.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 519,
+        "text": "[14Nov2026 05:03:55.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 520,
+        "text": "[14Nov2026 05:03:55.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 521,
+        "text": "[14Nov2026 05:03:55.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-neoforge-1.21/old-world-before/client-logs/latest.log",
+    "evidence": [
+      {
+        "line": 285,
+        "text": "[14Nov2026 05:03:03.559] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-neoforge-1.21/old-world-before/lifecycle.log",
+    "evidence": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-neoforge-1.21/old-world-after/server-logs/latest.log",
+    "evidence": [
+      {
+        "line": 109,
+        "text": "[14Nov2026 05:05:43.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.764s)! For help, type \"help\""
+      },
+      {
+        "line": 154,
+        "text": "[14Nov2026 05:06:38.559] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Offline[/172.18.0.4:38630] logged in with entity id 11 at (8.5, 65.0, 4.5)"
+      },
+      {
+        "line": 155,
+        "text": "[14Nov2026 05:06:38.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game"
+      },
+      {
+        "line": 166,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1."
+      },
+      {
+        "line": 201,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1."
+      },
+      {
+        "line": 238,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1."
+      },
+      {
+        "line": 273,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of size 1."
+      },
+      {
+        "line": 540,
+        "text": "[14Nov2026 05:07:00.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 541,
+        "text": "[14Nov2026 05:07:00.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 542,
+        "text": "[14Nov2026 05:07:00.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 543,
+        "text": "[14Nov2026 05:07:00.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      },
+      {
+        "line": 551,
+        "text": "[14Nov2026 05:07:31.165] [Server thread/INFO] [turtlematic/]: Stopping server"
+      },
+      {
+        "line": 552,
+        "text": "[14Nov2026 05:07:31.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server"
+      },
+      {
+        "line": 558,
+        "text": "[14Nov2026 05:07:31.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (playground): All chunks are saved"
+      },
+      {
+        "line": 559,
+        "text": "[14Nov2026 05:07:31.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved"
+      },
+      {
+        "line": 560,
+        "text": "[14Nov2026 05:07:31.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved"
+      },
+      {
+        "line": 561,
+        "text": "[14Nov2026 05:07:31.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-neoforge-1.21/old-world-after/client-logs/latest.log",
+    "evidence": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-neoforge-1.21/old-world-after/lifecycle.log",
+    "evidence": [
+      {
+        "line": 36,
+        "text": "STACK EQUIP minimal-neoforge-1.21 [('peripheralworks:universal_scanner', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:universal_scanner: Item 2 peripheralworks:universal_scanner must be of size 1.'), ('cloudsolutions:statsd_bridge', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for cloudsolutions:statsd_bridge: Item 2 cloudsolutions:statsd_bridge must be of size 1.'), ('digitalitems:digitizer', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for digitalitems:digitizer: Item 2 digitalitems:digitizer must be of size 1.'), ('computercraft:wireless_modem_normal', False, '/startup.lua:1: Java Exception Thrown: java.lang.IllegalArgumentException: Error constructing UpgradeData for computercraft:wireless_modem_normal: Item 2 computercraft:wireless_modem_normal must be of si"
+      }
+    ]
+  }
+]
