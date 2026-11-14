@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "UnlimitedPeripheralWorks",
+    "version": "1.10.0",
+    "name": "peripheralworks-fabric-1.21.1-1.10.0.jar",
+    "url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.21.1-1.10.0/peripheralworks-fabric-1.21.1-1.10.0.jar",
+    "sha256": "af6b59f74b8de42067f0d7307f065826e81f83f2b5a1fa8c0a39c649031209c8",
+    "metadata": {
+      "fabric.mod.json": "{\"schemaVersion\":1,\"id\":\"peripheralworks\",\"version\":\"1.10.0\",\"name\":\"Unlimited Peripheral Works\",\"description\":\"Peripheral mod, that provides a lot extra features, new peripherals and even some items\",\"authors\":[\"SirEdvin\"],\"accessWidener\":\"peripheralworks.accesswidener\",\"contact\":{\"homepage\":\"https://docs.siredvin.site/UnlimitedPeripheralWorks/\",\"issues\":\"https://github.com/SirEdvin/UnlimitedPeripheralWorks/issues\",\"sources\":\"https://github.com/SirEdvin/UnlimitedPeripheralWorks/\"},\"license\":\"MIT\",\"icon\":\"pack.png\",\"environment\":\"*\",\"entrypoints\":{\"main\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.peripheralworks.FabricPeripheralWorks\"}],\"client\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.peripheralworks.FabricPeripheralWorksClient\"}],\"fabric-datagen\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.peripheralworks.data.FabricDataGenerators\"}],\"emi\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.peripheralworks.integrations.emi.Entrypoint\"}],\"jei_mod_plugin\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.peripheralworks.integrations.jei.Entrypoint\"}]},\"mixins\":[\"peripheralworks.mixins.json\"],\"depends\":{\"fabricloader\":\"\\u003e\\u003d0.13.3\",\"fabric\":\"*\",\"minecraft\":\"\\u003e\\u003d1.21 \\u003c1.22\",\"java\":\"\\u003e\\u003d17\",\"computercraft\":\"\\u003e\\u003d1.121.0\",\"peripheralium\":\"\\u003e\\u003d2.1.0\",\"broccolium\":\"\\u003e\\u003d2.1.0\",\"tweakium\":\"\\u003e\\u003d2.1.0\"},\"custom\":{\"modmenu\":{\"links\":{\"modmenu.discord\":\"https://discord.gg/dYHKMQYRPp\"}}},\"jars\":[{\"file\":\"META-INF/jars/broccolium-fabric-1.21.1-2.1.0.jar\"},{\"file\":\"META-INF/jars/peripheralium-fabric-1.21.1-2.1.0.jar\"},{\"file\":\"META-INF/jars/tweakium-fabric-1.21.1-2.1.0.jar\"}]}"
+    }
+  },
+  {
+    "repo": "UnlimitedPeripheralWorks",
+    "version": "1.10.0",
+    "name": "peripheralworks-forge-1.21.1-1.10.0.jar",
+    "url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.21.1-1.10.0/peripheralworks-forge-1.21.1-1.10.0.jar",
+    "sha256": "d8baf9a532dae9aae9bc6eedbddd7a1bc55f04a9024264b2fbcee7fd4c0a5290",
+    "metadata": {
+      "META-INF/neoforge.mods.toml": "modLoader=\"kotlinforforge\"\nloaderVersion=\"[5,)\"\n\nissueTrackerURL=\"https://github.com/SirEdvin/UnlimitedPeripheralWorks/issues\"\nlogoFile=\"pack.png\"\n\nlicense=\"MIT\"\n\n[[mixins]]\nconfig=\"peripheralworks.mixins.json\"\n\n[[mods]]\nmodId=\"peripheralworks\"\nversion=\"1.10.0\"\ndisplayName=\"UnlimitedPeripheralWorks\"\ndisplayURL=\"https://docs.siredvin.site/UnlimitedPeripheralWorks/\"\n\ncredits=\"\"\nauthors=\"SirEdvin\"\ndescription='''\nPeripheral mod, that provides a lot extra features, new peripherals and even some items\n'''\n\n[[dependencies.peripheralworks]]\nmodId=\"neoforge\"\ntype=\"required\"\nversionRange=\"[21.1.265,21.2)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.peripheralworks]]\nmodId=\"minecraft\"\ntype=\"required\"\nversionRange=\"[1.21.1,1.21.2)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.peripheralworks]]\nmodId=\"computercraft\"\ntype=\"required\"\nversionRange=\"[1.121.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.peripheralworks]]\nmodId=\"peripheralium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.peripheralworks]]\nmodId=\"broccolium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.peripheralworks]]\nmodId=\"tweakium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.peripheralworks]]\nmodId=\"hostilenetworks\"\ntype=\"optional\"\nversionRange=\"[6.5.1,)\"\nordering=\"AFTER\"\nside=\"BOTH\"\n\n[[dependencies.peripheralworks]]\nmodId=\"extrahnn\"\ntype=\"optional\"\nversionRange=\"[2.2.5,)\"\nordering=\"AFTER\"\nside=\"BOTH\"\n"
+    }
+  },
+  {
+    "repo": "Turtlematic",
+    "version": "1.5.1",
+    "name": "turtlematic-fabric-1.21.1-1.5.1.jar",
+    "url": "https://github.com/SirEdvin/Turtlematic/releases/download/v1.21.1-1.5.1/turtlematic-fabric-1.21.1-1.5.1.jar",
+    "sha256": "cd61dc56fa969ff4b561d561d0b0438d0e3d4e59cd5e933315538b7a6ce1134d",
+    "metadata": {
+      "fabric.mod.json": "{\"schemaVersion\":1,\"id\":\"turtlematic\",\"version\":\"1.5.1\",\"name\":\"Turtlematic\",\"description\":\"CC:T addon, that makes turtles great again!\",\"authors\":[\"SirEdvin\"],\"contact\":{\"homepage\":\"https://docs.siredvin.site/Turtlematic/\",\"issues\":\"https://github.com/SirEdvin/Turtlematic/issues\",\"sources\":\"https://github.com/SirEdvin/Turtlematic\"},\"license\":\"MIT\",\"icon\":\"pack.png\",\"environment\":\"*\",\"entrypoints\":{\"main\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.turtlematic.FabricTurtlematic\"}],\"client\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.turtlematic.FabricTurtlematicClient\"}],\"fabric-datagen\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.turtlematic.data.FabricDataGenerators\"}]},\"mixins\":[\"turtlematic.mixins.json\"],\"depends\":{\"fabricloader\":\"\\u003e\\u003d0.16.14\",\"fabric\":\"*\",\"fabric-language-kotlin\":\"\\u003e\\u003d1.11.0+kotlin.2.0.0\",\"minecraft\":\"\\u003e\\u003d1.21.1 \\u003c1.21.2\",\"java\":\"\\u003e\\u003d21 \\u003c22\",\"forgeconfigapiport\":\"\\u003e\\u003d21.1.6\",\"computercraft\":\"\\u003e\\u003d1.121.0\",\"broccolium\":\"\\u003e\\u003d2.1.0\",\"tweakium\":\"\\u003e\\u003d2.1.0\",\"peripheralium\":\"\\u003e\\u003d2.1.0\"},\"custom\":{\"modmenu\":{\"links\":{\"modmenu.discord\":\"https://discord.gg/dYHKMQYRPp\"}}},\"jars\":[{\"file\":\"META-INF/jars/broccolium-fabric-1.21.1-2.1.0.jar\"},{\"file\":\"META-INF/jars/peripheralium-fabric-1.21.1-2.1.0.jar\"},{\"file\":\"META-INF/jars/tweakium-fabric-1.21.1-2.1.0.jar\"}]}"
+    }
+  },
+  {
+    "repo": "Turtlematic",
+    "version": "1.5.1",
+    "name": "turtlematic-forge-1.21.1-1.5.1.jar",
+    "url": "https://github.com/SirEdvin/Turtlematic/releases/download/v1.21.1-1.5.1/turtlematic-forge-1.21.1-1.5.1.jar",
+    "sha256": "61ba0054fb71c165ed440afb49daedf8fd2c269aece13e59d683ad6faac3250e",
+    "metadata": {
+      "META-INF/neoforge.mods.toml": "modLoader=\"kotlinforforge\"\nloaderVersion=\"[5,)\"\nlicense=\"MIT\"\nissueTrackerURL=\"https://github.com/SirEdvin/Turtlematic/issues\"\n\n[[mods]]\nmodId=\"turtlematic\"\nversion=\"1.5.1\"\ndisplayName=\"Turtlematic\"\ndisplayURL=\"https://github.com/SirEdvin/Turtlematic/\"\nlogoFile=\"pack.png\"\nauthors=\"SirEdvin\"\ndescription='''\nCC:T addon, that makes turtles great again!\n'''\n\n[[mixins]]\nconfig=\"turtlematic.mixins.json\"\n\n[[dependencies.turtlematic]]\nmodId=\"neoforge\"\ntype=\"required\"\nversionRange=\"[21.1.265,21.2)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.turtlematic]]\nmodId=\"minecraft\"\ntype=\"required\"\nversionRange=\"[1.21.1,1.21.2)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.turtlematic]]\nmodId=\"computercraft\"\ntype=\"required\"\nversionRange=\"[1.121.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.turtlematic]]\nmodId=\"tweakium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.turtlematic]]\nmodId=\"broccolium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.turtlematic]]\nmodId=\"peripheralium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n"
+    }
+  },
+  {
+    "repo": "CloudSolutions",
+    "version": "0.4.0",
+    "name": "cloudsolutions-fabric-1.21.1-0.4.0.jar",
+    "url": "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.21.1-0.4.0/cloudsolutions-fabric-1.21.1-0.4.0.jar",
+    "sha256": "0facc5e105ae72deddc42cc7f0833b0c4eb2407b6c5f51377024ba89712f7f67",
+    "metadata": {
+      "fabric.mod.json": "{\"schemaVersion\":1,\"id\":\"cloudsolutions\",\"version\":\"0.4.0\",\"name\":\"Cloud Solutions\",\"description\":\"A little crazy CC:T addon that stores different data and, well, share it via internal http server!\",\"authors\":[\"SirEdvin\"],\"accessWidener\":\"cloudsolutions.accesswidener\",\"contact\":{\"homepage\":\"https://docs.siredvin.site/\",\"issues\":\"https://github.com/SirEdvin/CloudSolutions/issues\",\"sources\":\"https://github.com/SirEdvin/CloudSolutions\"},\"license\":\"MIT\",\"icon\":\"pack.png\",\"environment\":\"*\",\"entrypoints\":{\"main\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.cloudsolutions.FabricCloudSolutions\"}],\"client\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.cloudsolutions.FabricCloudSolutionsClient\"}],\"fabric-datagen\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.cloudsolutions.data.FabricDataGenerators\"}]},\"mixins\":[],\"depends\":{\"fabricloader\":\"\\u003e\\u003d0.16.14\",\"fabric\":\"*\",\"minecraft\":\"\\u003e\\u003d1.21.1 \\u003c1.21.2\",\"java\":\"\\u003e\\u003d21\",\"computercraft\":\"\\u003e\\u003d1.121.0\",\"tweakium\":\"\\u003e\\u003d2.1.0\",\"broccolium\":\"\\u003e\\u003d2.1.0\"},\"jars\":[{\"file\":\"META-INF/jars/broccolium-fabric-1.21.1-2.1.0.jar\"},{\"file\":\"META-INF/jars/exposed-core-0.61.0.jar\"},{\"file\":\"META-INF/jars/exposed-dao-0.61.0.jar\"},{\"file\":\"META-INF/jars/exposed-jdbc-0.61.0.jar\"},{\"file\":\"META-INF/jars/exposed-json-0.61.0.jar\"},{\"file\":\"META-INF/jars/java-statsd-client-3.0.2.jar\"},{\"file\":\"META-INF/jars/sqlite-jdbc-3.43.2.2.jar\"},{\"file\":\"META-INF/jars/tweakium-fabric-1.21.1-2.1.0.jar\"}]}"
+    }
+  },
+  {
+    "repo": "CloudSolutions",
+    "version": "0.4.0",
+    "name": "cloudsolutions-forge-1.21.1-0.4.0.jar",
+    "url": "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.21.1-0.4.0/cloudsolutions-forge-1.21.1-0.4.0.jar",
+    "sha256": "df62be3c3ad52fc03ecbb69dc24a0572bc5ebb1c8d7ce145f0c2d969bf78f43c",
+    "metadata": {
+      "META-INF/neoforge.mods.toml": "modLoader=\"kotlinforforge\"\nloaderVersion=\"[5,)\"\nlicense=\"MIT\"\nissueTrackerURL=\"https://github.com/SirEdvin/CloudSolutions/issues\"\n\n[[mods]]\nmodId=\"cloudsolutions\"\nversion=\"0.4.0\"\ndisplayName=\"Cloud Solutions\"\ndisplayURL=\"https://github.com/SirEdvin/CloudSolutions\"\nlogoFile=\"pack.png\"\nauthors=\"SirEdvin\"\ndescription='''\nA little crazy CC:T addon that stores different data and, well, share it via internal http server!\n'''\n\n[[dependencies.cloudsolutions]]\nmodId=\"neoforge\"\ntype=\"required\"\nversionRange=\"[21.1.265,21.2)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.cloudsolutions]]\nmodId=\"minecraft\"\ntype=\"required\"\nversionRange=\"[1.21.1,1.21.2)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.cloudsolutions]]\nmodId=\"computercraft\"\ntype=\"required\"\nversionRange=\"[1.121.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.cloudsolutions]]\nmodId=\"tweakium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.cloudsolutions]]\nmodId=\"broccolium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n"
+    }
+  },
+  {
+    "repo": "DigitalItems",
+    "version": "0.6.0",
+    "name": "digitalitems-fabric-1.21.1-0.6.0.jar",
+    "url": "https://github.com/SirEdvin/DigitalItems/releases/download/v1.21.1-0.6.0/digitalitems-fabric-1.21.1-0.6.0.jar",
+    "sha256": "90a967ca589b22a77d76eb0bfe378b1938046868423c5c5356269990e6d5a287",
+    "metadata": {
+      "fabric.mod.json": "{\"schemaVersion\":1,\"id\":\"digitalitems\",\"version\":\"0.6.0\",\"name\":\"Digital Items\",\"description\":\"Digitize items, fluids, and energy with ComputerCraft.\",\"authors\":[\"SirEdvin\"],\"accessWidener\":\"digitalitems.accesswidener\",\"contact\":{\"homepage\":\"https://github.com/SirEdvin/DigitalItems\",\"issues\":\"https://github.com/SirEdvin/DigitalItems/issues\",\"sources\":\"https://github.com/SirEdvin/DigitalItems\"},\"license\":\"MIT\",\"icon\":\"pack.png\",\"environment\":\"*\",\"entrypoints\":{\"main\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.digitalitems.FabricDigitalItems\"}],\"client\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.digitalitems.FabricDigitalItemsClient\"}],\"fabric-datagen\":[{\"adapter\":\"kotlin\",\"value\":\"site.siredvin.digitalitems.data.FabricDataGenerators\"}]},\"mixins\":[],\"depends\":{\"fabricloader\":\"\\u003e\\u003d0.16.14\",\"fabric\":\"*\",\"minecraft\":\"\\u003e\\u003d1.21.1 \\u003c1.21.2\",\"java\":\"\\u003e\\u003d21\",\"computercraft\":\"\\u003e\\u003d1.121.0\",\"tweakium\":\"\\u003e\\u003d2.1.0\",\"broccolium\":\"\\u003e\\u003d2.1.0\"},\"jars\":[{\"file\":\"META-INF/jars/broccolium-fabric-1.21.1-2.1.0.jar\"},{\"file\":\"META-INF/jars/tweakium-fabric-1.21.1-2.1.0.jar\"}]}"
+    }
+  },
+  {
+    "repo": "DigitalItems",
+    "version": "0.6.0",
+    "name": "digitalitems-forge-1.21.1-0.6.0.jar",
+    "url": "https://github.com/SirEdvin/DigitalItems/releases/download/v1.21.1-0.6.0/digitalitems-forge-1.21.1-0.6.0.jar",
+    "sha256": "e87f203132eb91856d86930e1d308be9127f28e0372bbe9ceda4edf3fce9ef03",
+    "metadata": {
+      "META-INF/neoforge.mods.toml": "modLoader=\"kotlinforforge\"\nloaderVersion=\"[5,)\"\nlicense=\"MIT\"\nissueTrackerURL=\"https://github.com/SirEdvin/DigitalItems/issues\"\n\n[[mods]]\nmodId=\"digitalitems\"\nversion=\"0.6.0\"\ndisplayName=\"Digital Items\"\ndisplayURL=\"https://github.com/SirEdvin/DigitalItems/\"\nlogoFile=\"pack.png\"\nauthors=\"SirEdvin\"\ndescription='''\nDigitize items, fluids, and energy with ComputerCraft.\n'''\n\n[[dependencies.digitalitems]]\nmodId=\"neoforge\"\ntype=\"required\"\nversionRange=\"[21.1.265,21.2)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.digitalitems]]\nmodId=\"minecraft\"\ntype=\"required\"\nversionRange=\"[1.21.1,1.21.2)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.digitalitems]]\nmodId=\"computercraft\"\ntype=\"required\"\nversionRange=\"[1.121.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.digitalitems]]\nmodId=\"tweakium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n\n[[dependencies.digitalitems]]\nmodId=\"broccolium\"\ntype=\"required\"\nversionRange=\"[2.1.0,)\"\nordering=\"NONE\"\nside=\"BOTH\"\n"
+    }
+  }
+]

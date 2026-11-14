@@ -1,8 +1,8 @@
 name = "digitalitems"
-filename = "digitalitems-forge-1.21.1-0.5.8.jar"
+filename = "digitalitems-forge-1.21.1-0.6.0.jar"
 side = "both"
 
 [download]
-url = "https://github.com/SirEdvin/DigitalItems/releases/download/v1.21.1-0.5.8/digitalitems-forge-1.21.1-0.5.8.jar"
+url = "https://github.com/SirEdvin/DigitalItems/releases/download/v1.21.1-0.6.0/digitalitems-forge-1.21.1-0.6.0.jar"
 hash-format = "sha256"
-hash = "2f8d63b137dbb055906e67c7732efc8546a863691bad85bc5ccf25c432ca3729"
+hash = "e87f203132eb91856d86930e1d308be9127f28e0372bbe9ceda4edf3fce9ef03"
