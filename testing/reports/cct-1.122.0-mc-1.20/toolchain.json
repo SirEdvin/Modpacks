@@ -1,0 +1,36 @@
+{
+  "docker": "Docker version 29.9.2, build a82e528",
+  "compose": "Docker Compose version v5.7.0",
+  "python": "Python 3.14.9",
+  "base": "5514734c1effd5728d526e31956c34fb3122d2d4",
+  "packwiz_sha256": "603df3a7683cd13110c9be6718ab24e9cba878ec745bfabb27f993171ec9b5b1",
+  "images": [
+    {
+      "Id": "sha256:313ccff00f77a538374f424d49c6bb5643195c6f351604888be8b9acea950ff3",
+      "RepoTags": [
+        "itzg/minecraft-server:java17"
+      ],
+      "RepoDigests": [
+        "itzg/minecraft-server@sha256:313ccff00f77a538374f424d49c6bb5643195c6f351604888be8b9acea950ff3"
+      ]
+    },
+    {
+      "Id": "sha256:9ef1a599f863231c3d91e941389bfdc4a2d6070557243d54df1a4e57015b960e",
+      "RepoTags": [
+        "python:3.13-alpine"
+      ],
+      "RepoDigests": [
+        "python@sha256:9ef1a599f863231c3d91e941389bfdc4a2d6070557243d54df1a4e57015b960e"
+      ]
+    },
+    {
+      "Id": "sha256:97d4ddd49de0809b5e84a19fb1cb66602cd6d18be10c3646988ec7fe6941b64a",
+      "RepoTags": [
+        "3arthqu4ke/headlessmc:latest"
+      ],
+      "RepoDigests": [
+        "3arthqu4ke/headlessmc@sha256:97d4ddd49de0809b5e84a19fb1cb66602cd6d18be10c3646988ec7fe6941b64a"
+      ]
+    }
+  ]
+}

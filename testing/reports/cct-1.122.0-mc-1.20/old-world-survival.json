@@ -1,0 +1,20 @@
+[
+  {
+    "lane": "minimal-fabric-1.20",
+    "same_manifest": true,
+    "blocks_survived": 23,
+    "wired_peripherals_survived": 18,
+    "turtles_survived": 49,
+    "pocket_displays_survived": 10,
+    "removed_or_failed_ids": []
+  },
+  {
+    "lane": "minimal-forge-1.20",
+    "same_manifest": true,
+    "blocks_survived": 23,
+    "wired_peripherals_survived": 18,
+    "turtles_survived": 49,
+    "pocket_displays_survived": 10,
+    "removed_or_failed_ids": []
+  }
+]

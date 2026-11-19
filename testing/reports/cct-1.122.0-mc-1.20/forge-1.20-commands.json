@@ -1,0 +1,26 @@
+[
+  {
+    "command": [
+      "run-lane.py",
+      "forge-1.20"
+    ],
+    "exit_code": 0,
+    "seconds": 465.8296859264374
+  },
+  {
+    "command": [
+      "extend-lane.py",
+      "forge-1.20"
+    ],
+    "exit_code": 0,
+    "seconds": 435.2599492073059
+  },
+  {
+    "command": [
+      "summarize.py",
+      "forge-1.20"
+    ],
+    "exit_code": 0,
+    "seconds": 0.04489421844482422
+  }
+]

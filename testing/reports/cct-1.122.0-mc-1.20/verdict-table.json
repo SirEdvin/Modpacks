@@ -1,0 +1,50 @@
+[
+  {
+    "lane": "fabric-1.20",
+    "overall": "PASS",
+    "server_smoke": "PASS",
+    "client_smoke": "PASS",
+    "single_item_equip": "PASS",
+    "restart": "PASS",
+    "all_count_two_equip": "PASS",
+    "count_two_restart": "PASS",
+    "stacked_pocket_control": "PASS",
+    "old_world": "N/A"
+  },
+  {
+    "lane": "forge-1.20",
+    "overall": "PASS",
+    "server_smoke": "PASS",
+    "client_smoke": "PASS",
+    "single_item_equip": "PASS",
+    "restart": "PASS",
+    "all_count_two_equip": "PASS",
+    "count_two_restart": "PASS",
+    "stacked_pocket_control": "PASS",
+    "old_world": "N/A"
+  },
+  {
+    "lane": "minimal-fabric-1.20",
+    "overall": "PASS",
+    "server_smoke": "PASS",
+    "client_smoke": "PASS",
+    "single_item_equip": "PASS",
+    "restart": "PASS",
+    "all_count_two_equip": "PASS",
+    "count_two_restart": "PASS",
+    "stacked_pocket_control": "PASS",
+    "old_world": "PASS"
+  },
+  {
+    "lane": "minimal-forge-1.20",
+    "overall": "PASS",
+    "server_smoke": "PASS",
+    "client_smoke": "PASS",
+    "single_item_equip": "PASS",
+    "restart": "PASS",
+    "all_count_two_equip": "PASS",
+    "count_two_restart": "PASS",
+    "stacked_pocket_control": "PASS",
+    "old_world": "PASS"
+  }
+]
