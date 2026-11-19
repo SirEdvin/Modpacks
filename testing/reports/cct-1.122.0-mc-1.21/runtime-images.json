@@ -1,0 +1,23 @@
+{
+  "itzg/minecraft-server:java17": {
+    "Id": "sha256:313ccff00f77a538374f424d49c6bb5643195c6f351604888be8b9acea950ff3",
+    "RepoDigests": [
+      "itzg/minecraft-server@sha256:313ccff00f77a538374f424d49c6bb5643195c6f351604888be8b9acea950ff3"
+    ],
+    "Created": "2026-11-19T02:01:38.807853944Z"
+  },
+  "itzg/minecraft-server:java21": {
+    "Id": "sha256:66761ab6b3cabe3dc3f85a35763e7590485c4ea1d6829c3b436d64a4672493d7",
+    "RepoDigests": [
+      "itzg/minecraft-server@sha256:66761ab6b3cabe3dc3f85a35763e7590485c4ea1d6829c3b436d64a4672493d7"
+    ],
+    "Created": "2026-11-19T01:59:26.984372906Z"
+  },
+  "python:3.13-alpine": {
+    "Id": "sha256:9ef1a599f863231c3d91e941389bfdc4a2d6070557243d54df1a4e57015b960e",
+    "RepoDigests": [
+      "python@sha256:9ef1a599f863231c3d91e941389bfdc4a2d6070557243d54df1a4e57015b960e"
+    ],
+    "Created": "2026-11-05T19:30:27.875758043Z"
+  }
+}

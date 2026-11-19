@@ -1,0 +1,34 @@
+[
+  {
+    "command": [
+      "run-lane.py",
+      "minimal-fabric-1.21"
+    ],
+    "exit_code": 0,
+    "seconds": 372.10210704803467
+  },
+  {
+    "command": [
+      "extend-lane.py",
+      "minimal-fabric-1.21"
+    ],
+    "exit_code": 0,
+    "seconds": 360.190819978714
+  },
+  {
+    "command": [
+      "old-world.py",
+      "minimal-fabric-1.21"
+    ],
+    "exit_code": 0,
+    "seconds": 484.8378760814667
+  },
+  {
+    "command": [
+      "summarize.py",
+      "minimal-fabric-1.21"
+    ],
+    "exit_code": 0,
+    "seconds": 0.05176043510437012
+  }
+]
