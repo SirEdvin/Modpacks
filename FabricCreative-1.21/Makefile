@@ -1,8 +1,8 @@
 ccTweakedVersion = 1.122.0
-cloudsolutionsVersion = 0.4.0
-turtlematicVersion = 1.5.1
-peripheralWorksVersion = 1.10.0
-digitalItemsVersion = 0.6.0
+cloudsolutionsVersion = 0.4.1
+turtlematicVersion = 1.5.2
+peripheralWorksVersion = 1.10.1
+digitalItemsVersion = 0.6.1
 
 turtlematic:
 	packwiz url add turtlematic https://github.com/SirEdvin/Turtlematic/releases/download/v1.21.1-${turtlematicVersion}/turtlematic-fabric-1.21.1-${turtlematicVersion}.jar

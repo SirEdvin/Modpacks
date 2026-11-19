@@ -1,0 +1,30 @@
+[
+  {
+    "pack": "FabricCreative-1.21",
+    "index_files": 21,
+    "pack_sha256": "31f3e65f66d7f8be4c1026ec9a6b982f4b808d6b3064559cffc853ae3e2eeb9f",
+    "index_sha256": "5423bac9dec756f903b8d15601f41047dd9f6098c576f6d0ef65526ccfc66951",
+    "deterministic_refresh": true
+  },
+  {
+    "pack": "NeoForgeCreative-1.21",
+    "index_files": 34,
+    "pack_sha256": "dc16628d1fcf12da96e9386e5a71a5c9b83631d993a3d4522b97daf0f64df77b",
+    "index_sha256": "c73f682e194c7b4e9c141eb870456fc7ff380615b351bc70621067c7af4dfa91",
+    "deterministic_refresh": true
+  },
+  {
+    "pack": "FabricMinimal-1.21",
+    "index_files": 9,
+    "pack_sha256": "6756dd4daac39df75bc8782f9381db1e35a788c7764cc8ac94af24f5ac86f8a4",
+    "index_sha256": "ec50cfd53777090d19362e92f79a95119acc30e8edf08529e527f459a29eb970",
+    "deterministic_refresh": true
+  },
+  {
+    "pack": "NeoForgeMinimal-1.21",
+    "index_files": 7,
+    "pack_sha256": "ee6745378b2d9a31d29f0757c23dd9a2220120f8780686f787f7a81eed74caa7",
+    "index_sha256": "11756a1c342ce05f6011382e59cc1a77ef45bd01c1576015b47a436f384cb8bf",
+    "deterministic_refresh": true
+  }
+]

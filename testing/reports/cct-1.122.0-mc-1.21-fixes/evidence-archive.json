@@ -1,0 +1,13 @@
+{
+  "filename": "cct-1.122.0-mc-1.21-fixes-evidence.tar.gz",
+  "bytes": 6796877,
+  "sha256": "663981fe9a1ee817c42fd91ec0ea02d82a872554c347d8defd12b1ae03d74f70",
+  "files": 1228,
+  "excluded": [
+    "runtime caches/JARs/classes",
+    "fresh-runtime backup",
+    "RCON .env",
+    "account files"
+  ],
+  "verified_members": true
+}

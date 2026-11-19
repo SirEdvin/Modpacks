@@ -1,0 +1,100 @@
+[
+  {
+    "repository": "SirEdvin/UnlimitedPeripheralWorks",
+    "tag": "v1.21.1-1.10.1",
+    "name": "peripheralworks-fabric-1.21.1-1.10.1.jar",
+    "url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.21.1-1.10.1/peripheralworks-fabric-1.21.1-1.10.1.jar",
+    "sha256": "cf77870dae82a23e2d965698eed635a32959d1ed9a6e7664af7bb953dc72d343",
+    "parent_sha256": "cf77870dae82a23e2d965698eed635a32959d1ed9a6e7664af7bb953dc72d343",
+    "release_url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/tag/v1.21.1-1.10.1"
+  },
+  {
+    "repository": "SirEdvin/UnlimitedPeripheralWorks",
+    "tag": "v1.21.1-1.10.1",
+    "name": "peripheralworks-forge-1.21.1-1.10.1.jar",
+    "url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/download/v1.21.1-1.10.1/peripheralworks-forge-1.21.1-1.10.1.jar",
+    "sha256": "74a94a9c77af04772163d6cb1d443a93f12d7b22c66263e853b69fdc03228810",
+    "parent_sha256": "74a94a9c77af04772163d6cb1d443a93f12d7b22c66263e853b69fdc03228810",
+    "release_url": "https://github.com/SirEdvin/UnlimitedPeripheralWorks/releases/tag/v1.21.1-1.10.1"
+  },
+  {
+    "repository": "SirEdvin/CloudSolutions",
+    "tag": "v1.21.1-0.4.1",
+    "name": "cloudsolutions-fabric-1.21.1-0.4.1.jar",
+    "url": "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.21.1-0.4.1/cloudsolutions-fabric-1.21.1-0.4.1.jar",
+    "sha256": "4c7f0285d6d5190d23ffc8d53b179556421c1f1f71eb739d0ea9b30027408357",
+    "parent_sha256": "4c7f0285d6d5190d23ffc8d53b179556421c1f1f71eb739d0ea9b30027408357",
+    "release_url": "https://github.com/SirEdvin/CloudSolutions/releases/tag/v1.21.1-0.4.1"
+  },
+  {
+    "repository": "SirEdvin/CloudSolutions",
+    "tag": "v1.21.1-0.4.1",
+    "name": "cloudsolutions-forge-1.21.1-0.4.1.jar",
+    "url": "https://github.com/SirEdvin/CloudSolutions/releases/download/v1.21.1-0.4.1/cloudsolutions-forge-1.21.1-0.4.1.jar",
+    "sha256": "c6cc23ff95428b7c768d2514ba530182edd513676b6dfce50af4f3c65b2cd7b0",
+    "parent_sha256": "c6cc23ff95428b7c768d2514ba530182edd513676b6dfce50af4f3c65b2cd7b0",
+    "release_url": "https://github.com/SirEdvin/CloudSolutions/releases/tag/v1.21.1-0.4.1"
+  },
+  {
+    "repository": "SirEdvin/DigitalItems",
+    "tag": "v1.21.1-0.6.1",
+    "name": "digitalitems-fabric-1.21.1-0.6.1.jar",
+    "url": "https://github.com/SirEdvin/DigitalItems/releases/download/v1.21.1-0.6.1/digitalitems-fabric-1.21.1-0.6.1.jar",
+    "sha256": "3f934f122c5586ab8224cfe9ceab162b1146fd11fe96406505a52fccaa9cb481",
+    "parent_sha256": "3f934f122c5586ab8224cfe9ceab162b1146fd11fe96406505a52fccaa9cb481",
+    "release_url": "https://github.com/SirEdvin/DigitalItems/releases/tag/v1.21.1-0.6.1"
+  },
+  {
+    "repository": "SirEdvin/DigitalItems",
+    "tag": "v1.21.1-0.6.1",
+    "name": "digitalitems-forge-1.21.1-0.6.1.jar",
+    "url": "https://github.com/SirEdvin/DigitalItems/releases/download/v1.21.1-0.6.1/digitalitems-forge-1.21.1-0.6.1.jar",
+    "sha256": "cd2dec03bd1ddf97ebd9e922aa874f1003baab90e1218c8e844340a1e5929e7d",
+    "parent_sha256": "cd2dec03bd1ddf97ebd9e922aa874f1003baab90e1218c8e844340a1e5929e7d",
+    "release_url": "https://github.com/SirEdvin/DigitalItems/releases/tag/v1.21.1-0.6.1"
+  },
+  {
+    "repository": "SirEdvin/Turtlematic",
+    "tag": "v1.21.1-1.5.2",
+    "name": "turtlematic-fabric-1.21.1-1.5.2.jar",
+    "url": "https://github.com/SirEdvin/Turtlematic/releases/download/v1.21.1-1.5.2/turtlematic-fabric-1.21.1-1.5.2.jar",
+    "sha256": "decf4368eb9a961e98f6b4df0bbb3a9446c8dbedd54ea48a953762ec1bc20d07",
+    "parent_sha256": "decf4368eb9a961e98f6b4df0bbb3a9446c8dbedd54ea48a953762ec1bc20d07",
+    "release_url": "https://github.com/SirEdvin/Turtlematic/releases/tag/v1.21.1-1.5.2"
+  },
+  {
+    "repository": "SirEdvin/Turtlematic",
+    "tag": "v1.21.1-1.5.2",
+    "name": "turtlematic-forge-1.21.1-1.5.2.jar",
+    "url": "https://github.com/SirEdvin/Turtlematic/releases/download/v1.21.1-1.5.2/turtlematic-forge-1.21.1-1.5.2.jar",
+    "sha256": "c59b272f3d438c68c304c6e5947afdd0d1481968c89ed30422ee09bb8d52f0c7",
+    "parent_sha256": "c59b272f3d438c68c304c6e5947afdd0d1481968c89ed30422ee09bb8d52f0c7",
+    "release_url": "https://github.com/SirEdvin/Turtlematic/releases/tag/v1.21.1-1.5.2"
+  },
+  {
+    "repository": "cc-tweaked",
+    "tag": "1.122.0",
+    "name": "cc-tweaked-1.21.1-fabric-1.122.0.jar",
+    "url": "https://cdn.modrinth.com/data/gu7yAYhd/versions/KN2WFTly/cc-tweaked-1.21.1-fabric-1.122.0.jar",
+    "sha256": "76c3ae07d20e75f155c94f200549f495b690bac8341d164203f1567611fa4388",
+    "modrinth_version_type": "beta",
+    "modrinth_version_id": "KN2WFTly",
+    "provider_hashes": {
+      "sha512": "4448fb65896d99e79a1100814f05a9f88c6111002815ead6e71998b2acb5fe3e1e8a5001eb14df95965a3d17c53b486fba95e7efdbe16a49a8180c8ef1967ee4",
+      "sha1": "b9d6ca99a4333ade255c3db763f3d38ac8720a89"
+    }
+  },
+  {
+    "repository": "cc-tweaked",
+    "tag": "1.122.0",
+    "name": "cc-tweaked-1.21.1-forge-1.122.0.jar",
+    "url": "https://cdn.modrinth.com/data/gu7yAYhd/versions/2jhB1Ii4/cc-tweaked-1.21.1-forge-1.122.0.jar",
+    "sha256": "d3b1153054d136dac1319c6d3c085865b7d174e40686aa1dc1f077d5485b8df0",
+    "modrinth_version_type": "beta",
+    "modrinth_version_id": "2jhB1Ii4",
+    "provider_hashes": {
+      "sha512": "a111e0afd652843051017149517e8d3b24c17264a8484b50958a9ce108a83991c281e5080c7ae4ad56451b87eb16df52874bfef784ec8b4270d2c57e2d0b84e1",
+      "sha1": "19fcf36b45d5927c8e5785bbf08c8a58fac4ee6a"
+    }
+  }
+]

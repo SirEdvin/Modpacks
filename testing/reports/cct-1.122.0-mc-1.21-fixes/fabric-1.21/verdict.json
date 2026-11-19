@@ -1,0 +1,818 @@
+{
+  "lane": "fabric-1.21",
+  "verdict": "PASS",
+  "server_smoke": {
+    "verdict": "PASS",
+    "failures": [],
+    "exit_code": 0,
+    "seconds": 144.5,
+    "artifacts": [
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "server",
+        "name": "peripheralworks-fabric-1.21.1-1.10.1.jar",
+        "sha256": "cf77870dae82a23e2d965698eed635a32959d1ed9a6e7664af7bb953dc72d343",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "server",
+        "name": "turtlematic-fabric-1.21.1-1.5.2.jar",
+        "sha256": "decf4368eb9a961e98f6b4df0bbb3a9446c8dbedd54ea48a953762ec1bc20d07",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "server",
+        "name": "cloudsolutions-fabric-1.21.1-0.4.1.jar",
+        "sha256": "4c7f0285d6d5190d23ffc8d53b179556421c1f1f71eb739d0ea9b30027408357",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "server",
+        "name": "digitalitems-fabric-1.21.1-0.6.1.jar",
+        "sha256": "3f934f122c5586ab8224cfe9ceab162b1146fd11fe96406505a52fccaa9cb481",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "server",
+        "name": "cc-tweaked-1.21.1-fabric-1.122.0.jar",
+        "sha256": "76c3ae07d20e75f155c94f200549f495b690bac8341d164203f1567611fa4388",
+        "matches_pack": true
+      }
+    ],
+    "audit": {
+      "lane": "fabric-1.21",
+      "discovered": 23,
+      "placed_and_verified": 23,
+      "wired_peripherals": [
+        {
+          "block": "cloudsolutions:crafka_broker",
+          "x": 32,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:kv_storage",
+          "x": 35,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:statsd_bridge",
+          "x": 38,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:tsdb_storage",
+          "x": 41,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "digitalitems:advanced_digitizer",
+          "x": 44,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "digitalitems:digitizer",
+          "x": 47,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "peripheralworks:display_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:entity_link",
+          "x": 35,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:hologram_projector",
+          "x": 44,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:informative_registry",
+          "x": 47,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:item_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:map_pedestal",
+          "x": 35,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:reality_forger",
+          "x": 47,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:recipe_registry",
+          "x": 32,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:remote_observer",
+          "x": 35,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:statue_workbench",
+          "x": 38,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:ultimate_sensor",
+          "x": 41,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:universal_scanner",
+          "x": 44,
+          "y": 66,
+          "z": 2
+        }
+      ],
+      "wired_peripheral_count": 18,
+      "turtle_upgrades_discovered": 49,
+      "single_upgrade_turtles_verified": 49,
+      "pocket_upgrades_discovered": 10,
+      "single_upgrade_pockets_on_lecterns_verified": 10
+    },
+    "path": "fabric-1.21/smoke"
+  },
+  "client_smoke": {
+    "verdict": "PASS",
+    "failures": [],
+    "exit_code": 0,
+    "seconds": 235.6,
+    "artifacts": [
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "server",
+        "name": "peripheralworks-fabric-1.21.1-1.10.1.jar",
+        "sha256": "cf77870dae82a23e2d965698eed635a32959d1ed9a6e7664af7bb953dc72d343",
+        "matches_pack": true
+      },
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "client",
+        "name": "peripheralworks-fabric-1.21.1-1.10.1.jar",
+        "sha256": "cf77870dae82a23e2d965698eed635a32959d1ed9a6e7664af7bb953dc72d343",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "server",
+        "name": "turtlematic-fabric-1.21.1-1.5.2.jar",
+        "sha256": "decf4368eb9a961e98f6b4df0bbb3a9446c8dbedd54ea48a953762ec1bc20d07",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "client",
+        "name": "turtlematic-fabric-1.21.1-1.5.2.jar",
+        "sha256": "decf4368eb9a961e98f6b4df0bbb3a9446c8dbedd54ea48a953762ec1bc20d07",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "server",
+        "name": "cloudsolutions-fabric-1.21.1-0.4.1.jar",
+        "sha256": "4c7f0285d6d5190d23ffc8d53b179556421c1f1f71eb739d0ea9b30027408357",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "client",
+        "name": "cloudsolutions-fabric-1.21.1-0.4.1.jar",
+        "sha256": "4c7f0285d6d5190d23ffc8d53b179556421c1f1f71eb739d0ea9b30027408357",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "server",
+        "name": "digitalitems-fabric-1.21.1-0.6.1.jar",
+        "sha256": "3f934f122c5586ab8224cfe9ceab162b1146fd11fe96406505a52fccaa9cb481",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "client",
+        "name": "digitalitems-fabric-1.21.1-0.6.1.jar",
+        "sha256": "3f934f122c5586ab8224cfe9ceab162b1146fd11fe96406505a52fccaa9cb481",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "server",
+        "name": "cc-tweaked-1.21.1-fabric-1.122.0.jar",
+        "sha256": "76c3ae07d20e75f155c94f200549f495b690bac8341d164203f1567611fa4388",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "client",
+        "name": "cc-tweaked-1.21.1-fabric-1.122.0.jar",
+        "sha256": "76c3ae07d20e75f155c94f200549f495b690bac8341d164203f1567611fa4388",
+        "matches_pack": true
+      }
+    ],
+    "audit": {
+      "lane": "fabric-1.21",
+      "discovered": 23,
+      "placed_and_verified": 23,
+      "wired_peripherals": [
+        {
+          "block": "cloudsolutions:crafka_broker",
+          "x": 32,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:kv_storage",
+          "x": 35,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:statsd_bridge",
+          "x": 38,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:tsdb_storage",
+          "x": 41,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "digitalitems:advanced_digitizer",
+          "x": 44,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "digitalitems:digitizer",
+          "x": 47,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "peripheralworks:display_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:entity_link",
+          "x": 35,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:hologram_projector",
+          "x": 44,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:informative_registry",
+          "x": 47,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:item_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:map_pedestal",
+          "x": 35,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:reality_forger",
+          "x": 47,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:recipe_registry",
+          "x": 32,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:remote_observer",
+          "x": 35,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:statue_workbench",
+          "x": 38,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:ultimate_sensor",
+          "x": 41,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:universal_scanner",
+          "x": 44,
+          "y": 66,
+          "z": 2
+        }
+      ],
+      "wired_peripheral_count": 18,
+      "turtle_upgrades_discovered": 49,
+      "single_upgrade_turtles_verified": 49,
+      "pocket_upgrades_discovered": 10,
+      "single_upgrade_pockets_on_lecterns_verified": 10
+    },
+    "path": "fabric-1.21/client-smoke"
+  },
+  "single_item_and_restart": {
+    "verdict": "PASS",
+    "failures": [],
+    "before": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 59,
+      "kinds": {
+        "turtle": 49,
+        "pocket": 10
+      },
+      "path": "fabric-1.21/upgrade-before"
+    },
+    "after": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 59,
+      "kinds": {
+        "turtle": 49,
+        "pocket": 10
+      },
+      "path": "fabric-1.21/upgrade-after"
+    }
+  },
+  "all_stacks_and_restart": {
+    "verdict": "PASS",
+    "failures": [],
+    "before": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 30,
+      "kinds": {
+        "turtle": 19,
+        "pocket": 11
+      },
+      "path": "fabric-1.21/upgrade-before"
+    },
+    "after": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 30,
+      "kinds": {
+        "turtle": 19,
+        "pocket": 11
+      },
+      "path": "fabric-1.21/upgrade-after"
+    }
+  },
+  "stacked_pocket_regression": "PASS",
+  "old_world": null,
+  "all_client_log_scan": {
+    "verdict": "PASS",
+    "logs": [
+      {
+        "path": "fabric-1.21/harness-permission-trial/client-logs/latest.log",
+        "critical_hits": []
+      },
+      {
+        "path": "fabric-1.21/client-smoke/client-logs/latest.log",
+        "critical_hits": []
+      },
+      {
+        "path": "fabric-1.21/upgrade-before/client-logs/latest.log",
+        "critical_hits": []
+      },
+      {
+        "path": "fabric-1.21/upgrade-after/client-logs/latest.log",
+        "critical_hits": []
+      }
+    ]
+  },
+  "python_regressions": {
+    "verdict": "PASS",
+    "commands": [
+      {
+        "command": [
+          "/home/siredvin/.hermes/installs/3b54febdd738fbcc/environments/aa74021dd42641c39e844bb5d3f4589f/venv/bin/python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "testing/tests",
+          "-v"
+        ],
+        "exit_code": 0,
+        "seconds": 0.1,
+        "log": "fabric-1.21-regression-tests.log"
+      }
+    ]
+  },
+  "creative_emi_index": {
+    "verdict": "PASS",
+    "source": "fabric-1.21/upgrade-before/emi-index-observation.tsv",
+    "total_line": "EMI_INDEX_TOTAL\t3447",
+    "upgrades": [
+      {
+        "kind": "turtle",
+        "upgrade": "cloudsolutions:crafka_broker",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "cloudsolutions:kv_storage",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "cloudsolutions:statsd_bridge",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "digitalitems:advanced_digitizer",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "digitalitems:digitizer",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "peripheralworks:hologram_projector",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "peripheralworks:netherite_peripheralium_hub",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "peripheralworks:peripheralium_hub",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "peripheralworks:ultimate_sensor",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "peripheralworks:universal_scanner",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:bow",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:brewing_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:chatter",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:chunk_vial",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_brewing_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_chest",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_enchanting_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_end_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_husbandry_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_mason_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_mercantile_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_protective_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:creative_smithing_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:enchanting_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:end_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:enormous_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:husbandry_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:inspection_monocle",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:lava_bucket",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:mason_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:mercantile_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:mimic",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:netherite_end_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:netherite_husbandry_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:netherite_protective_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:piston",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:protective_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:smithing_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:soul_scrapper",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:starbound_brewing_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:starbound_enchanting_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:starbound_end_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:starbound_husbandry_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:starbound_mason_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:starbound_mercantile_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:starbound_protective_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:starbound_smithing_automata",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "turtle",
+        "upgrade": "turtlematic:sticky_piston",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "cloudsolutions:crafka_broker",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "cloudsolutions:kv_storage",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "cloudsolutions:statsd_bridge",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "digitalitems:advanced_digitizer",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "digitalitems:digitizer",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "peripheralworks:hologram_projector",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "peripheralworks:netherite_peripheralium_hub",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "peripheralworks:peripheralium_hub",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "peripheralworks:ultimate_sensor",
+        "observed": true,
+        "variants": 2
+      },
+      {
+        "kind": "pocket",
+        "upgrade": "peripheralworks:universal_scanner",
+        "observed": true,
+        "variants": 2
+      }
+    ]
+  }
+}
