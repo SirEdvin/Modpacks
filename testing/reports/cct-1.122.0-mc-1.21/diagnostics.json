@@ -1,0 +1,906 @@
+[
+  {
+    "lane": "fabric-1.21",
+    "phase": "smoke",
+    "path": "fabric-1.21/smoke/server-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 1076,
+        "text": "[19:39:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19:39:19] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "smoke",
+    "path": "fabric-1.21/smoke/command.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "client-smoke",
+    "path": "fabric-1.21/client-smoke/server-logs/latest.log",
+    "matching_lines": 2,
+    "excerpts": [
+      {
+        "line": 1030,
+        "text": "[19:42:49] [Server thread/INFO]: Offline joined the game\n[19:43:44] [CloudSolutions subsystem/INFO]: Run KV cleanup\n[19:43:44] [CloudSolutions subsystem/INFO]: Run Crafka broker cleanup\n[19:43:54] [Server thread/INFO]: Offline lost connection: Disconnected\n[19:43:54] [Server thread/INFO]: Offline left the game\n[19:43:54] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19:43:54] [Server thread/INFO]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 1048,
+        "text": "[19:43:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19:43:55] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "client-smoke",
+    "path": "fabric-1.21/client-smoke/client-logs/latest.log",
+    "matching_lines": 32,
+    "excerpts": [
+      {
+        "line": 373,
+        "text": "[19:42:49] [Render thread/INFO]: Loaded 2 advancements\n[19:42:50] [Thread-6/INFO]: [EMI] Initializing plugin from emi\n[19:42:50] [Thread-6/INFO]: [EMI] Initialized plugin from emi in 28ms\n[19:42:50] [Thread-6/INFO]: [EMI] Initializing plugin from alloy_forgery\n[19:42:50] [Thread-6/INFO]: [EMI] Initialized plugin from alloy_forgery in 0ms\n[19:42:50] [Thread-6/INFO]: [EMI] Initializing plugin from computercraft\n[19:42:50] [Thread-6/INFO]: [EMI] Initialized plugin from computercraft in 0ms"
+      },
+      {
+        "line": 389,
+        "text": "[19:42:50] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@3e0d8508\njava.lang.ExceptionInInitializerError: null\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 390,
+        "text": "java.lang.ExceptionInInitializerError: null\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 420,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\t... 28 more\n[19:42:50] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@1a7b8ba\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 424,
+        "text": "[19:42:50] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@1a7b8ba\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.digitalitems.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:30) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.digitalitems.DigitalItemsCore.configureCreativeTab$lambda$1(DigitalItemsCore.kt:23) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 425,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.digitalitems.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:30) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.digitalitems.DigitalItemsCore.configureCreativeTab$lambda$1(DigitalItemsCore.kt:23) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 454,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 455,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 463,
+        "text": "[19:42:50] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@4515c166\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.turtlematic.xplat.TurtlematicCommonHooks.registerTurtlesInCreativeTab(TurtlematicCommonHooks.kt:35) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/site.siredvin.turtlematic.TurtlematicCore.configureCreativeTab$lambda$1(TurtlematicCore.kt:25) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 464,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.turtlematic.xplat.TurtlematicCommonHooks.registerTurtlesInCreativeTab(TurtlematicCommonHooks.kt:35) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/site.siredvin.turtlematic.TurtlematicCore.configureCreativeTab$lambda$1(TurtlematicCore.kt:25) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 493,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 494,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 502,
+        "text": "[19:42:50] [Thread-6/ERROR]: Critical error occured during reload:\njava.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]\n\tat knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]"
+      },
+      {
+        "line": 503,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]\n\tat knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_1255.method_16075(class_1255.java:136) ~[client-intermediary.jar:?]"
+      },
+      {
+        "line": 517,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/net.minecraft.class_1761.method_47306(class_1761.java:102) ~[client-intermediary.jar:?]\n\tat knot/dev.emi.emi.registry.EmiStackList.lambda$reload$1(EmiStackList.java:92) ~[emi-1.1.24+1.21.1+fabric.jar:?]"
+      },
+      {
+        "line": 535,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "client-smoke",
+    "path": "fabric-1.21/client-smoke/command.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "fabric-1.21/upgrade-before/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 195,
+        "text": "[19:46:15] [Server thread/INFO]: Offline joined the game\n[19:46:17] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19:46:17] [RCON Client /0:0:0:0:0:0:0:1 #14/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19:46:17] [RCON Listener #1/INFO]: Thread RCON Client /172.18.0.1 started\n[19:46:17] [Server thread/INFO]: [Rcon: Changed the block at 57, 69, 0]\n[19:46:17] [Server thread/INFO]: [Rcon: Replaced a slot at 57, 69, 0 with [Crafka broker]]\n[19:46:18] [Server thread/INFO]: [Rcon: Replaced a slot at 57, 69, 0 with [KV storage]]"
+      },
+      {
+        "line": 650,
+        "text": "[19:46:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19:46:52] [Server thread/INFO]: [Rcon: Saved the game]\n[19:46:52] [RCON Client /0:0:0:0:0:0:0:1 #136/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19:47:22] [Server thread/INFO]: Offline lost connection: Disconnected\n[19:47:22] [Server thread/INFO]: Offline left the game\n[19:47:22] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19:47:22] [Server thread/INFO]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 667,
+        "text": "[19:47:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19:47:23] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "fabric-1.21/upgrade-before/client-logs/latest.log",
+    "matching_lines": 32,
+    "excerpts": [
+      {
+        "line": 446,
+        "text": "[19:46:16] [Render thread/INFO]: Loaded 2 advancements\n[19:46:16] [Thread-5/INFO]: [EMI] Initializing plugin from emi\n[19:46:16] [Thread-5/INFO]: [EMI] Initialized plugin from emi in 47ms\n[19:46:16] [Thread-5/INFO]: [EMI] Initializing plugin from alloy_forgery\n[19:46:16] [Thread-5/INFO]: [EMI] Initialized plugin from alloy_forgery in 0ms\n[19:46:16] [Thread-5/INFO]: [EMI] Initializing plugin from computercraft\n[19:46:16] [Thread-5/INFO]: [EMI] Initialized plugin from computercraft in 0ms"
+      },
+      {
+        "line": 462,
+        "text": "[19:46:16] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@32a93b9b\njava.lang.ExceptionInInitializerError: null\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 463,
+        "text": "java.lang.ExceptionInInitializerError: null\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 493,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\t... 28 more\n[19:46:16] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@4ba252\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 497,
+        "text": "[19:46:16] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@4ba252\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.digitalitems.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:30) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.digitalitems.DigitalItemsCore.configureCreativeTab$lambda$1(DigitalItemsCore.kt:23) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 498,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.digitalitems.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:30) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.digitalitems.DigitalItemsCore.configureCreativeTab$lambda$1(DigitalItemsCore.kt:23) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 527,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 528,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 536,
+        "text": "[19:46:16] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@6bf33ea8\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.turtlematic.xplat.TurtlematicCommonHooks.registerTurtlesInCreativeTab(TurtlematicCommonHooks.kt:35) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/site.siredvin.turtlematic.TurtlematicCore.configureCreativeTab$lambda$1(TurtlematicCore.kt:25) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 537,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.turtlematic.xplat.TurtlematicCommonHooks.registerTurtlesInCreativeTab(TurtlematicCommonHooks.kt:35) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/site.siredvin.turtlematic.TurtlematicCore.configureCreativeTab$lambda$1(TurtlematicCore.kt:25) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 566,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 567,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 575,
+        "text": "[19:46:16] [Thread-5/ERROR]: Critical error occured during reload:\njava.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]\n\tat knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]"
+      },
+      {
+        "line": 576,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]\n\tat knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_1255.method_16075(class_1255.java:136) ~[client-intermediary.jar:?]"
+      },
+      {
+        "line": 590,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/net.minecraft.class_1761.method_47306(class_1761.java:102) ~[client-intermediary.jar:?]\n\tat knot/dev.emi.emi.registry.EmiStackList.lambda$reload$1(EmiStackList.java:92) ~[emi-1.1.24+1.21.1+fabric.jar:?]"
+      },
+      {
+        "line": 608,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "fabric-1.21/upgrade-before/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "fabric-1.21/upgrade-after/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 195,
+        "text": "[19:49:25] [Server thread/INFO]: Offline joined the game\n[19:49:28] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19:49:28] [RCON Client /0:0:0:0:0:0:0:1 #14/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19:49:28] [RCON Listener #1/INFO]: Thread RCON Client /172.18.0.1 started\n[19:49:28] [Server thread/INFO]: [Rcon: Changed the block at 57, 69, 0]\n[19:49:28] [Server thread/INFO]: [Rcon: Replaced a slot at 57, 69, 0 with [Crafka broker]]\n[19:49:28] [Server thread/INFO]: [Rcon: Replaced a slot at 57, 69, 0 with [KV storage]]"
+      },
+      {
+        "line": 499,
+        "text": "[19:49:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19:49:54] [Server thread/INFO]: [Rcon: Saved the game]\n[19:49:54] [RCON Client /0:0:0:0:0:0:0:1 #136/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19:50:24] [Server thread/INFO]: Offline lost connection: Disconnected\n[19:50:24] [Server thread/INFO]: Offline left the game\n[19:50:25] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19:50:25] [Server thread/INFO]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 516,
+        "text": "[19:50:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19:50:26] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "fabric-1.21/upgrade-after/client-logs/latest.log",
+    "matching_lines": 31,
+    "excerpts": [
+      {
+        "line": 372,
+        "text": "[19:49:26] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@1624880b\njava.lang.ExceptionInInitializerError: null\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 373,
+        "text": "java.lang.ExceptionInInitializerError: null\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 403,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\t... 28 more\n[19:49:26] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@5cebeae\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]"
+      },
+      {
+        "line": 407,
+        "text": "[19:49:26] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@5cebeae\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.digitalitems.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:30) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.digitalitems.DigitalItemsCore.configureCreativeTab$lambda$1(DigitalItemsCore.kt:23) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 408,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.digitalitems.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:30) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.digitalitems.DigitalItemsCore.configureCreativeTab$lambda$1(DigitalItemsCore.kt:23) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 437,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 438,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 446,
+        "text": "[19:49:27] [REI-ReloadPlugins/ERROR]: [REI] Failed to collect creative tab: net.minecraft.class_1761@1187f524\njava.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.turtlematic.xplat.TurtlematicCommonHooks.registerTurtlesInCreativeTab(TurtlematicCommonHooks.kt:35) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/site.siredvin.turtlematic.TurtlematicCore.configureCreativeTab$lambda$1(TurtlematicCore.kt:25) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]"
+      },
+      {
+        "line": 447,
+        "text": "java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.turtlematic.xplat.TurtlematicCommonHooks.registerTurtlesInCreativeTab(TurtlematicCommonHooks.kt:35) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/site.siredvin.turtlematic.TurtlematicCore.configureCreativeTab$lambda$1(TurtlematicCore.kt:25) ~[turtlematic-fabric-1.21.1-1.5.1.jar:?]\n\tat knot/me.shedaniel.rei.impl.client.fabric.CreativeModeTabCollectorImpl.collectTabs(CreativeModeTabCollectorImpl.java:53) ~[RoughlyEnoughItems-16.0.799-fabric.jar:?]\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 476,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 477,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 512,
+        "text": "[19:49:27] [Thread-5/ERROR]: Critical error occured during reload:\njava.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]\n\tat knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]"
+      },
+      {
+        "line": 513,
+        "text": "java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]\n\tat java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]\n\tat knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[client-intermediary.jar:?]\n\tat knot/net.minecraft.class_1255.method_16075(class_1255.java:136) ~[client-intermediary.jar:?]"
+      },
+      {
+        "line": 527,
+        "text": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/net.minecraft.class_1761.method_47306(class_1761.java:102) ~[client-intermediary.jar:?]\n\tat knot/dev.emi.emi.registry.EmiStackList.lambda$reload$1(EmiStackList.java:92) ~[emi-1.1.24+1.21.1+fabric.jar:?]"
+      },
+      {
+        "line": 545,
+        "text": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread \"REI-ReloadPlugins\"]\n\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      },
+      {
+        "line": 546,
+        "text": "\tat knot/site.siredvin.broccolium.modules.platform.FabricPlatformToolkit.lookup(FabricPlatformToolkit.kt:68) ~[broccolium-2.1.0-6c381eb62c67d6a6.jar:?]\n\tat knot/site.siredvin.digitalitems.fabric.FabricDigitalItemsPlatformToolkit.lookup(FabricModPlatform.kt) ~[digitalitems-fabric-1.21.1-0.6.0.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.ComputerPlatformRegistries.<clinit>(ComputerPlatformRegistries.kt:8) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.api.InnerComputerPlatformToolkit$DefaultImpls.getTurtleUpgrade(InnerComputerPlatformToolkit.kt:41) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.tweakium.modules.platform.FabricComputerPlatformToolkit.getTurtleUpgrade(FabricComputerPlatformToolkit.kt:31) ~[tweakium-2.1.0-bbedb1ac4878b27.jar:?]\n\tat knot/site.siredvin.cloudsolutions.xplat.ModCommonHooks.registerUpgradesInCreativeTab(ModCommonHooks.kt:41) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]\n\tat knot/site.siredvin.cloudsolutions.CloudSolutionsCore.configureCreativeTab$lambda$1(CloudSolutionsCore.kt:30) ~[cloudsolutions-fabric-1.21.1-0.4.0.jar:?]"
+      }
+    ]
+  },
+  {
+    "lane": "fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "fabric-1.21/upgrade-after/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "smoke",
+    "path": "neoforge-1.21/smoke/server-logs/latest.log",
+    "matching_lines": 6,
+    "excerpts": [
+      {
+        "line": 253,
+        "text": "[19Nov2026 19:57:55.878] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tIndex: 11\n\tListeners:\n\t\t0: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x00007f8e20cfbc48@10a8b123\n\t\t1: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x00007f8e20cc6b20@6f77d95d\n\t\t2: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x00007f8e20cc6b20@5b27b43b\n\t\t3: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x00007f8e20cff220@52c7b140"
+      },
+      {
+        "line": 269,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41)\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84)\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96)\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39)\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)"
+      },
+      {
+        "line": 311,
+        "text": "[19Nov2026 19:57:55.880] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception\njava.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]"
+      },
+      {
+        "line": 312,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 353,
+        "text": "[19Nov2026 19:57:55.908] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 1e408161-80c0-4436-ab4e-cea9eb791c00\n[19Nov2026 19:57:55.909] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /data/crash-reports/crash-2026-11-19_19.57.55-server.txt\n[19Nov2026 19:57:55.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server\n[19Nov2026 19:57:55.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players\n[19Nov2026 19:57:55.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds\n[19Nov2026 19:57:56.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[playground]'/minecraft:overworld\n[19Nov2026 19:57:56.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[playground]'/minecraft:the_end"
+      },
+      {
+        "line": 366,
+        "text": "[19Nov2026 19:57:56.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 19:57:56.583] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "smoke",
+    "path": "neoforge-1.21/smoke/command.log",
+    "matching_lines": 6,
+    "excerpts": [
+      {
+        "line": 352,
+        "text": "\u001b[K\u001b[1;31m[19:57:55] [Server thread/ERROR] [ne.ne.bu.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tIndex: 11\nminecraft-1  | \tListeners:\nminecraft-1  | \t\t0: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x00007f8e20cfbc48@10a8b123\nminecraft-1  | \t\t1: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x00007f8e20cc6b20@6f77d95d\nminecraft-1  | \t\t2: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x00007f8e20cc6b20@5b27b43b\nminecraft-1  | \t\t3: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x00007f8e20cff220@52c7b140"
+      },
+      {
+        "line": 368,
+        "text": "minecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41)\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84)\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96)\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39)\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35)\nminecraft-1  | \tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)"
+      },
+      {
+        "line": 411,
+        "text": "\u001b[K\u001b[1;31m[19:57:55] [Server thread/ERROR] [minecraft/MinecraftServer]: Encountered an unexpected exception\nminecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}"
+      },
+      {
+        "line": 412,
+        "text": "minecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?] {}"
+      },
+      {
+        "line": 454,
+        "text": "\u001b[K\u001b[1;31m[19:57:55] [Server thread/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 1e408161-80c0-4436-ab4e-cea9eb791c00\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[1;31m[19:57:55] [Server thread/ERROR] [minecraft/MinecraftServer]: This crash report has been saved to: /data/crash-reports/crash-2026-11-19_19.57.55-server.txt\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[19:57:55] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[19:57:55] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players"
+      },
+      {
+        "line": 480,
+        "text": "\u001b[K\u001b[32m[19:57:56] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[19:57:56] [Server thread/INFO] [minecraft/GenericThread]: Thread RCON Listener stopped\nminecraft-1  | \u001b[m>....2026-11-19T19:57:57.018Z\tINFO\tmc-server-runner\tDone\nerror: minecraft container exited"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "client-smoke",
+    "path": "neoforge-1.21/client-smoke/server-logs/latest.log",
+    "matching_lines": 6,
+    "excerpts": [
+      {
+        "line": 245,
+        "text": "[19Nov2026 19:59:33.486] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tIndex: 11\n\tListeners:\n\t\t0: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x000079e9f8ce1f20@fb8e2bc\n\t\t1: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x000079e9f8ca98e0@414885d7\n\t\t2: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x000079e9f8ca98e0@40a24e8c\n\t\t3: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x000079e9f8ce2a18@2574050f"
+      },
+      {
+        "line": 261,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41)\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84)\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96)\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39)\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)"
+      },
+      {
+        "line": 303,
+        "text": "[19Nov2026 19:59:33.488] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception\njava.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]"
+      },
+      {
+        "line": 304,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 345,
+        "text": "[19Nov2026 19:59:33.520] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 3f08d4ca-65c8-44ef-a607-faa7eeab611b\n[19Nov2026 19:59:33.521] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /data/crash-reports/crash-2026-11-19_19.59.33-server.txt\n[19Nov2026 19:59:33.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server\n[19Nov2026 19:59:33.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players\n[19Nov2026 19:59:33.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds\n[19Nov2026 19:59:33.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[playground]'/minecraft:overworld\n[19Nov2026 19:59:33.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[playground]'/minecraft:the_end"
+      },
+      {
+        "line": 358,
+        "text": "[19Nov2026 19:59:33.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 19:59:33.744] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "client-smoke",
+    "path": "neoforge-1.21/client-smoke/command.log",
+    "matching_lines": 6,
+    "excerpts": [
+      {
+        "line": 307,
+        "text": "\u001b[K\u001b[1;31m[19:59:33] [Server thread/ERROR] [ne.ne.bu.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tIndex: 11\nminecraft-1  | \tListeners:\nminecraft-1  | \t\t0: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x000079e9f8ce1f20@fb8e2bc\nminecraft-1  | \t\t1: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x000079e9f8ca98e0@414885d7\nminecraft-1  | \t\t2: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x000079e9f8ca98e0@40a24e8c\nminecraft-1  | \t\t3: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x000079e9f8ce2a18@2574050f"
+      },
+      {
+        "line": 323,
+        "text": "minecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41)\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84)\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96)\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39)\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35)\nminecraft-1  | \tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)"
+      },
+      {
+        "line": 366,
+        "text": "\u001b[K\u001b[1;31m[19:59:33] [Server thread/ERROR] [minecraft/MinecraftServer]: Encountered an unexpected exception\nminecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}"
+      },
+      {
+        "line": 367,
+        "text": "minecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?] {}"
+      },
+      {
+        "line": 409,
+        "text": "\u001b[K\u001b[1;31m[19:59:33] [Server thread/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 3f08d4ca-65c8-44ef-a607-faa7eeab611b\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[1;31m[19:59:33] [Server thread/ERROR] [minecraft/MinecraftServer]: This crash report has been saved to: /data/crash-reports/crash-2026-11-19_19.59.33-server.txt\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[19:59:33] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[19:59:33] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players"
+      },
+      {
+        "line": 435,
+        "text": "\u001b[K\u001b[32m[19:59:33] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[19:59:33] [Server thread/INFO] [minecraft/GenericThread]: Thread RCON Listener stopped\nminecraft-1  | \u001b[m>....2026-11-19T19:59:34.189Z\tINFO\tmc-server-runner\tDone\nerror: minecraft container exited"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "neoforge-1.21/upgrade-before/server-logs/latest.log",
+    "matching_lines": 6,
+    "excerpts": [
+      {
+        "line": 245,
+        "text": "[19Nov2026 20:01:12.087] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tIndex: 11\n\tListeners:\n\t\t0: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x00007550a0cd9fa8@73c16a95\n\t\t1: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x00007550a0cb8b40@671b04b3\n\t\t2: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x00007550a0cb8b40@61288b48\n\t\t3: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x00007550a0cda648@2b95eb57"
+      },
+      {
+        "line": 261,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41)\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84)\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96)\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39)\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)"
+      },
+      {
+        "line": 303,
+        "text": "[19Nov2026 20:01:12.088] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception\njava.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]"
+      },
+      {
+        "line": 304,
+        "text": "java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?]\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]"
+      },
+      {
+        "line": 345,
+        "text": "[19Nov2026 20:01:12.118] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 474d915b-fa99-4224-872b-0c5b32e0b7c9\n[19Nov2026 20:01:12.119] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /data/crash-reports/crash-2026-11-19_20.01.12-server.txt\n[19Nov2026 20:01:12.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server\n[19Nov2026 20:01:12.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players\n[19Nov2026 20:01:12.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds\n[19Nov2026 20:01:12.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[playground]'/minecraft:overworld\n[19Nov2026 20:01:12.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[playground]'/minecraft:the_end"
+      },
+      {
+        "line": 358,
+        "text": "[19Nov2026 20:01:12.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:01:12.300] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "neoforge-1.21/upgrade-before/lifecycle.log",
+    "matching_lines": 6,
+    "excerpts": [
+      {
+        "line": 306,
+        "text": "\u001b[K\u001b[1;31m[20:01:12] [Server thread/ERROR] [ne.ne.bu.EventBus/EVENTBUS]: Exception caught during firing event: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tIndex: 11\nminecraft-1  | \tListeners:\nminecraft-1  | \t\t0: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x00007550a0cd9fa8@73c16a95\nminecraft-1  | \t\t1: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x00007550a0cb8b40@671b04b3\nminecraft-1  | \t\t2: org.cyclops.cyclopscore.init.ModBase$$Lambda/0x00007550a0cb8b40@61288b48\nminecraft-1  | \t\t3: org.cyclops.cyclopscore.infobook.InfoBookRegistry$$Lambda/0x00007550a0cda648@2b95eb57"
+      },
+      {
+        "line": 322,
+        "text": "minecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41)\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84)\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96)\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39)\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35)\nminecraft-1  | \tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)"
+      },
+      {
+        "line": 365,
+        "text": "\u001b[K\u001b[1;31m[20:01:12] [Server thread/ERROR] [minecraft/MinecraftServer]: Encountered an unexpected exception\nminecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}"
+      },
+      {
+        "line": 366,
+        "text": "minecraft-1  | java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:apprentice_magic_tome: Item 1 ars_nouveau:apprentice_spell_book is not suitable for this upgrade.\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.<init>(UpgradeData.java:41) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.of(UpgradeData.java:84) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/computercraft@1.122.0/dan200.computercraft.api.upgrades.UpgradeData.ofDefault(UpgradeData.java:96) ~[cc-tweaked-1.21.1-forge-1.122.0.jar%23155!/:1.122.0] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$2(CreativeTabUtil.kt:39) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat TRANSFORMER/tweakium@2.1.0/site.siredvin.tweakium.modules.peripheral.util.CreativeTabUtil.addPocket$lambda$3(CreativeTabUtil.kt:35) ~[tweakium-forge-1.21.1-2.1.0.jar%23222!/:?] {re:classloading}\nminecraft-1  | \tat java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?] {}"
+      },
+      {
+        "line": 408,
+        "text": "\u001b[K\u001b[1;31m[20:01:12] [Server thread/FATAL] [ne.ne.ne.co.NeoForgeMod/]: Preparing crash report with UUID 474d915b-fa99-4224-872b-0c5b32e0b7c9\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[1;31m[20:01:12] [Server thread/ERROR] [minecraft/MinecraftServer]: This crash report has been saved to: /data/crash-reports/crash-2026-11-19_20.01.12-server.txt\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[20:01:12] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[20:01:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players"
+      },
+      {
+        "line": 434,
+        "text": "\u001b[K\u001b[32m[20:01:12] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved\nminecraft-1  | \u001b[m>....\n\u001b[K\u001b[32m[20:01:12] [Server thread/INFO] [minecraft/GenericThread]: Thread RCON Listener stopped\nminecraft-1  | \u001b[m>....2026-11-19T20:01:12.738Z\tINFO\tmc-server-runner\tDone\nerror: minecraft container exited\n Container mc-test-neoforge-1-21-minecraft-1 Stopping \n Container mc-test-neoforge-1-21-minecraft-1 Stopped "
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "smoke",
+    "path": "minimal-fabric-1.21/smoke/server-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 1045,
+        "text": "[20:03:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:03:52] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "smoke",
+    "path": "minimal-fabric-1.21/smoke/command.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-fabric-1.21/client-smoke/server-logs/latest.log",
+    "matching_lines": 2,
+    "excerpts": [
+      {
+        "line": 996,
+        "text": "[20:06:36] [Server thread/INFO]: Offline joined the game\n[20:07:15] [CloudSolutions subsystem/INFO]: Run KV cleanup\n[20:07:15] [CloudSolutions subsystem/INFO]: Run Crafka broker cleanup\n[20:07:39] [Server thread/INFO]: Offline lost connection: Disconnected\n[20:07:39] [Server thread/INFO]: Offline left the game\n[20:07:40] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[20:07:40] [Server thread/INFO]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 1014,
+        "text": "[20:07:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:07:40] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-fabric-1.21/client-smoke/client-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 270,
+        "text": "[20:06:37] [Render thread/INFO]: Loaded 2 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-fabric-1.21/client-smoke/command.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-fabric-1.21/upgrade-before/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 159,
+        "text": "[20:09:37] [Server thread/INFO]: Offline joined the game\n[20:09:38] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[20:09:38] [RCON Client /0:0:0:0:0:0:0:1 #12/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[20:09:38] [RCON Listener #1/INFO]: Thread RCON Client /172.18.0.1 started\n[20:09:38] [Server thread/INFO]: [Rcon: Changed the block at 57, 69, 0]\n[20:09:38] [Server thread/INFO]: [Rcon: Replaced a slot at 57, 69, 0 with [Crafka broker]]\n[20:09:38] [Server thread/INFO]: [Rcon: Replaced a slot at 57, 69, 0 with [KV storage]]"
+      },
+      {
+        "line": 614,
+        "text": "[20:10:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:10:12] [Server thread/INFO]: [Rcon: Saved the game]\n[20:10:12] [RCON Client /0:0:0:0:0:0:0:1 #134/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[20:10:42] [Server thread/INFO]: Offline lost connection: Disconnected\n[20:10:42] [Server thread/INFO]: Offline left the game\n[20:10:43] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[20:10:43] [Server thread/INFO]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 631,
+        "text": "[20:10:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:10:44] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-fabric-1.21/upgrade-before/client-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 254,
+        "text": "[20:09:38] [Render thread/INFO]: Loaded 2 advancements\n[20:09:50] [Render thread/INFO]: [System] [CHAT] Offline has made the advancement [Advanced digitizer]\n[20:09:50] [Render thread/INFO]: Loaded 8 advancements\n[20:09:50] [Render thread/INFO]: [System] [CHAT] Offline has made the advancement [Digitizer]\n[20:09:50] [Render thread/INFO]: Loaded 13 advancements\n[20:09:51] [Render thread/INFO]: Loaded 14 advancements\n[20:09:59] [Render thread/INFO]: Loaded 16 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-fabric-1.21/upgrade-before/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-fabric-1.21/upgrade-after/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 159,
+        "text": "[20:12:42] [Server thread/INFO]: Offline joined the game\n[20:12:42] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[20:12:42] [RCON Client /0:0:0:0:0:0:0:1 #12/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[20:12:42] [RCON Listener #1/INFO]: Thread RCON Client /172.18.0.1 started\n[20:12:42] [Server thread/INFO]: [Rcon: Changed the block at 57, 69, 0]\n[20:12:42] [Server thread/INFO]: [Rcon: Replaced a slot at 57, 69, 0 with [Crafka broker]]\n[20:12:43] [Server thread/INFO]: [Rcon: Replaced a slot at 57, 69, 0 with [KV storage]]"
+      },
+      {
+        "line": 463,
+        "text": "[20:13:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:13:09] [Server thread/INFO]: [Rcon: Saved the game]\n[20:13:09] [RCON Client /0:0:0:0:0:0:0:1 #134/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[20:13:39] [Server thread/INFO]: Offline lost connection: Disconnected\n[20:13:39] [Server thread/INFO]: Offline left the game\n[20:13:39] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[20:13:39] [Server thread/INFO]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 480,
+        "text": "[20:13:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:13:40] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-fabric-1.21/upgrade-after/client-logs/latest.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-fabric-1.21/upgrade-after/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-fabric-1.21/old-world-before/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 160,
+        "text": "[20:18:06] [Server thread/INFO]: Offline joined the game\n[20:18:07] [RCON Client /0:0:0:0:0:0:0:1 #13/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[20:18:07] [RCON Listener #1/INFO]: Thread RCON Client /172.18.0.1 started\n[20:18:08] [Server thread/INFO]: [Rcon: Changed the block at 58, 64, -7]\n[20:18:08] [Server thread/INFO]: [Rcon: Changed the block at 58, 64, -7]\n[20:18:08] [Server thread/INFO]: [Rcon: Changed the block at 60, 64, -7]\n[20:18:08] [Server thread/INFO]: [Rcon: Changed the block at 60, 64, -7]"
+      },
+      {
+        "line": 531,
+        "text": "[20:18:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:18:27] [Server thread/INFO]: [Rcon: Saved the game]\n[20:18:27] [RCON Client /0:0:0:0:0:0:0:1 #141/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[20:18:30] [CloudSolutions subsystem/INFO]: Run KV cleanup\n[20:18:30] [CloudSolutions subsystem/INFO]: Run Crafka broker cleanup\n[20:18:57] [Server thread/INFO]: Offline lost connection: Disconnected\n[20:18:57] [Server thread/INFO]: Offline left the game"
+      },
+      {
+        "line": 550,
+        "text": "[20:18:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:18:58] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-fabric-1.21/old-world-before/client-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 253,
+        "text": "[20:18:07] [Render thread/INFO]: Loaded 2 advancements\n[20:18:11] [Render thread/INFO]: [System] [CHAT] Offline has made the advancement [Advanced digitizer]\n[20:18:11] [Render thread/INFO]: Loaded 8 advancements\n[20:18:12] [Render thread/INFO]: [System] [CHAT] Offline has made the advancement [Digitizer]\n[20:18:12] [Render thread/INFO]: Loaded 13 advancements\n[20:18:12] [Render thread/INFO]: Loaded 14 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-fabric-1.21/old-world-before/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-fabric-1.21/old-world-after/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 164,
+        "text": "[20:21:04] [Server thread/INFO]: Offline joined the game\n[20:21:05] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[20:21:05] [RCON Client /0:0:0:0:0:0:0:1 #13/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[20:21:05] [RCON Listener #1/INFO]: Thread RCON Client /172.18.0.1 started\n[20:21:08] [RCON Client /172.18.0.1 #14/INFO]: Thread RCON Client /172.18.0.1 shutting down\n[20:21:08] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[20:21:09] [RCON Client /0:0:0:0:0:0:0:1 #15/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down"
+      },
+      {
+        "line": 268,
+        "text": "[20:21:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:21:13] [Server thread/INFO]: [Rcon: Saved the game]\n[20:21:13] [RCON Client /0:0:0:0:0:0:0:1 #62/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[20:21:28] [CloudSolutions subsystem/INFO]: Run KV cleanup\n[20:21:28] [CloudSolutions subsystem/INFO]: Run Crafka broker cleanup\n[20:21:43] [Server thread/INFO]: Offline lost connection: Disconnected\n[20:21:43] [Server thread/INFO]: Offline left the game"
+      },
+      {
+        "line": 287,
+        "text": "[20:21:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved\n[20:21:45] [Server thread/INFO]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-fabric-1.21/old-world-after/client-logs/latest.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-fabric-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-fabric-1.21/old-world-after/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "smoke",
+    "path": "minimal-neoforge-1.21/smoke/server-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 1015,
+        "text": "[19Nov2026 20:24:56.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:24:57.845] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "smoke",
+    "path": "minimal-neoforge-1.21/smoke/command.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-neoforge-1.21/client-smoke/server-logs/latest.log",
+    "matching_lines": 2,
+    "excerpts": [
+      {
+        "line": 967,
+        "text": "[19Nov2026 20:28:05.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game\n[19Nov2026 20:28:22.907] [CloudSolutions subsystem/INFO] [cloudsolutions/]: Run KV cleanup\n[19Nov2026 20:28:22.922] [CloudSolutions subsystem/INFO] [cloudsolutions/]: Run Crafka broker cleanup\n[19Nov2026 20:29:07.008] [Netty Epoll Server IO #3/ERROR] [net.minecraft.network.Connection/]: Exception caught in connection\nio.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer\n[19Nov2026 20:29:07.018] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Offline lost connection: Disconnected\n[19Nov2026 20:29:07.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline left the game"
+      },
+      {
+        "line": 988,
+        "text": "[19Nov2026 20:29:07.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:29:08.763] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-neoforge-1.21/client-smoke/client-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 293,
+        "text": "[19Nov2026 20:28:05.562] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "client-smoke",
+    "path": "minimal-neoforge-1.21/client-smoke/command.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-neoforge-1.21/upgrade-before/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 139,
+        "text": "[19Nov2026 20:31:19.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game\n[19Nov2026 20:31:22.551] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:31:22.553] [RCON Client /0:0:0:0:0:0:0:1 #17/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19Nov2026 20:31:22.606] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.18.0.1 started\n[19Nov2026 20:31:22.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Changed the block at 57, 69, 0]\n[19Nov2026 20:31:22.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Replaced a slot at 57, 69, 0 with [Crafka broker]]\n[19Nov2026 20:31:22.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Replaced a slot at 57, 69, 0 with [KV storage]]"
+      },
+      {
+        "line": 594,
+        "text": "[19Nov2026 20:31:56.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:31:56.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Saved the game]\n[19Nov2026 20:31:56.653] [RCON Client /0:0:0:0:0:0:0:1 #139/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19Nov2026 20:32:26.807] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Offline lost connection: Disconnected\n[19Nov2026 20:32:26.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline left the game\n[19Nov2026 20:32:27.150] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:32:27.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 612,
+        "text": "[19Nov2026 20:32:27.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:32:28.279] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-neoforge-1.21/upgrade-before/client-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 284,
+        "text": "[19Nov2026 20:31:20.310] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements\n[19Nov2026 20:31:33.910] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Offline has made the advancement [Advanced digitizer]\n[19Nov2026 20:31:33.914] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 8 advancements\n[19Nov2026 20:31:34.072] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Offline has made the advancement [Digitizer]\n[19Nov2026 20:31:34.073] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 13 advancements\n[19Nov2026 20:31:34.873] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 14 advancements\n[19Nov2026 20:31:43.279] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 16 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-before",
+    "path": "minimal-neoforge-1.21/upgrade-before/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-neoforge-1.21/upgrade-after/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 139,
+        "text": "[19Nov2026 20:34:39.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game\n[19Nov2026 20:34:41.723] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:34:41.725] [RCON Client /0:0:0:0:0:0:0:1 #17/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19Nov2026 20:34:41.778] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.18.0.1 started\n[19Nov2026 20:34:41.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Changed the block at 57, 69, 0]\n[19Nov2026 20:34:41.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Replaced a slot at 57, 69, 0 with [Crafka broker]]\n[19Nov2026 20:34:41.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Replaced a slot at 57, 69, 0 with [KV storage]]"
+      },
+      {
+        "line": 443,
+        "text": "[19Nov2026 20:35:07.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:35:07.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Saved the game]\n[19Nov2026 20:35:07.684] [RCON Client /0:0:0:0:0:0:0:1 #139/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19Nov2026 20:35:37.848] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Offline lost connection: Disconnected\n[19Nov2026 20:35:37.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline left the game\n[19Nov2026 20:35:38.179] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:35:38.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 461,
+        "text": "[19Nov2026 20:35:38.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:35:39.326] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-neoforge-1.21/upgrade-after/client-logs/latest.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "upgrade-after",
+    "path": "minimal-neoforge-1.21/upgrade-after/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-neoforge-1.21/old-world-before/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 145,
+        "text": "[19Nov2026 20:40:55.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game\n[19Nov2026 20:40:56.873] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:40:56.888] [RCON Client /0:0:0:0:0:0:0:1 #20/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19Nov2026 20:40:56.957] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.18.0.1 started\n[19Nov2026 20:40:58.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Changed the block at 58, 64, -7]\n[19Nov2026 20:40:58.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Changed the block at 58, 64, -7]\n[19Nov2026 20:40:58.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Changed the block at 60, 64, -7]"
+      },
+      {
+        "line": 503,
+        "text": "[19Nov2026 20:41:16.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:41:16.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Saved the game]\n[19Nov2026 20:41:16.339] [RCON Client /0:0:0:0:0:0:0:1 #140/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19Nov2026 20:41:46.483] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Offline lost connection: Disconnected\n[19Nov2026 20:41:46.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline left the game\n[19Nov2026 20:41:46.884] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:41:46.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 521,
+        "text": "[19Nov2026 20:41:47.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:41:48.251] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-neoforge-1.21/old-world-before/client-logs/latest.log",
+    "matching_lines": 1,
+    "excerpts": [
+      {
+        "line": 285,
+        "text": "[19Nov2026 20:40:56.353] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements\n[19Nov2026 20:41:01.379] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Offline has made the advancement [Advanced digitizer]\n[19Nov2026 20:41:01.382] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 8 advancements\n[19Nov2026 20:41:01.545] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Offline has made the advancement [Digitizer]\n[19Nov2026 20:41:01.546] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 13 advancements\n[19Nov2026 20:41:02.347] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 14 advancements"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-before",
+    "path": "minimal-neoforge-1.21/old-world-before/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-neoforge-1.21/old-world-after/server-logs/latest.log",
+    "matching_lines": 3,
+    "excerpts": [
+      {
+        "line": 165,
+        "text": "[19Nov2026 20:44:45.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline joined the game\n[19Nov2026 20:44:46.992] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:44:46.999] [RCON Client /0:0:0:0:0:0:0:1 #23/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19Nov2026 20:44:47.080] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /172.18.0.1 started\n[19Nov2026 20:44:50.489] [RCON Client /172.18.0.1 #24/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /172.18.0.1 shutting down\n[19Nov2026 20:44:50.660] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:44:50.661] [RCON Client /0:0:0:0:0:0:0:1 #25/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down"
+      },
+      {
+        "line": 411,
+        "text": "[19Nov2026 20:45:03.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:45:03.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Saved the game]\n[19Nov2026 20:45:03.764] [RCON Client /0:0:0:0:0:0:0:1 #143/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down\n[19Nov2026 20:45:33.965] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Offline lost connection: Disconnected\n[19Nov2026 20:45:33.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Offline left the game\n[19Nov2026 20:45:34.262] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /0:0:0:0:0:0:0:1 started\n[19Nov2026 20:45:34.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Stopping the server]"
+      },
+      {
+        "line": 429,
+        "text": "[19Nov2026 20:45:34.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved\n[19Nov2026 20:45:35.453] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped"
+      }
+    ]
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-neoforge-1.21/old-world-after/client-logs/latest.log",
+    "matching_lines": 0,
+    "excerpts": []
+  },
+  {
+    "lane": "minimal-neoforge-1.21",
+    "phase": "old-world-after",
+    "path": "minimal-neoforge-1.21/old-world-after/lifecycle.log",
+    "matching_lines": 0,
+    "excerpts": []
+  }
+]

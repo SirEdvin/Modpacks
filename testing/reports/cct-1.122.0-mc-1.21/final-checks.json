@@ -1,0 +1,94 @@
+{
+  "lanes": 4,
+  "verdict_counts": {
+    "FAIL": 2,
+    "PASS": 2
+  },
+  "python_regressions": "7 PASS",
+  "snbt_parser_selftests": "PASS",
+  "full_packwiz_hash_chains": "4 PASS",
+  "no_test_containers": true,
+  "exact_upgrade_field_checks": [
+    {
+      "path": "fabric-1.21/upgrade-before/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "fabric-1.21/upgrade-before/all-stacks/results.json",
+      "fixtures": 30,
+      "exact_equipped_ids": 30
+    },
+    {
+      "path": "fabric-1.21/upgrade-after/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "fabric-1.21/upgrade-after/all-stacks/results.json",
+      "fixtures": 30,
+      "exact_equipped_ids": 30
+    },
+    {
+      "path": "minimal-fabric-1.21/upgrade-before/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "minimal-fabric-1.21/upgrade-before/all-stacks/results.json",
+      "fixtures": 30,
+      "exact_equipped_ids": 30
+    },
+    {
+      "path": "minimal-fabric-1.21/upgrade-after/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "minimal-fabric-1.21/upgrade-after/all-stacks/results.json",
+      "fixtures": 30,
+      "exact_equipped_ids": 30
+    },
+    {
+      "path": "minimal-fabric-1.21/old-world-before/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "minimal-fabric-1.21/old-world-after/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "minimal-neoforge-1.21/upgrade-before/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "minimal-neoforge-1.21/upgrade-before/all-stacks/results.json",
+      "fixtures": 30,
+      "exact_equipped_ids": 30
+    },
+    {
+      "path": "minimal-neoforge-1.21/upgrade-after/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "minimal-neoforge-1.21/upgrade-after/all-stacks/results.json",
+      "fixtures": 30,
+      "exact_equipped_ids": 30
+    },
+    {
+      "path": "minimal-neoforge-1.21/old-world-before/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    },
+    {
+      "path": "minimal-neoforge-1.21/old-world-after/upgrade-probes.json",
+      "fixtures": 59,
+      "exact_equipped_ids": 59
+    }
+  ],
+  "recommendation": "NOT ready for public release"
+}

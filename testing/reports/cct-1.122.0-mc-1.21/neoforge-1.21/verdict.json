@@ -1,0 +1,135 @@
+{
+  "lane": "neoforge-1.21",
+  "verdict": "FAIL",
+  "server_smoke": {
+    "verdict": "FAIL",
+    "failures": [
+      "command exit 1",
+      "no fixture audit",
+      "missing/stale harness Lua"
+    ],
+    "exit_code": 1,
+    "seconds": 98.5,
+    "artifacts": [
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "server",
+        "name": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "sha256": "d8baf9a532dae9aae9bc6eedbddd7a1bc55f04a9024264b2fbcee7fd4c0a5290",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "server",
+        "name": "turtlematic-forge-1.21.1-1.5.1.jar",
+        "sha256": "61ba0054fb71c165ed440afb49daedf8fd2c269aece13e59d683ad6faac3250e",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "server",
+        "name": "cloudsolutions-forge-1.21.1-0.4.0.jar",
+        "sha256": "df62be3c3ad52fc03ecbb69dc24a0572bc5ebb1c8d7ce145f0c2d969bf78f43c",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "server",
+        "name": "digitalitems-forge-1.21.1-0.6.0.jar",
+        "sha256": "e87f203132eb91856d86930e1d308be9127f28e0372bbe9ceda4edf3fce9ef03",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "server",
+        "name": "cc-tweaked-1.21.1-forge-1.122.0.jar",
+        "sha256": "d3b1153054d136dac1319c6d3c085865b7d174e40686aa1dc1f077d5485b8df0",
+        "matches_pack": true
+      }
+    ],
+    "audit": null,
+    "path": "neoforge-1.21/smoke"
+  },
+  "client_smoke": {
+    "verdict": "FAIL",
+    "failures": [
+      "command exit 1",
+      "installed JAR hash gate",
+      "no fixture audit",
+      "missing/stale harness Lua",
+      "missing fresh client join marker",
+      "missing server join marker"
+    ],
+    "exit_code": 1,
+    "seconds": 98.4,
+    "artifacts": [
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "server",
+        "name": "peripheralworks-forge-1.21.1-1.10.0.jar",
+        "sha256": "d8baf9a532dae9aae9bc6eedbddd7a1bc55f04a9024264b2fbcee7fd4c0a5290",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "server",
+        "name": "turtlematic-forge-1.21.1-1.5.1.jar",
+        "sha256": "61ba0054fb71c165ed440afb49daedf8fd2c269aece13e59d683ad6faac3250e",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "server",
+        "name": "cloudsolutions-forge-1.21.1-0.4.0.jar",
+        "sha256": "df62be3c3ad52fc03ecbb69dc24a0572bc5ebb1c8d7ce145f0c2d969bf78f43c",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "server",
+        "name": "digitalitems-forge-1.21.1-0.6.0.jar",
+        "sha256": "e87f203132eb91856d86930e1d308be9127f28e0372bbe9ceda4edf3fce9ef03",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "server",
+        "name": "cc-tweaked-1.21.1-forge-1.122.0.jar",
+        "sha256": "d3b1153054d136dac1319c6d3c085865b7d174e40686aa1dc1f077d5485b8df0",
+        "matches_pack": true
+      }
+    ],
+    "audit": null,
+    "path": "neoforge-1.21/client-smoke"
+  },
+  "single_item_and_restart": {
+    "verdict": "NOT RUN",
+    "failures": [
+      "before/after gate"
+    ],
+    "before": {
+      "verdict": "NOT RUN",
+      "path": "neoforge-1.21/upgrade-before"
+    },
+    "after": {
+      "verdict": "NOT RUN",
+      "path": "neoforge-1.21/upgrade-after"
+    }
+  },
+  "all_stacks_and_restart": {
+    "verdict": "NOT RUN",
+    "failures": [
+      "before/after gate"
+    ],
+    "before": {
+      "verdict": "NOT RUN",
+      "path": "neoforge-1.21/upgrade-before"
+    },
+    "after": {
+      "verdict": "NOT RUN",
+      "path": "neoforge-1.21/upgrade-after"
+    }
+  },
+  "stacked_pocket_regression": "NOT RUN",
+  "old_world": null
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "command": [
+      "run-lane.py",
+      "minimal-neoforge-1.21"
+    ],
+    "exit_code": 0,
+    "seconds": 409.76065850257874
+  },
+  {
+    "command": [
+      "extend-lane.py",
+      "minimal-neoforge-1.21"
+    ],
+    "exit_code": 0,
+    "seconds": 390.47074699401855
+  },
+  {
+    "command": [
+      "old-world.py",
+      "minimal-neoforge-1.21"
+    ],
+    "exit_code": 0,
+    "seconds": 596.3020756244659
+  },
+  {
+    "command": [
+      "summarize.py",
+      "minimal-neoforge-1.21"
+    ],
+    "exit_code": 0,
+    "seconds": 0.055608510971069336
+  }
+]
