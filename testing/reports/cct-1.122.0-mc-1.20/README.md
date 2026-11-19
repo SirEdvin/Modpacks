@@ -33,7 +33,7 @@ The original NBT fixture checks are supplemented with real Lua running in every 
 
 See per-lane `upgrade-after/stack-equip/results.json` for the original universal scanner / StatsD / digitizer / vanilla modem count-two regression, and `all-stacks/results.json` for every active authored upgrade. The pocket regression column above states whether all four now equip and expose their peripherals. Missing/non-passing results are never interpreted as fixed.
 
-Fabric creative-tab initializer/critical resource reload failures from C13 are explicitly checked in the actual 1.20.1 logs; consult `log-diagnostics.json`. The NeoForge UPW Ars magic-tome crash is **not applicable/not tested**: these lanes run Fabric/Forge 1.20.1, not NeoForge 1.21.1. Its absence here is not evidence of a 1.21 fix.
+Fabric creative-tab initializer/critical resource reload failures from C13 **did not reproduce in either tested Fabric 1.20.1 lane**; the final server/client logs contain no matching critical initializer or reload errors (`critical-log-scan.json`, `log-diagnostics.json`). This does not establish the result on Fabric 1.21.1. The NeoForge UPW Ars magic-tome crash is **not applicable/not tested**: these lanes run Fabric/Forge 1.20.1, not NeoForge 1.21.1. Its absence here is not evidence of a 1.21 fix.
 
 ## Old-world semantics
 
@@ -81,4 +81,4 @@ Latest stable non-prerelease GitHub releases were resolved for this Minecraft li
 
 ## Evidence retention
 
-Compact report/verdicts/asset hashes/probe sources are committed here. Raw logs, per-host Lua/command records, generated manifests, and disposable pre/post saved worlds are in the separately attached evidence archive. `evidence-archive.json` identifies its bytes. Runtime caches, JARs, account files and RCON environment files are excluded.
+Compact report/verdicts/asset hashes/probe sources are committed here. Raw logs, per-host Lua/command records, generated manifests, and disposable pre/post saved worlds are packaged in `cct-1.122.0-mc-1.20-evidence.tar.gz`, supplied separately through the Kanban task artifact mechanism; attachment retention is verified in the task handoff rather than assumed here. `evidence-archive.json` identifies its bytes. Runtime caches, JARs, account files and RCON environment files are excluded.
