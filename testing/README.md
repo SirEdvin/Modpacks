@@ -9,11 +9,11 @@ This directory runs one disposable, low-memory dedicated server at a time for th
 | `fabric-1.20` | `FabricCreative` | Fabric 0.17.2 / MC 1.20.1 | 17 | 25570 | 1536M |
 | `forge-1.20` | `ForgeCreative` | Forge 47.4.10 / MC 1.20.1 | 17 | 25571 | 2G |
 | `fabric-1.21` | `FabricCreative-1.21` | Fabric 0.19.3 / MC 1.21.1 | 21 | 25572 | 1536M |
-| `neoforge-1.21` | `NeoForgeCreative-1.21` | NeoForge 21.1.244 / MC 1.21.1 | 21 | 25573 | 2G |
+| `neoforge-1.21` | `NeoForgeCreative-1.21` | NeoForge 21.1.265 / MC 1.21.1 | 21 | 25573 | 2G |
 | `minimal-fabric-1.20` | `FabricMinimal-1.20` | Fabric 0.17.2 / MC 1.20.1 | 17 | 25574 | 1536M |
 | `minimal-forge-1.20` | `ForgeMinimal-1.20` | Forge 47.4.10 / MC 1.20.1 | 17 | 25575 | 2G |
 | `minimal-fabric-1.21` | `FabricMinimal-1.21` | Fabric 0.19.3 / MC 1.21.1 | 21 | 25576 | 1536M |
-| `minimal-neoforge-1.21` | `NeoForgeMinimal-1.21` | NeoForge 21.1.244 / MC 1.21.1 | 21 | 25577 | 2G |
+| `minimal-neoforge-1.21` | `NeoForgeMinimal-1.21` | NeoForge 21.1.265 / MC 1.21.1 | 21 | 25577 | 2G |
 
 The `itzg/minecraft-server` image selects the Java runtime required by the Minecraft version. Packwiz installs server-side files directly from the checked-out pack through an internal HTTP container.
 
@@ -223,7 +223,7 @@ It contains every peripheral name visible to the computer, its peripheral types,
 shell.run("audit")
 ```
 
-Verified fixture totals:
+Historical fixture totals (previous releases, before the libs 2.1.0 campaign). Current pinned results and failures are recorded in `reports/libs-2.1.0-mc-1.21/README.md`:
 
 | Lane | Authored blocks | Wired peripherals | Single-upgrade turtles | Upgraded pockets on lecterns |
 |---|---:|---:|---:|---:|
@@ -236,7 +236,7 @@ Verified fixture totals:
 | `minimal-fabric-1.21` | 27 | 18 | 49 | 10 |
 | `minimal-neoforge-1.21` | 23 | 18 | 49 | 10 |
 
-Fabric 1.21 has four additional Smart Home Appliances blocks. They are placed but do not expose CC peripherals. A block is counted as attached only when CC:Tweaked records a real `PeripheralType*` entry in the adjacent modem block entity; the cosmetic modem blockstate alone is not accepted as evidence.
+The previous Fabric 1.21 packs had four additional Smart Home Appliances blocks, placed without CC peripherals. That discontinued mod is removed from the libs 2.1.0 target packs. A block is counted as attached only when CC:Tweaked records a real `PeripheralType*` entry in the adjacent modem block entity; the cosmetic modem blockstate alone is not accepted as evidence.
 
 ## Updating a mod under test
 
