@@ -1,0 +1,35 @@
+{
+  "lanes": 4,
+  "verdict_counts": {
+    "PASS": 3,
+    "FAIL": 1
+  },
+  "per_lane": [
+    {
+      "lane": "fabric-1.21",
+      "verdict": "PASS",
+      "log_path": "fabric-1.21/verdict.json"
+    },
+    {
+      "lane": "neoforge-1.21",
+      "verdict": "FAIL",
+      "log_path": "neoforge-1.21/verdict.json"
+    },
+    {
+      "lane": "minimal-fabric-1.21",
+      "verdict": "PASS",
+      "log_path": "minimal-fabric-1.21/verdict.json"
+    },
+    {
+      "lane": "minimal-neoforge-1.21",
+      "verdict": "PASS",
+      "log_path": "minimal-neoforge-1.21/verdict.json"
+    }
+  ],
+  "no_test_containers": true,
+  "python_regressions": "PASS per lane",
+  "packwiz_full_index_chains": "4 PASS",
+  "installed_artifact_observations": 130,
+  "baseline_commit": "b962c082a1c75ad43238dea7a367df42b5edf3dc",
+  "recommendation": "1.21.1 NOT ready for public release"
+}

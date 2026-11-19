@@ -1,0 +1,637 @@
+{
+  "lane": "neoforge-1.21",
+  "verdict": "FAIL",
+  "server_smoke": {
+    "verdict": "PASS",
+    "failures": [],
+    "exit_code": 0,
+    "seconds": 174.7,
+    "artifacts": [
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "server",
+        "name": "peripheralworks-forge-1.21.1-1.10.1.jar",
+        "sha256": "74a94a9c77af04772163d6cb1d443a93f12d7b22c66263e853b69fdc03228810",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "server",
+        "name": "turtlematic-forge-1.21.1-1.5.2.jar",
+        "sha256": "c59b272f3d438c68c304c6e5947afdd0d1481968c89ed30422ee09bb8d52f0c7",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "server",
+        "name": "cloudsolutions-forge-1.21.1-0.4.1.jar",
+        "sha256": "c6cc23ff95428b7c768d2514ba530182edd513676b6dfce50af4f3c65b2cd7b0",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "server",
+        "name": "digitalitems-forge-1.21.1-0.6.1.jar",
+        "sha256": "cd2dec03bd1ddf97ebd9e922aa874f1003baab90e1218c8e844340a1e5929e7d",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "server",
+        "name": "cc-tweaked-1.21.1-forge-1.122.0.jar",
+        "sha256": "d3b1153054d136dac1319c6d3c085865b7d174e40686aa1dc1f077d5485b8df0",
+        "matches_pack": true
+      }
+    ],
+    "audit": {
+      "lane": "neoforge-1.21",
+      "discovered": 25,
+      "placed_and_verified": 25,
+      "wired_peripherals": [
+        {
+          "block": "cloudsolutions:crafka_broker",
+          "x": 32,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "cloudsolutions:kv_storage",
+          "x": 35,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "cloudsolutions:statsd_bridge",
+          "x": 38,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "cloudsolutions:tsdb_storage",
+          "x": 41,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "digitalitems:advanced_digitizer",
+          "x": 44,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "digitalitems:digitizer",
+          "x": 47,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "peripheralworks:ae2_pattern_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": -3
+        },
+        {
+          "block": "peripheralworks:display_pedestal",
+          "x": 35,
+          "y": 66,
+          "z": -3
+        },
+        {
+          "block": "peripheralworks:entity_link",
+          "x": 38,
+          "y": 66,
+          "z": -3
+        },
+        {
+          "block": "peripheralworks:hologram_projector",
+          "x": 47,
+          "y": 66,
+          "z": -3
+        },
+        {
+          "block": "peripheralworks:informative_registry",
+          "x": 32,
+          "y": 66,
+          "z": -1
+        },
+        {
+          "block": "peripheralworks:item_pedestal",
+          "x": 35,
+          "y": 66,
+          "z": -1
+        },
+        {
+          "block": "peripheralworks:map_pedestal",
+          "x": 38,
+          "y": 66,
+          "z": -1
+        },
+        {
+          "block": "peripheralworks:me_network_peripheral",
+          "x": 41,
+          "y": 66,
+          "z": -1
+        },
+        {
+          "block": "peripheralworks:reality_forger",
+          "x": 35,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:recipe_registry",
+          "x": 38,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:remote_observer",
+          "x": 41,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:statue_workbench",
+          "x": 44,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:ultimate_sensor",
+          "x": 47,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:universal_scanner",
+          "x": 32,
+          "y": 66,
+          "z": 3
+        }
+      ],
+      "wired_peripheral_count": 20,
+      "turtle_upgrades_discovered": 53,
+      "single_upgrade_turtles_verified": 53,
+      "pocket_upgrades_discovered": 18,
+      "single_upgrade_pockets_on_lecterns_verified": 18
+    },
+    "path": "neoforge-1.21/smoke"
+  },
+  "client_smoke": {
+    "verdict": "PASS",
+    "failures": [],
+    "exit_code": 0,
+    "seconds": 273.8,
+    "artifacts": [
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "server",
+        "name": "peripheralworks-forge-1.21.1-1.10.1.jar",
+        "sha256": "74a94a9c77af04772163d6cb1d443a93f12d7b22c66263e853b69fdc03228810",
+        "matches_pack": true
+      },
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "client",
+        "name": "peripheralworks-forge-1.21.1-1.10.1.jar",
+        "sha256": "74a94a9c77af04772163d6cb1d443a93f12d7b22c66263e853b69fdc03228810",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "server",
+        "name": "turtlematic-forge-1.21.1-1.5.2.jar",
+        "sha256": "c59b272f3d438c68c304c6e5947afdd0d1481968c89ed30422ee09bb8d52f0c7",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "client",
+        "name": "turtlematic-forge-1.21.1-1.5.2.jar",
+        "sha256": "c59b272f3d438c68c304c6e5947afdd0d1481968c89ed30422ee09bb8d52f0c7",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "server",
+        "name": "cloudsolutions-forge-1.21.1-0.4.1.jar",
+        "sha256": "c6cc23ff95428b7c768d2514ba530182edd513676b6dfce50af4f3c65b2cd7b0",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "client",
+        "name": "cloudsolutions-forge-1.21.1-0.4.1.jar",
+        "sha256": "c6cc23ff95428b7c768d2514ba530182edd513676b6dfce50af4f3c65b2cd7b0",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "server",
+        "name": "digitalitems-forge-1.21.1-0.6.1.jar",
+        "sha256": "cd2dec03bd1ddf97ebd9e922aa874f1003baab90e1218c8e844340a1e5929e7d",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "client",
+        "name": "digitalitems-forge-1.21.1-0.6.1.jar",
+        "sha256": "cd2dec03bd1ddf97ebd9e922aa874f1003baab90e1218c8e844340a1e5929e7d",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "server",
+        "name": "cc-tweaked-1.21.1-forge-1.122.0.jar",
+        "sha256": "d3b1153054d136dac1319c6d3c085865b7d174e40686aa1dc1f077d5485b8df0",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "client",
+        "name": "cc-tweaked-1.21.1-forge-1.122.0.jar",
+        "sha256": "d3b1153054d136dac1319c6d3c085865b7d174e40686aa1dc1f077d5485b8df0",
+        "matches_pack": true
+      }
+    ],
+    "audit": {
+      "lane": "neoforge-1.21",
+      "discovered": 25,
+      "placed_and_verified": 25,
+      "wired_peripherals": [
+        {
+          "block": "cloudsolutions:crafka_broker",
+          "x": 32,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "cloudsolutions:kv_storage",
+          "x": 35,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "cloudsolutions:statsd_bridge",
+          "x": 38,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "cloudsolutions:tsdb_storage",
+          "x": 41,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "digitalitems:advanced_digitizer",
+          "x": 44,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "digitalitems:digitizer",
+          "x": 47,
+          "y": 66,
+          "z": -5
+        },
+        {
+          "block": "peripheralworks:ae2_pattern_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": -3
+        },
+        {
+          "block": "peripheralworks:display_pedestal",
+          "x": 35,
+          "y": 66,
+          "z": -3
+        },
+        {
+          "block": "peripheralworks:entity_link",
+          "x": 38,
+          "y": 66,
+          "z": -3
+        },
+        {
+          "block": "peripheralworks:hologram_projector",
+          "x": 47,
+          "y": 66,
+          "z": -3
+        },
+        {
+          "block": "peripheralworks:informative_registry",
+          "x": 32,
+          "y": 66,
+          "z": -1
+        },
+        {
+          "block": "peripheralworks:item_pedestal",
+          "x": 35,
+          "y": 66,
+          "z": -1
+        },
+        {
+          "block": "peripheralworks:map_pedestal",
+          "x": 38,
+          "y": 66,
+          "z": -1
+        },
+        {
+          "block": "peripheralworks:me_network_peripheral",
+          "x": 41,
+          "y": 66,
+          "z": -1
+        },
+        {
+          "block": "peripheralworks:reality_forger",
+          "x": 35,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:recipe_registry",
+          "x": 38,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:remote_observer",
+          "x": 41,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:statue_workbench",
+          "x": 44,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:ultimate_sensor",
+          "x": 47,
+          "y": 66,
+          "z": 1
+        },
+        {
+          "block": "peripheralworks:universal_scanner",
+          "x": 32,
+          "y": 66,
+          "z": 3
+        }
+      ],
+      "wired_peripheral_count": 20,
+      "turtle_upgrades_discovered": 53,
+      "single_upgrade_turtles_verified": 53,
+      "pocket_upgrades_discovered": 18,
+      "single_upgrade_pockets_on_lecterns_verified": 18
+    },
+    "path": "neoforge-1.21/client-smoke"
+  },
+  "single_item_and_restart": {
+    "verdict": "FAIL",
+    "failures": [
+      "before/after gate"
+    ],
+    "before": {
+      "verdict": "FAIL",
+      "failures": [
+        {
+          "kind": "pocket",
+          "upgrade": "cloudsolutions:crafka_broker",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "cloudsolutions:kv_storage",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "cloudsolutions:statsd_bridge",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "digitalitems:advanced_digitizer",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "digitalitems:digitizer",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:ae2_wireless_crafting_terminal",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "native single-item roundtrip failed"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:ae2_wireless_terminal",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:apprentice_magic_tome",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:archmage_magic_tome",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:caster_magic_tome",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:hologram_projector",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:natures_compass",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:netherite_peripheralium_hub",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:novice_magic_tome",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:peripheralium_hub",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:transmutation_table",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:ultimate_sensor",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "kind": "pocket",
+          "upgrade": "peripheralworks:universal_scanner",
+          "reasons": [
+            "equipped upgrade absent/wrong in live NBT",
+            "missing Lua"
+          ]
+        },
+        {
+          "lifecycle": {
+            "lane": "neoforge-1.21",
+            "phase": "before",
+            "probe": "setup",
+            "exit_code": 1,
+            "seconds": 396.41392278671265
+          }
+        }
+      ],
+      "count": 71,
+      "kinds": {
+        "turtle": 53,
+        "pocket": 18
+      },
+      "path": "neoforge-1.21/upgrade-before"
+    },
+    "after": {
+      "verdict": "NOT RUN",
+      "path": "neoforge-1.21/upgrade-after"
+    }
+  },
+  "all_stacks_and_restart": {
+    "verdict": "NOT RUN",
+    "failures": [
+      "before/after gate"
+    ],
+    "before": {
+      "verdict": "NOT RUN",
+      "path": "neoforge-1.21/upgrade-before"
+    },
+    "after": {
+      "verdict": "NOT RUN",
+      "path": "neoforge-1.21/upgrade-after"
+    }
+  },
+  "stacked_pocket_regression": "NOT RUN",
+  "old_world": null,
+  "all_client_log_scan": {
+    "verdict": "FAIL",
+    "logs": [
+      {
+        "path": "neoforge-1.21/client-smoke/client-logs/latest.log",
+        "critical_hits": []
+      },
+      {
+        "path": "neoforge-1.21/upgrade-before/client-logs/latest.log",
+        "critical_hits": [
+          {
+            "line": 640,
+            "text": "[19Nov2026 22:27:16.037] [Netty Epoll Client IO #0/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID e038bb62-52a1-4c19-8d01-39bf2ab5bbac"
+          }
+        ]
+      }
+    ]
+  },
+  "python_regressions": {
+    "verdict": "PASS",
+    "commands": [
+      {
+        "command": [
+          "/home/siredvin/.hermes/installs/3b54febdd738fbcc/environments/aa74021dd42641c39e844bb5d3f4589f/venv/bin/python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "testing/tests",
+          "-v"
+        ],
+        "exit_code": 0,
+        "seconds": 0.1,
+        "log": "neoforge-1.21-regression-tests.log"
+      }
+    ]
+  },
+  "ars_magic_tomes": {
+    "verdict": "FAIL",
+    "ars_jars": [
+      "ars_nouveau-1.21.1-5.12.1.jar"
+    ],
+    "upgrades": [
+      {
+        "upgrade": "peripheralworks:apprentice_magic_tome",
+        "lua": null
+      },
+      {
+        "upgrade": "peripheralworks:archmage_magic_tome",
+        "lua": null
+      },
+      {
+        "upgrade": "peripheralworks:caster_magic_tome",
+        "lua": null
+      },
+      {
+        "upgrade": "peripheralworks:novice_magic_tome",
+        "lua": null
+      }
+    ]
+  }
+}

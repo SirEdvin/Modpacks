@@ -1,0 +1,34 @@
+[
+  {
+    "pack": "FabricCreative-1.21",
+    "second_refresh_clean": true,
+    "hashes": [
+      "b052290c2b2a1ebd913d3a15682803ef0a4a4e260e4979ef3d7cfe61cd6551be",
+      "c6dd646d981e4b4c6efc6a7ee4766dd60de22deaad10b9fca10d627065212fb4"
+    ]
+  },
+  {
+    "pack": "FabricMinimal-1.21",
+    "second_refresh_clean": true,
+    "hashes": [
+      "996836bda5902715f91a9f53ae0db79a7153b465fa3474d89d4286b9d1d02542",
+      "bd2fae2ad0d8ebc4bef3f51cae348b8654a9b5ebdb42e0ee2a8e663bc3611d67"
+    ]
+  },
+  {
+    "pack": "NeoForgeCreative-1.21",
+    "second_refresh_clean": true,
+    "hashes": [
+      "2401063afaabcb2b1d4beeb2bb13b8f36678aab169e5bad27ae95a2826e78a31",
+      "3e59db942a581961706b824c7fc6d016244f2a9a7af0226be1a201051898d366"
+    ]
+  },
+  {
+    "pack": "NeoForgeMinimal-1.21",
+    "second_refresh_clean": true,
+    "hashes": [
+      "7a0175cb361b30702fd3b63a4532b2a44c524fe7b60f7b47c1587f5399d39798",
+      "cc32e57e4805add5d1bcd433f6af7615e8284c2bcfe2bb3aac4914e1e5784b61"
+    ]
+  }
+]

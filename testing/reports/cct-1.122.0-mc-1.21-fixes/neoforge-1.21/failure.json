@@ -1,0 +1,14 @@
+{
+  "lane": "neoforge-1.21",
+  "step": "native pocket round-trip / remote-client container_set_slot decode",
+  "suspected_mod": "UnlimitedPeripheralWorks AE2 wireless crafting terminal integration with CC:Tweaked 1.122.0",
+  "log": "neoforge-1.21/upgrade-before/client-logs/latest.log",
+  "excerpt": "Caused by: java.lang.IllegalArgumentException: Error constructing UpgradeData for peripheralworks:ae2_wireless_crafting_terminal: Item 1 WirelessCraftingTerminalItem[wireless_crafting_terminal] is not suitable for this upgrade.",
+  "blocked_checks": [
+    "remaining native pockets including four magic tomes",
+    "legal stacked-equip fixtures",
+    "same-host restart"
+  ],
+  "notes": "Stable Ars startup and clean ordinary remote client smoke PASS. Native inventory update then disconnects the client. No mod changes or downgrades.",
+  "additional_harness_limit": "Stack fixture allocation asserts before filtering nonstackable entries: 18 native pockets leave 17 disjoint slots, but it requests 19. No stacked-equip acceptance was obtained; this is distinct from the earlier genuine AE2 client disconnect."
+}

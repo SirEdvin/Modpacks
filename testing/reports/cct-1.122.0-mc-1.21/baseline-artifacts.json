@@ -1,0 +1,52 @@
+[
+  {
+    "name": "cc-tweaked-1.21.1-fabric-1.120.0.jar",
+    "sha256": "c6aa2d7dd1d06254293c9065feaf091ede821fc4c01c41b5709e6d85775dfaed",
+    "source": "FabricMinimal-1.21/mods/cc-tweaked.pw.toml"
+  },
+  {
+    "name": "cloudsolutions-fabric-1.21.1-0.3.4.jar",
+    "sha256": "d3ce7f3c8b75ae331a0a40267d272c592dc9a6e1a59889b5ba67d0321d89dfec",
+    "source": "FabricMinimal-1.21/mods/cloudsolutions.pw.toml"
+  },
+  {
+    "name": "digitalitems-fabric-1.21.1-0.5.8.jar",
+    "sha256": "31df57f3872b0a74389b6ebdd2fce583edf1ec73df527a0930fd8b1979fd2963",
+    "source": "FabricMinimal-1.21/mods/digitalitems.pw.toml"
+  },
+  {
+    "name": "turtlematic-fabric-1.21.1-1.4.10.jar",
+    "sha256": "8232b3a05928033cd1a91f05a3d43e04f7b5450347c944ba2546bfb8a0cc62c2",
+    "source": "FabricMinimal-1.21/mods/turtlematic.pw.toml"
+  },
+  {
+    "name": "peripheralworks-fabric-1.21.1-1.9.2.jar",
+    "sha256": "17799dc7388cc9c38605a2f62cd6dce00d36b200b76f5d9adac0258b77369674",
+    "source": "FabricMinimal-1.21/mods/unlimitedperipheralworks.pw.toml"
+  },
+  {
+    "name": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+    "sha256": "81a903710d109d129c249c105695a96f4bad5e0acf7068920fb191ba791c14ce",
+    "source": "NeoForgeMinimal-1.21/mods/cc-tweaked.pw.toml"
+  },
+  {
+    "name": "cloudsolutions-forge-1.21.1-0.3.4.jar",
+    "sha256": "d2b08f92fcb780a9b3ce7e001aa51a86437ce94d6c9e081b4a5ae0c8bc89e970",
+    "source": "NeoForgeMinimal-1.21/mods/cloudsolutions.pw.toml"
+  },
+  {
+    "name": "digitalitems-forge-1.21.1-0.5.8.jar",
+    "sha256": "2f8d63b137dbb055906e67c7732efc8546a863691bad85bc5ccf25c432ca3729",
+    "source": "NeoForgeMinimal-1.21/mods/digitalitems.pw.toml"
+  },
+  {
+    "name": "turtlematic-forge-1.21.1-1.4.10.jar",
+    "sha256": "3447d5a7342adba23de15ddaa44583a8a91ecafc047bf6950d4ecf880c8a3469",
+    "source": "NeoForgeMinimal-1.21/mods/turtlematic.pw.toml"
+  },
+  {
+    "name": "peripheralworks-forge-1.21.1-1.9.2.jar",
+    "sha256": "9f4867d372d0e013f767c2cfed6a4f1d4f27baa3f4d1534f2e2d096cdeda7472",
+    "source": "NeoForgeMinimal-1.21/mods/unlimitedperipheralworks.pw.toml"
+  }
+]
