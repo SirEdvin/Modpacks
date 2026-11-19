@@ -1,3 +1,4 @@
+ccTweakedVersion = 1.122.0
 cloudsolutionsVersion = 0.4.0
 turtlematicVersion = 1.5.0
 peripheralWorksVersion = 1.10.0
@@ -25,3 +26,7 @@ modrinth:
 	packwiz modrinth add peripheralium
 	packwiz modrinth add unlimitedperipheralworks
 	packwiz modrinth add turtlematic
+
+# Exact release selected for this Minecraft/loader line.
+cctweaked:
+	packwiz modrinth add cc-tweaked --version-filename cc-tweaked-1.20.1-fabric-${ccTweakedVersion}.jar -y

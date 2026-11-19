@@ -1,0 +1,10 @@
+[
+  {
+    "command": [
+      "run-lane.py",
+      "minimal-forge-1.20"
+    ],
+    "exit_code": 0,
+    "seconds": 411.32000732421875
+  }
+]

@@ -1,0 +1,447 @@
+{
+  "lane": "minimal-forge-1.20",
+  "verdict": "PASS",
+  "server_smoke": {
+    "verdict": "PASS",
+    "failures": [],
+    "exit_code": 0,
+    "seconds": 159.3,
+    "artifacts": [
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "server",
+        "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+        "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "server",
+        "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+        "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "server",
+        "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+        "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "server",
+        "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+        "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "server",
+        "name": "cc-tweaked-1.20.1-forge-1.122.0.jar",
+        "sha256": "4a559841ed40c832979c1799e98a3466a62192d7ac6321faac6c27c09907168f",
+        "matches_pack": true
+      }
+    ],
+    "audit": {
+      "lane": "minimal-forge-1.20",
+      "discovered": 23,
+      "placed_and_verified": 23,
+      "wired_peripherals": [
+        {
+          "block": "cloudsolutions:crafka_broker",
+          "x": 32,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:kv_storage",
+          "x": 35,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:statsd_bridge",
+          "x": 38,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:tsdb_storage",
+          "x": 41,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "digitalitems:advanced_digitizer",
+          "x": 44,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "digitalitems:digitizer",
+          "x": 47,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "peripheralworks:display_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:entity_link",
+          "x": 35,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:hologram_projector",
+          "x": 44,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:informative_registry",
+          "x": 47,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:item_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:map_pedestal",
+          "x": 35,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:reality_forger",
+          "x": 47,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:recipe_registry",
+          "x": 32,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:remote_observer",
+          "x": 35,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:statue_workbench",
+          "x": 38,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:ultimate_sensor",
+          "x": 41,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:universal_scanner",
+          "x": 44,
+          "y": 66,
+          "z": 2
+        }
+      ],
+      "wired_peripheral_count": 18,
+      "turtle_upgrades_discovered": 49,
+      "single_upgrade_turtles_verified": 49,
+      "pocket_upgrades_discovered": 10,
+      "single_upgrade_pockets_on_lecterns_verified": 10
+    },
+    "path": "minimal-forge-1.20/smoke"
+  },
+  "client_smoke": {
+    "verdict": "PASS",
+    "failures": [],
+    "exit_code": 0,
+    "seconds": 251.9,
+    "artifacts": [
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "server",
+        "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+        "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+        "matches_pack": true
+      },
+      {
+        "mod": "unlimitedperipheralworks",
+        "side": "client",
+        "name": "peripheralworks-forge-1.20.1-1.10.0.jar",
+        "sha256": "fd773e10861f4b1d06206f204c2b001fad1c26ba2a04edcf3d48226eacf5b583",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "server",
+        "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+        "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+        "matches_pack": true
+      },
+      {
+        "mod": "turtlematic",
+        "side": "client",
+        "name": "turtlematic-forge-1.20.1-1.5.0.jar",
+        "sha256": "c5478f872b23a48c88111d022ccb613378661e50f64e2ec29551bdc28dd57d5c",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "server",
+        "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+        "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+        "matches_pack": true
+      },
+      {
+        "mod": "cloudsolutions",
+        "side": "client",
+        "name": "cloudsolutions-forge-1.20.1-0.4.0.jar",
+        "sha256": "944bd6f76429a564f8204af4c6eab46e60085565c88a7cd2e8c2aa555405ed46",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "server",
+        "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+        "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+        "matches_pack": true
+      },
+      {
+        "mod": "digitalitems",
+        "side": "client",
+        "name": "digitalitems-forge-1.20.1-0.6.0.jar",
+        "sha256": "b9573d3dac4a0c07629ec3ca7b284885ab45568255a9314697a4ce5e243d09e0",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "server",
+        "name": "cc-tweaked-1.20.1-forge-1.122.0.jar",
+        "sha256": "4a559841ed40c832979c1799e98a3466a62192d7ac6321faac6c27c09907168f",
+        "matches_pack": true
+      },
+      {
+        "mod": "cc-tweaked",
+        "side": "client",
+        "name": "cc-tweaked-1.20.1-forge-1.122.0.jar",
+        "sha256": "4a559841ed40c832979c1799e98a3466a62192d7ac6321faac6c27c09907168f",
+        "matches_pack": true
+      }
+    ],
+    "audit": {
+      "lane": "minimal-forge-1.20",
+      "discovered": 23,
+      "placed_and_verified": 23,
+      "wired_peripherals": [
+        {
+          "block": "cloudsolutions:crafka_broker",
+          "x": 32,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:kv_storage",
+          "x": 35,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:statsd_bridge",
+          "x": 38,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "cloudsolutions:tsdb_storage",
+          "x": 41,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "digitalitems:advanced_digitizer",
+          "x": 44,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "digitalitems:digitizer",
+          "x": 47,
+          "y": 66,
+          "z": -4
+        },
+        {
+          "block": "peripheralworks:display_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:entity_link",
+          "x": 35,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:hologram_projector",
+          "x": 44,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:informative_registry",
+          "x": 47,
+          "y": 66,
+          "z": -2
+        },
+        {
+          "block": "peripheralworks:item_pedestal",
+          "x": 32,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:map_pedestal",
+          "x": 35,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:reality_forger",
+          "x": 47,
+          "y": 66,
+          "z": 0
+        },
+        {
+          "block": "peripheralworks:recipe_registry",
+          "x": 32,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:remote_observer",
+          "x": 35,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:statue_workbench",
+          "x": 38,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:ultimate_sensor",
+          "x": 41,
+          "y": 66,
+          "z": 2
+        },
+        {
+          "block": "peripheralworks:universal_scanner",
+          "x": 44,
+          "y": 66,
+          "z": 2
+        }
+      ],
+      "wired_peripheral_count": 18,
+      "turtle_upgrades_discovered": 49,
+      "single_upgrade_turtles_verified": 49,
+      "pocket_upgrades_discovered": 10,
+      "single_upgrade_pockets_on_lecterns_verified": 10
+    },
+    "path": "minimal-forge-1.20/client-smoke"
+  },
+  "single_item_and_restart": {
+    "verdict": "PASS",
+    "failures": [],
+    "before": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 59,
+      "kinds": {
+        "turtle": 49,
+        "pocket": 10
+      },
+      "path": "minimal-forge-1.20/upgrade-before"
+    },
+    "after": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 59,
+      "kinds": {
+        "turtle": 49,
+        "pocket": 10
+      },
+      "path": "minimal-forge-1.20/upgrade-after"
+    }
+  },
+  "all_stacks_and_restart": {
+    "verdict": "PASS",
+    "failures": [],
+    "before": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 30,
+      "kinds": {
+        "turtle": 19,
+        "pocket": 11
+      },
+      "path": "minimal-forge-1.20/upgrade-before"
+    },
+    "after": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 30,
+      "kinds": {
+        "turtle": 19,
+        "pocket": 11
+      },
+      "path": "minimal-forge-1.20/upgrade-after"
+    }
+  },
+  "stacked_pocket_regression": "PASS",
+  "old_world": {
+    "verdict": "PASS",
+    "failures": [],
+    "before": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 59,
+      "kinds": {
+        "turtle": 49,
+        "pocket": 10
+      },
+      "path": "minimal-forge-1.20/old-world-before"
+    },
+    "after": {
+      "verdict": "PASS",
+      "failures": [],
+      "count": 59,
+      "kinds": {
+        "turtle": 49,
+        "pocket": 10
+      },
+      "path": "minimal-forge-1.20/old-world-after"
+    }
+  },
+  "migration": {
+    "lane": "minimal-forge-1.20",
+    "baseline_smoke": 0,
+    "new_probe_command_exit": 0,
+    "baseline_commit": "5514734c1effd5728d526e31956c34fb3122d2d4",
+    "reprovisioned_after_switch": false
+  }
+}
