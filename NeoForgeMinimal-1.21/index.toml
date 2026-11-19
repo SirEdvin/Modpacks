@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "Makefile"
-hash = "5e84214fe68aae47b80ac8daa220aa9c3e16ab1d1a0411b3a69241a586b5a4d3"
+hash = "a55005b37a9c1cfe6355741e466bbc166012517ff0c6051c2a5b508487c4ee13"
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "594cf4ca23d3eca84b27092e170737cd6a51a99a3a83c864f68512b02e487efb"
+hash = "bef7f46e38b038b0ee236735061002f26eebc05da8ffabd14819cd9c31b312ec"
 metafile = true
 
 [[files]]

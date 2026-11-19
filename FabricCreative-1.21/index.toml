@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Makefile"
-hash = "6c871b76bcb2855393556b5954daa332ee2aa6cb8f3e82417dd927522633c9cb"
+hash = "9cc3389f25fb6d4524468305acfe2d91e6e491b055fb3091a437863e9cf9697a"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "84e22a92dbd2faf4c84cd0adb4097668c6041a08d779a18ee7ec056f67b1047a"
+hash = "1811502c60b965ba1740a283a84b0ccb9f0599546c18686862b7d70004d82a6a"
 metafile = true
 
 [[files]]
@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "509726ae05260d3145f213d0ee630b15f43e7ddbebaeba4c30798f6c70e42458"
+hash = "1ed7a6439d9c3cd9bc8e7db6a4362eb710de0f4da90b619f883e99f5765e96c0"
 metafile = true
 
 [[files]]

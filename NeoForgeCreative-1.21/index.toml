@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Makefile"
-hash = "63d8bb973d5d0d930ad4a78d20d2ab3303ad6808391e9c4811528f8244b7f0b6"
+hash = "5d4a350216720cfb2bd99c6a56505bc65d68d75105d293ae811fbae9bce2e3de"
 
 [[files]]
 file = "mods/additional-lanterns.pw.toml"
@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "594cf4ca23d3eca84b27092e170737cd6a51a99a3a83c864f68512b02e487efb"
+hash = "bef7f46e38b038b0ee236735061002f26eebc05da8ffabd14819cd9c31b312ec"
 metafile = true
 
 [[files]]
